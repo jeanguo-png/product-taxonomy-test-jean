@@ -100,6 +100,9 @@ jobs:
             esac
           done
 
+      # bundle install writes artifacts (dev/.bundle/config, dev/vendor/bundle/)
+      # into the working tree. Discard them so the PR only contains taxonomy
+      # data and docs changes, not development tooling files.
       - name: Discard dev/ changes
         run: git checkout -- dev/
 
