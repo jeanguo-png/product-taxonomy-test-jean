@@ -100,6 +100,9 @@ jobs:
             esac
           done
 
+      - name: Discard dev/ changes
+        run: git checkout -- dev/
+
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
