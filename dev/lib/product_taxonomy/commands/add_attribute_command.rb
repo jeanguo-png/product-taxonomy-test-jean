@@ -8,6 +8,7 @@ module ProductTaxonomy
       @name = options[:name]
       @description = options[:description]
       @values = options[:values]
+      @friendly_id_override = options[:friendly_id]
       @base_attribute_friendly_id = options[:base_attribute_friendly_id]
     end
 
@@ -57,7 +58,7 @@ module ProductTaxonomy
     end
 
     def friendly_id
-      @friendly_id ||= IdentifierFormatter.format_friendly_id(@name)
+      @friendly_id ||= @friendly_id_override || IdentifierFormatter.format_friendly_id(@name)
     end
 
     def handle
