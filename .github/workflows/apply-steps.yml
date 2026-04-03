@@ -31,78 +31,12 @@ jobs:
           bundle config set path vendor/bundle
           bundle install --jobs 4 --retry 3
 
+      # Batch apply: single Ruby process loads taxonomy once, applies all steps
+      # in memory, dumps files once at the end. ~2min instead of ~2h.
       - name: Apply steps
         env:
           BUNDLE_GEMFILE: dev/Gemfile
-        run: |
-          set -euo pipefail
-          sudo apt-get update
-          sudo apt-get install -y jq
-
-          total=$(jq '.steps | length' steps.json)
-          echo "Found $total steps"
-
-          i=0
-          jq -c '.steps[]' steps.json | while read -r step; do
-            i=$((i+1))
-            op=$(jq -r '.op' <<<"$step")
-            echo
-            echo "[$i/$total] op=$op"
-
-            case "$op" in
-              add_attribute)
-                name=$(jq -r '.name' <<<"$step")
-                description=$(jq -r '.description' <<<"$step")
-                friendly_id=$(jq -r '.friendly_id // empty' <<<"$step")
-                base=$(jq -r '.base_attribute_friendly_id // empty' <<<"$step")
-                values_csv=$(jq -r '(.values // []) | join(",")' <<<"$step")
-                cmd=(bundle exec dev/bin/product_taxonomy add_attribute "$name" "$description")
-                if [ -n "$friendly_id" ]; then
-                  cmd+=("--friendly-id" "$friendly_id")
-                fi
-                if [ -n "$base" ]; then
-                  cmd+=("--base-attribute-friendly-id" "$base")
-                fi
-                if [ -n "$values_csv" ]; then
-                  cmd+=("--values" "$values_csv")
-                fi
-                printf '==> %q ' "${cmd[@]}"; echo
-                "${cmd[@]}" || true
-                ;;
-              add_category)
-                name=$(jq -r '.name' <<<"$step")
-                parent_id=$(jq -r '.parent_id' <<<"$step")
-                id=$(jq -r '.id // empty' <<<"$step")
-                cmd=(bundle exec dev/bin/product_taxonomy add_category "$name" "$parent_id")
-                if [ -n "$id" ]; then
-                  cmd+=("--id" "$id")
-                fi
-                printf '==> %q ' "${cmd[@]}"; echo
-                "${cmd[@]}" || true
-                ;;
-              add_attributes_to_categories)
-                attr_csv=$(jq -r '.attribute_friendly_ids | join(",")' <<<"$step")
-                cat_csv=$(jq -r '.category_ids | join(",")' <<<"$step")
-                include=$(jq -r '(.include_descendants // false) | tostring' <<<"$step")
-                cmd=(bundle exec dev/bin/product_taxonomy add_attributes_to_categories "$attr_csv" "$cat_csv")
-                if [ "$include" = "true" ]; then
-                  cmd+=("--include-descendants")
-                fi
-                printf '==> %q ' "${cmd[@]}"; echo
-                "${cmd[@]}" || true
-                ;;
-              add_value)
-                name=$(jq -r '.name' <<<"$step")
-                attribute_friendly_id=$(jq -r '.attribute_friendly_id' <<<"$step")
-                cmd=(bundle exec dev/bin/product_taxonomy add_value "$name" "$attribute_friendly_id")
-                printf '==> %q ' "${cmd[@]}"; echo
-                "${cmd[@]}" || true
-                ;;
-              *)
-                echo "Unknown op: $op — skipping"
-                ;;
-            esac
-          done
+        run: bundle exec ruby dev/scripts/batch_apply_steps.rb steps.json
 
       # bundle install writes artifacts (dev/.bundle/config, dev/vendor/bundle/)
       # into the working tree. Discard them so the PR only contains taxonomy
