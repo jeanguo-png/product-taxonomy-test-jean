@@ -98,6 +98,7 @@ module ProductTaxonomy
 
     desc "add_attribute NAME DESCRIPTION", "Add a new attribute to the taxonomy with NAME and DESCRIPTION"
     option :values, type: :string, desc: "A comma separated list of values to add to the attribute"
+    option :friendly_id, type: :string, desc: "Override the auto-generated friendly_id (use when the canonical friendly_id differs from what the name would produce)"
     option :base_attribute_friendly_id, type: :string, desc: "Create an extended attribute by extending the attribute with this friendly ID"
     def add_attribute(name, description)
       AddAttributeCommand.new(options.merge(name:, description:)).run
