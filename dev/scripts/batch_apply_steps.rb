@@ -16,7 +16,6 @@ require_relative "../lib/product_taxonomy/commands/dump_categories_command"
 require_relative "../lib/product_taxonomy/commands/dump_attributes_command"
 require_relative "../lib/product_taxonomy/commands/dump_values_command"
 require_relative "../lib/product_taxonomy/commands/sync_en_localizations_command"
-require_relative "../lib/product_taxonomy/commands/generate_docs_command"
 
 module ProductTaxonomy
   class BatchApplySteps
@@ -152,8 +151,8 @@ module ProductTaxonomy
       end
       @logger.info("Syncing en localizations...")
       SyncEnLocalizationsCommand.new(targets: "attributes,values,categories").execute
-      @logger.info("Generating docs...")
-      GenerateDocsCommand.new({}).execute
+      # Skip GenerateDocsCommand — workflow only commits data/ changes,
+      # docs can be regenerated separately from the updated data.
     end
   end
 end
