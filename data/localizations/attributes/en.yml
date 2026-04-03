@@ -59,6 +59,9 @@ en:
     activation_method:
       name: Activation method
       description: Describes how the prepaid credit or SIM is activated by the user.
+    activation_window:
+      name: Activation window
+      description: Number of days after purchase within which the SIM/eSIM must be activated before it expires.
     active_ingredient:
       name: Active ingredient
       description: Identifies primary substances in personal care items, e.g. vitamin A, retinol
@@ -767,6 +770,9 @@ en:
     battery_features:
       name: Battery features
       description: Describes special characteristics of a battery, like fast charge or heat resistant
+    battery_health:
+      name: Battery health
+      description: Remaining battery health level for used or refurbished phones, expressed as a percentage (0–100 %).
     battery_management_features:
       name: Battery management features
       description: Identifies the capabilities of a battery management system, like fault detection or remote monitoring
@@ -788,6 +794,9 @@ en:
     bead_shape:
       name: Bead shape
       description: Describes the form or design of beads, such as round or square
+    beam_angle:
+      name: Beam angle
+      description: Specifies the beam angle of the light output, measured in degrees (°), indicating how wide the light spreads.
     beard_care_benefits:
       name: Beard care benefits
       description: Lists the primary functional benefits offered by the product for beard and underlying skin
@@ -971,6 +980,9 @@ en:
     blind/shade_style:
       name: Blind/Shade style
       description: Identifies the design or type of blinds or shades, like roller blind or vertical blind
+    blocked_number_capacity:
+      name: Blocked number capacity
+      description: Specifies the maximum quantity of telephone numbers a call-blocking device can store and reject.
     blocked_signal_types:
       name: Blocked signal types
       description: Specifies categories of wireless signals the jammer can block
@@ -986,6 +998,9 @@ en:
     bluetooth_functionality:
       name: Bluetooth functionality
       description: Indicates whether the device acts as a transmitter, a receiver, or both (transceiver)
+    bluetooth_version:
+      name: Bluetooth version
+      description: Specifies the supported Bluetooth specification level, which affects compatibility, range and power consumption.
     board_concave_shape:
       name: Board concave shape
       description: Defines the concave curve of surfboards or paddleboards; e.g. V-concave, flat
@@ -1313,6 +1328,9 @@ en:
     burr_shape:
       name: Burr shape
       description: Specifies the burr geometry for burr grinders, which influences grind consistency and heat generation.
+    bust/chest_size:
+      name: Bust/Chest size
+      description: Measures the circumference around the fullest part of the chest or bust, essential for determining proper garment fit across various clothing styles.
     butt_cap_color:
       name: Butt cap color
       description: Specifies the color of the butt cap on fishing rods, such as black or blue
@@ -1961,6 +1979,9 @@ en:
     color_depth:
       name: Color depth
       description: Indicates the scanner's optical/output bit depth (number of bits per pixel), which determines color accuracy, gradation, and editing latitude
+    color_rendering_index_cri:
+      name: Color rendering index (CRI)
+      description: Indicates the lighting kit’s ability to accurately render colors compared with a natural light source, expressed on a 0–100 scale.
     color_saturation:
       name: Color saturation
       description: Indicates the intensity of color in camera film, e.g. high, low
@@ -2084,6 +2105,9 @@ en:
     compatible_device:
       name: Compatible device
       description: Specifies which devices work with an electronic, such as smartwatch or wireless earbud
+    compatible_device_width:
+      name: Compatible device width
+      description: Specifies the minimum and/or maximum clamping width that the phone holder can accommodate, ensuring the user’s device will fit.
     compatible_drum_configuration:
       name: Compatible drum configuration
       description: Identifies the drum set-up the product is designed for, like double bass or hi-hat
@@ -2213,6 +2237,12 @@ en:
     compatible_percussion_instrument:
       name: Compatible percussion instrument
       description: Identifies which percussion instruments a product can be used with, like a drum or bongo
+    compatible_phone_brand:
+      name: Compatible phone brand
+      description: Specifies the handset manufacturers that the accessory is designed to work with (e.g., Apple, Samsung, Google).
+    compatible_phone_model:
+      name: Compatible phone model
+      description: Indicates the exact phone model(s) the accessory fits or supports (e.g., iPhone 15 Pro Max, Galaxy S24 Ultra).
     compatible_pinball_machine_edition:
       name: Compatible pinball machine edition
       description: Specifies which edition or trim level of the pinball machine the accessory fits (e.g., Pro, Premium, LE)
@@ -3323,6 +3353,9 @@ en:
     drone_features:
       name: Drone features
       description: Specifies the various functional and design features available in a drone, such as GPS navigation or obstacle avoidance
+    drop_protection_height:
+      name: Drop protection height
+      description: Specifies the certified maximum drop height from which the case can protect the phone without damage.
     drum_configuration:
       name: Drum configuration
       description: Used to indicate the set-up of a drum kit, such as 7-piece or shell pack
@@ -3608,6 +3641,21 @@ en:
     ethernet_lan_interface_type:
       name: Ethernet LAN interface type
       description: Specifies the type of Ethernet connection a product supports, such as LAN or fast
+    eu_childrens_clothing_size:
+      name: EU children's clothing size
+      description: Specifies the EU children's clothing size by height, such as 104 or 140
+    eu_clothing_size:
+      name: EU clothing size
+      description: Specifies the EU clothing size, such as 38 or 46
+    eu_cup_size:
+      name: EU cup size
+      description: Specifies the EU bra cup size, such as C or E
+    eu_ring_size:
+      name: EU ring size
+      description: Specifies the EU ring size by circumference, such as 52 or 63
+    eu_shoe_size:
+      name: EU shoe size
+      description: Specifies the EU shoe size, such as 42 or 42 Wide
     ev_battery_features:
       name: EV battery features
       description: Highlights features of EV batteries, such as long cycle life or smart battery management system
@@ -3821,6 +3869,9 @@ en:
     false_nail_application_method:
       name: False nail application method
       description: Identifies how false nails are applied, such as glue-on or press-on
+    fast_charging_technology:
+      name: Fast charging technology
+      description: Identifies the proprietary or standard fast-charging protocols supported by the phone.
     fastener_finish:
       name: Fastener finish
       description: Describes the surface coating of a hardware accessory, like brass or chrome
@@ -4313,6 +4364,9 @@ en:
     frame_style:
       name: Frame style
       description: Describes the design or type of frame for artwork, such as modern or rustic
+    franchise_or_character:
+      name: Franchise or character
+      description: Licensed franchise, mascot, or character depicted by the charm or strap.
     freezer_configuration:
       name: Freezer configuration
       description: Identifies the physical orientation/design style of the freezer unit.
@@ -4331,6 +4385,9 @@ en:
     frog_material:
       name: Frog material
       description: Identifies the material used in the frog of a string instrument bow, like ebony wood or silver
+    front_camera_resolution:
+      name: Front camera resolution
+      description: Maximum resolution of the front-facing (selfie) camera, measured in megapixels (MP).
     fruit_source:
       name: Fruit source
       description: Identifies whether fruit in drinks is from concentrate or not
@@ -5252,6 +5309,9 @@ en:
     internal_membrane_type:
       name: Internal membrane type
       description: Identifies the internal separation design that keeps water and air apart inside the tank.
+    international_call_allowance:
+      name: International call allowance
+      description: Specifies the number of international voice minutes bundled with the prepaid product. Use 0 for unlimited minutes.
     internet_radio_form_factor:
       name: Internet radio form factor
       description: Defines the physical style or mounting orientation of the internet radio
@@ -5663,6 +5723,9 @@ en:
     lens_storage_type:
       name: Lens storage type
       description: Describes the type of storage for camera lenses, like lens case or lens pouch
+    lens_thread_diameter:
+      name: Lens thread diameter
+      description: Specifies the diameter of the lens or filter thread in millimeters, ensuring compatibility with mounts and filters.
     lens_tint_type:
       name: Lens tint type
       description: Describes the tint applied to the lens for handling visibility or cosmetic purposes
@@ -5696,6 +5759,9 @@ en:
     light_color:
       name: Light color
       description: Defines the color or hue of light, such as white or multicolor
+    light_color_temperature_range:
+      name: Light color temperature range
+      description: Minimum and maximum color temperature output of the light, expressed in Kelvin.
     light_control:
       name: Light control
       description: Defines the level of light blockage by window treatments, e.g. blackout, sheer
@@ -5732,12 +5798,18 @@ en:
     light_therapy_device_form_factor:
       name: Light therapy device form factor
       description: Describes the physical style or configuration of the device (e.g., panel, mask, handheld)
+    light_transmission:
+      name: Light transmission
+      description: Specifies the percentage of visible light that can pass through the lens protector or optical accessory, helping shoppers judge potential impact on image quality.
     light_type:
       name: Light type
       description: Identifies the specific type of light used in watercraft, e.g. navigation, underwater
     lighting_features:
       name: Lighting features
       description: Describes special characteristics of lighting, like adjustable brightness or LED lighting
+    lighting_kit_components_included:
+      name: Lighting kit components included
+      description: Key accessories bundled with the lighting kit.
     lighting_options:
       name: Lighting options
       description: Specifies the illumination type for signage, such as illuminated or non-illuminated
@@ -5849,6 +5921,9 @@ en:
     luggage/bag_closure:
       name: Luggage/Bag closure
       description: Identifies the type of closure used on luggage or bags, such as zipper or snap
+    lumber/wood_thickness:
+      name: Lumber/Wood thickness
+      description: Indicates the depth measurement of building materials, determining structural properties and construction applications.
     lumber/wood_type:
       name: Lumber/Wood type
       description: Identifies the specific type of wood or lumber used in a product, like oak or pine
@@ -5996,12 +6071,27 @@ en:
     maximum_bit_depth:
       name: Maximum bit depth
       description: Defines the highest digital word length (in bits) that the converter supports, affecting dynamic range and resolution
+    maximum_expandable_storage_capacity:
+      name: Maximum expandable storage capacity
+      description: Specifies the highest-capacity memory card the phone supports.
     maximum_magnification:
       name: Maximum magnification
       description: Indicates the highest enlargement factor a microscope can achieve, such as 10x or 100x
+    maximum_number_of_expansion_microphones_supported:
+      name: Maximum number of expansion microphones supported
+      description: States how many external expansion microphones can be connected to the base unit to enlarge the audio pickup area.
     maximum_reel_diameter_supported:
       name: Maximum reel diameter supported
       description: Specifies the largest reel diameter the deck can accommodate
+    maximum_sip_accounts_supported:
+      name: Maximum SIP accounts supported
+      description: Specifies the highest number of separate SIP accounts/lines the conference phone can register and handle simultaneously.
+    maximum_supported_handsets:
+      name: Maximum supported handsets
+      description: Defines the total number of cordless handsets that can be registered to a single base unit, including handsets not supplied with the system.
+    maximum_wired_charging_power:
+      name: Maximum wired charging power
+      description: Maximum supported wired charging wattage for the device.
     measured_parameters:
       name: Measured parameters
       description: Lists the electrical or battery metrics the device can measure or display
@@ -6134,6 +6224,9 @@ en:
     microphone_design:
       name: Microphone design
       description: Defines the design category for microphones, e.g. condenser, dynamic
+    microphone_pickup_range:
+      name: Microphone pickup range
+      description: Indicates the maximum radial distance from which the built-in microphones can clearly capture speech.
     microphone_preamp_form_factor:
       name: Microphone preamp form factor
       description: Identifies the physical style or enclosure format of the microphone preamp for installation or use
@@ -6161,6 +6254,9 @@ en:
     midi_connectivity:
       name: MIDI connectivity
       description: Identifies the type of MIDI connection on musical instruments, like MIDI in or USB midi
+    military_durability_standard_compliance:
+      name: Military durability standard compliance
+      description: Indicates compliance with formal durability standards such as MIL-STD-810 or IK impact ratings beyond IP water/dust resistance.
     milk_frother_type:
       name: Milk frother type
       description: Classifies the product by its frothing mechanism or form factor.
@@ -6179,6 +6275,9 @@ en:
     mineral_compound_form:
       name: Mineral compound form
       description: Specifies the chemical form or chelate of the mineral (e.g., citrate, glycinate) which affects absorption
+    minimum_focus_distance:
+      name: Minimum focus distance
+      description: The closest distance at which the lens can achieve sharp focus, measured from the subject to the front of the lens.
     minimum_magnification:
       name: Minimum magnification
       description: Indicates the lowest magnification level of a microscope lens, such as 1x or 0.5x
@@ -6209,12 +6308,18 @@ en:
     mixing_mechanism:
       name: Mixing mechanism
       description: Describes the internal mechanism used to blend the dressing ingredients.
+    mobile_data_allowance:
+      name: Mobile data allowance
+      description: Indicates the high-speed data volume included in the plan, expressed in gigabytes.
     mobile_mounting_type:
       name: Mobile mounting type
       description: Specifies where a baby mobile can be attached, e.g. crib, stroller
     mobile_movement:
       name: Mobile movement
       description: Describes the mechanism of baby mobiles, such as battery-operated or wind up
+    mobile_network_operator:
+      name: Mobile network operator
+      description: Lists the carrier or mobile network that issues or underlies the prepaid card or SIM, such as AT&T, Vodafone, Docomo, or Telstra.
     mobile_phone_accessories_included:
       name: Mobile phone accessories included
       description: Lists the supplementary items provided in the mobile phone accessory set so shoppers know exactly what components are included
@@ -6533,6 +6638,9 @@ en:
     network_cable_interface:
       name: Network cable interface
       description: Specifies the type of connector on a network cable, e.g. BNC, MPO/MTP
+    network_carrier_compatibility:
+      name: Network carrier compatibility
+      description: Lists specific wireless carriers supported out of the box or whether the phone is factory unlocked.
     network_layer_support:
       name: Network layer support
       description: Indicates the highest OSI layer switching or routing features provided by the switch
@@ -6599,9 +6707,45 @@ en:
     nozzle_types_included:
       name: Nozzle types included
       description: Lists the shapes/styles of nozzles supplied with the jerky gun, helping buyers know what product forms they can create.
+    number_of_brightness_levels:
+      name: Number of brightness levels
+      description: Number of distinct brightness steps the lighting kit can output.
+    number_of_built_in_microphones:
+      name: Number of built-in microphones
+      description: States the count of microphones integrated into the conference phone unit.
+    number_of_card_slots:
+      name: Number of card slots
+      description: Indicates the number of integrated card slots/pockets in wallet-style phone cases.
     number_of_compartments:
       name: Number of compartments
       description: Indicates how many separate sections the waste container has for sorting waste or recyclables.
+    number_of_conductors:
+      name: Number of conductors
+      description: States the number of individual internal conductors or pairs in a telephone cable (e.g., 2, 4, 6), helping users verify line capacity.
+    number_of_countries_covered:
+      name: Number of countries covered
+      description: States how many individual countries are supported by the SIM’s included plan without additional roaming fees.
+    number_of_handsets_included:
+      name: Number of handsets included
+      description: States the total number of handsets packaged with the product (e.g., base corded handset plus additional units).
+    number_of_leds:
+      name: Number of LEDs
+      description: Total number of individual LEDs in the light source.
+    number_of_lenses_included:
+      name: Number of lenses included
+      description: Specifies how many individual lenses are provided in the product (useful for 2-in-1, 6-in-1, or multi-lens kits).
+    number_of_programmable_keys:
+      name: Number of programmable keys
+      description: Indicates the total count of dedicated function or memory keys that can be custom-programmed (e.g., BLF, speed dial, feature keys).
+    number_of_rear_cameras:
+      name: Number of rear cameras
+      description: The number of separate rear-facing camera modules on the device.
+    number_of_telephone_lines_supported:
+      name: Number of telephone lines supported
+      description: Defines how many separate phone lines (analog or SIP/VoIP) the cordless system can accommodate.
+    number_of_telephone_ports:
+      name: Number of telephone ports
+      description: Indicates the total number of RJ-style phone jacks or ports available on the accessory (e.g., on a splitter, adapter, or call-blocker), helping shoppers confirm capacity for their phone lines.
     numeral_style:
       name: Numeral style
       description: Defines the visual style or presence of numerals on the clock face.
@@ -6689,6 +6833,9 @@ en:
     operating_system_compatibility:
       name: Operating system compatibility
       description: Identifies the operating systems the remote shutter supports out of the box.
+    operating_system_version:
+      name: Operating system version
+      description: Specifies the exact OS version the device ships with (e.g., iOS 17, Android 14, HarmonyOS 4).
     operation_mechanism:
       name: Operation mechanism
       description: Describes how the tool applies tension and cuts the tie (e.g., manual, pneumatic, automatic)
@@ -6800,6 +6947,9 @@ en:
     pacifier/teether_design:
       name: Pacifier/Teether design
       description: Describes the design of baby pacifiers and teethers, e.g. ring-shaped, orthodontic
+    pack_quantity:
+      name: Pack quantity
+      description: Indicates the number of identical accessories or pieces included in one retail package.
     package_type:
       name: Package type
       description: Defines the type of packaging for a product, e.g. jar, pump
@@ -7151,12 +7301,21 @@ en:
     phone_card_delivery_format:
       name: Phone card delivery format
       description: Indicates whether the prepaid credit is supplied as a physical scratch card or as a digital code/voucher.
+    phone_card_reference_number:
+      name: Phone card reference number
+      description: Unique alphanumeric catalogue or issue code printed on the card (e.g., SP-0277, PI-024M).
+    phone_card_series_name:
+      name: Phone card series name
+      description: Identifies the official set, campaign, or artwork series that the phone card belongs to, enabling collectors to group cards released together (e.g., “Floresta Tropical”, “Invenções”).
     phone_skin_coverage:
       name: Phone skin coverage
       description: Specifies which portions of the phone the skin or wrap is designed to cover
     phone_strap_accessories_included:
       name: Phone strap accessories included
       description: Lists extra components supplied with the charm or strap set, such as adapter tab, phone case, pouch, or wristlet.
+    phonebook_capacity:
+      name: Phonebook capacity
+      description: Specifies the maximum number of contacts the phone’s internal directory or speed-dial memory can store.
     photo_effects_type:
       name: Photo effects type
       description: Identifies the type of photo effects a camera can produce, e.g. vintage, sepia
@@ -7208,6 +7367,12 @@ en:
     pillow_shape:
       name: Pillow shape
       description: Defines the form or contour of a nursing pillow, such as U-shaped
+    pin/rod_diameter:
+      name: Pin/Rod diameter
+      description: Specifies the thickness of cylindrical fasteners or supports, determining strength and appropriate applications.
+    pin/rod_length:
+      name: Pin/Rod length
+      description: Indicates the measurement from end to end of cylindrical components, determining reach and application suitability.
     pin_shape:
       name: Pin shape
       description: Describes the overall form of the pin that anchors the fabric.
@@ -7454,6 +7619,9 @@ en:
     portafilter_type:
       name: Portafilter type
       description: Identifies the structural style of the portafilter, affecting extraction method and workflow.
+    post_allowance_data_speed:
+      name: Post-allowance data speed
+      description: Specifies the connection speed that applies after the included high-speed data allowance is consumed (throttled speed).
     post_installation_method:
       name: Post installation method
       description: Defines how the mailbox post is installed or secured in place.
@@ -7514,6 +7682,9 @@ en:
     pregnancy_test_sensitivity:
       name: Pregnancy test sensitivity
       description: Specifies the test's ability to identify pregnancy, e.g. early detection, standard detection
+    prepaid_balance_amount:
+      name: Prepaid balance amount
+      description: Specifies the monetary credit value pre-loaded on the card or SIM (currency defined separately by the Currency attribute).
     preparation_type:
       name: Preparation type
       description: Describes the method required to make the food ready to eat.
@@ -7565,6 +7736,9 @@ en:
     print_orientation:
       name: Print orientation
       description: Identifies which side of the material the graphic is printed on
+    print_run_quantity:
+      name: Print run quantity
+      description: Total number of cards produced in the print run.
     print_server_form_factor:
       name: Print server form factor
       description: Indicates the physical design of the print server (e.g., external box, internal card, USB dongle)
@@ -7841,6 +8015,9 @@ en:
     reading_toy_type:
       name: Reading toy type
       description: Specifies the type of educational reading toy, e.g. spelling game, reading tablet
+    rear_camera_resolution:
+      name: Rear camera resolution
+      description: Maximum resolution of the primary (rear) camera module, measured in megapixels (MP).
     receipt_paper_features:
       name: Receipt paper features
       description: Identifies unique features of receipt paper like end of roll indicator or pre-printed logo
@@ -7850,6 +8027,9 @@ en:
     recommended_age_group:
       name: Recommended age group
       description: Identifies the suitable age range for a product, typically toys and games; e.g. babies, teens
+    recommended_participant_capacity:
+      name: Recommended participant capacity
+      description: Approximate maximum number of people the device can support effectively in one room.
     recommended_skill_level:
       name: Recommended skill level
       description: Specifies skill level, e.g. beginner, expert
@@ -7919,6 +8099,9 @@ en:
     release_type:
       name: Release type
       description: Indicates how quickly nutrients are released from the fertilizer.
+    release_year:
+      name: Release year
+      description: Indicates the calendar year the phone model was originally launched.
     relief_style:
       name: Relief style
       description: Indicates whether surface elevations are raised, indented, or flat on the globe.
@@ -8012,6 +8195,9 @@ en:
     ring_size:
       name: Ring size
       description: Specifies the size of a ring, such as L or 6.5
+    ringer_loudness:
+      name: Ringer loudness
+      description: Indicates the maximum audible loudness of the phone’s ringer, measured in decibels (dB). Useful for seniors or noisy environments.
     rinse_requirement:
       name: Rinse requirement
       description: Clarifies whether the cleanser must be rinsed off, can be left on, or is no-rinse (e.g., micellar water)
@@ -8768,6 +8954,9 @@ en:
     smoking_chip_size:
       name: Smoking chip size
       description: Indicates the physical cut/size of smoking wood chips, which affects burn rate and suitability for different grills or smokers.
+    sms_allowance:
+      name: SMS allowance
+      description: Specifies the number of SMS messages (texts) included in the prepaid plan before additional charges apply.
     sneaker_style:
       name: Sneaker style
       description: Identifies the design or type of sneakers, such as athletic or high-top
@@ -8903,6 +9092,9 @@ en:
     speakerphone_type:
       name: Speakerphone type
       description: Specifies the functionality of speakerphones in vehicles, like wireless or hands-free
+    specific_absorption_rate_sar:
+      name: Specific absorption rate (SAR)
+      description: Indicates the radio-frequency energy absorbed by the body when using the phone, expressed in W/kg.
     speed_settings:
       name: Speed settings
       description: Defines the range of speed options for a product, e.g. single, variable
@@ -9035,6 +9227,9 @@ en:
     stand/display_type:
       name: Stand/Display type
       description: Describes the style of stand or display for collectibles, like wall-mounted or tabletop
+    standby_time:
+      name: Standby time
+      description: Indicates the maximum duration the handset can remain powered on (idle) on a single charge.
     staple/pin_shape:
       name: Staple/pin shape
       description: Defines the overall form of the fastener, helping customers choose between U-shaped staples, round-top pins, etc.
@@ -9236,6 +9431,9 @@ en:
     subject_area:
       name: Subject area
       description: Identifies the subject area of academic papers or studies, such as science or arts
+    subnational_region_of_issue:
+      name: Subnational region of issue
+      description: State, province, or city where the phone card was issued (e.g., São Paulo, London).
     subscription_type:
       name: Subscription type
       description: Specifies the type of subscription, typically for mobile devices; e.g. pay as you go, pre-paid
@@ -9593,6 +9791,9 @@ en:
     talc_content:
       name: Talc content
       description: States whether the formulation contains talc, is talc-free, or uses reduced talc levels
+    talk_time:
+      name: Talk time
+      description: Specifies the maximum continuous voice call duration the cordless handset can provide on a single charge.
     tamper_evident_feature:
       name: Tamper-evident feature
       description: Indicates the presence and style of tamper-evident functionality incorporated into the cap.
@@ -10229,6 +10430,21 @@ en:
     uc_platform_certification:
       name: UC platform certification
       description: Identifies unified-communications or meeting platforms for which the device is officially certified.
+    uk_childrens_shoe_size:
+      name: UK children's shoe size
+      description: Specifies the UK children's shoe size, such as 4 or 4 Wide
+    uk_clothing_size:
+      name: UK clothing size
+      description: Specifies the UK clothing size, such as 12 or 18
+    uk_cup_size:
+      name: UK cup size
+      description: Specifies the UK bra cup size, such as C or FF
+    uk_mens_shoe_size:
+      name: UK men's shoe size
+      description: Specifies the UK men's shoe size, such as 9 or 9 Wide
+    uk_womens_shoe_size:
+      name: UK women's shoe size
+      description: Specifies the UK women's shoe size, such as 6 or 6 Wide
     ultrasonic_cleaner_accessories_included:
       name: Ultrasonic cleaner accessories included
       description: Lists additional components supplied with the cleaner so shoppers know exactly what is in the box.
@@ -10277,6 +10493,24 @@ en:
     urinal_mounting_type:
       name: Urinal mounting type
       description: Specifies how a urinal is installed, such as wall-mounted or floor-mounted
+    us_childrens_shoe_size:
+      name: US children's shoe size
+      description: Specifies the US children's shoe size, such as 5 or 5 Wide
+    us_clothing_size:
+      name: US clothing size
+      description: Specifies the US clothing size, such as 8 or 14
+    us_cup_size:
+      name: US cup size
+      description: Specifies the US bra cup size, such as C or DDD
+    us_mens_shoe_size:
+      name: US men's shoe size
+      description: Specifies the US men's shoe size, such as 10 or 10 Wide
+    us_ring_size:
+      name: US ring size
+      description: Specifies the US ring size, such as 7 or 9.5
+    us_womens_shoe_size:
+      name: US women's shoe size
+      description: Specifies the US women's shoe size, such as 8 or 8 Wide
     usage_conditions:
       name: Usage conditions
       description: Specifies if the product is suitable for use in dry or wet conditions, typically for razors
@@ -10331,6 +10565,9 @@ en:
     valet_organizer_features:
       name: Valet organizer features
       description: Highlights specific organizational features integrated into the charging valet.
+    validity_period:
+      name: Validity period
+      description: Indicates the number of days the credit or package remains active once activated.
     valve_configuration:
       name: Valve configuration
       description: Defines the functional style of the garden hose valve, helping buyers quickly select the correct solution for their watering setup.
@@ -10514,6 +10751,9 @@ en:
     visual_effect:
       name: Visual effect
       description: Defines the visual characteristics of a product, typically for art glazes; e.g. speckled, textured
+    voice_call_allowance:
+      name: Voice call allowance
+      description: Indicates the total number of domestic or in-network voice minutes bundled with the prepaid product. Enter 0 or leave blank for unlimited or not applicable plans.
     voice_recorder_form_factor:
       name: Voice recorder form factor
       description: Describes the physical style or disguise of the recorder so shoppers can pick the design that fits their use case
@@ -10580,6 +10820,9 @@ en:
     warning_category:
       name: Warning category
       description: Classifies the category of security or safety signs, e.g. prohibition, warning
+    warranty_period:
+      name: Warranty period
+      description: Specifies the length of the warranty provided with the phone.
     washer/dryer_features:
       name: Washer/Dryer features
       description: Highlights unique features of laundry appliances, i.e. child lock, self-cleaning
@@ -10832,6 +11075,9 @@ en:
     wire_thickness:
       name: Wire thickness
       description: Specifies the thickness of wires, like thick or fine
+    wireless_charging_power:
+      name: Wireless charging power
+      description: States the maximum wattage the device can accept when charging wirelessly.
     wireless_charging_standard:
       name: Wireless charging standard
       description: Identifies the inductive charging protocol(s) supported by the phone.
@@ -10880,6 +11126,9 @@ en:
     yarn_weight_category:
       name: Yarn weight category
       description: Identifies the thickness of yarn, like super bulky or craft
+    year_of_issue:
+      name: Year of issue
+      description: Calendar year the phone card was first released or printed.
     zipper_pull_style:
       name: Zipper pull style
       description: Describes the design or finish on a zipper pull, such as textured or embossed
