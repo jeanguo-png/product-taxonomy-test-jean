@@ -53,9 +53,13 @@ jobs:
               add_attribute)
                 name=$(jq -r '.name' <<<"$step")
                 description=$(jq -r '.description' <<<"$step")
+                friendly_id=$(jq -r '.friendly_id // empty' <<<"$step")
                 base=$(jq -r '.base_attribute_friendly_id // empty' <<<"$step")
                 values_csv=$(jq -r '(.values // []) | join(",")' <<<"$step")
                 cmd=(bundle exec dev/bin/product_taxonomy add_attribute "$name" "$description")
+                if [ -n "$friendly_id" ]; then
+                  cmd+=("--friendly-id" "$friendly_id")
+                fi
                 if [ -n "$base" ]; then
                   cmd+=("--base-attribute-friendly-id" "$base")
                 fi
