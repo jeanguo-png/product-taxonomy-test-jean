@@ -1,0 +1,19 @@
+current directory: /home/runner/work/product-taxonomy-test-jean/product-taxonomy-test-jean/dev/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+/opt/hostedtoolcache/Ruby/3.2.11/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/work/product-taxonomy-test-jean/product-taxonomy-test-jean/dev/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260403-2380-qctugc sitelibdir\=./.gem.20260403-2380-qctugc clean
+
+current directory: /home/runner/work/product-taxonomy-test-jean/product-taxonomy-test-jean/dev/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260403-2380-qctugc sitelibdir\=./.gem.20260403-2380-qctugc
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/runner/work/product-taxonomy-test-jean/product-taxonomy-test-jean/dev/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260403-2380-qctugc sitelibdir\=./.gem.20260403-2380-qctugc install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20260403-2380-qctugc/debug
+
+current directory: /home/runner/work/product-taxonomy-test-jean/product-taxonomy-test-jean/dev/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260403-2380-qctugc sitelibdir\=./.gem.20260403-2380-qctugc clean
