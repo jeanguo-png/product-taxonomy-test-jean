@@ -107,8 +107,11 @@ jobs:
       # bundle install writes artifacts (dev/.bundle/config, dev/vendor/bundle/)
       # into the working tree. Discard them so the PR only contains taxonomy
       # data and docs changes, not development tooling files.
+      # git checkout reverts modified tracked files; git clean removes new untracked files.
       - name: Discard dev/ changes
-        run: git checkout -- dev/
+        run: |
+          git checkout -- dev/ 2>/dev/null || true
+          git clean -fd dev/
 
       - name: Create Pull Request
         id: cpr
