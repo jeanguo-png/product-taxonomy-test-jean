@@ -33311,6 +33311,1647 @@ en:
     ethernet_lan_interface_type__other:
       # Ethernet LAN interface type
       name: Other
+    eu_children_clothing_size__104:
+      # EU children's clothing size
+      name: '104'
+    eu_children_clothing_size__110:
+      # EU children's clothing size
+      name: '110'
+    eu_children_clothing_size__116:
+      # EU children's clothing size
+      name: '116'
+    eu_children_clothing_size__122:
+      # EU children's clothing size
+      name: '122'
+    eu_children_clothing_size__128:
+      # EU children's clothing size
+      name: '128'
+    eu_children_clothing_size__134:
+      # EU children's clothing size
+      name: '134'
+    eu_children_clothing_size__140:
+      # EU children's clothing size
+      name: '140'
+    eu_children_clothing_size__146:
+      # EU children's clothing size
+      name: '146'
+    eu_children_clothing_size__152:
+      # EU children's clothing size
+      name: '152'
+    eu_children_clothing_size__158:
+      # EU children's clothing size
+      name: '158'
+    eu_children_clothing_size__164:
+      # EU children's clothing size
+      name: '164'
+    eu_children_clothing_size__170:
+      # EU children's clothing size
+      name: '170'
+    eu_children_clothing_size__176:
+      # EU children's clothing size
+      name: '176'
+    eu_children_clothing_size__50:
+      # EU children's clothing size
+      name: '50'
+    eu_children_clothing_size__56:
+      # EU children's clothing size
+      name: '56'
+    eu_children_clothing_size__62:
+      # EU children's clothing size
+      name: '62'
+    eu_children_clothing_size__68:
+      # EU children's clothing size
+      name: '68'
+    eu_children_clothing_size__74:
+      # EU children's clothing size
+      name: '74'
+    eu_children_clothing_size__80:
+      # EU children's clothing size
+      name: '80'
+    eu_children_clothing_size__86:
+      # EU children's clothing size
+      name: '86'
+    eu_children_clothing_size__92:
+      # EU children's clothing size
+      name: '92'
+    eu_children_clothing_size__98:
+      # EU children's clothing size
+      name: '98'
+    eu_clothing_size__30:
+      # EU clothing size
+      name: '30'
+    eu_clothing_size__31:
+      # EU clothing size
+      name: '31'
+    eu_clothing_size__32:
+      # EU clothing size
+      name: '32'
+    eu_clothing_size__33:
+      # EU clothing size
+      name: '33'
+    eu_clothing_size__34:
+      # EU clothing size
+      name: '34'
+    eu_clothing_size__35:
+      # EU clothing size
+      name: '35'
+    eu_clothing_size__36:
+      # EU clothing size
+      name: '36'
+    eu_clothing_size__37:
+      # EU clothing size
+      name: '37'
+    eu_clothing_size__38:
+      # EU clothing size
+      name: '38'
+    eu_clothing_size__39:
+      # EU clothing size
+      name: '39'
+    eu_clothing_size__40:
+      # EU clothing size
+      name: '40'
+    eu_clothing_size__41:
+      # EU clothing size
+      name: '41'
+    eu_clothing_size__42:
+      # EU clothing size
+      name: '42'
+    eu_clothing_size__43:
+      # EU clothing size
+      name: '43'
+    eu_clothing_size__44:
+      # EU clothing size
+      name: '44'
+    eu_clothing_size__45:
+      # EU clothing size
+      name: '45'
+    eu_clothing_size__46:
+      # EU clothing size
+      name: '46'
+    eu_clothing_size__47:
+      # EU clothing size
+      name: '47'
+    eu_clothing_size__48:
+      # EU clothing size
+      name: '48'
+    eu_clothing_size__50:
+      # EU clothing size
+      name: '50'
+    eu_clothing_size__52:
+      # EU clothing size
+      name: '52'
+    eu_clothing_size__54:
+      # EU clothing size
+      name: '54'
+    eu_clothing_size__56:
+      # EU clothing size
+      name: '56'
+    eu_clothing_size__58:
+      # EU clothing size
+      name: '58'
+    eu_clothing_size__60:
+      # EU clothing size
+      name: '60'
+    eu_clothing_size__62:
+      # EU clothing size
+      name: '62'
+    eu_cup_size__a:
+      # EU cup size
+      name: A
+    eu_cup_size__b:
+      # EU cup size
+      name: B
+    eu_cup_size__c:
+      # EU cup size
+      name: C
+    eu_cup_size__d:
+      # EU cup size
+      name: D
+    eu_cup_size__e:
+      # EU cup size
+      name: E
+    eu_cup_size__f:
+      # EU cup size
+      name: F
+    eu_cup_size__g:
+      # EU cup size
+      name: G
+    eu_cup_size__h:
+      # EU cup size
+      name: H
+    eu_cup_size__i:
+      # EU cup size
+      name: I
+    eu_cup_size__j:
+      # EU cup size
+      name: J
+    eu_cup_size__k:
+      # EU cup size
+      name: K
+    eu_cup_size__l:
+      # EU cup size
+      name: L
+    eu_ring_size__40:
+      # EU ring size
+      name: '40'
+    eu_ring_size__41:
+      # EU ring size
+      name: '41'
+    eu_ring_size__42:
+      # EU ring size
+      name: '42'
+    eu_ring_size__43:
+      # EU ring size
+      name: '43'
+    eu_ring_size__44:
+      # EU ring size
+      name: '44'
+    eu_ring_size__45:
+      # EU ring size
+      name: '45'
+    eu_ring_size__46:
+      # EU ring size
+      name: '46'
+    eu_ring_size__47:
+      # EU ring size
+      name: '47'
+    eu_ring_size__48:
+      # EU ring size
+      name: '48'
+    eu_ring_size__49:
+      # EU ring size
+      name: '49'
+    eu_ring_size__50:
+      # EU ring size
+      name: '50'
+    eu_ring_size__51:
+      # EU ring size
+      name: '51'
+    eu_ring_size__52:
+      # EU ring size
+      name: '52'
+    eu_ring_size__53:
+      # EU ring size
+      name: '53'
+    eu_ring_size__54:
+      # EU ring size
+      name: '54'
+    eu_ring_size__55:
+      # EU ring size
+      name: '55'
+    eu_ring_size__56:
+      # EU ring size
+      name: '56'
+    eu_ring_size__57:
+      # EU ring size
+      name: '57'
+    eu_ring_size__58:
+      # EU ring size
+      name: '58'
+    eu_ring_size__59:
+      # EU ring size
+      name: '59'
+    eu_ring_size__60:
+      # EU ring size
+      name: '60'
+    eu_ring_size__61:
+      # EU ring size
+      name: '61'
+    eu_ring_size__62:
+      # EU ring size
+      name: '62'
+    eu_ring_size__63:
+      # EU ring size
+      name: '63'
+    eu_ring_size__64:
+      # EU ring size
+      name: '64'
+    eu_ring_size__65:
+      # EU ring size
+      name: '65'
+    eu_ring_size__66:
+      # EU ring size
+      name: '66'
+    eu_ring_size__67:
+      # EU ring size
+      name: '67'
+    eu_ring_size__68:
+      # EU ring size
+      name: '68'
+    eu_ring_size__69:
+      # EU ring size
+      name: '69'
+    eu_ring_size__70:
+      # EU ring size
+      name: '70'
+    eu_ring_size__71:
+      # EU ring size
+      name: '71'
+    eu_ring_size__72:
+      # EU ring size
+      name: '72'
+    eu_ring_size__73:
+      # EU ring size
+      name: '73'
+    eu_ring_size__74:
+      # EU ring size
+      name: '74'
+    eu_ring_size__75:
+      # EU ring size
+      name: '75'
+    eu_ring_size__76:
+      # EU ring size
+      name: '76'
+    eu_shoe_size__15:
+      # EU shoe size
+      name: '15'
+    eu_shoe_size__15_5:
+      # EU shoe size
+      name: '15.5'
+    eu_shoe_size__15_5_extra_wide:
+      # EU shoe size
+      name: 15.5 Extra Wide
+    eu_shoe_size__15_5_medium:
+      # EU shoe size
+      name: 15.5 Medium
+    eu_shoe_size__15_5_narrow:
+      # EU shoe size
+      name: 15.5 Narrow
+    eu_shoe_size__15_5_standard:
+      # EU shoe size
+      name: 15.5 Standard
+    eu_shoe_size__15_5_wide:
+      # EU shoe size
+      name: 15.5 Wide
+    eu_shoe_size__15_extra_wide:
+      # EU shoe size
+      name: 15 Extra Wide
+    eu_shoe_size__15_medium:
+      # EU shoe size
+      name: 15 Medium
+    eu_shoe_size__15_narrow:
+      # EU shoe size
+      name: 15 Narrow
+    eu_shoe_size__15_standard:
+      # EU shoe size
+      name: 15 Standard
+    eu_shoe_size__15_wide:
+      # EU shoe size
+      name: 15 Wide
+    eu_shoe_size__16:
+      # EU shoe size
+      name: '16'
+    eu_shoe_size__16_5:
+      # EU shoe size
+      name: '16.5'
+    eu_shoe_size__16_5_extra_wide:
+      # EU shoe size
+      name: 16.5 Extra Wide
+    eu_shoe_size__16_5_medium:
+      # EU shoe size
+      name: 16.5 Medium
+    eu_shoe_size__16_5_narrow:
+      # EU shoe size
+      name: 16.5 Narrow
+    eu_shoe_size__16_5_standard:
+      # EU shoe size
+      name: 16.5 Standard
+    eu_shoe_size__16_5_wide:
+      # EU shoe size
+      name: 16.5 Wide
+    eu_shoe_size__16_extra_wide:
+      # EU shoe size
+      name: 16 Extra Wide
+    eu_shoe_size__16_medium:
+      # EU shoe size
+      name: 16 Medium
+    eu_shoe_size__16_narrow:
+      # EU shoe size
+      name: 16 Narrow
+    eu_shoe_size__16_standard:
+      # EU shoe size
+      name: 16 Standard
+    eu_shoe_size__16_wide:
+      # EU shoe size
+      name: 16 Wide
+    eu_shoe_size__17:
+      # EU shoe size
+      name: '17'
+    eu_shoe_size__17_5:
+      # EU shoe size
+      name: '17.5'
+    eu_shoe_size__17_5_extra_wide:
+      # EU shoe size
+      name: 17.5 Extra Wide
+    eu_shoe_size__17_5_medium:
+      # EU shoe size
+      name: 17.5 Medium
+    eu_shoe_size__17_5_narrow:
+      # EU shoe size
+      name: 17.5 Narrow
+    eu_shoe_size__17_5_standard:
+      # EU shoe size
+      name: 17.5 Standard
+    eu_shoe_size__17_5_wide:
+      # EU shoe size
+      name: 17.5 Wide
+    eu_shoe_size__17_extra_wide:
+      # EU shoe size
+      name: 17 Extra Wide
+    eu_shoe_size__17_medium:
+      # EU shoe size
+      name: 17 Medium
+    eu_shoe_size__17_narrow:
+      # EU shoe size
+      name: 17 Narrow
+    eu_shoe_size__17_standard:
+      # EU shoe size
+      name: 17 Standard
+    eu_shoe_size__17_wide:
+      # EU shoe size
+      name: 17 Wide
+    eu_shoe_size__18:
+      # EU shoe size
+      name: '18'
+    eu_shoe_size__18_5:
+      # EU shoe size
+      name: '18.5'
+    eu_shoe_size__18_5_extra_wide:
+      # EU shoe size
+      name: 18.5 Extra Wide
+    eu_shoe_size__18_5_medium:
+      # EU shoe size
+      name: 18.5 Medium
+    eu_shoe_size__18_5_narrow:
+      # EU shoe size
+      name: 18.5 Narrow
+    eu_shoe_size__18_5_standard:
+      # EU shoe size
+      name: 18.5 Standard
+    eu_shoe_size__18_5_wide:
+      # EU shoe size
+      name: 18.5 Wide
+    eu_shoe_size__18_extra_wide:
+      # EU shoe size
+      name: 18 Extra Wide
+    eu_shoe_size__18_medium:
+      # EU shoe size
+      name: 18 Medium
+    eu_shoe_size__18_narrow:
+      # EU shoe size
+      name: 18 Narrow
+    eu_shoe_size__18_standard:
+      # EU shoe size
+      name: 18 Standard
+    eu_shoe_size__18_wide:
+      # EU shoe size
+      name: 18 Wide
+    eu_shoe_size__19:
+      # EU shoe size
+      name: '19'
+    eu_shoe_size__19_5:
+      # EU shoe size
+      name: '19.5'
+    eu_shoe_size__19_5_extra_wide:
+      # EU shoe size
+      name: 19.5 Extra Wide
+    eu_shoe_size__19_5_medium:
+      # EU shoe size
+      name: 19.5 Medium
+    eu_shoe_size__19_5_narrow:
+      # EU shoe size
+      name: 19.5 Narrow
+    eu_shoe_size__19_5_standard:
+      # EU shoe size
+      name: 19.5 Standard
+    eu_shoe_size__19_5_wide:
+      # EU shoe size
+      name: 19.5 Wide
+    eu_shoe_size__19_extra_wide:
+      # EU shoe size
+      name: 19 Extra Wide
+    eu_shoe_size__19_medium:
+      # EU shoe size
+      name: 19 Medium
+    eu_shoe_size__19_narrow:
+      # EU shoe size
+      name: 19 Narrow
+    eu_shoe_size__19_standard:
+      # EU shoe size
+      name: 19 Standard
+    eu_shoe_size__19_wide:
+      # EU shoe size
+      name: 19 Wide
+    eu_shoe_size__20:
+      # EU shoe size
+      name: '20'
+    eu_shoe_size__20_5:
+      # EU shoe size
+      name: '20.5'
+    eu_shoe_size__20_5_extra_wide:
+      # EU shoe size
+      name: 20.5 Extra Wide
+    eu_shoe_size__20_5_medium:
+      # EU shoe size
+      name: 20.5 Medium
+    eu_shoe_size__20_5_narrow:
+      # EU shoe size
+      name: 20.5 Narrow
+    eu_shoe_size__20_5_standard:
+      # EU shoe size
+      name: 20.5 Standard
+    eu_shoe_size__20_5_wide:
+      # EU shoe size
+      name: 20.5 Wide
+    eu_shoe_size__20_extra_wide:
+      # EU shoe size
+      name: 20 Extra Wide
+    eu_shoe_size__20_medium:
+      # EU shoe size
+      name: 20 Medium
+    eu_shoe_size__20_narrow:
+      # EU shoe size
+      name: 20 Narrow
+    eu_shoe_size__20_standard:
+      # EU shoe size
+      name: 20 Standard
+    eu_shoe_size__20_wide:
+      # EU shoe size
+      name: 20 Wide
+    eu_shoe_size__21:
+      # EU shoe size
+      name: '21'
+    eu_shoe_size__21_5:
+      # EU shoe size
+      name: '21.5'
+    eu_shoe_size__21_5_extra_wide:
+      # EU shoe size
+      name: 21.5 Extra Wide
+    eu_shoe_size__21_5_medium:
+      # EU shoe size
+      name: 21.5 Medium
+    eu_shoe_size__21_5_narrow:
+      # EU shoe size
+      name: 21.5 Narrow
+    eu_shoe_size__21_5_standard:
+      # EU shoe size
+      name: 21.5 Standard
+    eu_shoe_size__21_5_wide:
+      # EU shoe size
+      name: 21.5 Wide
+    eu_shoe_size__21_extra_wide:
+      # EU shoe size
+      name: 21 Extra Wide
+    eu_shoe_size__21_medium:
+      # EU shoe size
+      name: 21 Medium
+    eu_shoe_size__21_narrow:
+      # EU shoe size
+      name: 21 Narrow
+    eu_shoe_size__21_standard:
+      # EU shoe size
+      name: 21 Standard
+    eu_shoe_size__21_wide:
+      # EU shoe size
+      name: 21 Wide
+    eu_shoe_size__22:
+      # EU shoe size
+      name: '22'
+    eu_shoe_size__22_5:
+      # EU shoe size
+      name: '22.5'
+    eu_shoe_size__22_5_extra_wide:
+      # EU shoe size
+      name: 22.5 Extra Wide
+    eu_shoe_size__22_5_medium:
+      # EU shoe size
+      name: 22.5 Medium
+    eu_shoe_size__22_5_narrow:
+      # EU shoe size
+      name: 22.5 Narrow
+    eu_shoe_size__22_5_standard:
+      # EU shoe size
+      name: 22.5 Standard
+    eu_shoe_size__22_5_wide:
+      # EU shoe size
+      name: 22.5 Wide
+    eu_shoe_size__22_extra_wide:
+      # EU shoe size
+      name: 22 Extra Wide
+    eu_shoe_size__22_medium:
+      # EU shoe size
+      name: 22 Medium
+    eu_shoe_size__22_narrow:
+      # EU shoe size
+      name: 22 Narrow
+    eu_shoe_size__22_standard:
+      # EU shoe size
+      name: 22 Standard
+    eu_shoe_size__22_wide:
+      # EU shoe size
+      name: 22 Wide
+    eu_shoe_size__23:
+      # EU shoe size
+      name: '23'
+    eu_shoe_size__23_5:
+      # EU shoe size
+      name: '23.5'
+    eu_shoe_size__23_5_extra_wide:
+      # EU shoe size
+      name: 23.5 Extra Wide
+    eu_shoe_size__23_5_medium:
+      # EU shoe size
+      name: 23.5 Medium
+    eu_shoe_size__23_5_narrow:
+      # EU shoe size
+      name: 23.5 Narrow
+    eu_shoe_size__23_5_standard:
+      # EU shoe size
+      name: 23.5 Standard
+    eu_shoe_size__23_5_wide:
+      # EU shoe size
+      name: 23.5 Wide
+    eu_shoe_size__23_extra_wide:
+      # EU shoe size
+      name: 23 Extra Wide
+    eu_shoe_size__23_medium:
+      # EU shoe size
+      name: 23 Medium
+    eu_shoe_size__23_narrow:
+      # EU shoe size
+      name: 23 Narrow
+    eu_shoe_size__23_standard:
+      # EU shoe size
+      name: 23 Standard
+    eu_shoe_size__23_wide:
+      # EU shoe size
+      name: 23 Wide
+    eu_shoe_size__24:
+      # EU shoe size
+      name: '24'
+    eu_shoe_size__24_5:
+      # EU shoe size
+      name: '24.5'
+    eu_shoe_size__24_5_extra_wide:
+      # EU shoe size
+      name: 24.5 Extra Wide
+    eu_shoe_size__24_5_medium:
+      # EU shoe size
+      name: 24.5 Medium
+    eu_shoe_size__24_5_narrow:
+      # EU shoe size
+      name: 24.5 Narrow
+    eu_shoe_size__24_5_standard:
+      # EU shoe size
+      name: 24.5 Standard
+    eu_shoe_size__24_5_wide:
+      # EU shoe size
+      name: 24.5 Wide
+    eu_shoe_size__24_extra_wide:
+      # EU shoe size
+      name: 24 Extra Wide
+    eu_shoe_size__24_medium:
+      # EU shoe size
+      name: 24 Medium
+    eu_shoe_size__24_narrow:
+      # EU shoe size
+      name: 24 Narrow
+    eu_shoe_size__24_standard:
+      # EU shoe size
+      name: 24 Standard
+    eu_shoe_size__24_wide:
+      # EU shoe size
+      name: 24 Wide
+    eu_shoe_size__25:
+      # EU shoe size
+      name: '25'
+    eu_shoe_size__25_5:
+      # EU shoe size
+      name: '25.5'
+    eu_shoe_size__25_5_extra_wide:
+      # EU shoe size
+      name: 25.5 Extra Wide
+    eu_shoe_size__25_5_medium:
+      # EU shoe size
+      name: 25.5 Medium
+    eu_shoe_size__25_5_narrow:
+      # EU shoe size
+      name: 25.5 Narrow
+    eu_shoe_size__25_5_standard:
+      # EU shoe size
+      name: 25.5 Standard
+    eu_shoe_size__25_5_wide:
+      # EU shoe size
+      name: 25.5 Wide
+    eu_shoe_size__25_extra_wide:
+      # EU shoe size
+      name: 25 Extra Wide
+    eu_shoe_size__25_medium:
+      # EU shoe size
+      name: 25 Medium
+    eu_shoe_size__25_narrow:
+      # EU shoe size
+      name: 25 Narrow
+    eu_shoe_size__25_standard:
+      # EU shoe size
+      name: 25 Standard
+    eu_shoe_size__25_wide:
+      # EU shoe size
+      name: 25 Wide
+    eu_shoe_size__26:
+      # EU shoe size
+      name: '26'
+    eu_shoe_size__26_5:
+      # EU shoe size
+      name: '26.5'
+    eu_shoe_size__26_5_extra_wide:
+      # EU shoe size
+      name: 26.5 Extra Wide
+    eu_shoe_size__26_5_medium:
+      # EU shoe size
+      name: 26.5 Medium
+    eu_shoe_size__26_5_narrow:
+      # EU shoe size
+      name: 26.5 Narrow
+    eu_shoe_size__26_5_standard:
+      # EU shoe size
+      name: 26.5 Standard
+    eu_shoe_size__26_5_wide:
+      # EU shoe size
+      name: 26.5 Wide
+    eu_shoe_size__26_extra_wide:
+      # EU shoe size
+      name: 26 Extra Wide
+    eu_shoe_size__26_medium:
+      # EU shoe size
+      name: 26 Medium
+    eu_shoe_size__26_narrow:
+      # EU shoe size
+      name: 26 Narrow
+    eu_shoe_size__26_standard:
+      # EU shoe size
+      name: 26 Standard
+    eu_shoe_size__26_wide:
+      # EU shoe size
+      name: 26 Wide
+    eu_shoe_size__27:
+      # EU shoe size
+      name: '27'
+    eu_shoe_size__27_5:
+      # EU shoe size
+      name: '27.5'
+    eu_shoe_size__27_5_extra_wide:
+      # EU shoe size
+      name: 27.5 Extra Wide
+    eu_shoe_size__27_5_medium:
+      # EU shoe size
+      name: 27.5 Medium
+    eu_shoe_size__27_5_narrow:
+      # EU shoe size
+      name: 27.5 Narrow
+    eu_shoe_size__27_5_standard:
+      # EU shoe size
+      name: 27.5 Standard
+    eu_shoe_size__27_5_wide:
+      # EU shoe size
+      name: 27.5 Wide
+    eu_shoe_size__27_extra_wide:
+      # EU shoe size
+      name: 27 Extra Wide
+    eu_shoe_size__27_medium:
+      # EU shoe size
+      name: 27 Medium
+    eu_shoe_size__27_narrow:
+      # EU shoe size
+      name: 27 Narrow
+    eu_shoe_size__27_standard:
+      # EU shoe size
+      name: 27 Standard
+    eu_shoe_size__27_wide:
+      # EU shoe size
+      name: 27 Wide
+    eu_shoe_size__28:
+      # EU shoe size
+      name: '28'
+    eu_shoe_size__28_5:
+      # EU shoe size
+      name: '28.5'
+    eu_shoe_size__28_5_extra_wide:
+      # EU shoe size
+      name: 28.5 Extra Wide
+    eu_shoe_size__28_5_medium:
+      # EU shoe size
+      name: 28.5 Medium
+    eu_shoe_size__28_5_narrow:
+      # EU shoe size
+      name: 28.5 Narrow
+    eu_shoe_size__28_5_standard:
+      # EU shoe size
+      name: 28.5 Standard
+    eu_shoe_size__28_5_wide:
+      # EU shoe size
+      name: 28.5 Wide
+    eu_shoe_size__28_extra_wide:
+      # EU shoe size
+      name: 28 Extra Wide
+    eu_shoe_size__28_medium:
+      # EU shoe size
+      name: 28 Medium
+    eu_shoe_size__28_narrow:
+      # EU shoe size
+      name: 28 Narrow
+    eu_shoe_size__28_standard:
+      # EU shoe size
+      name: 28 Standard
+    eu_shoe_size__28_wide:
+      # EU shoe size
+      name: 28 Wide
+    eu_shoe_size__29:
+      # EU shoe size
+      name: '29'
+    eu_shoe_size__29_5:
+      # EU shoe size
+      name: '29.5'
+    eu_shoe_size__29_5_extra_wide:
+      # EU shoe size
+      name: 29.5 Extra Wide
+    eu_shoe_size__29_5_medium:
+      # EU shoe size
+      name: 29.5 Medium
+    eu_shoe_size__29_5_narrow:
+      # EU shoe size
+      name: 29.5 Narrow
+    eu_shoe_size__29_5_standard:
+      # EU shoe size
+      name: 29.5 Standard
+    eu_shoe_size__29_5_wide:
+      # EU shoe size
+      name: 29.5 Wide
+    eu_shoe_size__29_extra_wide:
+      # EU shoe size
+      name: 29 Extra Wide
+    eu_shoe_size__29_medium:
+      # EU shoe size
+      name: 29 Medium
+    eu_shoe_size__29_narrow:
+      # EU shoe size
+      name: 29 Narrow
+    eu_shoe_size__29_standard:
+      # EU shoe size
+      name: 29 Standard
+    eu_shoe_size__29_wide:
+      # EU shoe size
+      name: 29 Wide
+    eu_shoe_size__30:
+      # EU shoe size
+      name: '30'
+    eu_shoe_size__30_5:
+      # EU shoe size
+      name: '30.5'
+    eu_shoe_size__30_5_extra_wide:
+      # EU shoe size
+      name: 30.5 Extra Wide
+    eu_shoe_size__30_5_medium:
+      # EU shoe size
+      name: 30.5 Medium
+    eu_shoe_size__30_5_narrow:
+      # EU shoe size
+      name: 30.5 Narrow
+    eu_shoe_size__30_5_standard:
+      # EU shoe size
+      name: 30.5 Standard
+    eu_shoe_size__30_5_wide:
+      # EU shoe size
+      name: 30.5 Wide
+    eu_shoe_size__30_extra_wide:
+      # EU shoe size
+      name: 30 Extra Wide
+    eu_shoe_size__30_medium:
+      # EU shoe size
+      name: 30 Medium
+    eu_shoe_size__30_narrow:
+      # EU shoe size
+      name: 30 Narrow
+    eu_shoe_size__30_standard:
+      # EU shoe size
+      name: 30 Standard
+    eu_shoe_size__30_wide:
+      # EU shoe size
+      name: 30 Wide
+    eu_shoe_size__31:
+      # EU shoe size
+      name: '31'
+    eu_shoe_size__31_5:
+      # EU shoe size
+      name: '31.5'
+    eu_shoe_size__31_5_extra_wide:
+      # EU shoe size
+      name: 31.5 Extra Wide
+    eu_shoe_size__31_5_medium:
+      # EU shoe size
+      name: 31.5 Medium
+    eu_shoe_size__31_5_narrow:
+      # EU shoe size
+      name: 31.5 Narrow
+    eu_shoe_size__31_5_standard:
+      # EU shoe size
+      name: 31.5 Standard
+    eu_shoe_size__31_5_wide:
+      # EU shoe size
+      name: 31.5 Wide
+    eu_shoe_size__31_extra_wide:
+      # EU shoe size
+      name: 31 Extra Wide
+    eu_shoe_size__31_medium:
+      # EU shoe size
+      name: 31 Medium
+    eu_shoe_size__31_narrow:
+      # EU shoe size
+      name: 31 Narrow
+    eu_shoe_size__31_standard:
+      # EU shoe size
+      name: 31 Standard
+    eu_shoe_size__31_wide:
+      # EU shoe size
+      name: 31 Wide
+    eu_shoe_size__32:
+      # EU shoe size
+      name: '32'
+    eu_shoe_size__32_5:
+      # EU shoe size
+      name: '32.5'
+    eu_shoe_size__32_5_extra_wide:
+      # EU shoe size
+      name: 32.5 Extra Wide
+    eu_shoe_size__32_5_medium:
+      # EU shoe size
+      name: 32.5 Medium
+    eu_shoe_size__32_5_narrow:
+      # EU shoe size
+      name: 32.5 Narrow
+    eu_shoe_size__32_5_standard:
+      # EU shoe size
+      name: 32.5 Standard
+    eu_shoe_size__32_5_wide:
+      # EU shoe size
+      name: 32.5 Wide
+    eu_shoe_size__32_extra_wide:
+      # EU shoe size
+      name: 32 Extra Wide
+    eu_shoe_size__32_medium:
+      # EU shoe size
+      name: 32 Medium
+    eu_shoe_size__32_narrow:
+      # EU shoe size
+      name: 32 Narrow
+    eu_shoe_size__32_standard:
+      # EU shoe size
+      name: 32 Standard
+    eu_shoe_size__32_wide:
+      # EU shoe size
+      name: 32 Wide
+    eu_shoe_size__33:
+      # EU shoe size
+      name: '33'
+    eu_shoe_size__33_5:
+      # EU shoe size
+      name: '33.5'
+    eu_shoe_size__33_5_extra_wide:
+      # EU shoe size
+      name: 33.5 Extra Wide
+    eu_shoe_size__33_5_medium:
+      # EU shoe size
+      name: 33.5 Medium
+    eu_shoe_size__33_5_narrow:
+      # EU shoe size
+      name: 33.5 Narrow
+    eu_shoe_size__33_5_standard:
+      # EU shoe size
+      name: 33.5 Standard
+    eu_shoe_size__33_5_wide:
+      # EU shoe size
+      name: 33.5 Wide
+    eu_shoe_size__33_extra_wide:
+      # EU shoe size
+      name: 33 Extra Wide
+    eu_shoe_size__33_medium:
+      # EU shoe size
+      name: 33 Medium
+    eu_shoe_size__33_narrow:
+      # EU shoe size
+      name: 33 Narrow
+    eu_shoe_size__33_standard:
+      # EU shoe size
+      name: 33 Standard
+    eu_shoe_size__33_wide:
+      # EU shoe size
+      name: 33 Wide
+    eu_shoe_size__34:
+      # EU shoe size
+      name: '34'
+    eu_shoe_size__34_5:
+      # EU shoe size
+      name: '34.5'
+    eu_shoe_size__34_5_extra_wide:
+      # EU shoe size
+      name: 34.5 Extra Wide
+    eu_shoe_size__34_5_medium:
+      # EU shoe size
+      name: 34.5 Medium
+    eu_shoe_size__34_5_narrow:
+      # EU shoe size
+      name: 34.5 Narrow
+    eu_shoe_size__34_5_standard:
+      # EU shoe size
+      name: 34.5 Standard
+    eu_shoe_size__34_5_wide:
+      # EU shoe size
+      name: 34.5 Wide
+    eu_shoe_size__34_extra_wide:
+      # EU shoe size
+      name: 34 Extra Wide
+    eu_shoe_size__34_medium:
+      # EU shoe size
+      name: 34 Medium
+    eu_shoe_size__34_narrow:
+      # EU shoe size
+      name: 34 Narrow
+    eu_shoe_size__34_standard:
+      # EU shoe size
+      name: 34 Standard
+    eu_shoe_size__34_wide:
+      # EU shoe size
+      name: 34 Wide
+    eu_shoe_size__35:
+      # EU shoe size
+      name: '35'
+    eu_shoe_size__35_5:
+      # EU shoe size
+      name: '35.5'
+    eu_shoe_size__35_5_extra_wide:
+      # EU shoe size
+      name: 35.5 Extra Wide
+    eu_shoe_size__35_5_medium:
+      # EU shoe size
+      name: 35.5 Medium
+    eu_shoe_size__35_5_narrow:
+      # EU shoe size
+      name: 35.5 Narrow
+    eu_shoe_size__35_5_standard:
+      # EU shoe size
+      name: 35.5 Standard
+    eu_shoe_size__35_5_wide:
+      # EU shoe size
+      name: 35.5 Wide
+    eu_shoe_size__35_extra_wide:
+      # EU shoe size
+      name: 35 Extra Wide
+    eu_shoe_size__35_medium:
+      # EU shoe size
+      name: 35 Medium
+    eu_shoe_size__35_narrow:
+      # EU shoe size
+      name: 35 Narrow
+    eu_shoe_size__35_standard:
+      # EU shoe size
+      name: 35 Standard
+    eu_shoe_size__35_wide:
+      # EU shoe size
+      name: 35 Wide
+    eu_shoe_size__36:
+      # EU shoe size
+      name: '36'
+    eu_shoe_size__36_5:
+      # EU shoe size
+      name: '36.5'
+    eu_shoe_size__36_5_extra_wide:
+      # EU shoe size
+      name: 36.5 Extra Wide
+    eu_shoe_size__36_5_medium:
+      # EU shoe size
+      name: 36.5 Medium
+    eu_shoe_size__36_5_narrow:
+      # EU shoe size
+      name: 36.5 Narrow
+    eu_shoe_size__36_5_standard:
+      # EU shoe size
+      name: 36.5 Standard
+    eu_shoe_size__36_5_wide:
+      # EU shoe size
+      name: 36.5 Wide
+    eu_shoe_size__36_extra_wide:
+      # EU shoe size
+      name: 36 Extra Wide
+    eu_shoe_size__36_medium:
+      # EU shoe size
+      name: 36 Medium
+    eu_shoe_size__36_narrow:
+      # EU shoe size
+      name: 36 Narrow
+    eu_shoe_size__36_standard:
+      # EU shoe size
+      name: 36 Standard
+    eu_shoe_size__36_wide:
+      # EU shoe size
+      name: 36 Wide
+    eu_shoe_size__37:
+      # EU shoe size
+      name: '37'
+    eu_shoe_size__37_5:
+      # EU shoe size
+      name: '37.5'
+    eu_shoe_size__37_5_extra_wide:
+      # EU shoe size
+      name: 37.5 Extra Wide
+    eu_shoe_size__37_5_medium:
+      # EU shoe size
+      name: 37.5 Medium
+    eu_shoe_size__37_5_narrow:
+      # EU shoe size
+      name: 37.5 Narrow
+    eu_shoe_size__37_5_standard:
+      # EU shoe size
+      name: 37.5 Standard
+    eu_shoe_size__37_5_wide:
+      # EU shoe size
+      name: 37.5 Wide
+    eu_shoe_size__37_extra_wide:
+      # EU shoe size
+      name: 37 Extra Wide
+    eu_shoe_size__37_medium:
+      # EU shoe size
+      name: 37 Medium
+    eu_shoe_size__37_narrow:
+      # EU shoe size
+      name: 37 Narrow
+    eu_shoe_size__37_standard:
+      # EU shoe size
+      name: 37 Standard
+    eu_shoe_size__37_wide:
+      # EU shoe size
+      name: 37 Wide
+    eu_shoe_size__38:
+      # EU shoe size
+      name: '38'
+    eu_shoe_size__38_5:
+      # EU shoe size
+      name: '38.5'
+    eu_shoe_size__38_5_extra_wide:
+      # EU shoe size
+      name: 38.5 Extra Wide
+    eu_shoe_size__38_5_medium:
+      # EU shoe size
+      name: 38.5 Medium
+    eu_shoe_size__38_5_narrow:
+      # EU shoe size
+      name: 38.5 Narrow
+    eu_shoe_size__38_5_standard:
+      # EU shoe size
+      name: 38.5 Standard
+    eu_shoe_size__38_5_wide:
+      # EU shoe size
+      name: 38.5 Wide
+    eu_shoe_size__38_extra_wide:
+      # EU shoe size
+      name: 38 Extra Wide
+    eu_shoe_size__38_medium:
+      # EU shoe size
+      name: 38 Medium
+    eu_shoe_size__38_narrow:
+      # EU shoe size
+      name: 38 Narrow
+    eu_shoe_size__38_standard:
+      # EU shoe size
+      name: 38 Standard
+    eu_shoe_size__38_wide:
+      # EU shoe size
+      name: 38 Wide
+    eu_shoe_size__39:
+      # EU shoe size
+      name: '39'
+    eu_shoe_size__39_5:
+      # EU shoe size
+      name: '39.5'
+    eu_shoe_size__39_5_extra_wide:
+      # EU shoe size
+      name: 39.5 Extra Wide
+    eu_shoe_size__39_5_medium:
+      # EU shoe size
+      name: 39.5 Medium
+    eu_shoe_size__39_5_narrow:
+      # EU shoe size
+      name: 39.5 Narrow
+    eu_shoe_size__39_5_standard:
+      # EU shoe size
+      name: 39.5 Standard
+    eu_shoe_size__39_5_wide:
+      # EU shoe size
+      name: 39.5 Wide
+    eu_shoe_size__39_extra_wide:
+      # EU shoe size
+      name: 39 Extra Wide
+    eu_shoe_size__39_medium:
+      # EU shoe size
+      name: 39 Medium
+    eu_shoe_size__39_narrow:
+      # EU shoe size
+      name: 39 Narrow
+    eu_shoe_size__39_standard:
+      # EU shoe size
+      name: 39 Standard
+    eu_shoe_size__39_wide:
+      # EU shoe size
+      name: 39 Wide
+    eu_shoe_size__40:
+      # EU shoe size
+      name: '40'
+    eu_shoe_size__40_5:
+      # EU shoe size
+      name: '40.5'
+    eu_shoe_size__40_5_extra_wide:
+      # EU shoe size
+      name: 40.5 Extra Wide
+    eu_shoe_size__40_5_medium:
+      # EU shoe size
+      name: 40.5 Medium
+    eu_shoe_size__40_5_narrow:
+      # EU shoe size
+      name: 40.5 Narrow
+    eu_shoe_size__40_5_standard:
+      # EU shoe size
+      name: 40.5 Standard
+    eu_shoe_size__40_5_wide:
+      # EU shoe size
+      name: 40.5 Wide
+    eu_shoe_size__40_extra_wide:
+      # EU shoe size
+      name: 40 Extra Wide
+    eu_shoe_size__40_medium:
+      # EU shoe size
+      name: 40 Medium
+    eu_shoe_size__40_narrow:
+      # EU shoe size
+      name: 40 Narrow
+    eu_shoe_size__40_standard:
+      # EU shoe size
+      name: 40 Standard
+    eu_shoe_size__40_wide:
+      # EU shoe size
+      name: 40 Wide
+    eu_shoe_size__41:
+      # EU shoe size
+      name: '41'
+    eu_shoe_size__41_5:
+      # EU shoe size
+      name: '41.5'
+    eu_shoe_size__41_5_extra_wide:
+      # EU shoe size
+      name: 41.5 Extra Wide
+    eu_shoe_size__41_5_medium:
+      # EU shoe size
+      name: 41.5 Medium
+    eu_shoe_size__41_5_narrow:
+      # EU shoe size
+      name: 41.5 Narrow
+    eu_shoe_size__41_5_standard:
+      # EU shoe size
+      name: 41.5 Standard
+    eu_shoe_size__41_5_wide:
+      # EU shoe size
+      name: 41.5 Wide
+    eu_shoe_size__41_extra_wide:
+      # EU shoe size
+      name: 41 Extra Wide
+    eu_shoe_size__41_medium:
+      # EU shoe size
+      name: 41 Medium
+    eu_shoe_size__41_narrow:
+      # EU shoe size
+      name: 41 Narrow
+    eu_shoe_size__41_standard:
+      # EU shoe size
+      name: 41 Standard
+    eu_shoe_size__41_wide:
+      # EU shoe size
+      name: 41 Wide
+    eu_shoe_size__42:
+      # EU shoe size
+      name: '42'
+    eu_shoe_size__42_5:
+      # EU shoe size
+      name: '42.5'
+    eu_shoe_size__42_5_extra_wide:
+      # EU shoe size
+      name: 42.5 Extra Wide
+    eu_shoe_size__42_5_medium:
+      # EU shoe size
+      name: 42.5 Medium
+    eu_shoe_size__42_5_narrow:
+      # EU shoe size
+      name: 42.5 Narrow
+    eu_shoe_size__42_5_standard:
+      # EU shoe size
+      name: 42.5 Standard
+    eu_shoe_size__42_5_wide:
+      # EU shoe size
+      name: 42.5 Wide
+    eu_shoe_size__42_extra_wide:
+      # EU shoe size
+      name: 42 Extra Wide
+    eu_shoe_size__42_medium:
+      # EU shoe size
+      name: 42 Medium
+    eu_shoe_size__42_narrow:
+      # EU shoe size
+      name: 42 Narrow
+    eu_shoe_size__42_standard:
+      # EU shoe size
+      name: 42 Standard
+    eu_shoe_size__42_wide:
+      # EU shoe size
+      name: 42 Wide
+    eu_shoe_size__43:
+      # EU shoe size
+      name: '43'
+    eu_shoe_size__43_5:
+      # EU shoe size
+      name: '43.5'
+    eu_shoe_size__43_5_extra_wide:
+      # EU shoe size
+      name: 43.5 Extra Wide
+    eu_shoe_size__43_5_medium:
+      # EU shoe size
+      name: 43.5 Medium
+    eu_shoe_size__43_5_narrow:
+      # EU shoe size
+      name: 43.5 Narrow
+    eu_shoe_size__43_5_standard:
+      # EU shoe size
+      name: 43.5 Standard
+    eu_shoe_size__43_5_wide:
+      # EU shoe size
+      name: 43.5 Wide
+    eu_shoe_size__43_extra_wide:
+      # EU shoe size
+      name: 43 Extra Wide
+    eu_shoe_size__43_medium:
+      # EU shoe size
+      name: 43 Medium
+    eu_shoe_size__43_narrow:
+      # EU shoe size
+      name: 43 Narrow
+    eu_shoe_size__43_standard:
+      # EU shoe size
+      name: 43 Standard
+    eu_shoe_size__43_wide:
+      # EU shoe size
+      name: 43 Wide
+    eu_shoe_size__44:
+      # EU shoe size
+      name: '44'
+    eu_shoe_size__44_5:
+      # EU shoe size
+      name: '44.5'
+    eu_shoe_size__44_5_extra_wide:
+      # EU shoe size
+      name: 44.5 Extra Wide
+    eu_shoe_size__44_5_medium:
+      # EU shoe size
+      name: 44.5 Medium
+    eu_shoe_size__44_5_narrow:
+      # EU shoe size
+      name: 44.5 Narrow
+    eu_shoe_size__44_5_standard:
+      # EU shoe size
+      name: 44.5 Standard
+    eu_shoe_size__44_5_wide:
+      # EU shoe size
+      name: 44.5 Wide
+    eu_shoe_size__44_extra_wide:
+      # EU shoe size
+      name: 44 Extra Wide
+    eu_shoe_size__44_medium:
+      # EU shoe size
+      name: 44 Medium
+    eu_shoe_size__44_narrow:
+      # EU shoe size
+      name: 44 Narrow
+    eu_shoe_size__44_standard:
+      # EU shoe size
+      name: 44 Standard
+    eu_shoe_size__44_wide:
+      # EU shoe size
+      name: 44 Wide
+    eu_shoe_size__45:
+      # EU shoe size
+      name: '45'
+    eu_shoe_size__45_5:
+      # EU shoe size
+      name: '45.5'
+    eu_shoe_size__45_5_extra_wide:
+      # EU shoe size
+      name: 45.5 Extra Wide
+    eu_shoe_size__45_5_medium:
+      # EU shoe size
+      name: 45.5 Medium
+    eu_shoe_size__45_5_narrow:
+      # EU shoe size
+      name: 45.5 Narrow
+    eu_shoe_size__45_5_standard:
+      # EU shoe size
+      name: 45.5 Standard
+    eu_shoe_size__45_5_wide:
+      # EU shoe size
+      name: 45.5 Wide
+    eu_shoe_size__45_extra_wide:
+      # EU shoe size
+      name: 45 Extra Wide
+    eu_shoe_size__45_medium:
+      # EU shoe size
+      name: 45 Medium
+    eu_shoe_size__45_narrow:
+      # EU shoe size
+      name: 45 Narrow
+    eu_shoe_size__45_standard:
+      # EU shoe size
+      name: 45 Standard
+    eu_shoe_size__45_wide:
+      # EU shoe size
+      name: 45 Wide
+    eu_shoe_size__46:
+      # EU shoe size
+      name: '46'
+    eu_shoe_size__46_5:
+      # EU shoe size
+      name: '46.5'
+    eu_shoe_size__46_5_extra_wide:
+      # EU shoe size
+      name: 46.5 Extra Wide
+    eu_shoe_size__46_5_medium:
+      # EU shoe size
+      name: 46.5 Medium
+    eu_shoe_size__46_5_narrow:
+      # EU shoe size
+      name: 46.5 Narrow
+    eu_shoe_size__46_5_standard:
+      # EU shoe size
+      name: 46.5 Standard
+    eu_shoe_size__46_5_wide:
+      # EU shoe size
+      name: 46.5 Wide
+    eu_shoe_size__46_extra_wide:
+      # EU shoe size
+      name: 46 Extra Wide
+    eu_shoe_size__46_medium:
+      # EU shoe size
+      name: 46 Medium
+    eu_shoe_size__46_narrow:
+      # EU shoe size
+      name: 46 Narrow
+    eu_shoe_size__46_standard:
+      # EU shoe size
+      name: 46 Standard
+    eu_shoe_size__46_wide:
+      # EU shoe size
+      name: 46 Wide
+    eu_shoe_size__47:
+      # EU shoe size
+      name: '47'
+    eu_shoe_size__47_5:
+      # EU shoe size
+      name: '47.5'
+    eu_shoe_size__47_5_extra_wide:
+      # EU shoe size
+      name: 47.5 Extra Wide
+    eu_shoe_size__47_5_medium:
+      # EU shoe size
+      name: 47.5 Medium
+    eu_shoe_size__47_5_narrow:
+      # EU shoe size
+      name: 47.5 Narrow
+    eu_shoe_size__47_5_standard:
+      # EU shoe size
+      name: 47.5 Standard
+    eu_shoe_size__47_5_wide:
+      # EU shoe size
+      name: 47.5 Wide
+    eu_shoe_size__47_extra_wide:
+      # EU shoe size
+      name: 47 Extra Wide
+    eu_shoe_size__47_medium:
+      # EU shoe size
+      name: 47 Medium
+    eu_shoe_size__47_narrow:
+      # EU shoe size
+      name: 47 Narrow
+    eu_shoe_size__47_standard:
+      # EU shoe size
+      name: 47 Standard
+    eu_shoe_size__47_wide:
+      # EU shoe size
+      name: 47 Wide
+    eu_shoe_size__48:
+      # EU shoe size
+      name: '48'
+    eu_shoe_size__48_5:
+      # EU shoe size
+      name: '48.5'
+    eu_shoe_size__48_5_extra_wide:
+      # EU shoe size
+      name: 48.5 Extra Wide
+    eu_shoe_size__48_5_medium:
+      # EU shoe size
+      name: 48.5 Medium
+    eu_shoe_size__48_5_narrow:
+      # EU shoe size
+      name: 48.5 Narrow
+    eu_shoe_size__48_5_standard:
+      # EU shoe size
+      name: 48.5 Standard
+    eu_shoe_size__48_5_wide:
+      # EU shoe size
+      name: 48.5 Wide
+    eu_shoe_size__48_extra_wide:
+      # EU shoe size
+      name: 48 Extra Wide
+    eu_shoe_size__48_medium:
+      # EU shoe size
+      name: 48 Medium
+    eu_shoe_size__48_narrow:
+      # EU shoe size
+      name: 48 Narrow
+    eu_shoe_size__48_standard:
+      # EU shoe size
+      name: 48 Standard
+    eu_shoe_size__48_wide:
+      # EU shoe size
+      name: 48 Wide
+    eu_shoe_size__49:
+      # EU shoe size
+      name: '49'
+    eu_shoe_size__49_5:
+      # EU shoe size
+      name: '49.5'
+    eu_shoe_size__49_5_extra_wide:
+      # EU shoe size
+      name: 49.5 Extra Wide
+    eu_shoe_size__49_5_medium:
+      # EU shoe size
+      name: 49.5 Medium
+    eu_shoe_size__49_5_narrow:
+      # EU shoe size
+      name: 49.5 Narrow
+    eu_shoe_size__49_5_standard:
+      # EU shoe size
+      name: 49.5 Standard
+    eu_shoe_size__49_5_wide:
+      # EU shoe size
+      name: 49.5 Wide
+    eu_shoe_size__49_extra_wide:
+      # EU shoe size
+      name: 49 Extra Wide
+    eu_shoe_size__49_medium:
+      # EU shoe size
+      name: 49 Medium
+    eu_shoe_size__49_narrow:
+      # EU shoe size
+      name: 49 Narrow
+    eu_shoe_size__49_standard:
+      # EU shoe size
+      name: 49 Standard
+    eu_shoe_size__49_wide:
+      # EU shoe size
+      name: 49 Wide
+    eu_shoe_size__50:
+      # EU shoe size
+      name: '50'
+    eu_shoe_size__50_5:
+      # EU shoe size
+      name: '50.5'
+    eu_shoe_size__50_5_extra_wide:
+      # EU shoe size
+      name: 50.5 Extra Wide
+    eu_shoe_size__50_5_medium:
+      # EU shoe size
+      name: 50.5 Medium
+    eu_shoe_size__50_5_narrow:
+      # EU shoe size
+      name: 50.5 Narrow
+    eu_shoe_size__50_5_standard:
+      # EU shoe size
+      name: 50.5 Standard
+    eu_shoe_size__50_5_wide:
+      # EU shoe size
+      name: 50.5 Wide
+    eu_shoe_size__50_extra_wide:
+      # EU shoe size
+      name: 50 Extra Wide
+    eu_shoe_size__50_medium:
+      # EU shoe size
+      name: 50 Medium
+    eu_shoe_size__50_narrow:
+      # EU shoe size
+      name: 50 Narrow
+    eu_shoe_size__50_standard:
+      # EU shoe size
+      name: 50 Standard
+    eu_shoe_size__50_wide:
+      # EU shoe size
+      name: 50 Wide
+    eu_shoe_size__51:
+      # EU shoe size
+      name: '51'
+    eu_shoe_size__51_5:
+      # EU shoe size
+      name: '51.5'
+    eu_shoe_size__51_5_extra_wide:
+      # EU shoe size
+      name: 51.5 Extra Wide
+    eu_shoe_size__51_5_medium:
+      # EU shoe size
+      name: 51.5 Medium
+    eu_shoe_size__51_5_narrow:
+      # EU shoe size
+      name: 51.5 Narrow
+    eu_shoe_size__51_5_standard:
+      # EU shoe size
+      name: 51.5 Standard
+    eu_shoe_size__51_5_wide:
+      # EU shoe size
+      name: 51.5 Wide
+    eu_shoe_size__51_extra_wide:
+      # EU shoe size
+      name: 51 Extra Wide
+    eu_shoe_size__51_medium:
+      # EU shoe size
+      name: 51 Medium
+    eu_shoe_size__51_narrow:
+      # EU shoe size
+      name: 51 Narrow
+    eu_shoe_size__51_standard:
+      # EU shoe size
+      name: 51 Standard
+    eu_shoe_size__51_wide:
+      # EU shoe size
+      name: 51 Wide
+    eu_shoe_size__52:
+      # EU shoe size
+      name: '52'
+    eu_shoe_size__52_extra_wide:
+      # EU shoe size
+      name: 52 Extra Wide
+    eu_shoe_size__52_medium:
+      # EU shoe size
+      name: 52 Medium
+    eu_shoe_size__52_narrow:
+      # EU shoe size
+      name: 52 Narrow
+    eu_shoe_size__52_standard:
+      # EU shoe size
+      name: 52 Standard
+    eu_shoe_size__52_wide:
+      # EU shoe size
+      name: 52 Wide
     ev_battery_features__battery_health_monitoring:
       # EV battery features
       name: Battery health monitoring
@@ -73373,84 +75014,162 @@ en:
     ring_size__a:
       # Ring size
       name: A
+    ring_size__a_1/2:
+      # Ring size
+      name: A 1/2
     ring_size__b:
       # Ring size
       name: B
+    ring_size__b_1/2:
+      # Ring size
+      name: B 1/2
     ring_size__c:
       # Ring size
       name: C
+    ring_size__c_1/2:
+      # Ring size
+      name: C 1/2
     ring_size__d:
       # Ring size
       name: D
+    ring_size__d_1/2:
+      # Ring size
+      name: D 1/2
     ring_size__e:
       # Ring size
       name: E
+    ring_size__e_1/2:
+      # Ring size
+      name: E 1/2
     ring_size__f:
       # Ring size
       name: F
+    ring_size__f_1/2:
+      # Ring size
+      name: F 1/2
     ring_size__g:
       # Ring size
       name: G
+    ring_size__g_1/2:
+      # Ring size
+      name: G 1/2
     ring_size__h:
       # Ring size
       name: H
+    ring_size__h_1/2:
+      # Ring size
+      name: H 1/2
     ring_size__i:
       # Ring size
       name: I
+    ring_size__i_1/2:
+      # Ring size
+      name: I 1/2
     ring_size__j:
       # Ring size
       name: J
+    ring_size__j_1/2:
+      # Ring size
+      name: J 1/2
     ring_size__k:
       # Ring size
       name: K
+    ring_size__k_1/2:
+      # Ring size
+      name: K 1/2
     ring_size__l:
       # Ring size
       name: L
+    ring_size__l_1/2:
+      # Ring size
+      name: L 1/2
     ring_size__m:
       # Ring size
       name: M
+    ring_size__m_1/2:
+      # Ring size
+      name: M 1/2
     ring_size__n:
       # Ring size
       name: "N"
+    ring_size__n_1/2:
+      # Ring size
+      name: N 1/2
     ring_size__o:
       # Ring size
       name: O
+    ring_size__o_1/2:
+      # Ring size
+      name: O 1/2
     ring_size__other:
       # Ring size
       name: Other
     ring_size__p:
       # Ring size
       name: P
+    ring_size__p_1/2:
+      # Ring size
+      name: P 1/2
     ring_size__q:
       # Ring size
       name: Q
+    ring_size__q_1/2:
+      # Ring size
+      name: Q 1/2
     ring_size__r:
       # Ring size
       name: R
+    ring_size__r_1/2:
+      # Ring size
+      name: R 1/2
     ring_size__s:
       # Ring size
       name: S
+    ring_size__s_1/2:
+      # Ring size
+      name: S 1/2
     ring_size__t:
       # Ring size
       name: T
+    ring_size__t_1/2:
+      # Ring size
+      name: T 1/2
     ring_size__u:
       # Ring size
       name: U
+    ring_size__u_1/2:
+      # Ring size
+      name: U 1/2
     ring_size__v:
       # Ring size
       name: V
+    ring_size__v_1/2:
+      # Ring size
+      name: V 1/2
     ring_size__w:
       # Ring size
       name: W
+    ring_size__w_1/2:
+      # Ring size
+      name: W 1/2
     ring_size__x:
       # Ring size
       name: X
+    ring_size__x_1/2:
+      # Ring size
+      name: X 1/2
     ring_size__y:
       # Ring size
       name: "Y"
+    ring_size__y_1/2:
+      # Ring size
+      name: Y 1/2
     ring_size__z:
       # Ring size
       name: Z
+    ring_size__z_1/2:
+      # Ring size
+      name: Z 1/2
     rinse_requirement__no_rinse:
       # Rinse requirement
       name: No-rinse
@@ -77996,12 +79715,18 @@ en:
     shoe_size__7_5:
       # Shoe size
       name: '7.5'
+    shoe_size__7xl:
+      # Shoe size
+      name: 7XL
     shoe_size__8:
       # Shoe size
       name: '8'
     shoe_size__8_5:
       # Shoe size
       name: '8.5'
+    shoe_size__8xl:
+      # Shoe size
+      name: 8XL
     shoe_size__9:
       # Shoe size
       name: '9'
@@ -78770,18 +80495,33 @@ en:
     size__0_3_months:
       # Size
       name: 0-3 months
+    size__0x:
+      # Size
+      name: 0X
     size__1:
       # Size
       name: '1'
     size__10:
       # Size
       name: '10'
+    size__10_11_years:
+      # Size
+      name: 10-11 years
+    size__11_12_years:
+      # Size
+      name: 11-12 years
     size__12:
       # Size
       name: '12'
+    size__12_13_years:
+      # Size
+      name: 12-13 years
     size__12_18_months:
       # Size
       name: 12-18 months
+    size__13_14_years:
+      # Size
+      name: 13-14 years
     size__14:
       # Size
       name: '14'
@@ -78794,6 +80534,9 @@ en:
     size__18_24_months:
       # Size
       name: 18-24 months
+    size__1x:
+      # Size
+      name: 1X
     size__2:
       # Size
       name: '2'
@@ -78815,6 +80558,12 @@ en:
     size__2_3_years:
       # Size
       name: 2-3 years
+    size__2t:
+      # Size
+      name: 2T
+    size__2x:
+      # Size
+      name: 2X
     size__30:
       # Size
       name: '30'
@@ -78836,6 +80585,12 @@ en:
     size__3_6_months:
       # Size
       name: 3-6 months
+    size__3t:
+      # Size
+      name: 3T
+    size__3x:
+      # Size
+      name: 3X
     size__4:
       # Size
       name: '4'
@@ -78857,6 +80612,12 @@ en:
     size__4_5_years:
       # Size
       name: 4-5 years
+    size__4t:
+      # Size
+      name: 4T
+    size__4x:
+      # Size
+      name: 4X
     size__50:
       # Size
       name: '50'
@@ -78875,18 +80636,48 @@ en:
     size__5_6_years:
       # Size
       name: 5-6 years
+    size__5t:
+      # Size
+      name: 5T
+    size__5x:
+      # Size
+      name: 5X
     size__6:
       # Size
       name: '6'
     size__60:
       # Size
       name: '60'
+    size__6_7_years:
+      # Size
+      name: 6-7 years
     size__6_9_months:
       # Size
       name: 6-9 months
+    size__6t:
+      # Size
+      name: 6T
+    size__6x:
+      # Size
+      name: 6X
+    size__7_8_years:
+      # Size
+      name: 7-8 years
+    size__7xl:
+      # Size
+      name: 7XL
     size__8:
       # Size
       name: '8'
+    size__8_9_years:
+      # Size
+      name: 8-9 years
+    size__8xl:
+      # Size
+      name: 8XL
+    size__9_10_years:
+      # Size
+      name: 9-10 years
     size__9_12_months:
       # Size
       name: 9-12 months
@@ -91034,6 +92825,1158 @@ en:
     uc_platform_certification__zoom:
       # UC platform certification
       name: Zoom
+    uk_childrens_shoe_size__0:
+      # UK children's shoe size
+      name: '0'
+    uk_childrens_shoe_size__0_5:
+      # UK children's shoe size
+      name: '0.5'
+    uk_childrens_shoe_size__0_5_medium:
+      # UK children's shoe size
+      name: 0.5 Medium
+    uk_childrens_shoe_size__0_5_narrow:
+      # UK children's shoe size
+      name: 0.5 Narrow
+    uk_childrens_shoe_size__0_5_wide:
+      # UK children's shoe size
+      name: 0.5 Wide
+    uk_childrens_shoe_size__0_medium:
+      # UK children's shoe size
+      name: 0 Medium
+    uk_childrens_shoe_size__0_narrow:
+      # UK children's shoe size
+      name: 0 Narrow
+    uk_childrens_shoe_size__0_wide:
+      # UK children's shoe size
+      name: 0 Wide
+    uk_childrens_shoe_size__1:
+      # UK children's shoe size
+      name: '1'
+    uk_childrens_shoe_size__10:
+      # UK children's shoe size
+      name: '10'
+    uk_childrens_shoe_size__10_5:
+      # UK children's shoe size
+      name: '10.5'
+    uk_childrens_shoe_size__10_5_medium:
+      # UK children's shoe size
+      name: 10.5 Medium
+    uk_childrens_shoe_size__10_5_narrow:
+      # UK children's shoe size
+      name: 10.5 Narrow
+    uk_childrens_shoe_size__10_5_wide:
+      # UK children's shoe size
+      name: 10.5 Wide
+    uk_childrens_shoe_size__10_medium:
+      # UK children's shoe size
+      name: 10 Medium
+    uk_childrens_shoe_size__10_narrow:
+      # UK children's shoe size
+      name: 10 Narrow
+    uk_childrens_shoe_size__10_wide:
+      # UK children's shoe size
+      name: 10 Wide
+    uk_childrens_shoe_size__11:
+      # UK children's shoe size
+      name: '11'
+    uk_childrens_shoe_size__11_5:
+      # UK children's shoe size
+      name: '11.5'
+    uk_childrens_shoe_size__11_5_medium:
+      # UK children's shoe size
+      name: 11.5 Medium
+    uk_childrens_shoe_size__11_5_narrow:
+      # UK children's shoe size
+      name: 11.5 Narrow
+    uk_childrens_shoe_size__11_5_wide:
+      # UK children's shoe size
+      name: 11.5 Wide
+    uk_childrens_shoe_size__11_medium:
+      # UK children's shoe size
+      name: 11 Medium
+    uk_childrens_shoe_size__11_narrow:
+      # UK children's shoe size
+      name: 11 Narrow
+    uk_childrens_shoe_size__11_wide:
+      # UK children's shoe size
+      name: 11 Wide
+    uk_childrens_shoe_size__12:
+      # UK children's shoe size
+      name: '12'
+    uk_childrens_shoe_size__12_5:
+      # UK children's shoe size
+      name: '12.5'
+    uk_childrens_shoe_size__12_5_medium:
+      # UK children's shoe size
+      name: 12.5 Medium
+    uk_childrens_shoe_size__12_5_narrow:
+      # UK children's shoe size
+      name: 12.5 Narrow
+    uk_childrens_shoe_size__12_5_wide:
+      # UK children's shoe size
+      name: 12.5 Wide
+    uk_childrens_shoe_size__12_medium:
+      # UK children's shoe size
+      name: 12 Medium
+    uk_childrens_shoe_size__12_narrow:
+      # UK children's shoe size
+      name: 12 Narrow
+    uk_childrens_shoe_size__12_wide:
+      # UK children's shoe size
+      name: 12 Wide
+    uk_childrens_shoe_size__13:
+      # UK children's shoe size
+      name: '13'
+    uk_childrens_shoe_size__13_5:
+      # UK children's shoe size
+      name: '13.5'
+    uk_childrens_shoe_size__13_5_medium:
+      # UK children's shoe size
+      name: 13.5 Medium
+    uk_childrens_shoe_size__13_5_narrow:
+      # UK children's shoe size
+      name: 13.5 Narrow
+    uk_childrens_shoe_size__13_5_wide:
+      # UK children's shoe size
+      name: 13.5 Wide
+    uk_childrens_shoe_size__13_medium:
+      # UK children's shoe size
+      name: 13 Medium
+    uk_childrens_shoe_size__13_narrow:
+      # UK children's shoe size
+      name: 13 Narrow
+    uk_childrens_shoe_size__13_wide:
+      # UK children's shoe size
+      name: 13 Wide
+    uk_childrens_shoe_size__1_5:
+      # UK children's shoe size
+      name: '1.5'
+    uk_childrens_shoe_size__1_5_medium:
+      # UK children's shoe size
+      name: 1.5 Medium
+    uk_childrens_shoe_size__1_5_narrow:
+      # UK children's shoe size
+      name: 1.5 Narrow
+    uk_childrens_shoe_size__1_5_wide:
+      # UK children's shoe size
+      name: 1.5 Wide
+    uk_childrens_shoe_size__1_medium:
+      # UK children's shoe size
+      name: 1 Medium
+    uk_childrens_shoe_size__1_narrow:
+      # UK children's shoe size
+      name: 1 Narrow
+    uk_childrens_shoe_size__1_wide:
+      # UK children's shoe size
+      name: 1 Wide
+    uk_childrens_shoe_size__2:
+      # UK children's shoe size
+      name: '2'
+    uk_childrens_shoe_size__2_5:
+      # UK children's shoe size
+      name: '2.5'
+    uk_childrens_shoe_size__2_5_medium:
+      # UK children's shoe size
+      name: 2.5 Medium
+    uk_childrens_shoe_size__2_5_narrow:
+      # UK children's shoe size
+      name: 2.5 Narrow
+    uk_childrens_shoe_size__2_5_wide:
+      # UK children's shoe size
+      name: 2.5 Wide
+    uk_childrens_shoe_size__2_medium:
+      # UK children's shoe size
+      name: 2 Medium
+    uk_childrens_shoe_size__2_narrow:
+      # UK children's shoe size
+      name: 2 Narrow
+    uk_childrens_shoe_size__2_wide:
+      # UK children's shoe size
+      name: 2 Wide
+    uk_childrens_shoe_size__3:
+      # UK children's shoe size
+      name: '3'
+    uk_childrens_shoe_size__3_5:
+      # UK children's shoe size
+      name: '3.5'
+    uk_childrens_shoe_size__3_5_medium:
+      # UK children's shoe size
+      name: 3.5 Medium
+    uk_childrens_shoe_size__3_5_narrow:
+      # UK children's shoe size
+      name: 3.5 Narrow
+    uk_childrens_shoe_size__3_5_wide:
+      # UK children's shoe size
+      name: 3.5 Wide
+    uk_childrens_shoe_size__3_medium:
+      # UK children's shoe size
+      name: 3 Medium
+    uk_childrens_shoe_size__3_narrow:
+      # UK children's shoe size
+      name: 3 Narrow
+    uk_childrens_shoe_size__3_wide:
+      # UK children's shoe size
+      name: 3 Wide
+    uk_childrens_shoe_size__4:
+      # UK children's shoe size
+      name: '4'
+    uk_childrens_shoe_size__4_5:
+      # UK children's shoe size
+      name: '4.5'
+    uk_childrens_shoe_size__4_5_medium:
+      # UK children's shoe size
+      name: 4.5 Medium
+    uk_childrens_shoe_size__4_5_narrow:
+      # UK children's shoe size
+      name: 4.5 Narrow
+    uk_childrens_shoe_size__4_5_wide:
+      # UK children's shoe size
+      name: 4.5 Wide
+    uk_childrens_shoe_size__4_medium:
+      # UK children's shoe size
+      name: 4 Medium
+    uk_childrens_shoe_size__4_narrow:
+      # UK children's shoe size
+      name: 4 Narrow
+    uk_childrens_shoe_size__4_wide:
+      # UK children's shoe size
+      name: 4 Wide
+    uk_childrens_shoe_size__5:
+      # UK children's shoe size
+      name: '5'
+    uk_childrens_shoe_size__5_5:
+      # UK children's shoe size
+      name: '5.5'
+    uk_childrens_shoe_size__5_5_medium:
+      # UK children's shoe size
+      name: 5.5 Medium
+    uk_childrens_shoe_size__5_5_narrow:
+      # UK children's shoe size
+      name: 5.5 Narrow
+    uk_childrens_shoe_size__5_5_wide:
+      # UK children's shoe size
+      name: 5.5 Wide
+    uk_childrens_shoe_size__5_medium:
+      # UK children's shoe size
+      name: 5 Medium
+    uk_childrens_shoe_size__5_narrow:
+      # UK children's shoe size
+      name: 5 Narrow
+    uk_childrens_shoe_size__5_wide:
+      # UK children's shoe size
+      name: 5 Wide
+    uk_childrens_shoe_size__6:
+      # UK children's shoe size
+      name: '6'
+    uk_childrens_shoe_size__6_5:
+      # UK children's shoe size
+      name: '6.5'
+    uk_childrens_shoe_size__6_5_medium:
+      # UK children's shoe size
+      name: 6.5 Medium
+    uk_childrens_shoe_size__6_5_narrow:
+      # UK children's shoe size
+      name: 6.5 Narrow
+    uk_childrens_shoe_size__6_5_wide:
+      # UK children's shoe size
+      name: 6.5 Wide
+    uk_childrens_shoe_size__6_medium:
+      # UK children's shoe size
+      name: 6 Medium
+    uk_childrens_shoe_size__6_narrow:
+      # UK children's shoe size
+      name: 6 Narrow
+    uk_childrens_shoe_size__6_wide:
+      # UK children's shoe size
+      name: 6 Wide
+    uk_childrens_shoe_size__7:
+      # UK children's shoe size
+      name: '7'
+    uk_childrens_shoe_size__7_5:
+      # UK children's shoe size
+      name: '7.5'
+    uk_childrens_shoe_size__7_5_medium:
+      # UK children's shoe size
+      name: 7.5 Medium
+    uk_childrens_shoe_size__7_5_narrow:
+      # UK children's shoe size
+      name: 7.5 Narrow
+    uk_childrens_shoe_size__7_5_wide:
+      # UK children's shoe size
+      name: 7.5 Wide
+    uk_childrens_shoe_size__7_medium:
+      # UK children's shoe size
+      name: 7 Medium
+    uk_childrens_shoe_size__7_narrow:
+      # UK children's shoe size
+      name: 7 Narrow
+    uk_childrens_shoe_size__7_wide:
+      # UK children's shoe size
+      name: 7 Wide
+    uk_childrens_shoe_size__8:
+      # UK children's shoe size
+      name: '8'
+    uk_childrens_shoe_size__8_5:
+      # UK children's shoe size
+      name: '8.5'
+    uk_childrens_shoe_size__8_5_medium:
+      # UK children's shoe size
+      name: 8.5 Medium
+    uk_childrens_shoe_size__8_5_narrow:
+      # UK children's shoe size
+      name: 8.5 Narrow
+    uk_childrens_shoe_size__8_5_wide:
+      # UK children's shoe size
+      name: 8.5 Wide
+    uk_childrens_shoe_size__8_medium:
+      # UK children's shoe size
+      name: 8 Medium
+    uk_childrens_shoe_size__8_narrow:
+      # UK children's shoe size
+      name: 8 Narrow
+    uk_childrens_shoe_size__8_wide:
+      # UK children's shoe size
+      name: 8 Wide
+    uk_childrens_shoe_size__9:
+      # UK children's shoe size
+      name: '9'
+    uk_childrens_shoe_size__9_5:
+      # UK children's shoe size
+      name: '9.5'
+    uk_childrens_shoe_size__9_5_medium:
+      # UK children's shoe size
+      name: 9.5 Medium
+    uk_childrens_shoe_size__9_5_narrow:
+      # UK children's shoe size
+      name: 9.5 Narrow
+    uk_childrens_shoe_size__9_5_wide:
+      # UK children's shoe size
+      name: 9.5 Wide
+    uk_childrens_shoe_size__9_medium:
+      # UK children's shoe size
+      name: 9 Medium
+    uk_childrens_shoe_size__9_narrow:
+      # UK children's shoe size
+      name: 9 Narrow
+    uk_childrens_shoe_size__9_wide:
+      # UK children's shoe size
+      name: 9 Wide
+    uk_clothing_size__10:
+      # UK clothing size
+      name: '10'
+    uk_clothing_size__12:
+      # UK clothing size
+      name: '12'
+    uk_clothing_size__14:
+      # UK clothing size
+      name: '14'
+    uk_clothing_size__16:
+      # UK clothing size
+      name: '16'
+    uk_clothing_size__18:
+      # UK clothing size
+      name: '18'
+    uk_clothing_size__20:
+      # UK clothing size
+      name: '20'
+    uk_clothing_size__22:
+      # UK clothing size
+      name: '22'
+    uk_clothing_size__24:
+      # UK clothing size
+      name: '24'
+    uk_clothing_size__26:
+      # UK clothing size
+      name: '26'
+    uk_clothing_size__28:
+      # UK clothing size
+      name: '28'
+    uk_clothing_size__30:
+      # UK clothing size
+      name: '30'
+    uk_clothing_size__32:
+      # UK clothing size
+      name: '32'
+    uk_clothing_size__4:
+      # UK clothing size
+      name: '4'
+    uk_clothing_size__6:
+      # UK clothing size
+      name: '6'
+    uk_clothing_size__8:
+      # UK clothing size
+      name: '8'
+    uk_cup_size__a:
+      # UK cup size
+      name: A
+    uk_cup_size__b:
+      # UK cup size
+      name: B
+    uk_cup_size__c:
+      # UK cup size
+      name: C
+    uk_cup_size__d:
+      # UK cup size
+      name: D
+    uk_cup_size__dd:
+      # UK cup size
+      name: DD
+    uk_cup_size__e:
+      # UK cup size
+      name: E
+    uk_cup_size__f:
+      # UK cup size
+      name: F
+    uk_cup_size__ff:
+      # UK cup size
+      name: FF
+    uk_cup_size__g:
+      # UK cup size
+      name: G
+    uk_cup_size__gg:
+      # UK cup size
+      name: GG
+    uk_cup_size__h:
+      # UK cup size
+      name: H
+    uk_cup_size__hh:
+      # UK cup size
+      name: HH
+    uk_cup_size__j:
+      # UK cup size
+      name: J
+    uk_cup_size__jj:
+      # UK cup size
+      name: JJ
+    uk_cup_size__k:
+      # UK cup size
+      name: K
+    uk_cup_size__kk:
+      # UK cup size
+      name: KK
+    uk_cup_size__l:
+      # UK cup size
+      name: L
+    uk_mens_shoe_size__10:
+      # UK men's shoe size
+      name: '10'
+    uk_mens_shoe_size__10_5:
+      # UK men's shoe size
+      name: '10.5'
+    uk_mens_shoe_size__10_5_extra_wide:
+      # UK men's shoe size
+      name: 10.5 Extra Wide
+    uk_mens_shoe_size__10_5_medium:
+      # UK men's shoe size
+      name: 10.5 Medium
+    uk_mens_shoe_size__10_5_narrow:
+      # UK men's shoe size
+      name: 10.5 Narrow
+    uk_mens_shoe_size__10_5_standard:
+      # UK men's shoe size
+      name: 10.5 Standard
+    uk_mens_shoe_size__10_5_wide:
+      # UK men's shoe size
+      name: 10.5 Wide
+    uk_mens_shoe_size__10_extra_wide:
+      # UK men's shoe size
+      name: 10 Extra Wide
+    uk_mens_shoe_size__10_medium:
+      # UK men's shoe size
+      name: 10 Medium
+    uk_mens_shoe_size__10_narrow:
+      # UK men's shoe size
+      name: 10 Narrow
+    uk_mens_shoe_size__10_standard:
+      # UK men's shoe size
+      name: 10 Standard
+    uk_mens_shoe_size__10_wide:
+      # UK men's shoe size
+      name: 10 Wide
+    uk_mens_shoe_size__11:
+      # UK men's shoe size
+      name: '11'
+    uk_mens_shoe_size__11_5:
+      # UK men's shoe size
+      name: '11.5'
+    uk_mens_shoe_size__11_5_extra_wide:
+      # UK men's shoe size
+      name: 11.5 Extra Wide
+    uk_mens_shoe_size__11_5_medium:
+      # UK men's shoe size
+      name: 11.5 Medium
+    uk_mens_shoe_size__11_5_narrow:
+      # UK men's shoe size
+      name: 11.5 Narrow
+    uk_mens_shoe_size__11_5_standard:
+      # UK men's shoe size
+      name: 11.5 Standard
+    uk_mens_shoe_size__11_5_wide:
+      # UK men's shoe size
+      name: 11.5 Wide
+    uk_mens_shoe_size__11_extra_wide:
+      # UK men's shoe size
+      name: 11 Extra Wide
+    uk_mens_shoe_size__11_medium:
+      # UK men's shoe size
+      name: 11 Medium
+    uk_mens_shoe_size__11_narrow:
+      # UK men's shoe size
+      name: 11 Narrow
+    uk_mens_shoe_size__11_standard:
+      # UK men's shoe size
+      name: 11 Standard
+    uk_mens_shoe_size__11_wide:
+      # UK men's shoe size
+      name: 11 Wide
+    uk_mens_shoe_size__12:
+      # UK men's shoe size
+      name: '12'
+    uk_mens_shoe_size__12_5:
+      # UK men's shoe size
+      name: '12.5'
+    uk_mens_shoe_size__12_5_extra_wide:
+      # UK men's shoe size
+      name: 12.5 Extra Wide
+    uk_mens_shoe_size__12_5_medium:
+      # UK men's shoe size
+      name: 12.5 Medium
+    uk_mens_shoe_size__12_5_narrow:
+      # UK men's shoe size
+      name: 12.5 Narrow
+    uk_mens_shoe_size__12_5_standard:
+      # UK men's shoe size
+      name: 12.5 Standard
+    uk_mens_shoe_size__12_5_wide:
+      # UK men's shoe size
+      name: 12.5 Wide
+    uk_mens_shoe_size__12_extra_wide:
+      # UK men's shoe size
+      name: 12 Extra Wide
+    uk_mens_shoe_size__12_medium:
+      # UK men's shoe size
+      name: 12 Medium
+    uk_mens_shoe_size__12_narrow:
+      # UK men's shoe size
+      name: 12 Narrow
+    uk_mens_shoe_size__12_standard:
+      # UK men's shoe size
+      name: 12 Standard
+    uk_mens_shoe_size__12_wide:
+      # UK men's shoe size
+      name: 12 Wide
+    uk_mens_shoe_size__13:
+      # UK men's shoe size
+      name: '13'
+    uk_mens_shoe_size__13_5:
+      # UK men's shoe size
+      name: '13.5'
+    uk_mens_shoe_size__13_5_extra_wide:
+      # UK men's shoe size
+      name: 13.5 Extra Wide
+    uk_mens_shoe_size__13_5_medium:
+      # UK men's shoe size
+      name: 13.5 Medium
+    uk_mens_shoe_size__13_5_narrow:
+      # UK men's shoe size
+      name: 13.5 Narrow
+    uk_mens_shoe_size__13_5_standard:
+      # UK men's shoe size
+      name: 13.5 Standard
+    uk_mens_shoe_size__13_5_wide:
+      # UK men's shoe size
+      name: 13.5 Wide
+    uk_mens_shoe_size__13_extra_wide:
+      # UK men's shoe size
+      name: 13 Extra Wide
+    uk_mens_shoe_size__13_medium:
+      # UK men's shoe size
+      name: 13 Medium
+    uk_mens_shoe_size__13_narrow:
+      # UK men's shoe size
+      name: 13 Narrow
+    uk_mens_shoe_size__13_standard:
+      # UK men's shoe size
+      name: 13 Standard
+    uk_mens_shoe_size__13_wide:
+      # UK men's shoe size
+      name: 13 Wide
+    uk_mens_shoe_size__14:
+      # UK men's shoe size
+      name: '14'
+    uk_mens_shoe_size__14_5:
+      # UK men's shoe size
+      name: '14.5'
+    uk_mens_shoe_size__14_5_extra_wide:
+      # UK men's shoe size
+      name: 14.5 Extra Wide
+    uk_mens_shoe_size__14_5_medium:
+      # UK men's shoe size
+      name: 14.5 Medium
+    uk_mens_shoe_size__14_5_narrow:
+      # UK men's shoe size
+      name: 14.5 Narrow
+    uk_mens_shoe_size__14_5_standard:
+      # UK men's shoe size
+      name: 14.5 Standard
+    uk_mens_shoe_size__14_5_wide:
+      # UK men's shoe size
+      name: 14.5 Wide
+    uk_mens_shoe_size__14_extra_wide:
+      # UK men's shoe size
+      name: 14 Extra Wide
+    uk_mens_shoe_size__14_medium:
+      # UK men's shoe size
+      name: 14 Medium
+    uk_mens_shoe_size__14_narrow:
+      # UK men's shoe size
+      name: 14 Narrow
+    uk_mens_shoe_size__14_standard:
+      # UK men's shoe size
+      name: 14 Standard
+    uk_mens_shoe_size__14_wide:
+      # UK men's shoe size
+      name: 14 Wide
+    uk_mens_shoe_size__15:
+      # UK men's shoe size
+      name: '15'
+    uk_mens_shoe_size__15_5:
+      # UK men's shoe size
+      name: '15.5'
+    uk_mens_shoe_size__15_5_extra_wide:
+      # UK men's shoe size
+      name: 15.5 Extra Wide
+    uk_mens_shoe_size__15_5_medium:
+      # UK men's shoe size
+      name: 15.5 Medium
+    uk_mens_shoe_size__15_5_narrow:
+      # UK men's shoe size
+      name: 15.5 Narrow
+    uk_mens_shoe_size__15_5_standard:
+      # UK men's shoe size
+      name: 15.5 Standard
+    uk_mens_shoe_size__15_5_wide:
+      # UK men's shoe size
+      name: 15.5 Wide
+    uk_mens_shoe_size__15_extra_wide:
+      # UK men's shoe size
+      name: 15 Extra Wide
+    uk_mens_shoe_size__15_medium:
+      # UK men's shoe size
+      name: 15 Medium
+    uk_mens_shoe_size__15_narrow:
+      # UK men's shoe size
+      name: 15 Narrow
+    uk_mens_shoe_size__15_standard:
+      # UK men's shoe size
+      name: 15 Standard
+    uk_mens_shoe_size__15_wide:
+      # UK men's shoe size
+      name: 15 Wide
+    uk_mens_shoe_size__16:
+      # UK men's shoe size
+      name: '16'
+    uk_mens_shoe_size__16_extra_wide:
+      # UK men's shoe size
+      name: 16 Extra Wide
+    uk_mens_shoe_size__16_medium:
+      # UK men's shoe size
+      name: 16 Medium
+    uk_mens_shoe_size__16_narrow:
+      # UK men's shoe size
+      name: 16 Narrow
+    uk_mens_shoe_size__16_standard:
+      # UK men's shoe size
+      name: 16 Standard
+    uk_mens_shoe_size__16_wide:
+      # UK men's shoe size
+      name: 16 Wide
+    uk_mens_shoe_size__5:
+      # UK men's shoe size
+      name: '5'
+    uk_mens_shoe_size__5_5:
+      # UK men's shoe size
+      name: '5.5'
+    uk_mens_shoe_size__5_5_extra_wide:
+      # UK men's shoe size
+      name: 5.5 Extra Wide
+    uk_mens_shoe_size__5_5_medium:
+      # UK men's shoe size
+      name: 5.5 Medium
+    uk_mens_shoe_size__5_5_narrow:
+      # UK men's shoe size
+      name: 5.5 Narrow
+    uk_mens_shoe_size__5_5_standard:
+      # UK men's shoe size
+      name: 5.5 Standard
+    uk_mens_shoe_size__5_5_wide:
+      # UK men's shoe size
+      name: 5.5 Wide
+    uk_mens_shoe_size__5_extra_wide:
+      # UK men's shoe size
+      name: 5 Extra Wide
+    uk_mens_shoe_size__5_medium:
+      # UK men's shoe size
+      name: 5 Medium
+    uk_mens_shoe_size__5_narrow:
+      # UK men's shoe size
+      name: 5 Narrow
+    uk_mens_shoe_size__5_standard:
+      # UK men's shoe size
+      name: 5 Standard
+    uk_mens_shoe_size__5_wide:
+      # UK men's shoe size
+      name: 5 Wide
+    uk_mens_shoe_size__6:
+      # UK men's shoe size
+      name: '6'
+    uk_mens_shoe_size__6_5:
+      # UK men's shoe size
+      name: '6.5'
+    uk_mens_shoe_size__6_5_extra_wide:
+      # UK men's shoe size
+      name: 6.5 Extra Wide
+    uk_mens_shoe_size__6_5_medium:
+      # UK men's shoe size
+      name: 6.5 Medium
+    uk_mens_shoe_size__6_5_narrow:
+      # UK men's shoe size
+      name: 6.5 Narrow
+    uk_mens_shoe_size__6_5_standard:
+      # UK men's shoe size
+      name: 6.5 Standard
+    uk_mens_shoe_size__6_5_wide:
+      # UK men's shoe size
+      name: 6.5 Wide
+    uk_mens_shoe_size__6_extra_wide:
+      # UK men's shoe size
+      name: 6 Extra Wide
+    uk_mens_shoe_size__6_medium:
+      # UK men's shoe size
+      name: 6 Medium
+    uk_mens_shoe_size__6_narrow:
+      # UK men's shoe size
+      name: 6 Narrow
+    uk_mens_shoe_size__6_standard:
+      # UK men's shoe size
+      name: 6 Standard
+    uk_mens_shoe_size__6_wide:
+      # UK men's shoe size
+      name: 6 Wide
+    uk_mens_shoe_size__7:
+      # UK men's shoe size
+      name: '7'
+    uk_mens_shoe_size__7_5:
+      # UK men's shoe size
+      name: '7.5'
+    uk_mens_shoe_size__7_5_extra_wide:
+      # UK men's shoe size
+      name: 7.5 Extra Wide
+    uk_mens_shoe_size__7_5_medium:
+      # UK men's shoe size
+      name: 7.5 Medium
+    uk_mens_shoe_size__7_5_narrow:
+      # UK men's shoe size
+      name: 7.5 Narrow
+    uk_mens_shoe_size__7_5_standard:
+      # UK men's shoe size
+      name: 7.5 Standard
+    uk_mens_shoe_size__7_5_wide:
+      # UK men's shoe size
+      name: 7.5 Wide
+    uk_mens_shoe_size__7_extra_wide:
+      # UK men's shoe size
+      name: 7 Extra Wide
+    uk_mens_shoe_size__7_medium:
+      # UK men's shoe size
+      name: 7 Medium
+    uk_mens_shoe_size__7_narrow:
+      # UK men's shoe size
+      name: 7 Narrow
+    uk_mens_shoe_size__7_standard:
+      # UK men's shoe size
+      name: 7 Standard
+    uk_mens_shoe_size__7_wide:
+      # UK men's shoe size
+      name: 7 Wide
+    uk_mens_shoe_size__8:
+      # UK men's shoe size
+      name: '8'
+    uk_mens_shoe_size__8_5:
+      # UK men's shoe size
+      name: '8.5'
+    uk_mens_shoe_size__8_5_extra_wide:
+      # UK men's shoe size
+      name: 8.5 Extra Wide
+    uk_mens_shoe_size__8_5_medium:
+      # UK men's shoe size
+      name: 8.5 Medium
+    uk_mens_shoe_size__8_5_narrow:
+      # UK men's shoe size
+      name: 8.5 Narrow
+    uk_mens_shoe_size__8_5_standard:
+      # UK men's shoe size
+      name: 8.5 Standard
+    uk_mens_shoe_size__8_5_wide:
+      # UK men's shoe size
+      name: 8.5 Wide
+    uk_mens_shoe_size__8_extra_wide:
+      # UK men's shoe size
+      name: 8 Extra Wide
+    uk_mens_shoe_size__8_medium:
+      # UK men's shoe size
+      name: 8 Medium
+    uk_mens_shoe_size__8_narrow:
+      # UK men's shoe size
+      name: 8 Narrow
+    uk_mens_shoe_size__8_standard:
+      # UK men's shoe size
+      name: 8 Standard
+    uk_mens_shoe_size__8_wide:
+      # UK men's shoe size
+      name: 8 Wide
+    uk_mens_shoe_size__9:
+      # UK men's shoe size
+      name: '9'
+    uk_mens_shoe_size__9_5:
+      # UK men's shoe size
+      name: '9.5'
+    uk_mens_shoe_size__9_5_extra_wide:
+      # UK men's shoe size
+      name: 9.5 Extra Wide
+    uk_mens_shoe_size__9_5_medium:
+      # UK men's shoe size
+      name: 9.5 Medium
+    uk_mens_shoe_size__9_5_narrow:
+      # UK men's shoe size
+      name: 9.5 Narrow
+    uk_mens_shoe_size__9_5_standard:
+      # UK men's shoe size
+      name: 9.5 Standard
+    uk_mens_shoe_size__9_5_wide:
+      # UK men's shoe size
+      name: 9.5 Wide
+    uk_mens_shoe_size__9_extra_wide:
+      # UK men's shoe size
+      name: 9 Extra Wide
+    uk_mens_shoe_size__9_medium:
+      # UK men's shoe size
+      name: 9 Medium
+    uk_mens_shoe_size__9_narrow:
+      # UK men's shoe size
+      name: 9 Narrow
+    uk_mens_shoe_size__9_standard:
+      # UK men's shoe size
+      name: 9 Standard
+    uk_mens_shoe_size__9_wide:
+      # UK men's shoe size
+      name: 9 Wide
+    uk_womens_shoe_size__10:
+      # UK women's shoe size
+      name: '10'
+    uk_womens_shoe_size__10_extra_wide:
+      # UK women's shoe size
+      name: 10 Extra Wide
+    uk_womens_shoe_size__10_medium:
+      # UK women's shoe size
+      name: 10 Medium
+    uk_womens_shoe_size__10_narrow:
+      # UK women's shoe size
+      name: 10 Narrow
+    uk_womens_shoe_size__10_standard:
+      # UK women's shoe size
+      name: 10 Standard
+    uk_womens_shoe_size__10_wide:
+      # UK women's shoe size
+      name: 10 Wide
+    uk_womens_shoe_size__2:
+      # UK women's shoe size
+      name: '2'
+    uk_womens_shoe_size__2_5:
+      # UK women's shoe size
+      name: '2.5'
+    uk_womens_shoe_size__2_5_extra_wide:
+      # UK women's shoe size
+      name: 2.5 Extra Wide
+    uk_womens_shoe_size__2_5_medium:
+      # UK women's shoe size
+      name: 2.5 Medium
+    uk_womens_shoe_size__2_5_narrow:
+      # UK women's shoe size
+      name: 2.5 Narrow
+    uk_womens_shoe_size__2_5_standard:
+      # UK women's shoe size
+      name: 2.5 Standard
+    uk_womens_shoe_size__2_5_wide:
+      # UK women's shoe size
+      name: 2.5 Wide
+    uk_womens_shoe_size__2_extra_wide:
+      # UK women's shoe size
+      name: 2 Extra Wide
+    uk_womens_shoe_size__2_medium:
+      # UK women's shoe size
+      name: 2 Medium
+    uk_womens_shoe_size__2_narrow:
+      # UK women's shoe size
+      name: 2 Narrow
+    uk_womens_shoe_size__2_standard:
+      # UK women's shoe size
+      name: 2 Standard
+    uk_womens_shoe_size__2_wide:
+      # UK women's shoe size
+      name: 2 Wide
+    uk_womens_shoe_size__3:
+      # UK women's shoe size
+      name: '3'
+    uk_womens_shoe_size__3_5:
+      # UK women's shoe size
+      name: '3.5'
+    uk_womens_shoe_size__3_5_extra_wide:
+      # UK women's shoe size
+      name: 3.5 Extra Wide
+    uk_womens_shoe_size__3_5_medium:
+      # UK women's shoe size
+      name: 3.5 Medium
+    uk_womens_shoe_size__3_5_narrow:
+      # UK women's shoe size
+      name: 3.5 Narrow
+    uk_womens_shoe_size__3_5_standard:
+      # UK women's shoe size
+      name: 3.5 Standard
+    uk_womens_shoe_size__3_5_wide:
+      # UK women's shoe size
+      name: 3.5 Wide
+    uk_womens_shoe_size__3_extra_wide:
+      # UK women's shoe size
+      name: 3 Extra Wide
+    uk_womens_shoe_size__3_medium:
+      # UK women's shoe size
+      name: 3 Medium
+    uk_womens_shoe_size__3_narrow:
+      # UK women's shoe size
+      name: 3 Narrow
+    uk_womens_shoe_size__3_standard:
+      # UK women's shoe size
+      name: 3 Standard
+    uk_womens_shoe_size__3_wide:
+      # UK women's shoe size
+      name: 3 Wide
+    uk_womens_shoe_size__4:
+      # UK women's shoe size
+      name: '4'
+    uk_womens_shoe_size__4_5:
+      # UK women's shoe size
+      name: '4.5'
+    uk_womens_shoe_size__4_5_extra_wide:
+      # UK women's shoe size
+      name: 4.5 Extra Wide
+    uk_womens_shoe_size__4_5_medium:
+      # UK women's shoe size
+      name: 4.5 Medium
+    uk_womens_shoe_size__4_5_narrow:
+      # UK women's shoe size
+      name: 4.5 Narrow
+    uk_womens_shoe_size__4_5_standard:
+      # UK women's shoe size
+      name: 4.5 Standard
+    uk_womens_shoe_size__4_5_wide:
+      # UK women's shoe size
+      name: 4.5 Wide
+    uk_womens_shoe_size__4_extra_wide:
+      # UK women's shoe size
+      name: 4 Extra Wide
+    uk_womens_shoe_size__4_medium:
+      # UK women's shoe size
+      name: 4 Medium
+    uk_womens_shoe_size__4_narrow:
+      # UK women's shoe size
+      name: 4 Narrow
+    uk_womens_shoe_size__4_standard:
+      # UK women's shoe size
+      name: 4 Standard
+    uk_womens_shoe_size__4_wide:
+      # UK women's shoe size
+      name: 4 Wide
+    uk_womens_shoe_size__5:
+      # UK women's shoe size
+      name: '5'
+    uk_womens_shoe_size__5_5:
+      # UK women's shoe size
+      name: '5.5'
+    uk_womens_shoe_size__5_5_extra_wide:
+      # UK women's shoe size
+      name: 5.5 Extra Wide
+    uk_womens_shoe_size__5_5_medium:
+      # UK women's shoe size
+      name: 5.5 Medium
+    uk_womens_shoe_size__5_5_narrow:
+      # UK women's shoe size
+      name: 5.5 Narrow
+    uk_womens_shoe_size__5_5_standard:
+      # UK women's shoe size
+      name: 5.5 Standard
+    uk_womens_shoe_size__5_5_wide:
+      # UK women's shoe size
+      name: 5.5 Wide
+    uk_womens_shoe_size__5_extra_wide:
+      # UK women's shoe size
+      name: 5 Extra Wide
+    uk_womens_shoe_size__5_medium:
+      # UK women's shoe size
+      name: 5 Medium
+    uk_womens_shoe_size__5_narrow:
+      # UK women's shoe size
+      name: 5 Narrow
+    uk_womens_shoe_size__5_standard:
+      # UK women's shoe size
+      name: 5 Standard
+    uk_womens_shoe_size__5_wide:
+      # UK women's shoe size
+      name: 5 Wide
+    uk_womens_shoe_size__6:
+      # UK women's shoe size
+      name: '6'
+    uk_womens_shoe_size__6_5:
+      # UK women's shoe size
+      name: '6.5'
+    uk_womens_shoe_size__6_5_extra_wide:
+      # UK women's shoe size
+      name: 6.5 Extra Wide
+    uk_womens_shoe_size__6_5_medium:
+      # UK women's shoe size
+      name: 6.5 Medium
+    uk_womens_shoe_size__6_5_narrow:
+      # UK women's shoe size
+      name: 6.5 Narrow
+    uk_womens_shoe_size__6_5_standard:
+      # UK women's shoe size
+      name: 6.5 Standard
+    uk_womens_shoe_size__6_5_wide:
+      # UK women's shoe size
+      name: 6.5 Wide
+    uk_womens_shoe_size__6_extra_wide:
+      # UK women's shoe size
+      name: 6 Extra Wide
+    uk_womens_shoe_size__6_medium:
+      # UK women's shoe size
+      name: 6 Medium
+    uk_womens_shoe_size__6_narrow:
+      # UK women's shoe size
+      name: 6 Narrow
+    uk_womens_shoe_size__6_standard:
+      # UK women's shoe size
+      name: 6 Standard
+    uk_womens_shoe_size__6_wide:
+      # UK women's shoe size
+      name: 6 Wide
+    uk_womens_shoe_size__7:
+      # UK women's shoe size
+      name: '7'
+    uk_womens_shoe_size__7_5:
+      # UK women's shoe size
+      name: '7.5'
+    uk_womens_shoe_size__7_5_extra_wide:
+      # UK women's shoe size
+      name: 7.5 Extra Wide
+    uk_womens_shoe_size__7_5_medium:
+      # UK women's shoe size
+      name: 7.5 Medium
+    uk_womens_shoe_size__7_5_narrow:
+      # UK women's shoe size
+      name: 7.5 Narrow
+    uk_womens_shoe_size__7_5_standard:
+      # UK women's shoe size
+      name: 7.5 Standard
+    uk_womens_shoe_size__7_5_wide:
+      # UK women's shoe size
+      name: 7.5 Wide
+    uk_womens_shoe_size__7_extra_wide:
+      # UK women's shoe size
+      name: 7 Extra Wide
+    uk_womens_shoe_size__7_medium:
+      # UK women's shoe size
+      name: 7 Medium
+    uk_womens_shoe_size__7_narrow:
+      # UK women's shoe size
+      name: 7 Narrow
+    uk_womens_shoe_size__7_standard:
+      # UK women's shoe size
+      name: 7 Standard
+    uk_womens_shoe_size__7_wide:
+      # UK women's shoe size
+      name: 7 Wide
+    uk_womens_shoe_size__8:
+      # UK women's shoe size
+      name: '8'
+    uk_womens_shoe_size__8_5:
+      # UK women's shoe size
+      name: '8.5'
+    uk_womens_shoe_size__8_5_extra_wide:
+      # UK women's shoe size
+      name: 8.5 Extra Wide
+    uk_womens_shoe_size__8_5_medium:
+      # UK women's shoe size
+      name: 8.5 Medium
+    uk_womens_shoe_size__8_5_narrow:
+      # UK women's shoe size
+      name: 8.5 Narrow
+    uk_womens_shoe_size__8_5_standard:
+      # UK women's shoe size
+      name: 8.5 Standard
+    uk_womens_shoe_size__8_5_wide:
+      # UK women's shoe size
+      name: 8.5 Wide
+    uk_womens_shoe_size__8_extra_wide:
+      # UK women's shoe size
+      name: 8 Extra Wide
+    uk_womens_shoe_size__8_medium:
+      # UK women's shoe size
+      name: 8 Medium
+    uk_womens_shoe_size__8_narrow:
+      # UK women's shoe size
+      name: 8 Narrow
+    uk_womens_shoe_size__8_standard:
+      # UK women's shoe size
+      name: 8 Standard
+    uk_womens_shoe_size__8_wide:
+      # UK women's shoe size
+      name: 8 Wide
+    uk_womens_shoe_size__9:
+      # UK women's shoe size
+      name: '9'
+    uk_womens_shoe_size__9_5:
+      # UK women's shoe size
+      name: '9.5'
+    uk_womens_shoe_size__9_5_extra_wide:
+      # UK women's shoe size
+      name: 9.5 Extra Wide
+    uk_womens_shoe_size__9_5_medium:
+      # UK women's shoe size
+      name: 9.5 Medium
+    uk_womens_shoe_size__9_5_narrow:
+      # UK women's shoe size
+      name: 9.5 Narrow
+    uk_womens_shoe_size__9_5_standard:
+      # UK women's shoe size
+      name: 9.5 Standard
+    uk_womens_shoe_size__9_5_wide:
+      # UK women's shoe size
+      name: 9.5 Wide
+    uk_womens_shoe_size__9_extra_wide:
+      # UK women's shoe size
+      name: 9 Extra Wide
+    uk_womens_shoe_size__9_medium:
+      # UK women's shoe size
+      name: 9 Medium
+    uk_womens_shoe_size__9_narrow:
+      # UK women's shoe size
+      name: 9 Narrow
+    uk_womens_shoe_size__9_standard:
+      # UK women's shoe size
+      name: 9 Standard
+    uk_womens_shoe_size__9_wide:
+      # UK women's shoe size
+      name: 9 Wide
     ultrasonic_cleaner_accessories_included__basket:
       # Ultrasonic cleaner accessories included
       name: Basket
@@ -91430,6 +94373,1656 @@ en:
     ups_topology__standby_/_offline:
       # UPS topology
       name: Standby / Offline
+    us_childrens_shoe_size__0:
+      # US children's shoe size
+      name: '0'
+    us_childrens_shoe_size__0_5:
+      # US children's shoe size
+      name: '0.5'
+    us_childrens_shoe_size__0_5_medium:
+      # US children's shoe size
+      name: 0.5 Medium
+    us_childrens_shoe_size__0_5_narrow:
+      # US children's shoe size
+      name: 0.5 Narrow
+    us_childrens_shoe_size__0_5_wide:
+      # US children's shoe size
+      name: 0.5 Wide
+    us_childrens_shoe_size__0_medium:
+      # US children's shoe size
+      name: 0 Medium
+    us_childrens_shoe_size__0_narrow:
+      # US children's shoe size
+      name: 0 Narrow
+    us_childrens_shoe_size__0_wide:
+      # US children's shoe size
+      name: 0 Wide
+    us_childrens_shoe_size__1:
+      # US children's shoe size
+      name: '1'
+    us_childrens_shoe_size__10:
+      # US children's shoe size
+      name: '10'
+    us_childrens_shoe_size__10_5:
+      # US children's shoe size
+      name: '10.5'
+    us_childrens_shoe_size__10_5_medium:
+      # US children's shoe size
+      name: 10.5 Medium
+    us_childrens_shoe_size__10_5_narrow:
+      # US children's shoe size
+      name: 10.5 Narrow
+    us_childrens_shoe_size__10_5_wide:
+      # US children's shoe size
+      name: 10.5 Wide
+    us_childrens_shoe_size__10_medium:
+      # US children's shoe size
+      name: 10 Medium
+    us_childrens_shoe_size__10_narrow:
+      # US children's shoe size
+      name: 10 Narrow
+    us_childrens_shoe_size__10_wide:
+      # US children's shoe size
+      name: 10 Wide
+    us_childrens_shoe_size__11:
+      # US children's shoe size
+      name: '11'
+    us_childrens_shoe_size__11_5:
+      # US children's shoe size
+      name: '11.5'
+    us_childrens_shoe_size__11_5_medium:
+      # US children's shoe size
+      name: 11.5 Medium
+    us_childrens_shoe_size__11_5_narrow:
+      # US children's shoe size
+      name: 11.5 Narrow
+    us_childrens_shoe_size__11_5_wide:
+      # US children's shoe size
+      name: 11.5 Wide
+    us_childrens_shoe_size__11_medium:
+      # US children's shoe size
+      name: 11 Medium
+    us_childrens_shoe_size__11_narrow:
+      # US children's shoe size
+      name: 11 Narrow
+    us_childrens_shoe_size__11_wide:
+      # US children's shoe size
+      name: 11 Wide
+    us_childrens_shoe_size__12:
+      # US children's shoe size
+      name: '12'
+    us_childrens_shoe_size__12_5:
+      # US children's shoe size
+      name: '12.5'
+    us_childrens_shoe_size__12_5_medium:
+      # US children's shoe size
+      name: 12.5 Medium
+    us_childrens_shoe_size__12_5_narrow:
+      # US children's shoe size
+      name: 12.5 Narrow
+    us_childrens_shoe_size__12_5_wide:
+      # US children's shoe size
+      name: 12.5 Wide
+    us_childrens_shoe_size__12_medium:
+      # US children's shoe size
+      name: 12 Medium
+    us_childrens_shoe_size__12_narrow:
+      # US children's shoe size
+      name: 12 Narrow
+    us_childrens_shoe_size__12_wide:
+      # US children's shoe size
+      name: 12 Wide
+    us_childrens_shoe_size__13:
+      # US children's shoe size
+      name: '13'
+    us_childrens_shoe_size__13_5:
+      # US children's shoe size
+      name: '13.5'
+    us_childrens_shoe_size__13_5_medium:
+      # US children's shoe size
+      name: 13.5 Medium
+    us_childrens_shoe_size__13_5_narrow:
+      # US children's shoe size
+      name: 13.5 Narrow
+    us_childrens_shoe_size__13_5_wide:
+      # US children's shoe size
+      name: 13.5 Wide
+    us_childrens_shoe_size__13_medium:
+      # US children's shoe size
+      name: 13 Medium
+    us_childrens_shoe_size__13_narrow:
+      # US children's shoe size
+      name: 13 Narrow
+    us_childrens_shoe_size__13_wide:
+      # US children's shoe size
+      name: 13 Wide
+    us_childrens_shoe_size__1_5:
+      # US children's shoe size
+      name: '1.5'
+    us_childrens_shoe_size__1_5_medium:
+      # US children's shoe size
+      name: 1.5 Medium
+    us_childrens_shoe_size__1_5_narrow:
+      # US children's shoe size
+      name: 1.5 Narrow
+    us_childrens_shoe_size__1_5_wide:
+      # US children's shoe size
+      name: 1.5 Wide
+    us_childrens_shoe_size__1_medium:
+      # US children's shoe size
+      name: 1 Medium
+    us_childrens_shoe_size__1_narrow:
+      # US children's shoe size
+      name: 1 Narrow
+    us_childrens_shoe_size__1_wide:
+      # US children's shoe size
+      name: 1 Wide
+    us_childrens_shoe_size__2:
+      # US children's shoe size
+      name: '2'
+    us_childrens_shoe_size__2_5:
+      # US children's shoe size
+      name: '2.5'
+    us_childrens_shoe_size__2_5_medium:
+      # US children's shoe size
+      name: 2.5 Medium
+    us_childrens_shoe_size__2_5_narrow:
+      # US children's shoe size
+      name: 2.5 Narrow
+    us_childrens_shoe_size__2_5_wide:
+      # US children's shoe size
+      name: 2.5 Wide
+    us_childrens_shoe_size__2_medium:
+      # US children's shoe size
+      name: 2 Medium
+    us_childrens_shoe_size__2_narrow:
+      # US children's shoe size
+      name: 2 Narrow
+    us_childrens_shoe_size__2_wide:
+      # US children's shoe size
+      name: 2 Wide
+    us_childrens_shoe_size__3:
+      # US children's shoe size
+      name: '3'
+    us_childrens_shoe_size__3_5:
+      # US children's shoe size
+      name: '3.5'
+    us_childrens_shoe_size__3_5_medium:
+      # US children's shoe size
+      name: 3.5 Medium
+    us_childrens_shoe_size__3_5_narrow:
+      # US children's shoe size
+      name: 3.5 Narrow
+    us_childrens_shoe_size__3_5_wide:
+      # US children's shoe size
+      name: 3.5 Wide
+    us_childrens_shoe_size__3_medium:
+      # US children's shoe size
+      name: 3 Medium
+    us_childrens_shoe_size__3_narrow:
+      # US children's shoe size
+      name: 3 Narrow
+    us_childrens_shoe_size__3_wide:
+      # US children's shoe size
+      name: 3 Wide
+    us_childrens_shoe_size__4:
+      # US children's shoe size
+      name: '4'
+    us_childrens_shoe_size__4_5:
+      # US children's shoe size
+      name: '4.5'
+    us_childrens_shoe_size__4_5_medium:
+      # US children's shoe size
+      name: 4.5 Medium
+    us_childrens_shoe_size__4_5_narrow:
+      # US children's shoe size
+      name: 4.5 Narrow
+    us_childrens_shoe_size__4_5_wide:
+      # US children's shoe size
+      name: 4.5 Wide
+    us_childrens_shoe_size__4_medium:
+      # US children's shoe size
+      name: 4 Medium
+    us_childrens_shoe_size__4_narrow:
+      # US children's shoe size
+      name: 4 Narrow
+    us_childrens_shoe_size__4_wide:
+      # US children's shoe size
+      name: 4 Wide
+    us_childrens_shoe_size__5:
+      # US children's shoe size
+      name: '5'
+    us_childrens_shoe_size__5_5:
+      # US children's shoe size
+      name: '5.5'
+    us_childrens_shoe_size__5_5_medium:
+      # US children's shoe size
+      name: 5.5 Medium
+    us_childrens_shoe_size__5_5_narrow:
+      # US children's shoe size
+      name: 5.5 Narrow
+    us_childrens_shoe_size__5_5_wide:
+      # US children's shoe size
+      name: 5.5 Wide
+    us_childrens_shoe_size__5_medium:
+      # US children's shoe size
+      name: 5 Medium
+    us_childrens_shoe_size__5_narrow:
+      # US children's shoe size
+      name: 5 Narrow
+    us_childrens_shoe_size__5_wide:
+      # US children's shoe size
+      name: 5 Wide
+    us_childrens_shoe_size__6:
+      # US children's shoe size
+      name: '6'
+    us_childrens_shoe_size__6_5:
+      # US children's shoe size
+      name: '6.5'
+    us_childrens_shoe_size__6_5_medium:
+      # US children's shoe size
+      name: 6.5 Medium
+    us_childrens_shoe_size__6_5_narrow:
+      # US children's shoe size
+      name: 6.5 Narrow
+    us_childrens_shoe_size__6_5_wide:
+      # US children's shoe size
+      name: 6.5 Wide
+    us_childrens_shoe_size__6_medium:
+      # US children's shoe size
+      name: 6 Medium
+    us_childrens_shoe_size__6_narrow:
+      # US children's shoe size
+      name: 6 Narrow
+    us_childrens_shoe_size__6_wide:
+      # US children's shoe size
+      name: 6 Wide
+    us_childrens_shoe_size__7:
+      # US children's shoe size
+      name: '7'
+    us_childrens_shoe_size__7_5:
+      # US children's shoe size
+      name: '7.5'
+    us_childrens_shoe_size__7_5_medium:
+      # US children's shoe size
+      name: 7.5 Medium
+    us_childrens_shoe_size__7_5_narrow:
+      # US children's shoe size
+      name: 7.5 Narrow
+    us_childrens_shoe_size__7_5_wide:
+      # US children's shoe size
+      name: 7.5 Wide
+    us_childrens_shoe_size__7_medium:
+      # US children's shoe size
+      name: 7 Medium
+    us_childrens_shoe_size__7_narrow:
+      # US children's shoe size
+      name: 7 Narrow
+    us_childrens_shoe_size__7_wide:
+      # US children's shoe size
+      name: 7 Wide
+    us_childrens_shoe_size__8:
+      # US children's shoe size
+      name: '8'
+    us_childrens_shoe_size__8_5:
+      # US children's shoe size
+      name: '8.5'
+    us_childrens_shoe_size__8_5_medium:
+      # US children's shoe size
+      name: 8.5 Medium
+    us_childrens_shoe_size__8_5_narrow:
+      # US children's shoe size
+      name: 8.5 Narrow
+    us_childrens_shoe_size__8_5_wide:
+      # US children's shoe size
+      name: 8.5 Wide
+    us_childrens_shoe_size__8_medium:
+      # US children's shoe size
+      name: 8 Medium
+    us_childrens_shoe_size__8_narrow:
+      # US children's shoe size
+      name: 8 Narrow
+    us_childrens_shoe_size__8_wide:
+      # US children's shoe size
+      name: 8 Wide
+    us_childrens_shoe_size__9:
+      # US children's shoe size
+      name: '9'
+    us_childrens_shoe_size__9_5:
+      # US children's shoe size
+      name: '9.5'
+    us_childrens_shoe_size__9_5_medium:
+      # US children's shoe size
+      name: 9.5 Medium
+    us_childrens_shoe_size__9_5_narrow:
+      # US children's shoe size
+      name: 9.5 Narrow
+    us_childrens_shoe_size__9_5_wide:
+      # US children's shoe size
+      name: 9.5 Wide
+    us_childrens_shoe_size__9_medium:
+      # US children's shoe size
+      name: 9 Medium
+    us_childrens_shoe_size__9_narrow:
+      # US children's shoe size
+      name: 9 Narrow
+    us_childrens_shoe_size__9_wide:
+      # US children's shoe size
+      name: 9 Wide
+    us_clothing_size__0:
+      # US clothing size
+      name: '0'
+    us_clothing_size__00:
+      # US clothing size
+      name: '00'
+    us_clothing_size__1:
+      # US clothing size
+      name: '1'
+    us_clothing_size__10:
+      # US clothing size
+      name: '10'
+    us_clothing_size__11:
+      # US clothing size
+      name: '11'
+    us_clothing_size__12:
+      # US clothing size
+      name: '12'
+    us_clothing_size__13:
+      # US clothing size
+      name: '13'
+    us_clothing_size__14:
+      # US clothing size
+      name: '14'
+    us_clothing_size__15:
+      # US clothing size
+      name: '15'
+    us_clothing_size__16:
+      # US clothing size
+      name: '16'
+    us_clothing_size__18:
+      # US clothing size
+      name: '18'
+    us_clothing_size__2:
+      # US clothing size
+      name: '2'
+    us_clothing_size__20:
+      # US clothing size
+      name: '20'
+    us_clothing_size__22:
+      # US clothing size
+      name: '22'
+    us_clothing_size__24:
+      # US clothing size
+      name: '24'
+    us_clothing_size__26:
+      # US clothing size
+      name: '26'
+    us_clothing_size__28:
+      # US clothing size
+      name: '28'
+    us_clothing_size__3:
+      # US clothing size
+      name: '3'
+    us_clothing_size__30:
+      # US clothing size
+      name: '30'
+    us_clothing_size__4:
+      # US clothing size
+      name: '4'
+    us_clothing_size__5:
+      # US clothing size
+      name: '5'
+    us_clothing_size__6:
+      # US clothing size
+      name: '6'
+    us_clothing_size__7:
+      # US clothing size
+      name: '7'
+    us_clothing_size__8:
+      # US clothing size
+      name: '8'
+    us_clothing_size__9:
+      # US clothing size
+      name: '9'
+    us_cup_size__a:
+      # US cup size
+      name: A
+    us_cup_size__b:
+      # US cup size
+      name: B
+    us_cup_size__c:
+      # US cup size
+      name: C
+    us_cup_size__d:
+      # US cup size
+      name: D
+    us_cup_size__dd:
+      # US cup size
+      name: DD
+    us_cup_size__ddd:
+      # US cup size
+      name: DDD
+    us_cup_size__g:
+      # US cup size
+      name: G
+    us_cup_size__h:
+      # US cup size
+      name: H
+    us_cup_size__i:
+      # US cup size
+      name: I
+    us_cup_size__j:
+      # US cup size
+      name: J
+    us_cup_size__k:
+      # US cup size
+      name: K
+    us_cup_size__l:
+      # US cup size
+      name: L
+    us_cup_size__m:
+      # US cup size
+      name: M
+    us_cup_size__n:
+      # US cup size
+      name: "N"
+    us_mens_shoe_size__1:
+      # US men's shoe size
+      name: '1'
+    us_mens_shoe_size__10:
+      # US men's shoe size
+      name: '10'
+    us_mens_shoe_size__10_5:
+      # US men's shoe size
+      name: '10.5'
+    us_mens_shoe_size__10_5_extra_wide:
+      # US men's shoe size
+      name: 10.5 Extra Wide
+    us_mens_shoe_size__10_5_medium:
+      # US men's shoe size
+      name: 10.5 Medium
+    us_mens_shoe_size__10_5_narrow:
+      # US men's shoe size
+      name: 10.5 Narrow
+    us_mens_shoe_size__10_5_standard:
+      # US men's shoe size
+      name: 10.5 Standard
+    us_mens_shoe_size__10_5_wide:
+      # US men's shoe size
+      name: 10.5 Wide
+    us_mens_shoe_size__10_extra_wide:
+      # US men's shoe size
+      name: 10 Extra Wide
+    us_mens_shoe_size__10_medium:
+      # US men's shoe size
+      name: 10 Medium
+    us_mens_shoe_size__10_narrow:
+      # US men's shoe size
+      name: 10 Narrow
+    us_mens_shoe_size__10_standard:
+      # US men's shoe size
+      name: 10 Standard
+    us_mens_shoe_size__10_wide:
+      # US men's shoe size
+      name: 10 Wide
+    us_mens_shoe_size__11:
+      # US men's shoe size
+      name: '11'
+    us_mens_shoe_size__11_5:
+      # US men's shoe size
+      name: '11.5'
+    us_mens_shoe_size__11_5_extra_wide:
+      # US men's shoe size
+      name: 11.5 Extra Wide
+    us_mens_shoe_size__11_5_medium:
+      # US men's shoe size
+      name: 11.5 Medium
+    us_mens_shoe_size__11_5_narrow:
+      # US men's shoe size
+      name: 11.5 Narrow
+    us_mens_shoe_size__11_5_standard:
+      # US men's shoe size
+      name: 11.5 Standard
+    us_mens_shoe_size__11_5_wide:
+      # US men's shoe size
+      name: 11.5 Wide
+    us_mens_shoe_size__11_extra_wide:
+      # US men's shoe size
+      name: 11 Extra Wide
+    us_mens_shoe_size__11_medium:
+      # US men's shoe size
+      name: 11 Medium
+    us_mens_shoe_size__11_narrow:
+      # US men's shoe size
+      name: 11 Narrow
+    us_mens_shoe_size__11_standard:
+      # US men's shoe size
+      name: 11 Standard
+    us_mens_shoe_size__11_wide:
+      # US men's shoe size
+      name: 11 Wide
+    us_mens_shoe_size__12:
+      # US men's shoe size
+      name: '12'
+    us_mens_shoe_size__12_5:
+      # US men's shoe size
+      name: '12.5'
+    us_mens_shoe_size__12_5_extra_wide:
+      # US men's shoe size
+      name: 12.5 Extra Wide
+    us_mens_shoe_size__12_5_medium:
+      # US men's shoe size
+      name: 12.5 Medium
+    us_mens_shoe_size__12_5_narrow:
+      # US men's shoe size
+      name: 12.5 Narrow
+    us_mens_shoe_size__12_5_standard:
+      # US men's shoe size
+      name: 12.5 Standard
+    us_mens_shoe_size__12_5_wide:
+      # US men's shoe size
+      name: 12.5 Wide
+    us_mens_shoe_size__12_extra_wide:
+      # US men's shoe size
+      name: 12 Extra Wide
+    us_mens_shoe_size__12_medium:
+      # US men's shoe size
+      name: 12 Medium
+    us_mens_shoe_size__12_narrow:
+      # US men's shoe size
+      name: 12 Narrow
+    us_mens_shoe_size__12_standard:
+      # US men's shoe size
+      name: 12 Standard
+    us_mens_shoe_size__12_wide:
+      # US men's shoe size
+      name: 12 Wide
+    us_mens_shoe_size__13:
+      # US men's shoe size
+      name: '13'
+    us_mens_shoe_size__13_5:
+      # US men's shoe size
+      name: '13.5'
+    us_mens_shoe_size__13_5_extra_wide:
+      # US men's shoe size
+      name: 13.5 Extra Wide
+    us_mens_shoe_size__13_5_medium:
+      # US men's shoe size
+      name: 13.5 Medium
+    us_mens_shoe_size__13_5_narrow:
+      # US men's shoe size
+      name: 13.5 Narrow
+    us_mens_shoe_size__13_5_standard:
+      # US men's shoe size
+      name: 13.5 Standard
+    us_mens_shoe_size__13_5_wide:
+      # US men's shoe size
+      name: 13.5 Wide
+    us_mens_shoe_size__13_extra_wide:
+      # US men's shoe size
+      name: 13 Extra Wide
+    us_mens_shoe_size__13_medium:
+      # US men's shoe size
+      name: 13 Medium
+    us_mens_shoe_size__13_narrow:
+      # US men's shoe size
+      name: 13 Narrow
+    us_mens_shoe_size__13_standard:
+      # US men's shoe size
+      name: 13 Standard
+    us_mens_shoe_size__13_wide:
+      # US men's shoe size
+      name: 13 Wide
+    us_mens_shoe_size__14:
+      # US men's shoe size
+      name: '14'
+    us_mens_shoe_size__14_5:
+      # US men's shoe size
+      name: '14.5'
+    us_mens_shoe_size__14_5_extra_wide:
+      # US men's shoe size
+      name: 14.5 Extra Wide
+    us_mens_shoe_size__14_5_medium:
+      # US men's shoe size
+      name: 14.5 Medium
+    us_mens_shoe_size__14_5_narrow:
+      # US men's shoe size
+      name: 14.5 Narrow
+    us_mens_shoe_size__14_5_standard:
+      # US men's shoe size
+      name: 14.5 Standard
+    us_mens_shoe_size__14_5_wide:
+      # US men's shoe size
+      name: 14.5 Wide
+    us_mens_shoe_size__14_extra_wide:
+      # US men's shoe size
+      name: 14 Extra Wide
+    us_mens_shoe_size__14_medium:
+      # US men's shoe size
+      name: 14 Medium
+    us_mens_shoe_size__14_narrow:
+      # US men's shoe size
+      name: 14 Narrow
+    us_mens_shoe_size__14_standard:
+      # US men's shoe size
+      name: 14 Standard
+    us_mens_shoe_size__14_wide:
+      # US men's shoe size
+      name: 14 Wide
+    us_mens_shoe_size__15:
+      # US men's shoe size
+      name: '15'
+    us_mens_shoe_size__15_5:
+      # US men's shoe size
+      name: '15.5'
+    us_mens_shoe_size__15_5_extra_wide:
+      # US men's shoe size
+      name: 15.5 Extra Wide
+    us_mens_shoe_size__15_5_medium:
+      # US men's shoe size
+      name: 15.5 Medium
+    us_mens_shoe_size__15_5_narrow:
+      # US men's shoe size
+      name: 15.5 Narrow
+    us_mens_shoe_size__15_5_standard:
+      # US men's shoe size
+      name: 15.5 Standard
+    us_mens_shoe_size__15_5_wide:
+      # US men's shoe size
+      name: 15.5 Wide
+    us_mens_shoe_size__15_extra_wide:
+      # US men's shoe size
+      name: 15 Extra Wide
+    us_mens_shoe_size__15_medium:
+      # US men's shoe size
+      name: 15 Medium
+    us_mens_shoe_size__15_narrow:
+      # US men's shoe size
+      name: 15 Narrow
+    us_mens_shoe_size__15_standard:
+      # US men's shoe size
+      name: 15 Standard
+    us_mens_shoe_size__15_wide:
+      # US men's shoe size
+      name: 15 Wide
+    us_mens_shoe_size__16:
+      # US men's shoe size
+      name: '16'
+    us_mens_shoe_size__16_5:
+      # US men's shoe size
+      name: '16.5'
+    us_mens_shoe_size__16_5_extra_wide:
+      # US men's shoe size
+      name: 16.5 Extra Wide
+    us_mens_shoe_size__16_5_medium:
+      # US men's shoe size
+      name: 16.5 Medium
+    us_mens_shoe_size__16_5_narrow:
+      # US men's shoe size
+      name: 16.5 Narrow
+    us_mens_shoe_size__16_5_standard:
+      # US men's shoe size
+      name: 16.5 Standard
+    us_mens_shoe_size__16_5_wide:
+      # US men's shoe size
+      name: 16.5 Wide
+    us_mens_shoe_size__16_extra_wide:
+      # US men's shoe size
+      name: 16 Extra Wide
+    us_mens_shoe_size__16_medium:
+      # US men's shoe size
+      name: 16 Medium
+    us_mens_shoe_size__16_narrow:
+      # US men's shoe size
+      name: 16 Narrow
+    us_mens_shoe_size__16_standard:
+      # US men's shoe size
+      name: 16 Standard
+    us_mens_shoe_size__16_wide:
+      # US men's shoe size
+      name: 16 Wide
+    us_mens_shoe_size__17:
+      # US men's shoe size
+      name: '17'
+    us_mens_shoe_size__17_5:
+      # US men's shoe size
+      name: '17.5'
+    us_mens_shoe_size__17_5_extra_wide:
+      # US men's shoe size
+      name: 17.5 Extra Wide
+    us_mens_shoe_size__17_5_medium:
+      # US men's shoe size
+      name: 17.5 Medium
+    us_mens_shoe_size__17_5_narrow:
+      # US men's shoe size
+      name: 17.5 Narrow
+    us_mens_shoe_size__17_5_standard:
+      # US men's shoe size
+      name: 17.5 Standard
+    us_mens_shoe_size__17_5_wide:
+      # US men's shoe size
+      name: 17.5 Wide
+    us_mens_shoe_size__17_extra_wide:
+      # US men's shoe size
+      name: 17 Extra Wide
+    us_mens_shoe_size__17_medium:
+      # US men's shoe size
+      name: 17 Medium
+    us_mens_shoe_size__17_narrow:
+      # US men's shoe size
+      name: 17 Narrow
+    us_mens_shoe_size__17_standard:
+      # US men's shoe size
+      name: 17 Standard
+    us_mens_shoe_size__17_wide:
+      # US men's shoe size
+      name: 17 Wide
+    us_mens_shoe_size__18:
+      # US men's shoe size
+      name: '18'
+    us_mens_shoe_size__18_extra_wide:
+      # US men's shoe size
+      name: 18 Extra Wide
+    us_mens_shoe_size__18_medium:
+      # US men's shoe size
+      name: 18 Medium
+    us_mens_shoe_size__18_narrow:
+      # US men's shoe size
+      name: 18 Narrow
+    us_mens_shoe_size__18_standard:
+      # US men's shoe size
+      name: 18 Standard
+    us_mens_shoe_size__18_wide:
+      # US men's shoe size
+      name: 18 Wide
+    us_mens_shoe_size__1_5:
+      # US men's shoe size
+      name: '1.5'
+    us_mens_shoe_size__1_5_extra_wide:
+      # US men's shoe size
+      name: 1.5 Extra Wide
+    us_mens_shoe_size__1_5_medium:
+      # US men's shoe size
+      name: 1.5 Medium
+    us_mens_shoe_size__1_5_narrow:
+      # US men's shoe size
+      name: 1.5 Narrow
+    us_mens_shoe_size__1_5_standard:
+      # US men's shoe size
+      name: 1.5 Standard
+    us_mens_shoe_size__1_5_wide:
+      # US men's shoe size
+      name: 1.5 Wide
+    us_mens_shoe_size__1_extra_wide:
+      # US men's shoe size
+      name: 1 Extra Wide
+    us_mens_shoe_size__1_medium:
+      # US men's shoe size
+      name: 1 Medium
+    us_mens_shoe_size__1_narrow:
+      # US men's shoe size
+      name: 1 Narrow
+    us_mens_shoe_size__1_standard:
+      # US men's shoe size
+      name: 1 Standard
+    us_mens_shoe_size__1_wide:
+      # US men's shoe size
+      name: 1 Wide
+    us_mens_shoe_size__2:
+      # US men's shoe size
+      name: '2'
+    us_mens_shoe_size__2_5:
+      # US men's shoe size
+      name: '2.5'
+    us_mens_shoe_size__2_5_extra_wide:
+      # US men's shoe size
+      name: 2.5 Extra Wide
+    us_mens_shoe_size__2_5_medium:
+      # US men's shoe size
+      name: 2.5 Medium
+    us_mens_shoe_size__2_5_narrow:
+      # US men's shoe size
+      name: 2.5 Narrow
+    us_mens_shoe_size__2_5_standard:
+      # US men's shoe size
+      name: 2.5 Standard
+    us_mens_shoe_size__2_5_wide:
+      # US men's shoe size
+      name: 2.5 Wide
+    us_mens_shoe_size__2_extra_wide:
+      # US men's shoe size
+      name: 2 Extra Wide
+    us_mens_shoe_size__2_medium:
+      # US men's shoe size
+      name: 2 Medium
+    us_mens_shoe_size__2_narrow:
+      # US men's shoe size
+      name: 2 Narrow
+    us_mens_shoe_size__2_standard:
+      # US men's shoe size
+      name: 2 Standard
+    us_mens_shoe_size__2_wide:
+      # US men's shoe size
+      name: 2 Wide
+    us_mens_shoe_size__3:
+      # US men's shoe size
+      name: '3'
+    us_mens_shoe_size__3_5:
+      # US men's shoe size
+      name: '3.5'
+    us_mens_shoe_size__3_5_extra_wide:
+      # US men's shoe size
+      name: 3.5 Extra Wide
+    us_mens_shoe_size__3_5_medium:
+      # US men's shoe size
+      name: 3.5 Medium
+    us_mens_shoe_size__3_5_narrow:
+      # US men's shoe size
+      name: 3.5 Narrow
+    us_mens_shoe_size__3_5_standard:
+      # US men's shoe size
+      name: 3.5 Standard
+    us_mens_shoe_size__3_5_wide:
+      # US men's shoe size
+      name: 3.5 Wide
+    us_mens_shoe_size__3_extra_wide:
+      # US men's shoe size
+      name: 3 Extra Wide
+    us_mens_shoe_size__3_medium:
+      # US men's shoe size
+      name: 3 Medium
+    us_mens_shoe_size__3_narrow:
+      # US men's shoe size
+      name: 3 Narrow
+    us_mens_shoe_size__3_standard:
+      # US men's shoe size
+      name: 3 Standard
+    us_mens_shoe_size__3_wide:
+      # US men's shoe size
+      name: 3 Wide
+    us_mens_shoe_size__4:
+      # US men's shoe size
+      name: '4'
+    us_mens_shoe_size__4_5:
+      # US men's shoe size
+      name: '4.5'
+    us_mens_shoe_size__4_5_extra_wide:
+      # US men's shoe size
+      name: 4.5 Extra Wide
+    us_mens_shoe_size__4_5_medium:
+      # US men's shoe size
+      name: 4.5 Medium
+    us_mens_shoe_size__4_5_narrow:
+      # US men's shoe size
+      name: 4.5 Narrow
+    us_mens_shoe_size__4_5_standard:
+      # US men's shoe size
+      name: 4.5 Standard
+    us_mens_shoe_size__4_5_wide:
+      # US men's shoe size
+      name: 4.5 Wide
+    us_mens_shoe_size__4_extra_wide:
+      # US men's shoe size
+      name: 4 Extra Wide
+    us_mens_shoe_size__4_medium:
+      # US men's shoe size
+      name: 4 Medium
+    us_mens_shoe_size__4_narrow:
+      # US men's shoe size
+      name: 4 Narrow
+    us_mens_shoe_size__4_standard:
+      # US men's shoe size
+      name: 4 Standard
+    us_mens_shoe_size__4_wide:
+      # US men's shoe size
+      name: 4 Wide
+    us_mens_shoe_size__5:
+      # US men's shoe size
+      name: '5'
+    us_mens_shoe_size__5_5:
+      # US men's shoe size
+      name: '5.5'
+    us_mens_shoe_size__5_5_extra_wide:
+      # US men's shoe size
+      name: 5.5 Extra Wide
+    us_mens_shoe_size__5_5_medium:
+      # US men's shoe size
+      name: 5.5 Medium
+    us_mens_shoe_size__5_5_narrow:
+      # US men's shoe size
+      name: 5.5 Narrow
+    us_mens_shoe_size__5_5_standard:
+      # US men's shoe size
+      name: 5.5 Standard
+    us_mens_shoe_size__5_5_wide:
+      # US men's shoe size
+      name: 5.5 Wide
+    us_mens_shoe_size__5_extra_wide:
+      # US men's shoe size
+      name: 5 Extra Wide
+    us_mens_shoe_size__5_medium:
+      # US men's shoe size
+      name: 5 Medium
+    us_mens_shoe_size__5_narrow:
+      # US men's shoe size
+      name: 5 Narrow
+    us_mens_shoe_size__5_standard:
+      # US men's shoe size
+      name: 5 Standard
+    us_mens_shoe_size__5_wide:
+      # US men's shoe size
+      name: 5 Wide
+    us_mens_shoe_size__6:
+      # US men's shoe size
+      name: '6'
+    us_mens_shoe_size__6_5:
+      # US men's shoe size
+      name: '6.5'
+    us_mens_shoe_size__6_5_extra_wide:
+      # US men's shoe size
+      name: 6.5 Extra Wide
+    us_mens_shoe_size__6_5_medium:
+      # US men's shoe size
+      name: 6.5 Medium
+    us_mens_shoe_size__6_5_narrow:
+      # US men's shoe size
+      name: 6.5 Narrow
+    us_mens_shoe_size__6_5_standard:
+      # US men's shoe size
+      name: 6.5 Standard
+    us_mens_shoe_size__6_5_wide:
+      # US men's shoe size
+      name: 6.5 Wide
+    us_mens_shoe_size__6_extra_wide:
+      # US men's shoe size
+      name: 6 Extra Wide
+    us_mens_shoe_size__6_medium:
+      # US men's shoe size
+      name: 6 Medium
+    us_mens_shoe_size__6_narrow:
+      # US men's shoe size
+      name: 6 Narrow
+    us_mens_shoe_size__6_standard:
+      # US men's shoe size
+      name: 6 Standard
+    us_mens_shoe_size__6_wide:
+      # US men's shoe size
+      name: 6 Wide
+    us_mens_shoe_size__7:
+      # US men's shoe size
+      name: '7'
+    us_mens_shoe_size__7_5:
+      # US men's shoe size
+      name: '7.5'
+    us_mens_shoe_size__7_5_extra_wide:
+      # US men's shoe size
+      name: 7.5 Extra Wide
+    us_mens_shoe_size__7_5_medium:
+      # US men's shoe size
+      name: 7.5 Medium
+    us_mens_shoe_size__7_5_narrow:
+      # US men's shoe size
+      name: 7.5 Narrow
+    us_mens_shoe_size__7_5_standard:
+      # US men's shoe size
+      name: 7.5 Standard
+    us_mens_shoe_size__7_5_wide:
+      # US men's shoe size
+      name: 7.5 Wide
+    us_mens_shoe_size__7_extra_wide:
+      # US men's shoe size
+      name: 7 Extra Wide
+    us_mens_shoe_size__7_medium:
+      # US men's shoe size
+      name: 7 Medium
+    us_mens_shoe_size__7_narrow:
+      # US men's shoe size
+      name: 7 Narrow
+    us_mens_shoe_size__7_standard:
+      # US men's shoe size
+      name: 7 Standard
+    us_mens_shoe_size__7_wide:
+      # US men's shoe size
+      name: 7 Wide
+    us_mens_shoe_size__8:
+      # US men's shoe size
+      name: '8'
+    us_mens_shoe_size__8_5:
+      # US men's shoe size
+      name: '8.5'
+    us_mens_shoe_size__8_5_extra_wide:
+      # US men's shoe size
+      name: 8.5 Extra Wide
+    us_mens_shoe_size__8_5_medium:
+      # US men's shoe size
+      name: 8.5 Medium
+    us_mens_shoe_size__8_5_narrow:
+      # US men's shoe size
+      name: 8.5 Narrow
+    us_mens_shoe_size__8_5_standard:
+      # US men's shoe size
+      name: 8.5 Standard
+    us_mens_shoe_size__8_5_wide:
+      # US men's shoe size
+      name: 8.5 Wide
+    us_mens_shoe_size__8_extra_wide:
+      # US men's shoe size
+      name: 8 Extra Wide
+    us_mens_shoe_size__8_medium:
+      # US men's shoe size
+      name: 8 Medium
+    us_mens_shoe_size__8_narrow:
+      # US men's shoe size
+      name: 8 Narrow
+    us_mens_shoe_size__8_standard:
+      # US men's shoe size
+      name: 8 Standard
+    us_mens_shoe_size__8_wide:
+      # US men's shoe size
+      name: 8 Wide
+    us_mens_shoe_size__9:
+      # US men's shoe size
+      name: '9'
+    us_mens_shoe_size__9_5:
+      # US men's shoe size
+      name: '9.5'
+    us_mens_shoe_size__9_5_extra_wide:
+      # US men's shoe size
+      name: 9.5 Extra Wide
+    us_mens_shoe_size__9_5_medium:
+      # US men's shoe size
+      name: 9.5 Medium
+    us_mens_shoe_size__9_5_narrow:
+      # US men's shoe size
+      name: 9.5 Narrow
+    us_mens_shoe_size__9_5_standard:
+      # US men's shoe size
+      name: 9.5 Standard
+    us_mens_shoe_size__9_5_wide:
+      # US men's shoe size
+      name: 9.5 Wide
+    us_mens_shoe_size__9_extra_wide:
+      # US men's shoe size
+      name: 9 Extra Wide
+    us_mens_shoe_size__9_medium:
+      # US men's shoe size
+      name: 9 Medium
+    us_mens_shoe_size__9_narrow:
+      # US men's shoe size
+      name: 9 Narrow
+    us_mens_shoe_size__9_standard:
+      # US men's shoe size
+      name: 9 Standard
+    us_mens_shoe_size__9_wide:
+      # US men's shoe size
+      name: 9 Wide
+    us_ring_size__1:
+      # US ring size
+      name: '1'
+    us_ring_size__10:
+      # US ring size
+      name: '10'
+    us_ring_size__10_25:
+      # US ring size
+      name: '10.25'
+    us_ring_size__10_5:
+      # US ring size
+      name: '10.5'
+    us_ring_size__10_75:
+      # US ring size
+      name: '10.75'
+    us_ring_size__11:
+      # US ring size
+      name: '11'
+    us_ring_size__11_25:
+      # US ring size
+      name: '11.25'
+    us_ring_size__11_5:
+      # US ring size
+      name: '11.5'
+    us_ring_size__11_75:
+      # US ring size
+      name: '11.75'
+    us_ring_size__12:
+      # US ring size
+      name: '12'
+    us_ring_size__12_25:
+      # US ring size
+      name: '12.25'
+    us_ring_size__12_5:
+      # US ring size
+      name: '12.5'
+    us_ring_size__12_75:
+      # US ring size
+      name: '12.75'
+    us_ring_size__13:
+      # US ring size
+      name: '13'
+    us_ring_size__13_25:
+      # US ring size
+      name: '13.25'
+    us_ring_size__13_5:
+      # US ring size
+      name: '13.5'
+    us_ring_size__13_75:
+      # US ring size
+      name: '13.75'
+    us_ring_size__14:
+      # US ring size
+      name: '14'
+    us_ring_size__14_25:
+      # US ring size
+      name: '14.25'
+    us_ring_size__14_5:
+      # US ring size
+      name: '14.5'
+    us_ring_size__14_75:
+      # US ring size
+      name: '14.75'
+    us_ring_size__15:
+      # US ring size
+      name: '15'
+    us_ring_size__1_25:
+      # US ring size
+      name: '1.25'
+    us_ring_size__1_5:
+      # US ring size
+      name: '1.5'
+    us_ring_size__1_75:
+      # US ring size
+      name: '1.75'
+    us_ring_size__2:
+      # US ring size
+      name: '2'
+    us_ring_size__2_25:
+      # US ring size
+      name: '2.25'
+    us_ring_size__2_5:
+      # US ring size
+      name: '2.5'
+    us_ring_size__2_75:
+      # US ring size
+      name: '2.75'
+    us_ring_size__3:
+      # US ring size
+      name: '3'
+    us_ring_size__3_25:
+      # US ring size
+      name: '3.25'
+    us_ring_size__3_5:
+      # US ring size
+      name: '3.5'
+    us_ring_size__3_75:
+      # US ring size
+      name: '3.75'
+    us_ring_size__4:
+      # US ring size
+      name: '4'
+    us_ring_size__4_25:
+      # US ring size
+      name: '4.25'
+    us_ring_size__4_5:
+      # US ring size
+      name: '4.5'
+    us_ring_size__4_75:
+      # US ring size
+      name: '4.75'
+    us_ring_size__5:
+      # US ring size
+      name: '5'
+    us_ring_size__5_25:
+      # US ring size
+      name: '5.25'
+    us_ring_size__5_5:
+      # US ring size
+      name: '5.5'
+    us_ring_size__5_75:
+      # US ring size
+      name: '5.75'
+    us_ring_size__6:
+      # US ring size
+      name: '6'
+    us_ring_size__6_25:
+      # US ring size
+      name: '6.25'
+    us_ring_size__6_5:
+      # US ring size
+      name: '6.5'
+    us_ring_size__6_75:
+      # US ring size
+      name: '6.75'
+    us_ring_size__7:
+      # US ring size
+      name: '7'
+    us_ring_size__7_25:
+      # US ring size
+      name: '7.25'
+    us_ring_size__7_5:
+      # US ring size
+      name: '7.5'
+    us_ring_size__7_75:
+      # US ring size
+      name: '7.75'
+    us_ring_size__8:
+      # US ring size
+      name: '8'
+    us_ring_size__8_25:
+      # US ring size
+      name: '8.25'
+    us_ring_size__8_5:
+      # US ring size
+      name: '8.5'
+    us_ring_size__8_75:
+      # US ring size
+      name: '8.75'
+    us_ring_size__9:
+      # US ring size
+      name: '9'
+    us_ring_size__9_25:
+      # US ring size
+      name: '9.25'
+    us_ring_size__9_5:
+      # US ring size
+      name: '9.5'
+    us_ring_size__9_75:
+      # US ring size
+      name: '9.75'
+    us_womens_shoe_size__10:
+      # US women's shoe size
+      name: '10'
+    us_womens_shoe_size__10_5:
+      # US women's shoe size
+      name: '10.5'
+    us_womens_shoe_size__10_5_extra_wide:
+      # US women's shoe size
+      name: 10.5 Extra Wide
+    us_womens_shoe_size__10_5_medium:
+      # US women's shoe size
+      name: 10.5 Medium
+    us_womens_shoe_size__10_5_narrow:
+      # US women's shoe size
+      name: 10.5 Narrow
+    us_womens_shoe_size__10_5_standard:
+      # US women's shoe size
+      name: 10.5 Standard
+    us_womens_shoe_size__10_5_wide:
+      # US women's shoe size
+      name: 10.5 Wide
+    us_womens_shoe_size__10_extra_wide:
+      # US women's shoe size
+      name: 10 Extra Wide
+    us_womens_shoe_size__10_medium:
+      # US women's shoe size
+      name: 10 Medium
+    us_womens_shoe_size__10_narrow:
+      # US women's shoe size
+      name: 10 Narrow
+    us_womens_shoe_size__10_standard:
+      # US women's shoe size
+      name: 10 Standard
+    us_womens_shoe_size__10_wide:
+      # US women's shoe size
+      name: 10 Wide
+    us_womens_shoe_size__11:
+      # US women's shoe size
+      name: '11'
+    us_womens_shoe_size__11_5:
+      # US women's shoe size
+      name: '11.5'
+    us_womens_shoe_size__11_5_extra_wide:
+      # US women's shoe size
+      name: 11.5 Extra Wide
+    us_womens_shoe_size__11_5_medium:
+      # US women's shoe size
+      name: 11.5 Medium
+    us_womens_shoe_size__11_5_narrow:
+      # US women's shoe size
+      name: 11.5 Narrow
+    us_womens_shoe_size__11_5_standard:
+      # US women's shoe size
+      name: 11.5 Standard
+    us_womens_shoe_size__11_5_wide:
+      # US women's shoe size
+      name: 11.5 Wide
+    us_womens_shoe_size__11_extra_wide:
+      # US women's shoe size
+      name: 11 Extra Wide
+    us_womens_shoe_size__11_medium:
+      # US women's shoe size
+      name: 11 Medium
+    us_womens_shoe_size__11_narrow:
+      # US women's shoe size
+      name: 11 Narrow
+    us_womens_shoe_size__11_standard:
+      # US women's shoe size
+      name: 11 Standard
+    us_womens_shoe_size__11_wide:
+      # US women's shoe size
+      name: 11 Wide
+    us_womens_shoe_size__12:
+      # US women's shoe size
+      name: '12'
+    us_womens_shoe_size__12_5:
+      # US women's shoe size
+      name: '12.5'
+    us_womens_shoe_size__12_5_extra_wide:
+      # US women's shoe size
+      name: 12.5 Extra Wide
+    us_womens_shoe_size__12_5_medium:
+      # US women's shoe size
+      name: 12.5 Medium
+    us_womens_shoe_size__12_5_narrow:
+      # US women's shoe size
+      name: 12.5 Narrow
+    us_womens_shoe_size__12_5_standard:
+      # US women's shoe size
+      name: 12.5 Standard
+    us_womens_shoe_size__12_5_wide:
+      # US women's shoe size
+      name: 12.5 Wide
+    us_womens_shoe_size__12_extra_wide:
+      # US women's shoe size
+      name: 12 Extra Wide
+    us_womens_shoe_size__12_medium:
+      # US women's shoe size
+      name: 12 Medium
+    us_womens_shoe_size__12_narrow:
+      # US women's shoe size
+      name: 12 Narrow
+    us_womens_shoe_size__12_standard:
+      # US women's shoe size
+      name: 12 Standard
+    us_womens_shoe_size__12_wide:
+      # US women's shoe size
+      name: 12 Wide
+    us_womens_shoe_size__13:
+      # US women's shoe size
+      name: '13'
+    us_womens_shoe_size__13_5:
+      # US women's shoe size
+      name: '13.5'
+    us_womens_shoe_size__13_5_extra_wide:
+      # US women's shoe size
+      name: 13.5 Extra Wide
+    us_womens_shoe_size__13_5_medium:
+      # US women's shoe size
+      name: 13.5 Medium
+    us_womens_shoe_size__13_5_narrow:
+      # US women's shoe size
+      name: 13.5 Narrow
+    us_womens_shoe_size__13_5_standard:
+      # US women's shoe size
+      name: 13.5 Standard
+    us_womens_shoe_size__13_5_wide:
+      # US women's shoe size
+      name: 13.5 Wide
+    us_womens_shoe_size__13_extra_wide:
+      # US women's shoe size
+      name: 13 Extra Wide
+    us_womens_shoe_size__13_medium:
+      # US women's shoe size
+      name: 13 Medium
+    us_womens_shoe_size__13_narrow:
+      # US women's shoe size
+      name: 13 Narrow
+    us_womens_shoe_size__13_standard:
+      # US women's shoe size
+      name: 13 Standard
+    us_womens_shoe_size__13_wide:
+      # US women's shoe size
+      name: 13 Wide
+    us_womens_shoe_size__14:
+      # US women's shoe size
+      name: '14'
+    us_womens_shoe_size__14_extra_wide:
+      # US women's shoe size
+      name: 14 Extra Wide
+    us_womens_shoe_size__14_medium:
+      # US women's shoe size
+      name: 14 Medium
+    us_womens_shoe_size__14_narrow:
+      # US women's shoe size
+      name: 14 Narrow
+    us_womens_shoe_size__14_standard:
+      # US women's shoe size
+      name: 14 Standard
+    us_womens_shoe_size__14_wide:
+      # US women's shoe size
+      name: 14 Wide
+    us_womens_shoe_size__3_5:
+      # US women's shoe size
+      name: '3.5'
+    us_womens_shoe_size__3_5_extra_wide:
+      # US women's shoe size
+      name: 3.5 Extra Wide
+    us_womens_shoe_size__3_5_medium:
+      # US women's shoe size
+      name: 3.5 Medium
+    us_womens_shoe_size__3_5_narrow:
+      # US women's shoe size
+      name: 3.5 Narrow
+    us_womens_shoe_size__3_5_standard:
+      # US women's shoe size
+      name: 3.5 Standard
+    us_womens_shoe_size__3_5_wide:
+      # US women's shoe size
+      name: 3.5 Wide
+    us_womens_shoe_size__4:
+      # US women's shoe size
+      name: '4'
+    us_womens_shoe_size__4_5:
+      # US women's shoe size
+      name: '4.5'
+    us_womens_shoe_size__4_5_extra_wide:
+      # US women's shoe size
+      name: 4.5 Extra Wide
+    us_womens_shoe_size__4_5_medium:
+      # US women's shoe size
+      name: 4.5 Medium
+    us_womens_shoe_size__4_5_narrow:
+      # US women's shoe size
+      name: 4.5 Narrow
+    us_womens_shoe_size__4_5_standard:
+      # US women's shoe size
+      name: 4.5 Standard
+    us_womens_shoe_size__4_5_wide:
+      # US women's shoe size
+      name: 4.5 Wide
+    us_womens_shoe_size__4_extra_wide:
+      # US women's shoe size
+      name: 4 Extra Wide
+    us_womens_shoe_size__4_medium:
+      # US women's shoe size
+      name: 4 Medium
+    us_womens_shoe_size__4_narrow:
+      # US women's shoe size
+      name: 4 Narrow
+    us_womens_shoe_size__4_standard:
+      # US women's shoe size
+      name: 4 Standard
+    us_womens_shoe_size__4_wide:
+      # US women's shoe size
+      name: 4 Wide
+    us_womens_shoe_size__5:
+      # US women's shoe size
+      name: '5'
+    us_womens_shoe_size__5_5:
+      # US women's shoe size
+      name: '5.5'
+    us_womens_shoe_size__5_5_extra_wide:
+      # US women's shoe size
+      name: 5.5 Extra Wide
+    us_womens_shoe_size__5_5_medium:
+      # US women's shoe size
+      name: 5.5 Medium
+    us_womens_shoe_size__5_5_narrow:
+      # US women's shoe size
+      name: 5.5 Narrow
+    us_womens_shoe_size__5_5_standard:
+      # US women's shoe size
+      name: 5.5 Standard
+    us_womens_shoe_size__5_5_wide:
+      # US women's shoe size
+      name: 5.5 Wide
+    us_womens_shoe_size__5_extra_wide:
+      # US women's shoe size
+      name: 5 Extra Wide
+    us_womens_shoe_size__5_medium:
+      # US women's shoe size
+      name: 5 Medium
+    us_womens_shoe_size__5_narrow:
+      # US women's shoe size
+      name: 5 Narrow
+    us_womens_shoe_size__5_standard:
+      # US women's shoe size
+      name: 5 Standard
+    us_womens_shoe_size__5_wide:
+      # US women's shoe size
+      name: 5 Wide
+    us_womens_shoe_size__6:
+      # US women's shoe size
+      name: '6'
+    us_womens_shoe_size__6_5:
+      # US women's shoe size
+      name: '6.5'
+    us_womens_shoe_size__6_5_extra_wide:
+      # US women's shoe size
+      name: 6.5 Extra Wide
+    us_womens_shoe_size__6_5_medium:
+      # US women's shoe size
+      name: 6.5 Medium
+    us_womens_shoe_size__6_5_narrow:
+      # US women's shoe size
+      name: 6.5 Narrow
+    us_womens_shoe_size__6_5_standard:
+      # US women's shoe size
+      name: 6.5 Standard
+    us_womens_shoe_size__6_5_wide:
+      # US women's shoe size
+      name: 6.5 Wide
+    us_womens_shoe_size__6_extra_wide:
+      # US women's shoe size
+      name: 6 Extra Wide
+    us_womens_shoe_size__6_medium:
+      # US women's shoe size
+      name: 6 Medium
+    us_womens_shoe_size__6_narrow:
+      # US women's shoe size
+      name: 6 Narrow
+    us_womens_shoe_size__6_standard:
+      # US women's shoe size
+      name: 6 Standard
+    us_womens_shoe_size__6_wide:
+      # US women's shoe size
+      name: 6 Wide
+    us_womens_shoe_size__7:
+      # US women's shoe size
+      name: '7'
+    us_womens_shoe_size__7_5:
+      # US women's shoe size
+      name: '7.5'
+    us_womens_shoe_size__7_5_extra_wide:
+      # US women's shoe size
+      name: 7.5 Extra Wide
+    us_womens_shoe_size__7_5_medium:
+      # US women's shoe size
+      name: 7.5 Medium
+    us_womens_shoe_size__7_5_narrow:
+      # US women's shoe size
+      name: 7.5 Narrow
+    us_womens_shoe_size__7_5_standard:
+      # US women's shoe size
+      name: 7.5 Standard
+    us_womens_shoe_size__7_5_wide:
+      # US women's shoe size
+      name: 7.5 Wide
+    us_womens_shoe_size__7_extra_wide:
+      # US women's shoe size
+      name: 7 Extra Wide
+    us_womens_shoe_size__7_medium:
+      # US women's shoe size
+      name: 7 Medium
+    us_womens_shoe_size__7_narrow:
+      # US women's shoe size
+      name: 7 Narrow
+    us_womens_shoe_size__7_standard:
+      # US women's shoe size
+      name: 7 Standard
+    us_womens_shoe_size__7_wide:
+      # US women's shoe size
+      name: 7 Wide
+    us_womens_shoe_size__8:
+      # US women's shoe size
+      name: '8'
+    us_womens_shoe_size__8_5:
+      # US women's shoe size
+      name: '8.5'
+    us_womens_shoe_size__8_5_extra_wide:
+      # US women's shoe size
+      name: 8.5 Extra Wide
+    us_womens_shoe_size__8_5_medium:
+      # US women's shoe size
+      name: 8.5 Medium
+    us_womens_shoe_size__8_5_narrow:
+      # US women's shoe size
+      name: 8.5 Narrow
+    us_womens_shoe_size__8_5_standard:
+      # US women's shoe size
+      name: 8.5 Standard
+    us_womens_shoe_size__8_5_wide:
+      # US women's shoe size
+      name: 8.5 Wide
+    us_womens_shoe_size__8_extra_wide:
+      # US women's shoe size
+      name: 8 Extra Wide
+    us_womens_shoe_size__8_medium:
+      # US women's shoe size
+      name: 8 Medium
+    us_womens_shoe_size__8_narrow:
+      # US women's shoe size
+      name: 8 Narrow
+    us_womens_shoe_size__8_standard:
+      # US women's shoe size
+      name: 8 Standard
+    us_womens_shoe_size__8_wide:
+      # US women's shoe size
+      name: 8 Wide
+    us_womens_shoe_size__9:
+      # US women's shoe size
+      name: '9'
+    us_womens_shoe_size__9_5:
+      # US women's shoe size
+      name: '9.5'
+    us_womens_shoe_size__9_5_extra_wide:
+      # US women's shoe size
+      name: 9.5 Extra Wide
+    us_womens_shoe_size__9_5_medium:
+      # US women's shoe size
+      name: 9.5 Medium
+    us_womens_shoe_size__9_5_narrow:
+      # US women's shoe size
+      name: 9.5 Narrow
+    us_womens_shoe_size__9_5_standard:
+      # US women's shoe size
+      name: 9.5 Standard
+    us_womens_shoe_size__9_5_wide:
+      # US women's shoe size
+      name: 9.5 Wide
+    us_womens_shoe_size__9_extra_wide:
+      # US women's shoe size
+      name: 9 Extra Wide
+    us_womens_shoe_size__9_medium:
+      # US women's shoe size
+      name: 9 Medium
+    us_womens_shoe_size__9_narrow:
+      # US women's shoe size
+      name: 9 Narrow
+    us_womens_shoe_size__9_standard:
+      # US women's shoe size
+      name: 9 Standard
+    us_womens_shoe_size__9_wide:
+      # US women's shoe size
+      name: 9 Wide
     usage_conditions__dry:
       # Usage conditions
       name: Dry
