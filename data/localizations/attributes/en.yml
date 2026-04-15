@@ -3608,6 +3608,21 @@ en:
     ethernet_lan_interface_type:
       name: Ethernet LAN interface type
       description: Specifies the type of Ethernet connection a product supports, such as LAN or fast
+    eu_children_clothing_size:
+      name: EU children's clothing size
+      description: Specifies the EU children's clothing size by height, such as 104 or 140
+    eu_clothing_size:
+      name: EU clothing size
+      description: Specifies the EU clothing size, such as 38 or 46
+    eu_cup_size:
+      name: EU cup size
+      description: Specifies the EU bra cup size, such as C or E
+    eu_ring_size:
+      name: EU ring size
+      description: Specifies the EU ring size by circumference, such as 52 or 63
+    eu_shoe_size:
+      name: EU shoe size
+      description: Specifies the EU shoe size, such as 42 or 42 Wide
     ev_battery_features:
       name: EV battery features
       description: Highlights features of EV batteries, such as long cycle life or smart battery management system
@@ -6605,6 +6620,15 @@ en:
     numeral_style:
       name: Numeral style
       description: Defines the visual style or presence of numerals on the clock face.
+    numeric_clothing_size:
+      name: Numeric clothing size
+      description: Specifies the numeric clothing size and sizing system, such as 10 US or 38 EU
+    numeric_ring_size:
+      name: Numeric ring size
+      description: Specifies the numeric ring size and sizing system, such as 7 US or 54 EU
+    numeric_shoe_size:
+      name: Numeric shoe size
+      description: Specifies the numeric shoe size and sizing system, such as 10 US or 42 EU
     nursery_theme:
       name: Nursery theme
       description: Defines the design or motif of nursery-related products, like jungle or dinosaur
@@ -10229,6 +10253,21 @@ en:
     uc_platform_certification:
       name: UC platform certification
       description: Identifies unified-communications or meeting platforms for which the device is officially certified.
+    uk_childrens_shoe_size:
+      name: UK children's shoe size
+      description: Specifies the UK children's shoe size, such as 4 or 4 Wide
+    uk_clothing_size:
+      name: UK clothing size
+      description: Specifies the UK clothing size, such as 12 or 18
+    uk_cup_size:
+      name: UK cup size
+      description: Specifies the UK bra cup size, such as C or FF
+    uk_mens_shoe_size:
+      name: UK men's shoe size
+      description: Specifies the UK men's shoe size, such as 9 or 9 Wide
+    uk_womens_shoe_size:
+      name: UK women's shoe size
+      description: Specifies the UK women's shoe size, such as 6 or 6 Wide
     ultrasonic_cleaner_accessories_included:
       name: Ultrasonic cleaner accessories included
       description: Lists additional components supplied with the cleaner so shoppers know exactly what is in the box.
@@ -10277,6 +10316,24 @@ en:
     urinal_mounting_type:
       name: Urinal mounting type
       description: Specifies how a urinal is installed, such as wall-mounted or floor-mounted
+    us_childrens_shoe_size:
+      name: US children's shoe size
+      description: Specifies the US children's shoe size, such as 5 or 5 Wide
+    us_clothing_size:
+      name: US clothing size
+      description: Specifies the US clothing size, such as 8 or 14
+    us_cup_size:
+      name: US cup size
+      description: Specifies the US bra cup size, such as C or DDD
+    us_mens_shoe_size:
+      name: US men's shoe size
+      description: Specifies the US men's shoe size, such as 10 or 10 Wide
+    us_ring_size:
+      name: US ring size
+      description: Specifies the US ring size, such as 7 or 9.5
+    us_womens_shoe_size:
+      name: US women's shoe size
+      description: Specifies the US women's shoe size, such as 8 or 8 Wide
     usage_conditions:
       name: Usage conditions
       description: Specifies if the product is suitable for use in dry or wet conditions, typically for razors
