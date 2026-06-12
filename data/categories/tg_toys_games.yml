@@ -13,14 +13,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-1
   name: Game Timers
   children: []
@@ -28,15 +28,17 @@
   - color
   - pattern
   - recommended_age_group
+  - timer_count_mode
+  - timer_display_type
   - timer_features
   - toy/game_material
   return_reasons:
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-2
   name: Games
   children:
@@ -61,13 +63,13 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-2-1
   name: Battle Top Accessories
   children: []
@@ -77,146 +79,168 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-2
   name: Battle Tops
   children: []
   attributes:
+  - battle_top_arena_stadium_compatibility
+  - battle_top_items_included
+  - battle_top_performance_type
   - color
+  - compatible_battle_top_system
   - game_features
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - size
   - spin_time
   - weight
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-2-3
   name: Bingo Sets
   children: []
   attributes:
+  - bingo_components_included
+  - bingo_number_range
+  - bingo_set_features
   - color
   - game_features
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-4
   name: Blackjack & Craps Sets
   children:
   - tg-2-4-1
   - tg-2-4-2
   attributes:
+  - casino_set_chip_material
+  - casino_set_layout_included
   - color
   - game_features
   - pattern
   - recommended_age_group
+  - storage_case_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-4-1
   name: Blackjack Sets
   children: []
   attributes:
+  - casino_set_chip_material
+  - casino_set_layout_included
+  - chip_denomination
   - color
   - game_features
   - pattern
   - recommended_age_group
+  - storage_case_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-4-2
   name: Craps Sets
   children: []
   attributes:
+  - casino_set_chip_material
+  - casino_set_layout_included
   - color
+  - craps_accessories_included
   - game_features
   - pattern
   - recommended_age_group
+  - storage_case_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-5
   name: Board Games
   children: []
   attributes:
   - board_game_features
   - board_game_mechanics
+  - board_game_theme
   - color
   - gameplay_skills
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-2-6
   name: Card Game Accessories
   children: []
   attributes:
+  - card_binder_page_type
+  - card_game_accessory_features
+  - card_sleeve_size_format_compatibility
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-7
   name: Card Games
   children: []
@@ -228,13 +252,13 @@
   - theme
   - toy/game_material
   return_reasons:
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-2-8
   name: Dexterity Games
   children: []
@@ -246,34 +270,35 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-9
   name: Dice Sets & Games
   children: []
   attributes:
   - color
   - dice_shape
+  - dice_sides
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-2-10
   name: Poker Chip Accessories
   children:
@@ -281,36 +306,41 @@
   attributes:
   - color
   - pattern
+  - poker_accessory_storage_included
+  - poker_chip_tray_rack_configuration
   - recommended_age_group
   - toy/game_material
   return_reasons:
   - capacity
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-2-10-1
   name: Poker Chip Carriers & Trays
   children: []
   attributes:
   - color
+  - compatible_chip_denomination
   - pattern
+  - poker_accessory_storage_included
+  - poker_chip_tray_rack_configuration
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
   - capacity
-  - weight
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-2-11
   name: Poker Chips & Sets
   children: []
@@ -320,15 +350,15 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - weight
-  - quantity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - quantity
+  - received_the_wrong_item
+  - weight
+  - unknown
 - id: tg-2-12
   name: Portable Electronic Games
   children: []
@@ -337,19 +367,20 @@
   - connectivity_technology
   - electronic_game_genre
   - pattern
+  - portable_electronic_game_features
   - recommended_age_group
   - toy/game_material
   return_reasons:
   - battery_life
-  - video_quality
-  - sound_quality
-  - connectivity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - connectivity
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - sound_quality
+  - video_quality
+  - unknown
 - id: tg-2-13
   name: Roulette Wheels & Sets
   children: []
@@ -357,16 +388,19 @@
   - color
   - pattern
   - recommended_age_group
+  - roulette_set_components_included
+  - roulette_wheel_ball_track_type
+  - roulette_wheel_numbering_system
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-2-14
   name: Slot Machines
   children: []
@@ -377,15 +411,15 @@
   - slot_machine_type
   - toy/game_material
   return_reasons:
-  - size
-  - too_loud
   - brightness
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - too_loud
+  - unknown
 - id: tg-2-15
   name: Tile Games
   children: []
@@ -396,13 +430,13 @@
   - tile_game_type
   - toy/game_material
   return_reasons:
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-3
   name: Outdoor Play Equipment
   children:
@@ -427,31 +461,32 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - size
   - weight_capacity
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-3-1
   name: Inflatable Bouncer Accessories
   children: []
   attributes:
   - color
+  - compatible_valve_type
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-3-2
   name: Inflatable Bouncers
   children: []
@@ -462,15 +497,15 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-3-3
   name: Play Swings
   children: []
@@ -478,16 +513,18 @@
   - color
   - pattern
   - recommended_age_group
+  - safety_restraint_type
+  - swing_attachment_connection_type
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - size
   - weight_capacity
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-3-4
   name: Play Tents & Tunnels
   children: []
@@ -496,17 +533,18 @@
   - outdoor_equipment_features
   - pattern
   - recommended_age_group
+  - setup_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - pattern
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-3-5
   name: Playhouses
   children: []
@@ -518,33 +556,35 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-3-6
   name: Pogo Sticks
   children: []
   attributes:
   - color
   - pattern
+  - pogo_stick_footrest_type
+  - pogo_stick_suspension_type
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - grip
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - size
   - weight_capacity
-  - grip
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-3-7
   name: Sandboxes
   children:
@@ -556,17 +596,20 @@
   - outdoor_equipment_features
   - pattern
   - recommended_age_group
+  - sandbox_bottom_type
+  - sandbox_drainage_type
+  - sandbox_seating_type
   - shape
   return_reasons:
-  - size
-  - color
-  - shape
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - shape
+  - size
+  - unknown
 - id: tg-3-7-1
   name: Sand Tables
   children: []
@@ -578,16 +621,17 @@
   - outdoor_equipment_features
   - pattern
   - recommended_age_group
+  - sandbox_seating_type
   - shape
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-3-7-2
   name: Sandbox Covers
   children: []
@@ -597,17 +641,18 @@
   - cover_material
   - pattern
   - recommended_age_group
+  - sandbox_seating_type
   - shape
   return_reasons:
-  - size
-  - color
-  - shape
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - shape
+  - size
+  - unknown
 - id: tg-3-8
   name: See Saws
   children: []
@@ -616,17 +661,18 @@
   - outdoor_equipment_features
   - pattern
   - recommended_age_group
+  - recommended_use_location
   - toy/game_material
   return_reasons:
-  - height
-  - length
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - height
+  - item_not_as_described
+  - length
   - other_reason
+  - received_the_wrong_item
+  - weight_capacity
+  - unknown
 - id: tg-3-9
   name: Slides
   children: []
@@ -636,19 +682,22 @@
   - pattern
   - play_slide_design
   - recommended_age_group
+  - slide_installation_type
+  - slide_safety_features
+  - slide_water_use_capability
   - toy/game_material
   return_reasons:
-  - color
-  - style
-  - height
-  - length
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - height
+  - item_not_as_described
+  - length
   - other_reason
+  - received_the_wrong_item
+  - style
+  - weight_capacity
+  - unknown
 - id: tg-3-10
   name: Stilts
   children: []
@@ -657,16 +706,17 @@
   - outdoor_equipment_features
   - pattern
   - recommended_age_group
+  - stilt_foot_attachment_type
   - toy/game_material
   return_reasons:
-  - height
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - height
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - weight_capacity
+  - unknown
 - id: tg-3-11
   name: Swing Set & Playset Accessories
   children: []
@@ -676,16 +726,16 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight_capacity
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-3-12
   name: Swing Sets & Playsets
   children: []
@@ -693,20 +743,22 @@
   - color
   - outdoor_equipment_features
   - pattern
+  - playset_activities_included
+  - playset_installation_type
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
-  - height
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - height
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - weight_capacity
+  - unknown
 - id: tg-3-13
   name: Trampoline Accessories
   children: []
@@ -717,16 +769,16 @@
   - shape
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - shape
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - shape
+  - size
+  - unknown
 - id: tg-3-14
   name: Trampolines
   children: []
@@ -742,16 +794,18 @@
   - recommended_age_group
   - shape
   - trampoline_design
+  - trampoline_enclosure_type
+  - trampoline_safety_certifications
   return_reasons:
-  - size
-  - shape
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - shape
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-3-15
   name: Water Play Equipment
   children:
@@ -764,33 +818,35 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-3-15-1
   name: Play Sprinklers
   children: []
   attributes:
   - color
   - pattern
+  - play_sprinkler_mounting_type
   - recommended_age_group
   - sprinkler_shape
   - toy/game_material
+  - water_supply_type
   return_reasons:
-  - size
-  - color
-  - spray_pattern
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - spray_pattern
+  - unknown
 - id: tg-3-15-2
   name: Water Parks & Slides
   children: []
@@ -801,16 +857,17 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - water_play_features
   return_reasons:
-  - size
-  - color
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-3-15-3
   name: Water Tables
   children: []
@@ -819,17 +876,20 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - water_table_feature_set
+  - water_table_items_included
+  - water_table_water_source_type
   return_reasons:
-  - size
-  - color
-  - height
   - capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - height
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-4
   name: Puzzles
   children:
@@ -837,6 +897,7 @@
   - tg-4-7
   - tg-4-9
   - tg-4-12
+  - tg-4-13
   attributes:
   - color
   - difficulty_level
@@ -846,14 +907,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-4-6
   name: Jigsaw Puzzle Accessories
   children: []
@@ -861,58 +922,62 @@
   - color
   - difficulty_level
   - pattern
+  - puzzle_accessory_features
   - puzzle_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-4-7
   name: Jigsaw Puzzles
   children: []
   attributes:
   - color
   - difficulty_level
+  - jigsaw_puzzle_piece_shape
   - pattern
   - puzzle_theme
   - puzzle_type
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - pattern
-  - difficulty_level
-  - piece_size
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - pattern
+  - piece_size
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-4-9
   name: Mechanical Puzzles
   children: []
   attributes:
   - color
   - difficulty_level
+  - mechanical_puzzle_primary_mechanism
+  - mechanical_puzzle_solution_format
   - pattern
   - puzzle_theme
   - puzzle_type
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-4-12
   name: Wooden & Pegged Puzzles
   children: []
@@ -924,15 +989,20 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - difficulty_level
-  - theme
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - theme
+  - unknown
+- id: tg-4-13
+  name: Puzzle Mats & Boards
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5
   name: Toys
   children:
@@ -971,14 +1041,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1
   name: Activity Toys
   children:
@@ -1000,50 +1070,52 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-1
   name: Ball & Cup Games
   children: []
   attributes:
+  - ball_cup_game_included_pieces
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-2
   name: Bouncy Balls
   children: []
   attributes:
   - battery_size
   - battery_type
+  - bouncy_ball_surface_finish
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-3
   name: Bubble Blowing Solutions
   children: []
@@ -1053,14 +1125,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - consistency
-  - scent
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - consistency
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - scent
+  - unknown
 - id: tg-5-1-4
   name: Bubble Blowing Toys
   children:
@@ -1070,62 +1142,72 @@
   attributes:
   - battery_size
   - battery_type
+  - bubble_toy_included_accessories
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-4-1
   name: Bubble Blowers
   children: []
   attributes:
+  - bubble_blower_features
+  - bubble_output_rate
+  - bubble_toy_included_accessories
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-4-2
   name: Bubble Guns
   children: []
   attributes:
   - battery_size
   - battery_type
+  - bubble_gun_bubble_output_modes
+  - bubble_solution_container_type
+  - bubble_toy_included_accessories
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - bubble_output
   - battery_life
+  - bubble_output
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-4-3
   name: Bubble Machines
   children: []
   attributes:
+  - bubble_machine_features
+  - bubble_machine_items_included
+  - bubble_toy_included_accessories
   - color
   - pattern
   - recommended_age_group
@@ -1134,13 +1216,13 @@
   - battery_life
   - bubble_output
   - capacity
-  - operating_noise
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - operating_noise
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-1-5
   name: Coiled Spring Toys
   children: []
@@ -1150,14 +1232,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-6
   name: Marbles
   children: []
@@ -1165,36 +1247,39 @@
   - color
   - pattern
   - recommended_age_group
+  - safety_warning
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - pattern
+  - received_the_wrong_item
   - too_big
   - too_small
-  - color
-  - pattern
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-1-7
   name: Paddle Ball Toys
   children: []
   attributes:
   - color
+  - paddle_ball_attachment_type
+  - paddle_shape
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-8
   name: Ribbon & Streamer Toys
   children: []
@@ -1204,14 +1289,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - length
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - length
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-1-9
   name: Spinning Tops
   children: []
@@ -1221,16 +1306,18 @@
   - color
   - pattern
   - recommended_age_group
+  - spinning_top_features
+  - spinning_top_launch_mechanism
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-10
   name: Toy Jacks
   children: []
@@ -1239,15 +1326,16 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_jacks_set_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-1-11
   name: Yo-Yo Parts & Accessories
   children: []
@@ -1256,14 +1344,17 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - yo_yo_accessory_part_type
+  - yo_yo_response_system
+  - yo_yo_string_material
   return_reasons:
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-1-12
   name: Yo-Yos
   children: []
@@ -1276,17 +1367,22 @@
   - recommended_age_group
   - toy/game_material
   - wood_finish
+  - yo_yo_axle_system_type
+  - yo_yo_bearing_size_class
+  - yo_yo_bearing_type
+  - yo_yo_play_style
+  - yo_yo_responsiveness
   return_reasons:
-  - color
-  - responsiveness
-  - weight
-  - spin_time
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - responsiveness
+  - spin_time
+  - weight
+  - unknown
 - id: tg-5-2
   name: Art & Drawing Toys
   children:
@@ -1307,13 +1403,13 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-2-1
   name: Beading & Jewelry Making Kits
   children: []
@@ -1324,19 +1420,20 @@
   - construction
   - embellishment/trim_material
   - jewelry_material
+  - kit_tools_included
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-2-2
   name: Coloring Books & Pads
   children: []
@@ -1346,13 +1443,13 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - content
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - content
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-2-3
   name: Craft Kits
   children: []
@@ -1368,48 +1465,51 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-2-4
   name: Easel & Art Desks
   children: []
   attributes:
   - color
+  - easel_art_desk_features
+  - easel_art_desk_surface_type
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-2-5
   name: Paint-By-Number Kits
   children: []
   attributes:
   - color
+  - paint_by_number_surface_type
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - pattern
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-2-6
   name: Play Dough & Putty
   children:
@@ -1422,103 +1522,118 @@
   attributes:
   - color
   - pattern
+  - play_dough_putty_kit_contents
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - texture
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - texture
+  - unknown
 - id: tg-5-2-6-1
   name: Dough Extruders
   children: []
   attributes:
   - color
+  - dough_extruder_accessories_included
+  - dough_extruder_operation_type
+  - dough_extruder_shape_disc_included
   - pattern
+  - play_dough_putty_kit_contents
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - pattern
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-2-6-2
   name: Glow In The Dark Putty
   children: []
   attributes:
   - color
   - pattern
+  - play_dough_putty_kit_contents
+  - putty_glow_activation_method
+  - putty_glow_color
+  - putty_inclusions
+  - putty_texture
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - texture
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - texture
+  - unknown
 - id: tg-5-2-6-3
   name: Magnetic Putty
   children: []
   attributes:
   - color
   - pattern
+  - play_dough_putty_kit_contents
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - texture
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - texture
+  - unknown
 - id: tg-5-2-6-4
   name: Play Dough Sets
   children: []
   attributes:
   - color
   - pattern
+  - play_dough_putty_kit_contents
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - texture
-  - scent
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - scent
+  - texture
+  - unknown
 - id: tg-5-2-6-5
   name: Play Dough Tool Sets
   children: []
   attributes:
   - color
+  - compatible_dough_type
   - pattern
+  - play_dough_putty_kit_contents
+  - play_dough_tool_set_items_included
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-2-6-6
   name: Slime & Putty Toys
   children: []
@@ -1527,18 +1642,20 @@
   - battery_type
   - color
   - pattern
+  - play_dough_putty_kit_contents
   - recommended_age_group
+  - slime_putty_kit_components_included
   - toy/game_material
   return_reasons:
-  - color
-  - texture
-  - scent
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - scent
+  - texture
+  - unknown
 - id: tg-5-2-7
   name: Spin & Spiral Art Kits
   children: []
@@ -1548,49 +1665,52 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-2-8
   name: Stamp & Stamp Pad Sets
   children: []
   attributes:
   - color
+  - ink_colors_included
   - pattern
   - recommended_age_group
+  - stamp_set_pieces_included
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - pattern
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-2-9
   name: Stencil & Tracing Papers
   children: []
   attributes:
   - color
+  - paper_opacity
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - pattern
-  - transparency
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - transparency
+  - unknown
 - id: tg-5-2-10
   name: Stickers & Sticker Machines
   children: []
@@ -1603,14 +1723,14 @@
   - theme
   - toy/game_material
   return_reasons:
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - style
+  - unknown
 - id: tg-5-2-11
   name: Toy Drawing Tablets
   children: []
@@ -1621,15 +1741,19 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_drawing_tablet_accessories_included
+  - toy_drawing_tablet_erase_method
+  - toy_drawing_tablet_screen_type
+  - toy_drawing_tablet_writing_drawing_instrument
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-3
   name: Ball Pit Accessories
   children:
@@ -1640,52 +1764,54 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - too_big
   - too_small
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-3-1
   name: Ball Pit Balls
   children: []
   attributes:
+  - ball_pit_ball_surface_finish
   - color
   - pattern
   - recommended_age_group
   - shape
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - too_big
   - too_small
-  - color
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-4
   name: Ball Pits
   children: []
   attributes:
+  - ball_pit_safety_features
   - color
   - pattern
   - recommended_age_group
   - shape
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - too_big
   - too_small
-  - color
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-5
   name: Bath Toys
   children:
@@ -1700,111 +1826,130 @@
   - tg-5-5-9
   - tg-5-5-10
   attributes:
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-5-1
   name: Bath Book Toys
   children: []
   attributes:
+  - bath_book_interactive_features
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-5-2
   name: Bath Bubble Machines
   children: []
   attributes:
+  - bath_bubble_machine_features
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
+  - water_exposure_protection_level
   return_reasons:
-  - size
   - battery_life
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-5-3
   name: Bath Crayons
   children: []
   attributes:
+  - bath_crayon_features
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - washability
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - washability
+  - unknown
 - id: tg-5-5-4
   name: Bath Puzzles
   children: []
   attributes:
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-5-5
   name: Bath Squirters
   children: []
   attributes:
+  - bath_squirter_spray_pattern
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-5-6
   name: Floating Bath Toys
   children: []
   attributes:
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - battery_size
   - battery_type
   - color
@@ -1812,19 +1957,21 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-5-7
   name: Interactive Bath Toys
   children: []
   attributes:
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - battery_size
   - battery_type
   - color
@@ -1832,67 +1979,76 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-5-8
   name: Rubber Duckies
   children: []
   attributes:
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
+  - rubber_ducky_character_theme
+  - rubber_ducky_features
+  - rubber_ducky_size_class
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-5-9
   name: Stacking Cups
   children: []
   attributes:
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-5-10
   name: Waterproof Bath Dolls
   children: []
   attributes:
+  - bath_toy_molded_drain_design
+  - bath_toy_water_play_function
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-6
   name: Beach & Sand Toys
   children:
@@ -1912,69 +2068,78 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-1
   name: Beach Balls
   children: []
   attributes:
+  - beach_ball_features
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
-  - pattern
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-2
   name: Beach Buckets
   children: []
   attributes:
+  - beach_bucket_features
+  - beach_sand_toy_items_included
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-3
   name: Inflatable Rafts & Floats
   children: []
   attributes:
   - color
+  - float_raft_use_environment
+  - inflatable_raft_float_features
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-5-6-4
   name: Sand & Water Mills
   children: []
@@ -1982,16 +2147,19 @@
   - color
   - pattern
   - recommended_age_group
+  - sand_water_mill_items_included
+  - suitable_play_location
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-5
   name: Sand Castle Molds
   children: []
@@ -2000,16 +2168,17 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
-  - shape
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - shape
+  - size
+  - unknown
 - id: tg-5-6-6
   name: Sand Cups
   children: []
@@ -2017,16 +2186,18 @@
   - color
   - pattern
   - recommended_age_group
+  - sand_cup_features
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-7
   name: Sand Rakes
   children: []
@@ -2035,15 +2206,16 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-8
   name: Sand Shovels & Spades
   children: []
@@ -2051,16 +2223,18 @@
   - color
   - pattern
   - recommended_age_group
+  - sand_shovel_handle_style
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-9
   name: Sand Sifting Sieves
   children: []
@@ -2069,15 +2243,16 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-10
   name: Sand Toy Sets
   children: []
@@ -2085,16 +2260,18 @@
   - color
   - pattern
   - recommended_age_group
+  - sand_toy_set_pieces_included
   - toy/game_material
+  - toy_game_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-6-11
   name: Water Guns
   children: []
@@ -2103,17 +2280,21 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_game_features
+  - water_gun_features
+  - water_gun_operating_mechanism
+  - water_gun_spray_pattern
   return_reasons:
-  - size
-  - color
-  - range
   - capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-7
   name: Building Toys
   children:
@@ -2125,18 +2306,19 @@
   attributes:
   - building_toy_type
   - color
+  - compatible_building_toy_system
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-7-8
   name: Construction Set Toys
   children: []
@@ -2144,38 +2326,41 @@
   - battery_size
   - battery_type
   - color
+  - compatible_construction_set_system
   - construction_set_theme
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - incompatible
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - size
   - theme
-  - incompatible
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-7-11
   name: Foam Blocks
   children: []
   attributes:
   - color
+  - foam_blocks_size_class
+  - foam_blocks_surface_texture
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - too_soft
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - too_soft
+  - unknown
 - id: tg-5-7-12
   name: Interlocking Blocks
   children: []
@@ -2188,15 +2373,15 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-7-13
   name: Marble Track Sets
   children: []
@@ -2204,38 +2389,41 @@
   - battery_size
   - battery_type
   - color
+  - marble_track_set_feature_modules
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-7-14
   name: Wooden Blocks
   children: []
   attributes:
+  - block_edge_style
   - color
   - lumber/wood_type
   - pattern
   - recommended_age_group
   - toy/game_material
   - wood_finish
+  - wooden_block_special_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8
   name: Dolls, Playsets & Toy Figures
   children:
@@ -2254,20 +2442,21 @@
   attributes:
   - color
   - doll/playset_features
+  - dollhouse_scale
   - pattern
   - recommended_age_group
   - target_gender
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-8-1
   name: Action & Toy Figures
   children:
@@ -2277,21 +2466,22 @@
   - battery_size
   - battery_type
   - color
+  - dollhouse_scale
   - pattern
   - recommended_age_group
   - toy/game_material
   - toy_figure_features
   - toy_figure_theme
   return_reasons:
-  - size
-  - color
-  - detail
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - detail
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-1-1
   name: Action Figures
   children: []
@@ -2299,20 +2489,21 @@
   - battery_size
   - battery_type
   - color
+  - dollhouse_scale
   - pattern
   - recommended_age_group
   - toy/game_material
   - toy_figure_features
   return_reasons:
-  - size
-  - color
-  - detail
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - detail
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-1-2
   name: Animal Figures
   children: []
@@ -2320,51 +2511,59 @@
   - battery_size
   - battery_type
   - color
+  - dollhouse_scale
   - lumber/wood_type
   - material
   - pattern
   - recommended_age_group
   - toy/game_material
   - toy_figure_features
+  - toy_figure_sound_feature
   - wood_finish
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-2
   name: Bobblehead Figures
   children: []
   attributes:
   - battery_size
   - battery_type
+  - bobble_mechanism
   - color
+  - dollhouse_scale
+  - packaging_type
   - pattern
   - recommended_age_group
   - toy/game_material
   - toy_figure_features
   - toy_figure_theme
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-3
   name: Doll & Action Figure Accessories
   children: []
   attributes:
+  - action_figure_scale
   - battery_size
   - battery_type
   - color
   - construction
+  - doll_accessory_type
+  - dollhouse_scale
   - embellishment/trim_material
   - jewelry_material
   - lumber/wood_type
@@ -2374,16 +2573,16 @@
   - toy_figure_features
   - wood_finish
   return_reasons:
-  - size
-  - color
-  - style
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-8-4
   name: Dollhouse Accessories
   children: []
@@ -2391,22 +2590,24 @@
   - battery_size
   - battery_type
   - color
+  - dollhouse_room_type
+  - dollhouse_scale
   - lumber/wood_type
   - pattern
   - recommended_age_group
   - toy/game_material
   - wood_finish
   return_reasons:
-  - size
-  - color
-  - style
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-8-5
   name: Dollhouses
   children: []
@@ -2414,20 +2615,25 @@
   - battery_size
   - battery_type
   - color
+  - dollhouse_installation_placement_type
+  - dollhouse_items_included
+  - dollhouse_lighting_type
+  - dollhouse_scale
+  - dollhouse_style_theme
   - material
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-8-6
   name: Dolls
   children: []
@@ -2435,22 +2641,25 @@
   - battery_size
   - battery_type
   - color
+  - doll_eye_type
   - doll_features
+  - doll_hair_fiber_type
   - doll_type
+  - dollhouse_scale
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - style
   - too_big
   - too_small
-  - color
-  - style
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-8-7
   name: Paper & Magnetic Dolls
   children: []
@@ -2458,95 +2667,119 @@
   - color
   - doll_features
   - doll_type
+  - dollhouse_scale
+  - outfit_attachment_mechanism
+  - paper_and_magnetic_doll_format
+  - paper_magnetic_doll_set_contents
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - style
   - too_big
   - too_small
-  - color
-  - style
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-8-8
   name: Puppet & Puppet Theater Accessories
-  children: []
+  children:
+  - tg-5-8-8-1
+  - tg-5-8-8-2
   attributes:
   - color
+  - dollhouse_scale
   - pattern
+  - puppet_puppet_theater_accessory_type
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
+- id: tg-5-8-8-1
+  name: Puppet Accessories
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-8-8-2
+  name: Puppet Theater Accessories
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-8-9
   name: Puppet Theaters
   children: []
   attributes:
   - color
+  - dollhouse_scale
   - pattern
   - puppet_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-10
   name: Puppets & Marionettes
   children: []
   attributes:
   - color
+  - dollhouse_scale
   - pattern
+  - puppet_features
   - puppet_theme
   - puppet_type
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-11
   name: Stuffed Animals
   children: []
   attributes:
+  - animal_species
   - battery_size
   - battery_type
   - color
+  - dollhouse_scale
   - pattern
   - recommended_age_group
+  - stuffed_animal_features
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - softness
   - too_big
   - too_small
-  - color
-  - softness
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-8-12
   name: Toy Playsets
   children:
@@ -2559,23 +2792,29 @@
   - tg-5-8-12-7
   - tg-5-8-12-8
   - tg-5-8-12-9
+  - tg-5-8-12-10
+  - tg-5-8-12-11
+  - tg-5-8-12-12
   attributes:
   - battery_size
   - battery_type
   - color
+  - dollhouse_scale
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-12-1
   name: Action Figure Playsets
   children: []
@@ -2583,58 +2822,70 @@
   - battery_size
   - battery_type
   - color
+  - dollhouse_scale
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-8-12-2
   name: Car Playsets
   children: []
   attributes:
   - battery_size
   - battery_type
+  - car_playset_items_included
   - color
+  - compatible_toy_vehicle_scale
+  - dollhouse_scale
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-12-3
   name: Castle Playsets
   children: []
   attributes:
+  - castle_playset_included_items
   - color
+  - dollhouse_scale
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-12-4
   name: Dinosaur Playsets
   children: []
@@ -2642,20 +2893,25 @@
   - battery_size
   - battery_type
   - color
+  - dinosaur_playset_scale_figure_size_class
+  - dinosaur_species_included
+  - dollhouse_scale
   - material
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-12-5
   name: Doctor Playsets
   children: []
@@ -2663,93 +2919,132 @@
   - battery_size
   - battery_type
   - color
+  - doctor_playset_items_included
+  - doctor_playset_role_play_setting
+  - doctor_playset_wearable_items_included
+  - dollhouse_scale
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-12-6
   name: Doll House Playsets
   children: []
   attributes:
   - color
+  - dollhouse_scale
+  - electronic_lights_and_sound
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
-  - style
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-8-12-7
   name: Farm Animal Playsets
   children: []
   attributes:
   - color
+  - dollhouse_scale
   - pattern
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-12-8
   name: Kitchen Playsets
   children: []
   attributes:
   - color
+  - dollhouse_scale
+  - interactive_effects
   - pattern
+  - play_food_items_included
   - playset_features
   - recommended_age_group
   - toy/game_material
+  - toy_kitchen_appliances_included
+  - toy_playset_assembly_required
+  - toy_playset_items_included
+  - toy_tableware_pieces_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-8-12-9
   name: Picnic Playsets
   children: []
   attributes:
   - color
+  - dollhouse_scale
   - pattern
   - playset_features
+  - playset_items_included
   - recommended_age_group
   - toy/game_material
+  - toy_playset_assembly_required
+  - toy_playset_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
+- id: tg-5-8-12-10
+  name: Construction Playsets
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-8-12-11
+  name: Animal Playsets
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-8-12-12
+  name: Police & Firefighter Playsets
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-9
   name: Educational Toys
   children:
@@ -2760,37 +3055,44 @@
   - tg-5-9-5
   - tg-5-9-6
   - tg-5-9-7
+  - tg-5-9-8
+  - tg-5-9-9
   attributes:
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-1
   name: Ant Farms
   children: []
   attributes:
+  - ant_farm_habitat_medium_type
+  - ant_farm_kit_contents
+  - ant_farm_lighting_type
   - color
+  - educational_topic
+  - observation_window_material
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-2
   name: Astronomy Toys & Models
   children:
@@ -2806,15 +3108,15 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - detail
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - detail
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-2-1
   name: Astronomy Puzzles
   children: []
@@ -2824,15 +3126,15 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - difficulty_level
-  - pattern
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-2-3
   name: Interactive Astronomy Books
   children: []
@@ -2843,11 +3145,11 @@
   - toy/game_material
   return_reasons:
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-9-2-4
   name: Planetariums
   children: []
@@ -2856,53 +3158,62 @@
   - battery_type
   - color
   - pattern
+  - planetarium_content_theme
+  - planetarium_projection_content_format
   - recommended_age_group
   - toy/game_material
   return_reasons:
   - brightness
-  - too_loud
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - too_loud
+  - unknown
 - id: tg-5-9-2-5
   name: Solar System Models
   children: []
   attributes:
   - color
+  - educational_guide_included
   - pattern
   - recommended_age_group
+  - rotation_motion_features
+  - solar_system_model_included_bodies
+  - solar_system_model_scaling
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - detail
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - detail
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-2-6
   name: Star & Planet Maps
   children: []
   attributes:
   - color
+  - hemisphere_compatibility
+  - map_coverage_sky_planet_body
+  - map_size_sheet
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - detail
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - detail
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-2-7
   name: Telescopes
   children: []
@@ -2912,71 +3223,76 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - magnification
-  - field_of_view
-  - low_light_performance
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - field_of_view
+  - item_not_as_described
+  - low_light_performance
+  - magnification
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-3
   name: Bug Collecting Kits
   children: []
   attributes:
+  - bug_collecting_kit_items_included
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - magnification
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - magnification
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-9-4
   name: Educational Flash Cards
   children: []
   attributes:
   - color
+  - flash_card_included_features
   - flash_card_theme
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - size
   - theme
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-9-5
   name: Reading Toys
   children: []
   attributes:
+  - audio_output
   - battery_size
   - battery_type
   - color
   - pattern
+  - phonics_focus
   - reading_toy_type
   - recommended_age_group
+  - recommended_reading_level
   - toy/game_material
   return_reasons:
-  - difficulty_level
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - difficulty_level
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-9-6
   name: Science & Exploration Sets
   children: []
@@ -2989,31 +3305,42 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - too_complex
   - too_simple
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-9-7
   name: Toy Abacuses
   children: []
   attributes:
+  - abacus_bead_material
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
+- id: tg-5-9-8
+  name: Coding & Robotics Learning Toys
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-9-9
+  name: Math Toys
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-10
   name: Executive Toys
   children:
@@ -3024,31 +3351,34 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-10-2
   name: Magnet Toys
   children: []
   attributes:
   - color
+  - magnet_toy_storage_included
   - pattern
+  - play_pattern
   - recommended_age_group
   - toy/game_material
+  - toy_safety_certification
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-11
   name: Flying Toy Accessories
   children: []
@@ -3058,13 +3388,13 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-12
   name: Flying Toys
   children:
@@ -3082,14 +3412,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-12-2
   name: Drones
   children: []
@@ -3102,13 +3432,13 @@
   - toy/game_material
   return_reasons:
   - battery_life
-  - range
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-12-3
   name: Kites
   children: []
@@ -3118,33 +3448,34 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-12-4
   name: Model Aircrafts
   children: []
   attributes:
   - color
+  - model_aircraft_assembly_level
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: tg-5-12-5
   name: Model Rockets
   children: []
@@ -3152,22 +3483,27 @@
   - battery_size
   - battery_type
   - color
+  - model_rocket_motor_mount_size
+  - model_rocket_recovery_system_type
+  - model_rocket_staging
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - range
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-12-6
   name: Toy Gliders
-  children: []
+  children:
+  - tg-5-12-6-1
+  - tg-5-12-6-2
   attributes:
   - battery_size
   - battery_type
@@ -3175,16 +3511,27 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_glider_launch_method
   return_reasons:
-  - size
-  - color
-  - flight_distance
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - flight_distance
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
+- id: tg-5-12-6-1
+  name: RC Toy Gliders
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-12-6-2
+  name: Hand-Launched Toy Gliders
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-12-7
   name: Toy Helicopters
   children: []
@@ -3196,16 +3543,16 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - battery_life
-  - range
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-12-8
   name: Toy Parachutes
   children: []
@@ -3214,35 +3561,38 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_parachute_launch_method
   return_reasons:
-  - size
-  - color
-  - pattern
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - size
+  - speed
+  - unknown
 - id: tg-5-12-10
   name: Air & Water Rockets
   children: []
   attributes:
+  - air_water_rocket_kit_items_included
+  - air_water_rocket_launch_method
   - color
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - range
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-13
   name: Musical Toys
   children:
@@ -3264,14 +3614,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - too_loud
-  - sound_quality
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - sound_quality
+  - too_loud
+  - unknown
 - id: tg-5-13-1
   name: DJ Studio Sets
   children: []
@@ -3282,95 +3632,103 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - sound_quality
-  - too_loud
   - battery_life
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - sound_quality
+  - too_loud
+  - unknown
 - id: tg-5-13-2
   name: Drums & Percussion Instruments
   children: []
   attributes:
   - color
   - pattern
+  - percussion_instruments_included
   - power_source
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - too_loud
-  - sound_quality
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - sound_quality
+  - too_loud
+  - unknown
 - id: tg-5-13-4
   name: Interactive Musical Mats
   children: []
   attributes:
   - color
+  - interaction_mode
   - pattern
   - power_source
   - recommended_age_group
+  - sound_type
   - toy/game_material
   return_reasons:
-  - size
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - size
   - sound_quality
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-13-5
   name: Karaoke Sets
   children: []
   attributes:
+  - audio_playback_source
   - battery_size
   - battery_type
   - color
+  - lyrics_display_type
+  - microphone_type
   - pattern
   - power_source
   - recommended_age_group
   - toy/game_material
+  - voice_effects
   return_reasons:
-  - sound_quality
-  - connectivity
-  - too_loud
   - battery_life
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - connectivity
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - sound_quality
+  - too_loud
+  - unknown
 - id: tg-5-13-6
   name: Microphones
   children: []
   attributes:
   - color
+  - microphone_toy_feature_set
   - pattern
   - power_source
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - sound_quality
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-13-7
   name: Musical Books
   children: []
@@ -3383,14 +3741,14 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - sound_quality
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-13-9
   name: Musical Boxes
   children: []
@@ -3398,20 +3756,21 @@
   - battery_size
   - battery_type
   - color
+  - musical_box_mechanism_type
   - pattern
   - power_source
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - sound_quality
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-13-12
   name: Pianos & Keyboards
   children: []
@@ -3424,21 +3783,27 @@
   - power_source
   - recommended_age_group
   - toy/game_material
+  - toy_keyboard_learning_mode
+  - toy_keyboard_sound_theme
+  - toy_piano_and_keyboard_accessories_included
   - wood_finish
   return_reasons:
-  - size
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - size
   - sound_quality
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-13-13
   name: String Instruments
-  children: []
+  children:
+  - tg-5-13-13-1
+  - tg-5-13-13-2
+  - tg-5-13-13-3
   attributes:
   - battery_size
   - battery_type
@@ -3448,14 +3813,29 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - size
   - sound_quality
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
+- id: tg-5-13-13-1
+  name: Toy Guitars
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-13-13-2
+  name: Toy Violins
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-13-13-3
+  name: Toy Ukuleles
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-13-14
   name: Wind Instruments
   children: []
@@ -3466,16 +3846,16 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - size
   - sound_quality
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-13-15
   name: Xylophones
   children: []
@@ -3486,34 +3866,35 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - sound_quality
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-14
   name: Play Vehicle Accessories
   children: []
   attributes:
   - color
+  - compatible_play_vehicle_scale
   - compatible_play_vehicle_type
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15
   name: Play Vehicles
   children:
@@ -3530,18 +3911,19 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-1
   name: Toy Airplanes
   children: []
@@ -3551,18 +3933,22 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - toy_airplane_control_type
+  - toy_airplane_features
+  - toy_airplane_flight_capability
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-2
   name: Toy Boats
   children: []
@@ -3570,18 +3956,21 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - toy_boat_play_features
+  - toy_boat_recommended_play_environment
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-3
   name: Toy Cars
   children: []
@@ -3592,18 +3981,20 @@
   - material
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - toy_car_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-4
   name: Toy Helicopters
   children: []
@@ -3611,20 +4002,23 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - toy_helicopter_control_type
+  - toy_helicopter_features
   return_reasons:
-  - size
-  - color
   - battery_life
-  - range
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-5
   name: Toy Motorcycles
   children: []
@@ -3632,18 +4026,21 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - toy_motorcycle_feature_set
+  - toy_motorcycle_scale
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-6
   name: Toy Race Car & Track Sets
   children: []
@@ -3653,19 +4050,21 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - track_set_special_features
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-7
   name: Toy Spaceships
   children: []
@@ -3675,18 +4074,21 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - toy_spaceship_features
+  - toy_spaceship_size_class
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-8
   name: Toy Trains & Train Sets
   children: []
@@ -3696,19 +4098,22 @@
   - color
   - pattern
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
+  - toy_train_scale
+  - toy_train_track_layout_type
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-15-9
   name: Toy Trucks & Construction Vehicles
   children: []
@@ -3717,19 +4122,21 @@
   - battery_type
   - color
   - pattern
+  - play_vehicle_lights_and_sounds
   - play_vehicle_propulsion
+  - play_vehicle_scale
   - recommended_age_group
   - remote_technology
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16
   name: Pretend Play
   children:
@@ -3744,37 +4151,69 @@
   attributes:
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-1
   name: Play Money & Banking
-  children: []
+  children:
+  - tg-5-16-1-1
+  - tg-5-16-1-2
+  - tg-5-16-1-3
+  - tg-5-16-1-4
   attributes:
   - battery_size
   - battery_type
   - color
+  - electronic_features
   - pattern
+  - play_money_set_components_included
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - quantity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - quantity
+  - received_the_wrong_item
+  - size
+  - unknown
+- id: tg-5-16-1-1
+  name: Toy Cash Registers
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-16-1-2
+  name: Play Money Sets
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-16-1-3
+  name: Toy ATM & Banking Machines
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-16-1-4
+  name: Toy Safes & Lockboxes
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-16-2
   name: Pretend Electronics
   children: []
@@ -3784,54 +4223,65 @@
   - color
   - pattern
   - pretend_electronics_toy_type
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
+  - toy_audio_features
   return_reasons:
-  - size
-  - color
-  - too_loud
   - battery_life
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - too_loud
+  - unknown
 - id: tg-5-16-3
   name: Pretend Housekeeping
   children: []
   attributes:
   - color
   - pattern
+  - pretend_housekeeping_set_items_included
   - pretend_housekeeping_toy_type
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-4
   name: Pretend Lawn & Garden
   children: []
   attributes:
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-5
   name: Pretend Professions & Role Playing
   children: []
@@ -3840,34 +4290,40 @@
   - battery_type
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-6
   name: Pretend Shopping & Grocery
   children: []
   attributes:
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-7
   name: Toy Kitchens & Play Food
   children:
@@ -3878,52 +4334,69 @@
   attributes:
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
+  - toy_kitchen_assembly_requirement
+  - toy_kitchen_interactive_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-7-1
   name: Play Food
   children: []
   attributes:
   - color
   - pattern
+  - play_food_features
+  - play_food_size_scale
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
+  - toy_kitchen_assembly_requirement
+  - toy_kitchen_interactive_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-7-2
   name: Toy Cookware
   children: []
   attributes:
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
+  - toy_kitchen_assembly_requirement
+  - toy_kitchen_interactive_features
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-7-3
   name: Toy Kitchens
   children: []
@@ -3933,35 +4406,45 @@
   - color
   - lumber/wood_type
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
+  - toy_kitchen_assembly_requirement
+  - toy_kitchen_interactive_features
   - wood_finish
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-7-4
   name: Toy Tableware
   children: []
   attributes:
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
+  - toy_kitchen_assembly_requirement
+  - toy_kitchen_interactive_features
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-16-8
   name: Toy Tools
   children: []
@@ -3970,36 +4453,42 @@
   - battery_type
   - color
   - pattern
+  - pretend_play_electronic_features
+  - pretend_play_set_pieces_included
+  - pretend_play_set_theme
   - recommended_age_group
   - toy/game_material
+  - toy_tool_electronic_features
+  - toy_tool_set_components_included
   - toy_tool_type
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-17
   name: Remote Control Toy Accessories
   children: []
   attributes:
   - color
+  - compatible_rc_scale
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-18
   name: Remote Control Toys
   children:
@@ -4020,35 +4509,37 @@
   - toy/game_material
   return_reasons:
   - battery_life
-  - range
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - speed
+  - unknown
 - id: tg-5-18-1
   name: Remote Control Airships & Blimps
   children: []
   attributes:
   - color
   - pattern
+  - rc_airship_lifting_gas_type
   - recommended_age_group
+  - remote_control_airship_envelope_material
   - skill_level
   - suitable_space
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - battery_life
-  - range
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-18-2
   name: Remote Control Boats & Watercraft
   children: []
@@ -4058,20 +4549,23 @@
   - color
   - pattern
   - recommended_age_group
+  - remote_control_watercraft_features
+  - remote_control_watercraft_propulsion_drive_type
+  - remote_control_watercraft_water_environment
   - skill_level
   - suitable_space
   - toy/game_material
   return_reasons:
-  - size
   - battery_life
-  - range
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - speed
+  - unknown
 - id: tg-5-18-3
   name: Remote Control Cars & Trucks
   children: []
@@ -4080,21 +4574,24 @@
   - battery_type
   - color
   - pattern
+  - rc_vehicle_controller_type
+  - rc_vehicle_scale
+  - rc_vehicle_terrain_type
   - recommended_age_group
   - skill_level
   - suitable_space
   - toy/game_material
   return_reasons:
-  - size
   - battery_life
-  - range
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - speed
+  - unknown
 - id: tg-5-18-4
   name: Remote Control Helicopters
   children: []
@@ -4103,42 +4600,49 @@
   - battery_type
   - color
   - pattern
+  - rc_helicopter_control_frequency
+  - rc_helicopter_stabilization_features
   - recommended_age_group
+  - rotor_configuration_type
   - skill_level
   - suitable_space
   - toy/game_material
   return_reasons:
-  - size
   - battery_life
-  - range
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - speed
+  - unknown
 - id: tg-5-18-5
   name: Remote Control Motorcycles
   children: []
   attributes:
   - color
   - pattern
+  - rc_motorcycle_controller_type
   - recommended_age_group
+  - remote_control_motorcycle_scale
+  - remote_control_motorcycle_terrain_suitability
+  - remote_control_motorcycle_water_resistance
   - skill_level
   - suitable_space
   - toy/game_material
   return_reasons:
-  - color
   - battery_life
-  - range
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - speed
+  - unknown
 - id: tg-5-18-6
   name: Remote Control Planes
   children: []
@@ -4147,21 +4651,25 @@
   - battery_type
   - color
   - pattern
+  - rc_plane_takeoff_launch_method
   - recommended_age_group
+  - remote_control_plane_kit_completion_level
+  - remote_control_plane_landing_gear_type
+  - remote_control_plane_power_type
   - skill_level
   - suitable_space
   - toy/game_material
   return_reasons:
-  - color
   - battery_life
-  - range
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - speed
+  - unknown
 - id: tg-5-18-7
   name: Remote Control Robots
   children: []
@@ -4175,16 +4683,16 @@
   - suitable_space
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - battery_life
-  - range
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-18-8
   name: Remote Control Tanks
   children: []
@@ -4196,16 +4704,16 @@
   - suitable_space
   - toy/game_material
   return_reasons:
-  - size
   - battery_life
-  - range
-  - speed
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - speed
+  - unknown
 - id: tg-5-19
   name: Riding Toy Accessories
   children: []
@@ -4215,15 +4723,15 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-20
   name: Riding Toys
   children:
@@ -4236,18 +4744,19 @@
   - color
   - pattern
   - recommended_age_group
+  - riding_toy_features
   - riding_toy_propulsion_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-5-20-1
   name: Electric Riding Vehicles
   children: []
@@ -4255,39 +4764,44 @@
   - battery_size
   - battery_type
   - color
+  - electric_riding_vehicle_control_options
   - pattern
   - recommended_age_group
+  - riding_toy_features
   - riding_toy_propulsion_type
   - toy/game_material
   return_reasons:
-  - color
   - battery_life
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - speed
   - weight_capacity
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-20-2
   name: Hobby Horses
   children: []
   attributes:
   - color
+  - hobby_horse_handle_type
+  - hobby_horse_sound_features
   - pattern
   - recommended_age_group
+  - riding_toy_features
   - riding_toy_propulsion_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-20-3
   name: Push & Pedal Riding Vehicles
   children: []
@@ -4297,19 +4811,20 @@
   - color
   - pattern
   - recommended_age_group
+  - riding_toy_features
   - riding_toy_propulsion_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight_capacity
-  - not_suitable_for_terrain
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - not_suitable_for_terrain
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-5-20-4
   name: Rocking & Spring Riding Toys
   children: []
@@ -4317,18 +4832,19 @@
   - color
   - pattern
   - recommended_age_group
+  - riding_toy_features
   - riding_toy_propulsion_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight_capacity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight_capacity
+  - unknown
 - id: tg-5-20-5
   name: Wagons
   children: []
@@ -4336,39 +4852,46 @@
   - color
   - pattern
   - recommended_age_group
+  - riding_toy_features
   - riding_toy_propulsion_type
   - toy/game_material
   return_reasons:
-  - size
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - not_suitable_for_terrain
+  - other_reason
+  - received_the_wrong_item
+  - size
   - weight
   - weight_capacity
-  - not_suitable_for_terrain
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-21
   name: Robotic Toys
   children: []
   attributes:
   - color
+  - included_accessories
   - pattern
   - recommended_age_group
+  - robotic_toy_interaction_mode
+  - robotic_toy_light_features
+  - robotic_toy_programming_supported
+  - robotic_toy_skill_level
+  - robotic_toy_sound_features
   - toy/game_material
   return_reasons:
-  - color
   - battery_life
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - speed
   - too_loud
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-22
   name: Sports Toy Accessories
   children: []
@@ -4378,15 +4901,15 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-23
   name: Sports Toys
   children:
@@ -4404,21 +4927,24 @@
   - tg-5-23-12
   - tg-5-23-13
   - tg-5-23-14
+  - tg-5-23-15
+  - tg-5-23-16
   attributes:
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-1
   name: American Football Toys
   children: []
@@ -4426,40 +4952,44 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-23-2
   name: Baseball Toys
   children: []
   attributes:
+  - baseball_toy_set_components_included
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-3
   name: Basketball Toys
   children: []
   attributes:
+  - basketball_toy_features
   - battery_size
   - battery_type
   - color
@@ -4468,16 +4998,17 @@
   - jewelry_material
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-23-4
   name: Boomerangs
   children: []
@@ -4485,35 +5016,40 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
+  - wing_count
   return_reasons:
-  - color
-  - range
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - weight
+  - unknown
 - id: tg-5-23-5
   name: Bowling Toys
   children: []
   attributes:
   - color
+  - indoor_outdoor_use
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
+  - toy_bowling_equipment_included
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-6
   name: Fingerboards & Fingerboard Sets
   children: []
@@ -4521,19 +5057,22 @@
   - battery_size
   - battery_type
   - color
+  - fingerboard_bearing_type
+  - fingerboard_grip_type
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-23-7
   name: Fishing Toys
   children: []
@@ -4541,16 +5080,17 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-23-8
   name: Fitness Toys
   children:
@@ -4568,36 +5108,40 @@
   - jewelry_material
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-8-2
   name: Hula Hoops
   children: []
   attributes:
   - color
+  - hula_hoop_construction_type
+  - hula_hoop_features
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-8-3
   name: Jump Ropes
   children: []
@@ -4605,20 +5149,23 @@
   - battery_size
   - battery_type
   - color
+  - jump_rope_style
+  - length_adjustment_method
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - grip
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - too_long
   - too_short
-  - color
-  - grip
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-23-8-4
   name: Kids' Exercise Balls
   children: []
@@ -4626,17 +5173,18 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
+  - changed_my_mind
+  - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - too_big
   - too_small
-  - color
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: tg-5-23-8-5
   name: Kids' Yoga Mats & Sets
   children: []
@@ -4644,18 +5192,19 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - thickness
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - thickness
+  - unknown
 - id: tg-5-23-8-6
   name: Mini Trampolines
   children: []
@@ -4663,18 +5212,19 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - too_big
-  - too_small
-  - too_firm
-  - too_soft
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - too_big
+  - too_firm
+  - too_small
+  - too_soft
+  - unknown
 - id: tg-5-23-9
   name: Flying Discs
   children: []
@@ -4682,38 +5232,42 @@
   - battery_size
   - battery_type
   - color
+  - flying_disc_feature_set
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-10
   name: Footbags
   children: []
   attributes:
   - color
+  - footbag_play_style
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-11
   name: Golf Toys
   children: []
@@ -4721,17 +5275,18 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - color
-  - length
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - length
   - other_reason
+  - received_the_wrong_item
+  - weight
+  - unknown
 - id: tg-5-23-12
   name: Hockey Toys
   children: []
@@ -4739,18 +5294,19 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: tg-5-23-13
   name: Playground Balls
   children: []
@@ -4760,53 +5316,69 @@
   - color
   - pattern
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-23-14
   name: Racquet Sport Toys
   children: []
   attributes:
   - color
+  - impact_surface_material
   - pattern
+  - racquet_toy_set_equipment_included
   - recommended_age_group
+  - sports_toy_set_contents
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - weight
-  - grip
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - grip
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
+- id: tg-5-23-15
+  name: Table Tennis Toys
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-23-16
+  name: Soccer Toys
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-24
   name: Toy Gift Baskets
   children: []
   attributes:
   - color
+  - gift_message_option
   - pattern
   - recommended_age_group
   - toy/game_material
+  - toy_gift_basket_items_included
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-25
   name: Toy Weapon & Gadget Accessories
   children: []
@@ -4816,90 +5388,127 @@
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - incompatible
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - incompatible
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-26
   name: Toy Weapons & Gadgets
-  children: []
+  children:
+  - tg-5-26-1
+  - tg-5-26-2
+  - tg-5-26-3
   attributes:
   - color
   - pattern
+  - projectile_ammunition_type
   - recommended_age_group
   - toy/game_material
+  - toy_weapon_gadget_features
   return_reasons:
-  - size
-  - color
-  - range
-  - too_loud
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - range
+  - received_the_wrong_item
+  - size
+  - too_loud
+  - unknown
+- id: tg-5-26-1
+  name: Spy Gadgets & Detective Kits
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-26-2
+  name: Role-Play Melee Weapons & Shields
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-26-3
+  name: Toy Blasters & Projectile Toys
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-27
   name: Visual Toys
   children:
   - tg-5-27-1
   - tg-5-27-2
+  - tg-5-27-3
+  - tg-5-27-4
   attributes:
   - color
+  - optical_toy_features
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
   - brightness
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-27-1
   name: Kaleidoscopes
   children: []
   attributes:
   - color
+  - kaleidoscope_viewing_type
+  - optical_toy_features
   - pattern
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - color
-  - pattern
-  - length
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - length
   - other_reason
+  - pattern
+  - received_the_wrong_item
+  - unknown
 - id: tg-5-27-2
   name: Prisms
   children: []
   attributes:
   - color
+  - optical_toy_features
   - pattern
+  - prism_material
   - recommended_age_group
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - clarity
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - clarity
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
+- id: tg-5-27-3
+  name: Optical Illusion Toys
+  children: []
+  attributes: []
+  return_reasons: []
+- id: tg-5-27-4
+  name: Light Projection Toys
+  children: []
+  attributes: []
+  return_reasons: []
 - id: tg-5-28
   name: Wind-Up Toys
   children: []
@@ -4908,16 +5517,18 @@
   - pattern
   - recommended_age_group
   - toy/game_material
+  - wind_up_mechanism_type
+  - wind_up_toy_movement_pattern
   return_reasons:
-  - size
-  - color
-  - movement
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - movement
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: tg-5-29
   name: Sensory Toys
   children: []
@@ -4925,14 +5536,18 @@
   - color
   - pattern
   - recommended_age_group
+  - sensory_modality
+  - sensory_toy_fidget_mechanism
+  - sensory_toy_light_features
+  - sensory_toy_texture_type
   - toy/game_material
   return_reasons:
-  - size
-  - color
-  - texture
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - texture
+  - unknown

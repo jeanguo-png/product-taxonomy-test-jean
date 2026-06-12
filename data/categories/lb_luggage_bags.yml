@@ -17,20 +17,21 @@
   - lb-13
   - lb-14
   - lb-15
+  - lb-16
   attributes:
   - carry_options
   - color
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-1
   name: Backpacks
   children:
@@ -50,15 +51,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-1-12
   name: School Backpacks
   children: []
@@ -73,15 +74,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-1-15
   name: Hiking Backpacks
   children: []
@@ -96,16 +97,16 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - size
   - style
   - weight
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: lb-1-16
   name: Laptop Backpacks
   children: []
@@ -120,16 +121,16 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
-  - laptop_fit
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - laptop_fit
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-1-17
   name: Military Backpacks
   children: []
@@ -144,15 +145,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-2
   name: Briefcases
   children: []
@@ -167,16 +168,16 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
-  - organization
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - organization
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-3
   name: Cosmetic & Toiletry Bags
   children:
@@ -195,15 +196,15 @@
   - pattern
   - target_gender
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-3-3
   name: Makeup Bags
   children: []
@@ -218,15 +219,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-3-4
   name: Toiletry Bags
   children: []
@@ -241,15 +242,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-3-5
   name: Travel Organizer Bags
   children: []
@@ -264,15 +265,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-4
   name: Diaper Bags
   children: []
@@ -288,16 +289,16 @@
   - diaper_bag_style
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
-  - organization
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
+  - organization
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-5
   name: Dry Boxes
   children: []
@@ -312,15 +313,15 @@
   - color
   - pattern
   return_reasons:
-  - size
-  - color
-  - water_resistance
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - water_resistance
+  - unknown
 - id: lb-6
   name: Duffel Bags
   children:
@@ -338,15 +339,15 @@
   - pattern
   - target_gender
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-6-1
   name: Gym Duffel Bags
   children: []
@@ -361,15 +362,15 @@
   - color
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-7
   name: Fanny Packs
   children: []
@@ -386,15 +387,15 @@
   - pattern
   - target_gender
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-8
   name: Garment Bags
   children: []
@@ -405,15 +406,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-9
   name: Luggage Accessories
   children:
@@ -429,15 +430,15 @@
   - color
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-9-1
   name: Dry Box Liners & Inserts
   children: []
@@ -452,14 +453,14 @@
   - pattern
   - thickness_type
   return_reasons:
+  - changed_my_mind
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
   - size
   - water_resistance
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: lb-9-2
   name: Luggage Covers
   children: []
@@ -471,15 +472,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-9-3
   name: Luggage Racks & Stands
   children: []
@@ -489,13 +490,13 @@
   - furniture/fixture_material
   - pattern
   return_reasons:
-  - size
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: lb-9-4
   name: Luggage Straps
   children: []
@@ -505,13 +506,13 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: lb-9-5
   name: Luggage Tags
   children: []
@@ -522,14 +523,14 @@
   - shape
   - tag_fastening
   return_reasons:
-  - size
-  - color
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: lb-9-6
   name: Packing Organizers
   children: []
@@ -539,15 +540,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-9-7
   name: Travel Bottles & Containers
   children: []
@@ -557,13 +558,13 @@
   - material
   - pattern
   return_reasons:
-  - size
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - unknown
 - id: lb-9-8
   name: Travel Pouches
   children: []
@@ -580,15 +581,15 @@
   - pattern
   - target_gender
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-10
   name: Messenger Bags
   children: []
@@ -605,15 +606,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-11
   name: Shopping Totes
   children: []
@@ -629,15 +630,15 @@
   - target_gender
   - tote_handle_type
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-12
   name: Suitcases
   children:
@@ -657,16 +658,16 @@
   - spinner_type
   - suitcase_handle_type
   return_reasons:
-  - size
+  - changed_my_mind
   - color
+  - damaged_or_defective
+  - item_not_as_described
+  - other_reason
+  - received_the_wrong_item
+  - size
   - style
   - weight
-  - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
-  - damaged_or_defective
   - unknown
-  - other_reason
 - id: lb-12-2
   name: Carry-On Suitcases
   children: []
@@ -682,15 +683,15 @@
   - spinner_type
   - suitcase_handle_type
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: lb-12-3
   name: Checked Suitcases
   children: []
@@ -706,15 +707,15 @@
   - spinner_type
   - suitcase_handle_type
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: lb-12-5
   name: Kids' Suitcases
   children: []
@@ -730,15 +731,15 @@
   - spinner_type
   - suitcase_handle_type
   return_reasons:
-  - size
-  - color
-  - weight
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - weight
+  - unknown
 - id: lb-12-9
   name: Suitcase Travel Sets
   children: []
@@ -754,15 +755,15 @@
   - spinner_type
   - suitcase_handle_type
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-13
   name: Tote Bags
   children: []
@@ -780,15 +781,15 @@
   - target_gender
   - tote_handle_type
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-14
   name: Train Cases
   children: []
@@ -804,15 +805,15 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
 - id: lb-15
   name: Laptop Bags
   children: []
@@ -828,12 +829,17 @@
   - luggage/bag_closure
   - pattern
   return_reasons:
-  - size
-  - color
-  - style
   - changed_my_mind
-  - item_not_as_described
-  - received_the_wrong_item
+  - color
   - damaged_or_defective
-  - unknown
+  - item_not_as_described
   - other_reason
+  - received_the_wrong_item
+  - size
+  - style
+  - unknown
+- id: lb-16
+  name: Dry Bags
+  children: []
+  attributes: []
+  return_reasons: []
