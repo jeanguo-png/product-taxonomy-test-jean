@@ -23451,6 +23451,8 @@ base_attributes:
   - size__5_6_years
   - size__one_size
   - size__other
+  - size__preemie
+  - size__newborn
 - id: 2779
   name: Clothing accessory material
   description: Identifies the main material used in clothing accessories, like leather or linen
