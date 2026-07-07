@@ -128859,3 +128859,11 @@
   name: Other
   friendly_id: valve_configuration__other
   handle: valve-configuration__other
+- id: 39847
+  name: Preemie
+  friendly_id: size__preemie
+  handle: size__preemie
+- id: 39848
+  name: Newborn
+  friendly_id: size__newborn
+  handle: size__newborn
