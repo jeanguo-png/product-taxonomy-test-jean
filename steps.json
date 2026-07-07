@@ -1,6 +1,16 @@
 {
-  "version": "2026-06-25",
+  "version": "2026-07-07",
   "steps": [
+    {
+      "op": "add_value",
+      "name": "Preemie",
+      "attribute_friendly_id": "size"
+    },
+    {
+      "op": "add_value",
+      "name": "Newborn",
+      "attribute_friendly_id": "size"
+    },
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
