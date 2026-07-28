@@ -78914,12 +78914,18 @@ en:
     size__medium_m:
       # Size
       name: Medium (M)
+    size__newborn:
+      # Size
+      name: Newborn
     size__one_size:
       # Size
       name: One size
     size__other:
       # Size
       name: Other
+    size__preemie:
+      # Size
+      name: Preemie
     size__six_extra_large_6xl:
       # Size
       name: Six extra large (6XL)
