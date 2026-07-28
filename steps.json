@@ -1,5 +1,5 @@
 {
-  "version": "2026-07-07",
+  "version": "2026-07-28",
   "steps": [
     {
       "op": "add_value",
@@ -10,6 +10,16 @@
       "op": "add_value",
       "name": "Newborn",
       "attribute_friendly_id": "size"
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "infant_age_group",
+        "ingredients"
+      ],
+      "category_ids": [
+        "bt-1"
+      ]
     },
     {
       "op": "remove_attributes_from_categories",
@@ -25,6 +35,139 @@
         "fr",
         "hb",
         "lb"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "infant_age_group"
+      ],
+      "category_ids": [
+        "bt-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "infant_age_group",
+        "material",
+        "safety_certifications"
+      ],
+      "category_ids": [
+        "bt-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "care_instructions",
+        "infant_age_group",
+        "material",
+        "safety_certifications"
+      ],
+      "category_ids": [
+        "bt-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "assembly_required",
+        "care_instructions",
+        "infant_age_group",
+        "material",
+        "safety_certifications"
+      ],
+      "category_ids": [
+        "bt-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "care_instructions",
+        "infant_age_group",
+        "material"
+      ],
+      "category_ids": [
+        "bt-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "care_instructions",
+        "infant_age_group",
+        "ingredients",
+        "material"
+      ],
+      "category_ids": [
+        "bt-9"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "allergen_information",
+        "care_instructions",
+        "infant_age_group",
+        "ingredients",
+        "material"
+      ],
+      "category_ids": [
+        "bt-10"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "infant_age_group",
+        "safety_certifications"
+      ],
+      "category_ids": [
+        "bt-11"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "care_instructions",
+        "infant_age_group"
+      ],
+      "category_ids": [
+        "bt-12"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "organic_certification"
+      ],
+      "category_ids": [
+        "bi-10",
+        "fb",
+        "hg"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "age_restrictions",
+        "ingredients",
+        "organic_certification"
+      ],
+      "category_ids": [
+        "fb-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "ingredients",
+        "safety_certifications"
+      ],
+      "category_ids": [
+        "fb-2"
       ]
     },
     {
@@ -152,217 +295,46 @@
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
-        "organic_certification"
-      ],
-      "category_ids": [
-        "bi-10",
-        "fb",
-        "hg"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
         "age_restrictions",
-        "ingredients",
-        "organic_certification"
-      ],
-      "category_ids": [
-        "fb-1"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "ingredients",
         "safety_certifications"
       ],
       "category_ids": [
-        "fb-2"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "age_restrictions"
-      ],
-      "category_ids": [
-        "el-19",
-        "me"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "media_format"
-      ],
-      "category_ids": [
-        "me-1",
-        "me-2",
-        "me-3",
-        "me-4",
-        "me-6"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "age_restrictions",
-        "media_format"
-      ],
-      "category_ids": [
-        "me-7"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "energy_efficiency_class"
-      ],
-      "category_ids": [
-        "el-17",
-        "el-2",
-        "el-9"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "energy_efficiency_class",
-        "power_source"
-      ],
-      "category_ids": [
-        "el-13"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "infant_age_group",
-        "ingredients"
-      ],
-      "category_ids": [
-        "bt-1"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "infant_age_group"
-      ],
-      "category_ids": [
-        "bt-3"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "infant_age_group",
-        "material",
-        "safety_certifications"
-      ],
-      "category_ids": [
-        "bt-4"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "care_instructions",
-        "infant_age_group",
-        "material",
-        "safety_certifications"
-      ],
-      "category_ids": [
-        "bt-5"
+        "tg"
       ]
     },
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
         "assembly_required",
-        "care_instructions",
-        "infant_age_group",
-        "material",
         "safety_certifications"
       ],
       "category_ids": [
-        "bt-6"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "care_instructions",
-        "infant_age_group",
-        "material"
-      ],
-      "category_ids": [
-        "bt-7"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "care_instructions",
-        "infant_age_group",
-        "ingredients",
-        "material"
-      ],
-      "category_ids": [
-        "bt-9"
+        "hg-9",
+        "tg-3"
       ]
     },
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
         "allergen_information",
-        "care_instructions",
-        "infant_age_group",
+        "application_method",
+        "ingredients"
+      ],
+      "category_ids": [
+        "hb-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "allergen_information",
+        "application_method",
         "ingredients",
-        "material"
+        "safety_certifications",
+        "target_gender"
       ],
       "category_ids": [
-        "bt-10"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "infant_age_group",
-        "safety_certifications"
-      ],
-      "category_ids": [
-        "bt-11"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "care_instructions",
-        "infant_age_group"
-      ],
-      "category_ids": [
-        "bt-12"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "color"
-      ],
-      "category_ids": [
-        "os-7"
-      ]
-    },
-    {
-      "op": "remove_attributes_from_categories",
-      "attribute_friendly_ids": [
-        "color",
-        "material"
-      ],
-      "category_ids": [
-        "os-8"
+        "hb-3"
       ]
     },
     {
@@ -412,36 +384,51 @@
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
-        "allergen_information",
-        "application_method",
-        "ingredients"
+        "energy_efficiency_class"
       ],
       "category_ids": [
-        "hb-1"
+        "el-17",
+        "el-2",
+        "el-9"
       ]
     },
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
-        "allergen_information",
-        "application_method",
-        "ingredients",
-        "safety_certifications",
-        "target_gender"
+        "energy_efficiency_class",
+        "power_source"
       ],
       "category_ids": [
-        "hb-3"
+        "el-13"
       ]
     },
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
-        "assembly_required",
-        "safety_certifications"
+        "age_restrictions"
       ],
       "category_ids": [
-        "hg-9",
-        "tg-3"
+        "el-19",
+        "me"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "color"
+      ],
+      "category_ids": [
+        "os-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "color",
+        "material"
+      ],
+      "category_ids": [
+        "os-8"
       ]
     },
     {
@@ -458,11 +445,24 @@
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
-        "age_restrictions",
-        "safety_certifications"
+        "media_format"
       ],
       "category_ids": [
-        "tg"
+        "me-1",
+        "me-2",
+        "me-3",
+        "me-4",
+        "me-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "age_restrictions",
+        "media_format"
+      ],
+      "category_ids": [
+        "me-7"
       ]
     }
   ]
