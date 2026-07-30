@@ -1,6 +1,3284 @@
 {
-  "version": "2026-07-29",
+  "version": "2026-07-30",
   "steps": [
+    {
+      "op": "add_attribute",
+      "name": "EU children's clothing size",
+      "friendly_id": "eu_childrens_clothing_size",
+      "description": "Specifies the EU children's clothing size by height, such as 104 or 140",
+      "values": [
+        "50",
+        "56",
+        "62",
+        "68",
+        "74",
+        "80",
+        "86",
+        "92",
+        "98",
+        "104",
+        "110",
+        "116",
+        "122",
+        "128",
+        "134",
+        "140",
+        "146",
+        "152",
+        "158",
+        "164",
+        "170",
+        "176",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Battle top arena/stadium compatibility",
+      "friendly_id": "battle_top_arena/stadium_compatibility",
+      "description": "Indicates which arena/stadium system the product is designed to be used with (especially for sets or special arena shapes).",
+      "values": [
+        "Beystadium (generic)",
+        "Burst stadium",
+        "Mini/portable stadium",
+        "Standard stadium",
+        "Xtreme stadium (Beyblade X)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Card sleeve size / format compatibility",
+      "friendly_id": "card_sleeve_size_/_format_compatibility",
+      "description": "Specifies the card size(s) the sleeves/pages/deck boxes are designed to fit.",
+      "values": [
+        "Board-game large",
+        "Board-game small",
+        "Board-game standard",
+        "Bridge (2.25\" x 3.5\")",
+        "Custom / non-standard",
+        "Japanese / Small (e.g.",
+        "Mini / Euro mini",
+        "Multi-size / adjustable",
+        "Oversized",
+        "Square",
+        "Standard / Poker (2.5\" x 3.5\")",
+        "Tarot",
+        "Yu-Gi-Oh!)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Dinosaur playset scale/figure size class",
+      "friendly_id": "dinosaur_playset_scale/figure_size_class",
+      "description": "Describes the general scale of included dinosaurs/figures to help compatibility with other sets.",
+      "values": [
+        "Extra large",
+        "Large",
+        "Medium",
+        "Micro/mini",
+        "Mixed sizes",
+        "Small",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Dollhouse installation/placement type",
+      "friendly_id": "dollhouse_installation/placement_type",
+      "description": "How the dollhouse is intended to be used or placed (e.g., tabletop vs floor-standing vs wall-mounted).",
+      "values": [
+        "Floor-standing",
+        "Portable/Foldable",
+        "Tabletop",
+        "Wall-mounted",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Dollhouse style/theme",
+      "friendly_id": "dollhouse_style/theme",
+      "description": "Overall style or theme of the dollhouse for browsing and gifting (e.g., modern vs Victorian).",
+      "values": [
+        "Castle",
+        "Cottage",
+        "Fantasy/Fairytale",
+        "Farmhouse",
+        "Holiday/Seasonal",
+        "Mansion",
+        "Modern",
+        "Princess/Royal",
+        "Townhouse",
+        "Traditional/Classical",
+        "Victorian",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Float/raft use environment",
+      "friendly_id": "float/raft_use_environment",
+      "description": "Primary intended water setting for the inflatable (pool vs calm open water vs surf), reflecting durability and design expectations.",
+      "values": [
+        "Beach/shore (calm sea)",
+        "Calm water (lake/river)",
+        "Ocean/surf (waves)",
+        "Pool",
+        "Universal (pool & open water)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Indoor/outdoor use",
+      "friendly_id": "indoor/outdoor_use",
+      "description": "Indicates whether the bowling toy is intended for indoor use, outdoor use, or both.",
+      "values": [
+        "Indoor",
+        "Indoor/Outdoor",
+        "Outdoor",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Inflatable raft/float features",
+      "friendly_id": "inflatable_raft/float_features",
+      "description": "Functional features present on the inflatable raft/float.",
+      "values": [
+        "Anchor bag/weight bag",
+        "Backrest",
+        "Boarding platform/ladder",
+        "Built-in footwell",
+        "Cooler compartment",
+        "Cup holder(s)",
+        "Handles/grab grips",
+        "Headrest",
+        "Inflatable pillow",
+        "LED lights",
+        "Mesh bottom/seat",
+        "Non-slip surface",
+        "Perimeter rope/grab line",
+        "Split design (connectable)",
+        "Sprayer/mister",
+        "Storage pocket",
+        "Sun canopy/shade",
+        "Tow point/tow rope attachment",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Map coverage (sky/planet body)",
+      "friendly_id": "map_coverage_sky/planet_body",
+      "description": "Indicates what the map depicts: the night sky (constellations) or a specific planetary body.",
+      "values": [
+        "Earth (space view)",
+        "Jupiter",
+        "Mars",
+        "Moon",
+        "Night sky / constellations",
+        "Saturn",
+        "Solar system (overview)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Poker chip tray/rack configuration",
+      "friendly_id": "poker_chip_tray/rack_configuration",
+      "description": "Describes the internal organization style of a chip tray/rack (rows and per-row capacity).",
+      "values": [
+        "2 x 20 (40 chips)",
+        "3 x 20 (60 chips)",
+        "4 x 20 (80 chips)",
+        "5 x 20 (100 chips)",
+        "6 x 20 (120 chips)",
+        "8 x 25 (200 chips)",
+        "10 x 25 (250 chips)",
+        "Custom/variable",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Projectile/ammunition type",
+      "friendly_id": "projectile/ammunition_type",
+      "description": "Specifies the type of projectiles or consumables used by the toy weapon, if applicable.",
+      "values": [
+        "Arrows (toy/safe tip)",
+        "Bubbles",
+        "Caps (paper cap rings)",
+        "Confetti (toy)",
+        "Discs",
+        "Foam balls",
+        "Foam darts",
+        "Gel beads",
+        "None (no projectile)",
+        "Rockets/missiles (toy)",
+        "Rubber bands",
+        "Suction-cup darts",
+        "Water",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "RC plane takeoff/launch method",
+      "friendly_id": "rc_plane_takeoff/launch_method",
+      "description": "How the plane is typically launched/takes off, impacting where and how it can be used.",
+      "values": [
+        "Catapult/bungee launch",
+        "Hand launch",
+        "Runway/ground takeoff",
+        "VTOL/assisted takeoff",
+        "Water takeoff (float plane)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Remote control watercraft propulsion/drive type",
+      "friendly_id": "remote_control_watercraft_propulsion/drive_type",
+      "description": "Specifies how the remote control watercraft is driven in the water.",
+      "values": [
+        "Ducted propeller",
+        "Jet drive (waterjet)",
+        "Paddle wheel",
+        "Propeller drive",
+        "Twin propeller",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Rotation/motion features",
+      "friendly_id": "rotation/motion_features",
+      "description": "Indicates whether planets/orbits rotate or move and how.",
+      "values": [
+        "App-controlled motion",
+        "Gear-driven mechanical motion",
+        "Hand-crank rotation",
+        "Motorized rotation",
+        "Static (no motion)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Rubber ducky character/theme",
+      "friendly_id": "rubber_ducky_character/theme",
+      "description": "Theme or character styling of the rubber ducky (useful for novelty/collectible duckies).",
+      "values": [
+        "Animals (non-duck styling)",
+        "Classic",
+        "Custom/personalized",
+        "doctor",
+        "Fantasy/space",
+        "firefighter)",
+        "Food",
+        "Glow/blacklight theme",
+        "Holiday/seasonal",
+        "Military",
+        "Music",
+        "Occupation (e.g.",
+        "Pirate",
+        "Pop culture/licensed",
+        "Pride/LGBTQ+",
+        "Princess/fairytale",
+        "Sports",
+        "Superhero/comic",
+        "Travel",
+        "Vehicles",
+        "Wedding/romance",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Swing attachment/connection type",
+      "friendly_id": "swing_attachment/connection_type",
+      "description": "The type of connection used to hang the swing from its support (e.g., rope, chain, straps).",
+      "values": [
+        "Chain",
+        "Coated chain",
+        "Hybrid (rope + chain)",
+        "Rope",
+        "Webbing straps",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Toy drawing tablet writing/drawing instrument",
+      "friendly_id": "toy_drawing_tablet_writing/drawing_instrument",
+      "description": "Primary tool used to draw on the tablet (stylus type).",
+      "values": [
+        "Chalk/marker",
+        "Finger/touch",
+        "Magnetic stylus",
+        "Pen-style stylus",
+        "Tethered stylus",
+        "Untethered stylus",
+        "Water pen/brush",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Toy/Game features",
+      "friendly_id": "toy/game_features",
+      "description": "Highlights notable play or construction features relevant to beach and sand toys.",
+      "values": [
+        "Adjustable spray pattern",
+        "BPA-free",
+        "Collapsible",
+        "Easy to inflate",
+        "Ergonomic handle",
+        "Extra-large grip",
+        "Floatable",
+        "Leak-resistant valve",
+        "Long range stream",
+        "Mesh sifter",
+        "Non-toxic",
+        "Phthalate-free",
+        "Puncture resistant",
+        "Quick-fill",
+        "Sand/water compatible",
+        "Soft edges",
+        "Stackable/nesting",
+        "UV resistant",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Yo-yo accessory/part type",
+      "friendly_id": "yo_yo_accessory/part_type",
+      "description": "Identifies what kind of yo-yo replacement part or accessory the product is (e.g., string, bearing, response pads).",
+      "values": [
+        "Axle",
+        "Bearing",
+        "Counterweight",
+        "Display stand",
+        "Holster/carrying case",
+        "Hubstack/side effects caps",
+        "Lubricant",
+        "Parts bundle/kit",
+        "Response pads",
+        "Spacer kit",
+        "String",
+        "Tool (multi-tool/hex)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Sticker/decal features",
+      "friendly_id": "sticker/decal_features",
+      "description": "Captures application and performance characteristics specific to stickers/decals (e.g., bubble-free, repositionable).",
+      "values": [
+        "Anti-fingerprint",
+        "Bubble-free",
+        "Easy to apply",
+        "Heat resistant",
+        "Non-fading",
+        "Repositionable",
+        "Scratch resistant",
+        "Self-healing",
+        "UV resistant",
+        "Waterproof",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Weave/finish",
+      "friendly_id": "weave/finish",
+      "description": "Describes the primary fabric weave or surface finish that affects the tie\u2019s texture and sheen.",
+      "values": [
+        "Grenadine",
+        "Grosgrain",
+        "Jacquard",
+        "Knitted",
+        "Repp",
+        "Satin",
+        "Twill",
+        "Velvet",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Arrow/bolt point type",
+      "friendly_id": "arrow/bolt_point_type",
+      "description": "Defines the style of point or tip installed on an arrow or bolt.",
+      "values": [
+        "Blunt point",
+        "Broadhead",
+        "Broadhead (fixed blade)",
+        "Broadhead (mechanical)",
+        "Bullet point",
+        "Field point",
+        "Fish point",
+        "Judo point",
+        "Safety point",
+        "Target point",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Ascender/descender type",
+      "friendly_id": "ascender/descender_type",
+      "description": "Classifies the style of climbing ascender or descender for more precise filtering.",
+      "values": [
+        "Auto-locking descender",
+        "Cam rope clamp",
+        "Chest ascender",
+        "Combo ascender",
+        "Figure 8 descender",
+        "Foot ascender",
+        "Handled ascender",
+        "Knee ascender",
+        "Progress-capture pulley",
+        "Tube descender",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Baseball/softball usage role",
+      "friendly_id": "baseball/softball_usage_role",
+      "description": "Specifies the on-field role or participant type the leg guard is intended for (e.g., catcher, batter, umpire, fielder).",
+      "values": [
+        "Batter",
+        "Catcher",
+        "Coach",
+        "Fielder",
+        "Training/practice",
+        "Umpire",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Blade finish/coating",
+      "friendly_id": "blade_finish/coating",
+      "description": "Surface treatment applied to the blade for aesthetics or corrosion protection.",
+      "values": [
+        "Acid stonewash",
+        "Bead blasted",
+        "Black oxide",
+        "Cerakote",
+        "DLC",
+        "Polished",
+        "PVD",
+        "Satin",
+        "Stonewash",
+        "Tumbled",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Broadhead/field point attachment style",
+      "friendly_id": "broadhead/field_point_attachment_style",
+      "description": "Specifies how the broadhead or field point attaches to the arrow shaft.",
+      "values": [
+        "Glue-on",
+        "Screw-in",
+        "Slip-on",
+        "Socket",
+        "Tang",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Case capacity (butts \u00d7 shafts)",
+      "friendly_id": "case_capacity_butts_x_shafts",
+      "description": "Defines how many cue butts and shafts the case can accommodate, expressed in butt-by-shaft format (e.g., 2x4 = 2 butts & 4 shafts).",
+      "values": [
+        "1x1",
+        "1x2",
+        "1x3",
+        "1x4",
+        "2x2",
+        "2x3",
+        "2x4",
+        "3x5",
+        "3x6",
+        "4x8",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Chain coating/finish",
+      "friendly_id": "chain_coating/finish",
+      "description": "Specifies any surface treatment or finish applied to the chain to improve durability, reduce friction, prevent corrosion, or alter appearance (e.g., Ti-nitride, DLC, nickel, rust-proof EPT).",
+      "values": [
+        "Chromium",
+        "Diamond-like carbon (DLC)",
+        "Hard chrome",
+        "Nickel",
+        "None",
+        "Rainbow",
+        "Rust-proof EPT",
+        "Teflon/PTFE",
+        "Titanium nitride",
+        "Zinc",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Compatible bow/crossbow type",
+      "friendly_id": "compatible_bow/crossbow_type",
+      "description": "Denotes the style of bow or crossbow the accessory is designed to fit.",
+      "values": [
+        "Compound bow",
+        "Crossbow",
+        "Longbow",
+        "Recurve bow",
+        "Universal",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Exercise bike accessory/part type",
+      "friendly_id": "exercise_bike_accessory/part_type",
+      "description": "Describes the primary function or component type of the item (e.g., Pedal, Drive belt, Bottle holder, Screen cover, Crank arm).",
+      "values": [
+        "Bolt/screw",
+        "Bottle holder",
+        "Cable/wire",
+        "Chain",
+        "Cover",
+        "Crank arm",
+        "Drive belt",
+        "Fan",
+        "Idler cog",
+        "Monitor/computer",
+        "Pedal",
+        "Pedal strap",
+        "Pop pin/knob",
+        "Screen cover",
+        "Seat cushion",
+        "Sensor",
+        "Stand/riser",
+        "Towel",
+        "Trainer table",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Hook coating/finish",
+      "friendly_id": "hook_coating/finish",
+      "description": "Surface treatment or plating applied to the hook for corrosion resistance, stealth, or color (e.g., black nickel, bright tin).",
+      "values": [
+        "Black nickel",
+        "Bright tin",
+        "Bronze",
+        "Duratin",
+        "Gold",
+        "Nickel-plated",
+        "Permasteel",
+        "PTFE",
+        "Tin",
+        "Uncoated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Shell/hull status",
+      "friendly_id": "shell/hull_status",
+      "description": "Specifies whether the nuts or seeds are sold with shells or hulls intact or removed.",
+      "values": [
+        "Hulled",
+        "In-shell",
+        "Partially shelled",
+        "Shelled",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "ATV/UTV intended use",
+      "friendly_id": "atv/utv_intended_use",
+      "description": "Primary intended use/style of the ATV/UTV.",
+      "values": [
+        "Dune/Sand",
+        "Farm/Ranch",
+        "Hunting",
+        "Racing/Competition",
+        "Recreation/Trail",
+        "Rock crawling",
+        "Snow/Track-ready",
+        "Sport",
+        "Utility",
+        "Youth",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Battery case certification/standard",
+      "friendly_id": "battery_case_certification/standard",
+      "description": "Lists relevant transport/safety certifications or test standards the case complies with for battery transport/storage.",
+      "values": [
+        "ATA Spec 300 (air transport case)",
+        "IATA/ICAO lithium battery packaging guidance",
+        "IEC 62133",
+        "Not certified/Not stated",
+        "SAE J2464",
+        "UL 94 (flammability rated)",
+        "UL 2054",
+        "UL 2580",
+        "UN 38.3 compliant",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Brake/clutch fluid base chemistry",
+      "friendly_id": "brake/clutch_fluid_base_chemistry",
+      "description": "Primary chemical base of the brake/clutch hydraulic fluid, which affects compatibility and miscibility.",
+      "values": [
+        "Glycol based",
+        "Mineral oil based",
+        "Silicone based",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Brake/Clutch fluid DOT specification",
+      "friendly_id": "brake/clutch_fluid_dot_specification",
+      "description": "DOT performance classification for hydraulic brake/clutch fluids (e.g., DOT 3, DOT 4).",
+      "values": [
+        "DOT 3",
+        "DOT 4",
+        "DOT 5",
+        "DOT 5.1",
+        "Non-DOT / Manufacturer spec",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Brake drum finish/coating",
+      "friendly_id": "brake_drum_finish/coating",
+      "description": "Surface finish or protective coating applied to the brake drum (e.g., e-coat, painted, zinc-coated).",
+      "values": [
+        "Bare/uncoated",
+        "Black oxide",
+        "E-coated",
+        "Geomet-coated",
+        "Painted",
+        "Zinc-plated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Carrying capacity (pairs/boards)",
+      "friendly_id": "carrying_capacity_pairs/boards",
+      "description": "Indicates how many skis (pairs) or snowboards an accessory enables or is intended to support when used with the rack (e.g., extension kits).",
+      "values": [
+        "1 pair skis",
+        "1 snowboard",
+        "2 pairs skis",
+        "2 snowboards",
+        "3 pairs skis",
+        "3 snowboards",
+        "4 pairs skis",
+        "4 snowboards",
+        "5 pairs skis",
+        "6 pairs skis",
+        "Mixed (skis and snowboards)",
+        "Not applicable",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Coil spring finish/coating",
+      "friendly_id": "coil_spring_finish/coating",
+      "description": "Surface finish or coating applied for corrosion protection.",
+      "values": [
+        "Bare/unfinished",
+        "Black oxide",
+        "E-coated (electrocoat)",
+        "Galvanized",
+        "Painted",
+        "Phosphate coated",
+        "Powder coated",
+        "Zinc plated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Crossbar shape/profile",
+      "friendly_id": "crossbar_shape/profile",
+      "description": "Specifies the crossbar aerodynamic/profile shape.",
+      "values": [
+        "Aero/wing",
+        "Blade",
+        "Elliptical",
+        "Oval",
+        "Round",
+        "Square",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "EV connector/adapter direction",
+      "friendly_id": "ev_connector/adapter_direction",
+      "description": "Specifies what the adapter converts FROM and TO (vehicle inlet side vs charger/cable side), enabling accurate compatibility filtering.",
+      "values": [
+        "CCS1 vehicle inlet to CHAdeMO plug",
+        "CCS1 vehicle inlet to J1772 plug",
+        "CCS1 vehicle inlet to Tesla (NACS) plug",
+        "CHAdeMO vehicle inlet to CCS1 plug",
+        "CHAdeMO vehicle inlet to Tesla (NACS) plug",
+        "J1772 vehicle inlet to CCS1 plug",
+        "J1772 vehicle inlet to Tesla (NACS) plug",
+        "Tesla (NACS) vehicle inlet to CCS1 plug",
+        "Tesla (NACS) vehicle inlet to CHAdeMO plug",
+        "Tesla (NACS) vehicle inlet to J1772 plug",
+        "Type 1 (J1772) vehicle inl...",
+        "Type 2 (Mennekes) vehicle inlet to Type 1 (J1772) plug",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "FIA homologation/certification",
+      "friendly_id": "fia_homologation/certification",
+      "description": "Indicates whether the car (or safety cell) is certified/homologated and to what standard.",
+      "values": [
+        "FIA certified components only",
+        "FIA homologated",
+        "Historic eligible (period-correct)",
+        "SRO/series homologated",
+        "Track-day only (non-homologated)",
+        "Unknown",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Formula car series/class",
+      "friendly_id": "formula_car_series/class",
+      "description": "Specifies the racing series or class the formula car is built to compete in.",
+      "values": [
+        "Formula 1 (F1)",
+        "Formula 2 (F2)",
+        "Formula 3 (F3)",
+        "Formula 4 (F4)",
+        "Formula 2000",
+        "Formula Atlantic",
+        "Formula E",
+        "Formula Ford",
+        "Formula Regional",
+        "Formula Renault",
+        "Formula SAE",
+        "Formula Vee",
+        "Indy NXT",
+        "IndyCar",
+        "Super Formula",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Fuel cap gasket/seal material",
+      "friendly_id": "fuel_cap_gasket/seal_material",
+      "description": "Specifies the material used for the sealing gasket/O-ring on the fuel cap.",
+      "values": [
+        "Cork",
+        "EPDM",
+        "Neoprene",
+        "Nitrile (NBR)",
+        "Rubber (unspecified)",
+        "Silicone",
+        "Viton (FKM)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Fuel filter mounting/connection type",
+      "friendly_id": "fuel_filter_mounting/connection_type",
+      "description": "Specifies how the fuel filter connects/installs (threaded/spin-on, quick-connect, hose barb, banjo, etc.).",
+      "values": [
+        "Banjo bolt fitting",
+        "Cartridge (in housing)",
+        "Compression fitting",
+        "Flare fitting",
+        "In-tank strainer/sock",
+        "Inline (hose barb)",
+        "Inline (quick-connect)",
+        "Push-to-connect",
+        "Spin-on (threaded)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Helmet visor/peak adjustability",
+      "friendly_id": "helmet_visor/peak_adjustability",
+      "description": "Whether the helmet\u2019s off-road peak/visor is adjustable and/or removable.",
+      "values": [
+        "Adjustable",
+        "Adjustable & removable",
+        "Fixed (non-adjustable)",
+        "No peak/visor",
+        "Removable",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Helmet visor/shield type",
+      "friendly_id": "helmet_visor/shield_type",
+      "description": "Primary face shield/visor configuration included with the helmet.",
+      "values": [
+        "Clear face shield",
+        "Dual shield (external + internal sun visor)",
+        "Flip-up/convertible shield",
+        "Iridium/mirrored face shield",
+        "No visor (requires goggles)",
+        "Peak/visor (off-road style)",
+        "Photochromic face shield",
+        "Tinted face shield",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Homologation / rule set",
+      "friendly_id": "homologation_/_rule_set",
+      "description": "Specifies the sanctioning body or rule set the car is compliant with (where applicable).",
+      "values": [
+        "ACO",
+        "FIA",
+        "IMSA",
+        "National / club racing",
+        "SRO GT World Challenge",
+        "Super GT",
+        "Track-day (non-homologated)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Lift/stand support point",
+      "friendly_id": "lift/stand_support_point",
+      "description": "Where the lift/stand contacts/supports the vehicle.",
+      "values": [
+        "Axle",
+        "Chassis rails",
+        "Control arm",
+        "Differential",
+        "Engine cradle/K-member",
+        "Frame",
+        "Pinch weld",
+        "Universal (multi-point)",
+        "Wheels/tires",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Marine flare certification/standard",
+      "friendly_id": "marine_flare_certification/standard",
+      "description": "Indicates which marine safety certification(s) or standards the flare claims to meet.",
+      "values": [
+        "ISO 9093",
+        "MED / Wheelmark",
+        "None stated",
+        "SOLAS",
+        "Transport Canada Approved",
+        "USCG Approved (33 CFR 175)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Motor vehicle A/V integration features",
+      "friendly_id": "motor_vehicle_a/v_integration_features",
+      "description": "Smartphone and in-vehicle integration features supported by the head unit (e.g., Apple CarPlay, Android Auto, MirrorLink).",
+      "values": [
+        "Android Auto (wired)",
+        "Android Auto (wireless)",
+        "Apple CarPlay (wired)",
+        "Apple CarPlay (wireless)",
+        "Backup camera input",
+        "Built-in navigation",
+        "MirrorLink",
+        "Multiple camera inputs",
+        "OBD2 integration",
+        "Steering wheel control ready",
+        "Voice assistant support",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Motor vehicle bulb application/position",
+      "friendly_id": "motor_vehicle_bulb_application/position",
+      "description": "Specifies the intended vehicle lighting position or function the bulb is designed for (e.g., low beam, brake light).",
+      "values": [
+        "Auxiliary/off-road light",
+        "Brake light",
+        "Courtesy/door light",
+        "Daytime running light (DRL)",
+        "Fog light",
+        "Front turn signal",
+        "Headlight \u2013 high beam",
+        "Headlight \u2013 low beam",
+        "Instrument/cluster light",
+        "Interior dome/map light",
+        "License plate light",
+        "Motorcycle headlight",
+        "Parking/position light",
+        "Rear turn signal",
+        "Reverse light",
+        "Side marker light",
+        "Tail/running light",
+        "Third brake light (CHMSL)",
+        "Trunk/cargo light",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Mounting/Storage type",
+      "friendly_id": "mounting/storage_type",
+      "description": "How the device is intended to be mounted or stowed on the vessel/person.",
+      "values": [
+        "Category I float-free bracket",
+        "Category II manual release bracket",
+        "Handheld / carry",
+        "Included pouch/case",
+        "Mounting bracket",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Oil pan baffle/windage features",
+      "friendly_id": "oil_pan_baffle/windage_features",
+      "description": "Indicates internal oil control features included in the pan.",
+      "values": [
+        "Baffled",
+        "Crank scraper integrated",
+        "Magnetic drain plug",
+        "Not applicable/none",
+        "Oil return passages",
+        "Provision for oil level sensor",
+        "Provision for turbo oil return",
+        "Sump baffle plate",
+        "Trap doors",
+        "Windage tray integrated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Oil pan finish/coating",
+      "friendly_id": "oil_pan_finish/coating",
+      "description": "Describes the surface finish or coating of the oil pan (painted, powder-coated, plated, raw, etc.).",
+      "values": [
+        "Anodized",
+        "Bare/raw",
+        "Black oxide",
+        "Chrome plated",
+        "E-coated (electrocoated)",
+        "Painted",
+        "Polished",
+        "Powder-coated",
+        "Zinc plated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Piston crown/dish style",
+      "friendly_id": "piston_crown/dish_style",
+      "description": "Shape of the piston crown that influences combustion chamber volume and compression (e.g., flat top, dome, dish).",
+      "values": [
+        "Custom/other",
+        "Dished",
+        "Dome",
+        "Flat top",
+        "Reverse dome",
+        "Valve reliefs",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Police vehicle light/siren equipment",
+      "friendly_id": "police_vehicle_light/siren_equipment",
+      "description": "Specifies which emergency warning devices are installed on the police car.",
+      "values": [
+        "Dash light",
+        "Grille lights",
+        "Intersection lights",
+        "Lightbar",
+        "None",
+        "PA/speaker",
+        "Rear deck lights",
+        "Siren",
+        "Slicktop visor light",
+        "Spotlight(s)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Pressure sensor port / thread standard",
+      "friendly_id": "pressure_sensor_port_/_thread_standard",
+      "description": "Specifies the mechanical port/thread standard used to install the sensor into the vehicle system.",
+      "values": [
+        "1/4\" BSPT",
+        "1/4\" NPT",
+        "1/8\" BSPT",
+        "1/8\" NPT",
+        "3/8\" NPT",
+        "M10x1.0",
+        "M10x1.25",
+        "M12x1.5",
+        "M14x1.5",
+        "M16x1.5",
+        "M18x1.5",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Radiator/expansion tank cap application",
+      "friendly_id": "radiator/expansion_tank_cap_application",
+      "description": "Identifies whether the cap is intended for a radiator filler neck or for a coolant expansion/overflow tank.",
+      "values": [
+        "Expansion tank",
+        "Multi-application",
+        "Overflow/recovery tank",
+        "Radiator filler neck",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Roof cargo net hook/fastener style",
+      "friendly_id": "roof_cargo_net_hook/fastener_style",
+      "description": "Specifies the style of end hardware used to connect the net to anchor points (e.g., S-hook, carabiner, J-hook).",
+      "values": [
+        "Carabiner",
+        "Gated carabiner",
+        "J-hook",
+        "S-hook",
+        "Snap hook",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Season/condition protection",
+      "friendly_id": "season/condition_protection",
+      "description": "Indicates the primary weather/condition the windshield cover is intended to protect against.",
+      "values": [
+        "All-weather",
+        "Dust/pollen",
+        "Frost",
+        "Hail protection",
+        "Rain",
+        "Snow & ice",
+        "Sun/heat (UV)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Soft top includes frame/hardware",
+      "friendly_id": "soft_top_includes_frame/hardware",
+      "description": "Indicates whether the product includes the soft top frame/bows and/or mounting hardware.",
+      "values": [
+        "Complete kit (top + frame + hardware)",
+        "Fabric only (no frame/hardware)",
+        "Includes bows/frame",
+        "Includes mounting hardware only",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Splice/termination type",
+      "friendly_id": "splice/termination_type",
+      "description": "Specifies the end termination provided on the anchor line (e.g., spliced eye, thimble, chain hook).",
+      "values": [
+        "Carabiner/snap hook",
+        "Chain hook",
+        "Cut end (no splice)",
+        "Eye splice",
+        "Heat-sealed end",
+        "Shackle",
+        "Soft shackle",
+        "Spliced eye with thimble",
+        "Stainless thimble",
+        "Whipped end",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Steering rack finish/coating",
+      "friendly_id": "steering_rack_finish/coating",
+      "description": "Specifies the exterior finish/coating for corrosion protection.",
+      "values": [
+        "Anodized",
+        "Bare metal",
+        "Black oxide",
+        "E-coated (electrocoat)",
+        "Painted",
+        "Powder-coated",
+        "Zinc plated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Surface finish/prep",
+      "friendly_id": "surface_finish/prep",
+      "description": "Indicates the friction surface condition (e.g., resurfaced, machined, as-cast) at sale.",
+      "values": [
+        "As-cast",
+        "Coated",
+        "New machined",
+        "Not applicable",
+        "Resurfaced",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Sway bar fitment (front/rear/kit)",
+      "friendly_id": "sway_bar_fitment_front/rear/kit",
+      "description": "Indicates whether the sway bar is intended for the front axle, rear axle, or sold as a front-and-rear kit.",
+      "values": [
+        "Front",
+        "Front and rear kit",
+        "Not specified",
+        "Rear",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Tether/strap system",
+      "friendly_id": "tether/strap_system",
+      "description": "Type of tether or strap system used to connect the neck support to the helmet/harness (if applicable).",
+      "values": [
+        "Dual tether",
+        "No tether (standalone brace)",
+        "Quick-release tether",
+        "Single tether",
+        "Sliding tether",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Throw rope storage/packaging type",
+      "friendly_id": "throw_rope_storage/packaging_type",
+      "description": "How the throw rope is stored or deployed (e.g., bag or reel).",
+      "values": [
+        "Canister/case",
+        "Coiled (no bag)",
+        "Reel/spool",
+        "Rescue ring/bag combo",
+        "Throw bag",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Tie-down points/straps included",
+      "friendly_id": "tie_down_points/straps_included",
+      "description": "Specifies whether the rack includes integrated tie-down points and/or included straps for securing the motorcycle/scooter.",
+      "values": [
+        "Both integrated tie-down points and straps included",
+        "Integrated tie-down points only (no straps)",
+        "Neither / not included",
+        "Straps included",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Tip finish/coating",
+      "friendly_id": "tip_finish/coating",
+      "description": "Specifies the surface treatment on the working end (e.g., chrome-plated, powder-coated) that affects corrosion resistance and rim marring.",
+      "values": [
+        "Anodized",
+        "Bare/uncoated",
+        "Black oxide",
+        "Chrome-plated",
+        "Nickel-plated",
+        "Painted",
+        "Plastic-coated (dipped)",
+        "Polished",
+        "Powder-coated",
+        "Rubber-coated",
+        "Zinc-plated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Trailer hitch mounting location/method",
+      "friendly_id": "trailer_hitch_mounting_location/method",
+      "description": "Specifies where and how the trailer hitch is mounted on the vehicle (e.g., rear receiver, front receiver, frame-mounted, bumper-mounted, bed-mounted).",
+      "values": [
+        "Bumper-mounted",
+        "Fifth-wheel (bed-mounted)",
+        "Frame-mounted",
+        "Front receiver",
+        "Gooseneck (bed-mounted)",
+        "Multi-fit adjustable",
+        "Rear receiver",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Truck bed/body type",
+      "friendly_id": "truck_bed/body_type",
+      "description": "Configuration of the cargo bed or body behind the cab.",
+      "values": [
+        "Box/van body",
+        "Dump bed",
+        "Flatbed",
+        "Fleetside",
+        "Stake bed",
+        "Stepside",
+        "Utility/service body",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "U-joint series/size",
+      "friendly_id": "u_joint_series/size",
+      "description": "Specifies the U-joint series or size standard used (e.g., 1310 series).",
+      "values": [
+        "3R series",
+        "1310 series",
+        "1330 series",
+        "1350 series",
+        "1410 series",
+        "1480 series",
+        "1550 series",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Vacuum/boost reference port",
+      "friendly_id": "vacuum/boost_reference_port",
+      "description": "Indicates whether the regulator includes a manifold reference port for vacuum/boost and what style it is.",
+      "values": [
+        "Boost reference",
+        "None",
+        "Vacuum reference",
+        "Vacuum/boost reference",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Vehicle paint chemistry/base",
+      "friendly_id": "vehicle_paint_chemistry/base",
+      "description": "Indicates the paint formulation/chemistry used in vehicle paint.",
+      "values": [
+        "Acrylic lacquer",
+        "Ceramic coating",
+        "Enamel",
+        "Epoxy",
+        "Rubberized coating",
+        "Solvent-based",
+        "Urethane (2K)",
+        "Vinyl dye",
+        "Water-based",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Vehicle wax/polish product form",
+      "friendly_id": "vehicle_wax/polish_product_form",
+      "description": "The physical form/dispensing format of the wax, polish, protectant, or sealant.",
+      "values": [
+        "Aerosol spray",
+        "Cream",
+        "Foam",
+        "Gel",
+        "Liquid",
+        "Paste",
+        "Spray",
+        "Stick",
+        "Wipes",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Watercraft lighting certification / compliance",
+      "friendly_id": "watercraft_lighting_certification_/_compliance",
+      "description": "Indicates the regulatory/standards compliance the light is certified to for marine use (e.g., USCG/ABYC/COLREGs compliant).",
+      "values": [
+        "ABYC compliant",
+        "CE certified",
+        "COLREGs compliant",
+        "Not certified/Not specified",
+        "RoHS compliant",
+        "USCG compliant",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Watercraft pump stage / impeller role",
+      "friendly_id": "watercraft_pump_stage_/_impeller_role",
+      "description": "Identifies whether the impeller is intended for a specific pump role (e.g., raw water/sea pump, coolant circulation, jet pump).",
+      "values": [
+        "Ballast pump impeller",
+        "Bilge pump impeller",
+        "Cooling water pump (circulation)",
+        "Jet pump impeller",
+        "Livewell/aerator pump impeller",
+        "Raw water pump (sea water)",
+        "Washdown pump impeller",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Watercraft steering wheel hub/bore type",
+      "friendly_id": "watercraft_steering_wheel_hub/bore_type",
+      "description": "Specifies the center mounting/bore interface style (e.g., tapered, splined) where the wheel mates to a hub or adapter.",
+      "values": [
+        "Hub included",
+        "Keyed bore",
+        "Splined bore",
+        "Tapered bore",
+        "Universal hub required",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Wheel cleaner acidity / pH category",
+      "friendly_id": "wheel_cleaner_acidity_/_ph_category",
+      "description": "Indicates whether the wheel cleaner is acidic, neutral, or alkaline (and optionally whether it is marketed as pH-balanced).",
+      "values": [
+        "Acidic",
+        "Alkaline",
+        "pH neutral",
+        "pH-balanced (near neutral)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Acoustic piano plate/frame material",
+      "friendly_id": "acoustic_piano_plate/frame_material",
+      "description": "Specifies the main material of the piano plate/frame (harp), commonly cast iron.",
+      "values": [
+        "Aluminum alloy",
+        "Cast iron",
+        "Composite",
+        "Steel",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Analog synthesizer CV/Gate I/O",
+      "friendly_id": "analog_synthesizer_cv/gate_i/o",
+      "description": "Indicates the types of control-voltage and gate connections supported for integrating with modular/analog gear.",
+      "values": [
+        "Aftertouch CV out",
+        "CV in",
+        "CV out",
+        "Gate in",
+        "Gate out",
+        "Hz/V",
+        "Mod wheel CV out",
+        "No CV/Gate",
+        "Pitch CV (1V/oct)",
+        "Sync/Clock in",
+        "Sync/Clock out",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Art/Crafting tool tip style",
+      "friendly_id": "art/crafting_tool_tip_style",
+      "description": "Describes the shape/profile of the working tip (e.g., pointed vs rounded ball) to indicate the kind of embossing marks it produces.",
+      "values": [
+        "Ball",
+        "Chisel tip",
+        "Needle point",
+        "Rounded tip",
+        "Tapered tip",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Award mounting/display type",
+      "friendly_id": "award_mounting/display_type",
+      "description": "Specifies how the award is intended to be displayed or mounted (wall vs desktop vs wearable).",
+      "values": [
+        "Desktop/Tabletop",
+        "Easel-backed",
+        "Free-standing",
+        "Hanging",
+        "Wall-mounted",
+        "Wearable (neck ribbon)",
+        "Wearable (pin)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Award ribbon placement/title",
+      "friendly_id": "award_ribbon_placement/title",
+      "description": "The standard placement or title conveyed by the ribbon (e.g., 1st place, participant).",
+      "values": [
+        "1st place",
+        "2nd place",
+        "3rd place",
+        "Best in show",
+        "Champion",
+        "Finalist",
+        "Grand champion",
+        "Guest",
+        "Honorable mention",
+        "Judge's choice",
+        "Participant",
+        "Reserve champion",
+        "Staff",
+        "Volunteer",
+        "Winner",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Bag/case carrying style",
+      "friendly_id": "bag/case_carrying_style",
+      "description": "Specifies the primary overall carrying form factor of the case/gigbag (how it is built to be carried).",
+      "values": [
+        "Backpack-style",
+        "Case with backpack harness",
+        "Dual-carry (hand + backpack)",
+        "Hand-carry briefcase-style",
+        "Shoulder bag-style",
+        "Wheeled/rolling",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Balloon closure/valve type",
+      "friendly_id": "balloon_closure/valve_type",
+      "description": "Identifies how the balloon is sealed after inflation (e.g., tie, self-sealing valve).",
+      "values": [
+        "Requires heat sealing",
+        "Self-sealing valve",
+        "Tie neck (no valve)",
+        "Uses clip/plug",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Banknote authentication/grading",
+      "friendly_id": "banknote_authentication/grading",
+      "description": "Third-party service (if any) that authenticated/graded the banknote.",
+      "values": [
+        "ANACS",
+        "CGS (Currency Grading and Authentication)",
+        "ICG (Independent Coin Graders)",
+        "Legacy Currency Grading (LCG)",
+        "Not graded",
+        "PCGS Banknote",
+        "PMG (Paper Money Guaranty)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Beading pattern stitch/technique",
+      "friendly_id": "beading_pattern_stitch/technique",
+      "description": "Primary beadweaving stitch or technique used in the pattern.",
+      "values": [
+        "Bead crochet",
+        "Bead embroidery",
+        "Bead weaving (multi-stitch/assorted)",
+        "Brick stitch",
+        "Chevron stitch",
+        "Circular peyote",
+        "Even-count peyote",
+        "Herringbone (Ndebele)",
+        "Kumihimo beading",
+        "Ladder stitch",
+        "Loom beading",
+        "Netting",
+        "Odd-count peyote",
+        "Peyote stitch",
+        "Right-angle weave (RAW)",
+        "Spiral stitch",
+        "Square stitch",
+        "Wire wrapping with beads",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Beading technique / stitch",
+      "friendly_id": "beading_technique_/_stitch",
+      "description": "Identifies the primary beading technique or stitch used in the pattern (e.g., peyote stitch, brick stitch).",
+      "values": [
+        "Bead crochet",
+        "Bead embroidery",
+        "Brick stitch",
+        "Chevron stitch",
+        "Daisy chain",
+        "Fringe beading",
+        "Herringbone (Ndebele)",
+        "Kumihimo beading",
+        "Loom beading",
+        "Netting",
+        "Off-loom weaving (other)",
+        "Peyote stitch",
+        "Right-angle weave (RAW)",
+        "Spiral stitch",
+        "Square stitch",
+        "Stringing",
+        "Wire wrapping with beads",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Bodhr\u00e1n head material",
+      "friendly_id": "bodhran_head_material",
+      "description": "The material of the playing head (membrane), which strongly affects tone and maintenance requirements.",
+      "values": [
+        "Calfskin",
+        "Deerskin",
+        "Goatskin",
+        "Sheepskin",
+        "Synthetic (Mylar)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Bodhr\u00e1n tuning system type",
+      "friendly_id": "bodhran_tuning_system_type",
+      "description": "The style of built-in tuning mechanism used to adjust head tension (if tunable).",
+      "values": [
+        "Bolt/Allen-key system",
+        "Crossbar (internal)",
+        "Ring (internal)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Bottle neck finish / closure size",
+      "friendly_id": "bottle_neck_finish_/_closure_size",
+      "description": "The standardized bottle opening/finish size to ensure compatibility with caps, corks, and cappers (e.g., 26 mm crown finish).",
+      "values": [
+        "26 mm crown finish",
+        "28 mm PCO (PET soda)",
+        "29 mm crown finish",
+        "38 mm thread",
+        "Cork finish (champagne/belgian)",
+        "Cork finish (standard wine)",
+        "Growler thread finish",
+        "Swing-top finish",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Bow/yo-yo embellishment style",
+      "friendly_id": "bow/yo_yo_embellishment_style",
+      "description": "Identifies the constructed style of the embellishment (bow or fabric yo-yo construction).",
+      "values": [
+        "Bunny ear bow",
+        "Butterfly bow",
+        "Classic bow",
+        "Flat yo-yo",
+        "Gathered yo-yo",
+        "Layered yo-yo",
+        "Loop bow",
+        "Pinwheel bow",
+        "Pom-pom bow",
+        "Rosette",
+        "Tied bow",
+        "Yo-yo rosette",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Brass instrument lubricant additives/features",
+      "friendly_id": "brass_instrument_lubricant_additives/features",
+      "description": "Notable functional features of the lubricant formulation.",
+      "values": [
+        "Anti-wear",
+        "Biodegradable",
+        "Corrosion protection",
+        "Fast-acting",
+        "Food-safe/non-toxic",
+        "Long-lasting",
+        "Low odor/odorless",
+        "Low residue",
+        "Non-gumming",
+        "Non-staining",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Cajon body/shell material",
+      "friendly_id": "cajon_body/shell_material",
+      "description": "Identifies the material of the cajon body/shell (excluding the tapa).",
+      "values": [
+        "Baltic birch",
+        "Beech",
+        "Birch",
+        "Composite",
+        "Mahogany",
+        "Maple",
+        "MDF/HDF (engineered wood)",
+        "Oak",
+        "Okoume",
+        "Plywood (unspecified)",
+        "Poplar",
+        "Walnut",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Cajon corner/edge design",
+      "friendly_id": "cajon_corner/edge_design",
+      "description": "Describes the corner/edge construction that affects comfort and playability.",
+      "values": [
+        "Beveled edges",
+        "Rounded edges",
+        "Sharp/square edges",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Canvas mounting/format",
+      "friendly_id": "canvas_mounting/format",
+      "description": "Physical format/mounting style of the painting canvas product.",
+      "values": [
+        "Canvas pad (paper-bound sheets)",
+        "Canvas panel/board",
+        "Canvas roll (by the yard/meter)",
+        "Canvas sheet (loose)",
+        "Stretched canvas",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Card box/holder type",
+      "friendly_id": "card_box/holder_type",
+      "description": "Specifies the functional form factor of the product for collecting or holding cards at an event (e.g., box, mailbox-style box, basket, holder stand).",
+      "values": [
+        "Card basket",
+        "Card box",
+        "Card cage (wire/frame box)",
+        "Card holder rack",
+        "Card holder sign/frame",
+        "Card holder stand",
+        "Card holder tray",
+        "Card suitcase with slot",
+        "Card suitcase/briefcase",
+        "Card trunk/chest",
+        "Mailbox-style card box",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Case style (cymbal/drum)",
+      "friendly_id": "case_style_cymbal/drum",
+      "description": "Specifies whether the product is a soft bag, hard case, or hybrid design for transporting cymbals or drum sets.",
+      "values": [
+        "Case set (multiple pieces)",
+        "Hard shell case",
+        "Hybrid (semi-rigid)",
+        "Rolling case",
+        "Soft gig bag",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Clamping/closure type",
+      "friendly_id": "clamping/closure_type",
+      "description": "Specifies the mechanism used to tighten or secure the embroidery hoop around fabric.",
+      "values": [
+        "Bolt and nut",
+        "Cam lever clamp",
+        "No hardware (spring tension)",
+        "Quick-release",
+        "Snap lock",
+        "Thumb screw",
+        "Wing nut",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Cleaner/sanitizer intended area",
+      "friendly_id": "cleaner/sanitizer_intended_area",
+      "description": "The primary part of the brass instrument the product is meant to clean/sanitize.",
+      "values": [
+        "Bell",
+        "Bore",
+        "Exterior body",
+        "Leadpipe",
+        "Mouthpiece",
+        "Multi-area / whole instrument",
+        "Pistons/valves",
+        "Rotary valves",
+        "Slides (tuning/hand slide)",
+        "Valve casing",
+        "Water keys/spit valves",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Cocktail pick top/handle style",
+      "friendly_id": "cocktail_pick_top/handle_style",
+      "description": "Describes the decorative top or handle form used for gripping or presentation.",
+      "values": [
+        "Ball/bead",
+        "Flag",
+        "Fringe/tassel",
+        "Novelty figure",
+        "Palm/tropical",
+        "Ring/loop handle",
+        "Skull/seasonal",
+        "Sword",
+        "Topper charm",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Cocktail umbrella handle/pick material",
+      "friendly_id": "cocktail_umbrella_handle/pick_material",
+      "description": "Material of the stick/pick portion (excluding canopy) of the cocktail umbrella.",
+      "values": [
+        "Bamboo",
+        "Biodegradable materials",
+        "Metal",
+        "Paper",
+        "Plastic",
+        "Wood",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Compatible contra-bass clarinet peg/stand",
+      "friendly_id": "compatible_contra_bass_clarinet_peg/stand",
+      "description": "Indicates the stand/peg interface or support style required.",
+      "values": [
+        "Endpin support",
+        "Floor stand required",
+        "Integrated stand",
+        "Peg support",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Compatible instrument surface/material",
+      "friendly_id": "compatible_instrument_surface/material",
+      "description": "Indicates which instrument surfaces/materials the polish is intended to be used on.",
+      "values": [
+        "Carbon fiber/composite",
+        "Finished wood (body/neck)",
+        "Finished/sealed fingerboard wood (e.g.",
+        "Lacquered/varnished surfaces",
+        "maple)",
+        "Metal (hardware)",
+        "Painted surfaces",
+        "Plastic",
+        "Unfinished fingerboard wood",
+        "Unfinished wood",
+        "Universal/multi-surface",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Compatible neck profile/width",
+      "friendly_id": "compatible_neck_profile/width",
+      "description": "Indicates the guitar neck profile/width class the capo is designed to fit (e.g., narrow electric vs wide classical).",
+      "values": [
+        "Narrow (electric)",
+        "Standard (steel-string acoustic)",
+        "Universal",
+        "Wide (classical)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Compatible thread/spool format",
+      "friendly_id": "compatible_thread/spool_format",
+      "description": "Indicates what thread formats the box is designed to store (spools, bobbins, floss bobbins/cards, cones, etc.).",
+      "values": [
+        "Embroidery floss bobbins/cards",
+        "Embroidery thread spools",
+        "Large cones",
+        "Machine bobbins",
+        "Mini spools",
+        "Mixed/assorted",
+        "Pre-wound bobbins",
+        "Quilting spools",
+        "Serger cones",
+        "Standard sewing spools",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Compatible winder head/bit",
+      "friendly_id": "compatible_winder_head/bit",
+      "description": "Specifies the tuner key/head interface style the winder supports (e.g., slotted head, interchangeable bits, universal head).",
+      "values": [
+        "Hex bit interface",
+        "Includes multiple heads/bits",
+        "Interchangeable bits",
+        "Slotted head",
+        "Square bit interface",
+        "Universal head",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Craft cutter/embosser machine operation",
+      "friendly_id": "craft_cutter/embosser_machine_operation",
+      "description": "Specifies how the cutter/embosser operates from a user workflow perspective (e.g., manual crank, electric push-button, app-controlled).",
+      "values": [
+        "Electric (battery-powered)",
+        "Electric (corded)",
+        "Electronic (USB-connected)",
+        "Lever press",
+        "Manual (hand tool)",
+        "Manual crank machine",
+        "Smart/app-controlled (Bluetooth/Wi\u2011Fi)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Craft wire finish/coating",
+      "friendly_id": "craft_wire_finish/coating",
+      "description": "Specifies the surface finish or coating applied to the wire for color, tarnish resistance, or protection.",
+      "values": [
+        "Anodized",
+        "Bare/raw",
+        "Colored/painted",
+        "Enamel-coated",
+        "Galvanized",
+        "Plated",
+        "Polymer-coated",
+        "Tarnish-resistant coated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Cymbal arm rotation/positioning features",
+      "friendly_id": "cymbal_arm_rotation/positioning_features",
+      "description": "Specifies positioning features that affect how the arm can be angled/rotated and locked.",
+      "values": [
+        "Arm rotation adjustment",
+        "Ball joint",
+        "Boom angle adjustment",
+        "Hideaway boom",
+        "Memory lock compatible",
+        "Memory lock included",
+        "Multi-angle/omni-angle joint",
+        "Quick-release tilter",
+        "Wingnutless cymbal mount",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Cymbal playing style/genre",
+      "friendly_id": "cymbal_playing_style/genre",
+      "description": "Identifies the typical performance context the cymbals are designed for (e.g., belly dance zills vs marching/orchestral hand cymbals).",
+      "values": [
+        "Belly dance",
+        "Educational/classroom",
+        "Folk/traditional",
+        "Marching band",
+        "Meditation/sound therapy",
+        "Orchestral/concert",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Decoder interface / socket type",
+      "friendly_id": "decoder_interface_/_socket_type",
+      "description": "Digital decoder interface type or onboard decoder configuration for the locomotive model.",
+      "values": [
+        "21-pin MTC",
+        "DCC sound fitted",
+        "DCC-fitted (decoder installed)",
+        "DCC-ready (socket)",
+        "Hardwired",
+        "NEM 6-pin",
+        "NEM 8-pin",
+        "Next18",
+        "NMRA 9-pin JST",
+        "None (DC only)",
+        "PluX16",
+        "PluX22",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Disposable/Compostable claim",
+      "friendly_id": "disposable/compostable_claim",
+      "description": "Indicates whether the product is compostable, biodegradable, recyclable, or none (where applicable).",
+      "values": [
+        "Biodegradable",
+        "Compostable",
+        "None/Not specified",
+        "Plastic-free",
+        "Recyclable",
+        "Recycled content",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Doumbek playing style/technique",
+      "friendly_id": "doumbek_playing_style/technique",
+      "description": "Intended playing context/style commonly associated with the doumbek.",
+      "values": [
+        "Arabic/Middle Eastern (general)",
+        "Egyptian style",
+        "Fusion/Modern",
+        "Turkish style",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Drum head application (batter/resonant)",
+      "friendly_id": "drum_head_application_batter/resonant",
+      "description": "Specifies which side/role the head is designed for on a drum (top playing surface vs bottom resonant/snare-side).",
+      "values": [
+        "Batter (top)",
+        "Dual-purpose",
+        "Resonant / snare-side (bottom)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Drum head hoop/collar type",
+      "friendly_id": "drum_head_hoop/collar_type",
+      "description": "Identifies the drum head\u2019s hoop and collar construction (e.g., collar profile and hoop material), which can affect fit and tuning stability on certain shells and rims.",
+      "values": [
+        "Aluminum hoop",
+        "Low collar",
+        "Standard flesh hoop",
+        "Steel hoop",
+        "Wide collar",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Drum head hoop/rim material",
+      "friendly_id": "drum_head_hoop/rim_material",
+      "description": "Material of the flesh hoop/rim (the embedded hoop inside the head), which can affect durability and tuning stability.",
+      "values": [
+        "Aluminum",
+        "Composite",
+        "Steel",
+        "Wood",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Dyeing / color processing",
+      "friendly_id": "dyeing_/_color_processing",
+      "description": "Describes whether and how the fiber was colored (e.g., undyed, bleached/white, or specific dyeing techniques).",
+      "values": [
+        "Gradient / Ombr\u00e9",
+        "Hand-dyed",
+        "Heathered",
+        "Kettle-dyed",
+        "Natural colored (breed color)",
+        "Solid dyed",
+        "Space-dyed",
+        "Speckled",
+        "Undyed (bleached / white)",
+        "Undyed (natural)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Elastic edge finish/type",
+      "friendly_id": "elastic_edge_finish/type",
+      "description": "Specifies edge construction of the woven elastic that impacts comfort and application.",
+      "values": [
+        "Center-fold",
+        "Fold-over",
+        "Picot edge",
+        "Scalloped edge",
+        "Straight edge",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Equipment contact material (brew/wine)",
+      "friendly_id": "equipment_contact_material_brew/wine",
+      "description": "Primary material of the item that contacts the liquid (e.g., glass, stainless steel, plastic).",
+      "values": [
+        "Aluminum",
+        "Ceramic",
+        "Copper",
+        "Food-grade HDPE",
+        "Food-grade PET",
+        "Glass",
+        "Plastic",
+        "Rubber",
+        "Silicone",
+        "Stainless steel",
+        "Wood",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "European sword pattern/type",
+      "friendly_id": "european_sword_pattern/type",
+      "description": "Specific European sword pattern/type (typology) represented by the collectible sword.",
+      "values": [
+        "Arming sword",
+        "Bastard sword (hand-and-a-half)",
+        "Broadsword",
+        "Claymore (Scottish greatsword)",
+        "Cutlass",
+        "Estoc",
+        "Falchion",
+        "Gladius (Roman)",
+        "Longsword",
+        "Rapier",
+        "Sabre/Saber",
+        "Scimitar",
+        "Shamshir",
+        "Smallsword",
+        "Spatha",
+        "Viking sword",
+        "Zweih\u00e4nder (greatsword)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Evenweave fabric finish/treatment",
+      "friendly_id": "evenweave_fabric_finish/treatment",
+      "description": "Indicates any pre-finish or treatment applied to the fabric that affects handling or appearance.",
+      "values": [
+        "Hand-dyed",
+        "Overdyed",
+        "Pre-shrunk",
+        "Pre-washed",
+        "Softened",
+        "Starched",
+        "Untreated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Feather attachment/format",
+      "friendly_id": "feather_attachment/format",
+      "description": "How the synthetic feathers are prepared/sold for use (loose, on string, on tape, etc.).",
+      "values": [
+        "Assorted pack",
+        "Boa",
+        "Loose feathers",
+        "On tape/ribbon",
+        "Stem/wire-mounted",
+        "Strung/garland",
+        "Trim fringe (sew-on)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Fiber animal/source type",
+      "friendly_id": "fiber_animal/source_type",
+      "description": "The animal or primary source the roving comes from (or synthetic), such as merino wool, alpaca, or plant fibers.",
+      "values": [
+        "Alpaca",
+        "Angora (rabbit)",
+        "Bluefaced Leicester (BFL) wool",
+        "Cashmere (goat)",
+        "Corriedale wool",
+        "Gotland wool",
+        "Icelandic wool",
+        "Jacob wool",
+        "Llama",
+        "Merino wool",
+        "Mohair (goat)",
+        "Plant fiber",
+        "Polwarth wool",
+        "Rambouillet wool",
+        "Romney wool",
+        "Sheep wool",
+        "Shetland wool",
+        "Silk",
+        "Synthetic",
+        "Yak",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Fiber preparation / processing stage",
+      "friendly_id": "fiber_preparation_/_processing_stage",
+      "description": "Indicates how the sliver has been prepared/processed for use (e.g., carded vs combed, blended, superwash).",
+      "values": [
+        "Bleached/white base",
+        "Blended sliver",
+        "Carbonized",
+        "Carded sliver",
+        "Combed sliver",
+        "Recycled fiber sliver",
+        "Rolags (pulled from sliver)",
+        "Superwash treated",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Fleece finish / surface",
+      "friendly_id": "fleece_finish_/_surface",
+      "description": "Describes the surface/finish of fleece (e.g., anti-pill, brushed) which impacts pilling performance, softness, and appearance.",
+      "values": [
+        "Anti-pill",
+        "Brushed",
+        "Double-sided",
+        "Microfleece",
+        "Minky-style",
+        "Sherpa-style",
+        "Standard",
+        "Wind-resistant laminate",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Flyer kit finish/coating",
+      "friendly_id": "flyer_kit_finish/coating",
+      "description": "Surface finish applied to the flyer kit components.",
+      "values": [
+        "Anodized",
+        "Lacquered/varnished",
+        "Oiled/waxed",
+        "Painted",
+        "Plated (chrome/nickel)",
+        "Powder-coated",
+        "Unfinished/natural",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Gift box/tin insert type",
+      "friendly_id": "gift_box/tin_insert_type",
+      "description": "Interior insert configuration for organizing/protecting items inside the box/tin.",
+      "values": [
+        "Bottle neck insert",
+        "Divider (cardboard)",
+        "Divider (plastic)",
+        "Fabric lining",
+        "Foam insert",
+        "Molded pulp insert",
+        "No insert",
+        "Paper shred/filler included",
+        "Tray insert",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Gift box/tin sustainability features",
+      "friendly_id": "gift_box/tin_sustainability_features",
+      "description": "Sustainability-related characteristics of the gift box/tin packaging.",
+      "values": [
+        "Biodegradable",
+        "Compostable",
+        "FSC-certified paper",
+        "Plastic-free",
+        "Recyclable",
+        "Recycled content",
+        "Refillable",
+        "Reusable/keepsake",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Gift box/tin window type",
+      "friendly_id": "gift_box/tin_window_type",
+      "description": "Whether the gift box has a display window and what style it is.",
+      "values": [
+        "Full clear lid",
+        "Multiple windows",
+        "No window",
+        "Side window",
+        "Top window",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Glitter glue base/solvent type",
+      "friendly_id": "glitter_glue_base/solvent_type",
+      "description": "Describes the primary base of the glitter glue (common shopper concern for cleanup and material compatibility).",
+      "values": [
+        "Alcohol-based",
+        "Solvent-based",
+        "Water-based",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Glitter opacity/coverage",
+      "friendly_id": "glitter_opacity/coverage",
+      "description": "Indicates how opaque the glitter effect appears when applied.",
+      "values": [
+        "Opaque",
+        "Semi-opaque",
+        "Translucent",
+        "Transparent",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Guitar pedal I/O configuration",
+      "friendly_id": "guitar_pedal_i/o_configuration",
+      "description": "Indicates whether the pedal supports mono or stereo input/output routing.",
+      "values": [
+        "Mono in / Mono out",
+        "Mono in / Stereo out",
+        "Stereo in / Stereo out",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Hand percussion mounting/handling",
+      "friendly_id": "hand_percussion_mounting/handling",
+      "description": "Whether the instrument is handheld, worn, mounted, or table/floor placed during typical use.",
+      "values": [
+        "Floor-standing",
+        "Handheld",
+        "Mounted (stand/mount)",
+        "Neck strap compatible",
+        "Tabletop",
+        "Wearable (finger/hand)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Harmonica system/type",
+      "friendly_id": "harmonica_system/type",
+      "description": "Identifies the orchestral harmonica system or form factor (e.g., chord, bass, baritone, polyphonia).",
+      "values": [
+        "Accord",
+        "Alto",
+        "Baritone",
+        "Bass",
+        "Chord",
+        "Double bass",
+        "Ensemble/Section set",
+        "Melody/Lead",
+        "Polyphonia",
+        "Soprano",
+        "Tenor",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Jew's harp frame style",
+      "friendly_id": "jews_harp_frame_style",
+      "description": "Describes the construction style of the jew's harp frame/body, which influences feel, durability, and playing ergonomics.",
+      "values": [
+        "Cast",
+        "CNC-machined",
+        "Forged",
+        "Hand-forged (handmade)",
+        "Laminated (layered construction)",
+        "Stamped",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Jew's harp tongue profile",
+      "friendly_id": "jews_harp_tongue_profile",
+      "description": "Describes the jew's harp tongue (reed) profile/geometry, which affects responsiveness and timbre.",
+      "values": [
+        "Long",
+        "Narrow",
+        "Short",
+        "Standard",
+        "Thick",
+        "Thin",
+        "Wide",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Kit pouch/case type",
+      "friendly_id": "kit_pouch/case_type",
+      "description": "Specifies the type of included storage solution for the care kit (if any).",
+      "values": [
+        "Hard case",
+        "No case included",
+        "Roll-up wrap",
+        "Soft pouch",
+        "Tube/canister",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Knitting marker/counter type",
+      "friendly_id": "knitting_marker/counter_type",
+      "description": "Specifies the functional product type within knitting markers & counters.",
+      "values": [
+        "Row counter",
+        "Stitch holder/keeper",
+        "Stitch marker",
+        "Stitch marker & row counter set",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Label finish/edge style",
+      "friendly_id": "label_finish/edge_style",
+      "description": "How the edges are finished, which affects comfort and durability (e.g., woven edge vs laser-cut).",
+      "values": [
+        "Folded edge",
+        "Heat cut",
+        "Laser cut",
+        "Merrowed/overlocked edge",
+        "Satin edge",
+        "Ultrasonic cut",
+        "Woven edge (damask)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "License/usage terms",
+      "friendly_id": "license/usage_terms",
+      "description": "Usage rights for the pattern (e.g., personal use only vs limited commercial).",
+      "values": [
+        "Commercial use allowed",
+        "Limited commercial (sell finished items)",
+        "Other/see description",
+        "Personal + gift use",
+        "Personal use only",
+        "Teaching/class use allowed",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Linen finish/treatment",
+      "friendly_id": "linen_finish/treatment",
+      "description": "Any finishing process applied to the linen fabric that changes hand-feel, appearance, or performance.",
+      "values": [
+        "Coated",
+        "Enzyme-washed",
+        "Flame-retardant",
+        "Mercerized",
+        "Sanforized (pre-shrunk)",
+        "Softened",
+        "Stain-resistant",
+        "Stonewashed",
+        "Unfinished",
+        "UV-resistant",
+        "Washed",
+        "Water-repellent",
+        "Wrinkle-resistant",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Logo label print/production method",
+      "friendly_id": "logo_label_print/production_method",
+      "description": "How the logo is applied/formed on the label surface.",
+      "values": [
+        "Digital printed",
+        "Embroidered",
+        "Foil printed",
+        "Heat transfer",
+        "Jacquard woven",
+        "Leather debossed/embossed",
+        "Screen printed",
+        "Sublimated",
+        "Woven",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Loom folding/portability design type",
+      "friendly_id": "loom_folding/portability_design_type",
+      "description": "Whether and how the loom folds/collapses for transport or compact storage.",
+      "values": [
+        "Collapsible (breaks down into parts)",
+        "Folding castle",
+        "Folding frame",
+        "Folding stand",
+        "Non-foldable",
+        "Removable warp beam (for transport)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Lyre/flip folder mounting location",
+      "friendly_id": "lyre/flip_folder_mounting_location",
+      "description": "Where the lyre or flip folder is intended to mount on the instrument or accessory (e.g., bell, leadpipe, stand).",
+      "values": [
+        "Drum hardware rack/clamp",
+        "Instrument bell",
+        "Leadpipe",
+        "Mic stand",
+        "Mouthpiece receiver area",
+        "Music stand",
+        "Tuning slide",
+        "Universal/multi-position",
+        "Valve casing",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Mounting/attachment method",
+      "friendly_id": "mounting/attachment_method",
+      "description": "How the holder/bag is designed to attach to a drum, stand, belt, or other surface.",
+      "values": [
+        "Adhesive mount",
+        "Belt loop",
+        "Carabiner/loop",
+        "Clamp mount",
+        "Clip-on",
+        "Drum rim mount",
+        "Floor/stand placement",
+        "Hardware bracket mount",
+        "Hook-and-loop (Velcro) mount",
+        "None (not mountable)",
+        "Tension rod/lug mount",
+        "Tie-on/strap-on",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Mounting/attachment type",
+      "friendly_id": "mounting/attachment_type",
+      "description": "How the ratio accessory attaches or interfaces with the spinning wheel.",
+      "values": [
+        "Add-on reducer/increaser",
+        "Bobbin whorl",
+        "Drive wheel pulley",
+        "Gear/gearbox",
+        "Mother-of-all pulley",
+        "Whorl (flyer whorl)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Mouthpiece shank/receiver size",
+      "friendly_id": "mouthpiece_shank/receiver_size",
+      "description": "Specifies the mouthpiece receiver/shank standard compatible with the flugelhorn.",
+      "values": [
+        "American standard",
+        "French shank",
+        "Large shank",
+        "Small shank",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Mute cork/padding material",
+      "friendly_id": "mute_cork/padding_material",
+      "description": "Specifies the material of the mute\u2019s contact padding (e.g., cork strip/pads) used for grip/fit and bell protection.",
+      "values": [
+        "Felt",
+        "Foam",
+        "Leather",
+        "Natural cork",
+        "None",
+        "Rubber",
+        "Silicone",
+        "Synthetic cork",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Needle holder mounting/attachment method",
+      "friendly_id": "needle_holder_mounting/attachment_method",
+      "description": "How the needle holder is meant to be attached or used during storage (e.g., magnetic, clip, strap).",
+      "values": [
+        "Adhesive-backed",
+        "Clip-on",
+        "Keychain/Loop",
+        "Lanyard",
+        "Magnetic",
+        "Pin-on",
+        "Stand/Desktop",
+        "Strap/Wrap",
+        "Suction cup",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Orchestral string instrument fitting/part type",
+      "friendly_id": "orchestral_string_instrument_fitting/part_type",
+      "description": "Specifies what kind of fitting/part the product is (e.g., bridge, tailpiece, chinrest).",
+      "values": [
+        "Bridge",
+        "Bridge adjusters",
+        "C-peg (cello peg extension)",
+        "Chinrest",
+        "Corner/End block",
+        "Endpin",
+        "Fine tuner",
+        "Fingerboard",
+        "Nut",
+        "Peg shaver/reamer (replacement blades/parts)",
+        "Rib/Plate fitting (repair cleats/patches)",
+        "Saddle",
+        "Soundpost",
+        "Tailgut",
+        "Tailpiece",
+        "Tailpiece fret",
+        "Tuning pegs",
+        "Wolf eliminator",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Organza finish / sheen",
+      "friendly_id": "organza_finish_/_sheen",
+      "description": "Describes the surface look of the organza (matte vs shiny/iridescent effects).",
+      "values": [
+        "Burnout",
+        "Embossed/jacquard",
+        "Foil",
+        "Glitter/sequin",
+        "High sheen",
+        "Iridescent/shot",
+        "Matte",
+        "Soft sheen",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Patch border/edge finish",
+      "friendly_id": "patch_border/edge_finish",
+      "description": "The edge finishing method of the patch (e.g., merrowed/overlocked edge, laser-cut edge) affecting durability and appearance.",
+      "values": [
+        "Embroidered border",
+        "Folded edge",
+        "Frayed edge (intentional)",
+        "Heat-cut edge",
+        "Laser-cut edge",
+        "Merrowed/overlocked edge",
+        "Raw edge",
+        "Satin stitch border",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Perfumery ingredient carrier/solvent",
+      "friendly_id": "perfumery_ingredient_carrier/solvent",
+      "description": "Identifies the carrier/solvent the ingredient is supplied in, if diluted (e.g., ethanol, DPG, jojoba oil).",
+      "values": [
+        "DPG (dipropylene glycol)",
+        "Ethanol (alcohol)",
+        "Fractionated coconut oil (MCT)",
+        "Glycerin",
+        "IPM (isopropyl myristate)",
+        "Jojoba oil",
+        "Neat (undiluted)",
+        "Propylene glycol (PG)",
+        "TEC (triethyl citrate)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Pi\u00f1ata filler type included",
+      "friendly_id": "pinata_filler_type_included",
+      "description": "If filler is included, the type of contents provided.",
+      "values": [
+        "Candy",
+        "Chocolate",
+        "Confetti",
+        "Gum",
+        "Mixed assortment",
+        "Stickers",
+        "Toys/novelties",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Pi\u00f1ata hanging method",
+      "friendly_id": "pinata_hanging_method",
+      "description": "How the pi\u00f1ata is designed to be hung or supported (loop, hook, string included, etc.).",
+      "values": [
+        "Hanging hook",
+        "Hanging loop",
+        "Hanging string included",
+        "Not hangable/handheld",
+        "Reinforced hanger",
+        "Stand-compatible",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Pi\u00f1ata opening type",
+      "friendly_id": "pinata_opening_type",
+      "description": "How the fill opening is accessed/closed (flap, Velcro, zipper, pre-sealed, etc.).",
+      "values": [
+        "Drawstring",
+        "Flap",
+        "Pre-sealed (no fill opening)",
+        "Velcro closure",
+        "Zipper",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Pipe instrument voicing / sound production method",
+      "friendly_id": "pipe_instrument_voicing_/_sound_production_method",
+      "description": "Specifies how the instrument produces sound (airflow mechanism), helping distinguish pan flutes, reed pipes, and organ pipe families in filters.",
+      "values": [
+        "Beating reed (double)",
+        "Beating reed (single)",
+        "Edge-blown",
+        "Flue (fipple)",
+        "Free reed",
+        "Labium / duct flute",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Pom-pom trim backing/tape material",
+      "friendly_id": "pom_pom_trim_backing/tape_material",
+      "description": "Identifies the material of the sewn tape or braid that the pom-poms are attached to (the trim base).",
+      "values": [
+        "Cotton",
+        "Elastic",
+        "Jute",
+        "Linen",
+        "Metallic thread braid",
+        "Nylon",
+        "Polyester",
+        "Polypropylene (PP)",
+        "Rayon/Viscose",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Portability/Frame type",
+      "friendly_id": "portability/frame_type",
+      "description": "Whether the orchestra chimes are portable/field-frame style or fixed/concert-frame style.",
+      "values": [
+        "Concert frame",
+        "Field frame",
+        "Folding frame",
+        "Portable frame",
+        "Rolling frame",
+        "Wall-mount frame",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Practice mute venting/valve type",
+      "friendly_id": "practice_mute_venting/valve_type",
+      "description": "Specifies whether and how the practice mute is vented or includes an adjustable valve to change resistance/volume.",
+      "values": [
+        "Adjustable valve/vent",
+        "Dual-mode (open/closed)",
+        "Fixed vented",
+        "Non-vented",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Profile/shape",
+      "friendly_id": "profile/shape",
+      "description": "Overall curvature/profile of the cymbal (how steeply it rises from edge to bell).",
+      "values": [
+        "High profile",
+        "Low profile",
+        "Medium profile",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Ribbon/trim backing type",
+      "friendly_id": "ribbon/trim_backing_type",
+      "description": "Indicates whether the ribbon/trim has a backing and what kind (for easy application).",
+      "values": [
+        "Adhesive-backed (peel & stick)",
+        "Double-sided tape backing",
+        "Fusible/iron-on",
+        "Heat-activated adhesive",
+        "Hook-and-loop backed",
+        "No backing",
+        "Paper-backed",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Ribbon/trim edge finish",
+      "friendly_id": "ribbon/trim_edge_finish",
+      "description": "Describes the edge construction/finish of ribbon/trim (useful for fraying behavior and intended use).",
+      "values": [
+        "Beaded edge",
+        "Frayed edge",
+        "Fringe edge",
+        "Heat sealed",
+        "Lace edge",
+        "Laser cut",
+        "Picot",
+        "Piped edge",
+        "Ric-rac/zigzag edge",
+        "Scalloped",
+        "Sequin edge",
+        "Serged/overlocked",
+        "Wired edge",
+        "Woven selvedge",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Rosin formula / additives",
+      "friendly_id": "rosin_formula_/_additives",
+      "description": "Identifies notable formulation features such as hypoallergenic, low-dust, or metal-infused blends.",
+      "values": [
+        "Grip-enhancing blend",
+        "Hypoallergenic",
+        "Low dust",
+        "Metal-infused",
+        "Standard",
+        "Synthetic/vegan",
+        "Wax-free",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Skein winder bearing/bushing type",
+      "friendly_id": "skein_winder_bearing/bushing_type",
+      "description": "Specifies the type of bearing or bushing used in the skein winder\u2019s rotating assembly.",
+      "values": [
+        "Ball bearing",
+        "Plain bushing (sleeve)",
+        "Roller bearing",
+        "Wood-on-wood (no bearing)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Specialty malt name/type",
+      "friendly_id": "specialty_malt_name/type",
+      "description": "Identifies the specific named specialty malt type (often used as the commercial style name).",
+      "values": [
+        "Acidulated malt",
+        "Amber malt",
+        "Aromatic",
+        "Biscuit",
+        "Brown malt",
+        "Carafa (dehusked)",
+        "Crystal/Caramel",
+        "Dextrin/Carapils",
+        "Honey malt",
+        "Melanoidin",
+        "Munich",
+        "Oat malt",
+        "Peated malt",
+        "Rye malt",
+        "Smoked malt",
+        "Special B",
+        "Victory",
+        "Vienna",
+        "Wheat malt",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Spinner control card design/type",
+      "friendly_id": "spinner_control_card_design/type",
+      "description": "Describes the kind of spinner control card in terms of how it presents control information (e.g., ratio reference, tension reference, conversion chart).",
+      "values": [
+        "Bobbin capacity reference",
+        "Conversion chart (metric/imperial)",
+        "Drafting control card",
+        "Fiber preparation checklist card",
+        "Leader length reference",
+        "Maintenance/quick-start reference",
+        "Orifice/hook compatibility chart",
+        "Ratio reference card",
+        "Tension settings reference card",
+        "Twist-per-inch (TPI) reference",
+        "Yarn grist reference (WPI/yardage)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Spinning wheel brake/tension system type",
+      "friendly_id": "spinning_wheel_brake/tension_system_type",
+      "description": "Specifies the braking/take-up tension system used to control yarn uptake.",
+      "values": [
+        "Double drive",
+        "Electronic brake/tension",
+        "Irish tension (bobbin-led)",
+        "Magnetic tension",
+        "Scotch tension (flyer-led)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Spinning wheel portability/foldability",
+      "friendly_id": "spinning_wheel_portability/foldability",
+      "description": "Indicates whether the wheel is designed to fold/collapse for transport.",
+      "values": [
+        "Collapsible/breakdown",
+        "Detachable components for transport",
+        "Folding frame",
+        "Non-folding",
+        "Other/Not specified",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Spray string finish/effect",
+      "friendly_id": "spray_string_finish/effect",
+      "description": "Visual effect of the sprayed string once applied (sheen/reflectivity and special effects).",
+      "values": [
+        "Glitter",
+        "Gloss",
+        "Glow-in-the-dark",
+        "Holographic",
+        "Matte",
+        "Metallic",
+        "Multicolor/mixed effect",
+        "Neon",
+        "Pearlescent",
+        "UV-reactive (blacklight)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Supported spool/bobbin types",
+      "friendly_id": "supported_spool/bobbin_types",
+      "description": "Specifies which spool/bobbin formats the electric winder is designed to accept.",
+      "values": [
+        "Embroidery bobbin",
+        "Sewing machine bobbin",
+        "Skein (with swift)",
+        "Thread spool",
+        "Yarn ball",
+        "Yarn cake",
+        "Yarn cone",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Tabla tonal/pitch range (bayan)",
+      "friendly_id": "tabla_tonal/pitch_range_bayan",
+      "description": "Describes the typical pitch/tonal range category for bayan drums (bass) based on size and construction.",
+      "values": [
+        "Balanced",
+        "Bright/fast response",
+        "Deep bass",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Temper / hardness",
+      "friendly_id": "temper_/_hardness",
+      "description": "Indicates how soft or hard the wire is (how well it holds shape).",
+      "values": [
+        "Dead soft",
+        "Half-hard",
+        "Hard",
+        "Soft",
+        "Spring",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Tension/pitch modulation system",
+      "friendly_id": "tension/pitch_modulation_system",
+      "description": "How the talking drum changes pitch/tension during play (for example, by squeezing tension cords).",
+      "values": [
+        "Lever tuning",
+        "Lug tuning",
+        "Peg tuning",
+        "Rope tuning (manual retensioning)",
+        "Squeeze cords (pressure tensioning)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Textile finish / treatment",
+      "friendly_id": "textile_finish_/_treatment",
+      "description": "Specifies notable surface treatments applied to the textile material.",
+      "values": [
+        "Brushed",
+        "Coated (PU)",
+        "Coated (PVC)",
+        "Laminated",
+        "Oilcloth",
+        "Pre-washed",
+        "Sanforized (pre-shrunk)",
+        "Unfinished",
+        "Waxed",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Thread/cord type (beading pattern)",
+      "friendly_id": "thread/cord_type_beading_pattern",
+      "description": "Recommended thread or cord type used to complete the pattern.",
+      "values": [
+        "Beading wire",
+        "C-Lon beading thread",
+        "Elastic cord",
+        "FireLine (braided fishing line)",
+        "KO thread",
+        "Leather cord",
+        "Monofilament",
+        "Nymo",
+        "One-G",
+        "S-Lon / Super-Lon cord",
+        "Silamide",
+        "Waxed polyester cord",
+        "WildFire",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Thread cutter usage/application",
+      "friendly_id": "thread_cutter_usage/application",
+      "description": "Indicates the primary intended craft usage for the thread cutter.",
+      "values": [
+        "Crochet",
+        "Cross-stitch",
+        "Embroidery",
+        "General crafting",
+        "Knitting",
+        "Quilting",
+        "Serger/overlock trimming",
+        "Sewing",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Thread finish / treatment",
+      "friendly_id": "thread_finish_/_treatment",
+      "description": "Surface finish or treatment applied to the thread affecting handling and performance (e.g., waxed, bonded, mercerized).",
+      "values": [
+        "Anti-wick",
+        "Bonded",
+        "Flame-retardant treatment",
+        "Glazed",
+        "Low-lint",
+        "Lubricated",
+        "Mercerized",
+        "Silicone finish",
+        "Unfinished/standard",
+        "UV-resistant treatment",
+        "Water-repellent treatment",
+        "Waxed",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Thread & yarn guide mounting/attachment style",
+      "friendly_id": "thread_yarn_guide_mounting/attachment_style",
+      "description": "Describes how the guide is worn or mounted during use.",
+      "values": [
+        "Adhesive/stick-on",
+        "Adjustable finger loop",
+        "Clip-on",
+        "Elastic band",
+        "Finger ring",
+        "Handheld",
+        "Machine-mounted",
+        "Magnetic",
+        "Screw-on",
+        "Strap-on",
+        "Suction cup",
+        "Table clamp",
+        "Thimble",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Varnish transparency/tint",
+      "friendly_id": "varnish_transparency/tint",
+      "description": "Describes whether the varnish is clear or tinted and, if tinted, the general tint family.",
+      "values": [
+        "Amber",
+        "Brown",
+        "Clear",
+        "Golden/Yellow",
+        "Reddish-brown",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Viscosity/thickness",
+      "friendly_id": "viscosity/thickness",
+      "description": "Describes how thick or fluid the slip is as sold or at recommended working consistency.",
+      "values": [
+        "Adjustable/Requires dilution",
+        "Medium",
+        "Thick",
+        "Thin",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "White glue finish/appearance when dry",
+      "friendly_id": "white_glue_finish/appearance_when_dry",
+      "description": "Specifies how the glue looks after drying for craft/office use (e.g., clear vs opaque).",
+      "values": [
+        "Dries clear",
+        "Dries translucent",
+        "Dries white/opaque",
+        "Glossy",
+        "Matte",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Wire shape/profile",
+      "friendly_id": "wire_shape/profile",
+      "description": "Describes the cross-sectional shape of the wire.",
+      "values": [
+        "Braided",
+        "Half-round",
+        "Rectangle/Flat",
+        "Round",
+        "Square",
+        "Twisted",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Zipper pull strap/cord/tab material",
+      "friendly_id": "zipper_pull_strap/cord/tab_material",
+      "description": "Material of the strap/cord/tab/tassel component attached to the zipper pull (if present), excluding the main zipper pull hardware/body.",
+      "values": [
+        "Cotton",
+        "Faux leather",
+        "Leather",
+        "Metal",
+        "Nylon",
+        "Paracord (nylon)",
+        "Plastic",
+        "Polyester",
+        "Rubber",
+        "Silicone",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Zipper slider/pull configuration",
+      "friendly_id": "zipper_slider/pull_configuration",
+      "description": "Indicates whether the zipper has one slider/pull or two, and whether pulls are on one or both sides of the slider.",
+      "values": [
+        "Single slider (double pull/reversible pull)",
+        "Single slider (single pull)",
+        "Two sliders (double pull)",
+        "Two sliders (each single pull)",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Lens color/tint",
+      "friendly_id": "lens_color/tint",
+      "description": "Color or tint of protective eyewear lenses supplied with the product.",
+      "values": [
+        "Amber",
+        "Black",
+        "Blue",
+        "Clear",
+        "Green",
+        "Mirrored",
+        "Multicolor/Rainbow",
+        "Photochromic",
+        "Smoke/Grey",
+        "Yellow",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Mask/goggle design",
+      "friendly_id": "mask/goggle_design",
+      "description": "Defines the overall structural design or coverage style of the protective gear.",
+      "values": [
+        "Face shield",
+        "Full cage",
+        "Goggle frame",
+        "Half cage",
+        "Over-glasses compatible",
+        "Ventilated design",
+        "Wire cage",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Punching/training bag shape",
+      "friendly_id": "punching/training_bag_shape",
+      "description": "Specifies the geometric style of the heavy bag, helping shoppers choose models suited to particular striking drills (e.g., uppercuts, body shots).",
+      "values": [
+        "Angled",
+        "Banana",
+        "Cylindrical",
+        "Freestanding cylinder",
+        "Maize",
+        "T-shaped",
+        "Teardrop",
+        "Torso/body",
+        "Uppercut",
+        "Wrecking ball",
+        "Other"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Visor/brim type",
+      "friendly_id": "visor/brim_type",
+      "description": "Indicates the presence and style of a visor or brim on the helmet.",
+      "values": [
+        "Adjustable visor",
+        "Integrated brim",
+        "No visor",
+        "Removable/detachable visor",
+        "Other"
+      ]
+    },
     {
       "op": "add_value",
       "name": "Preemie",
@@ -10,6 +3288,2475 @@
       "op": "add_value",
       "name": "Newborn",
       "attribute_friendly_id": "size"
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "ev_connector/adapter_direction"
+      ],
+      "category_ids": [
+        "vp-1-2-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "battery_case_certification/standard"
+      ],
+      "category_ids": [
+        "vp-1-2-8-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "motor_vehicle_a/v_integration_features"
+      ],
+      "category_ids": [
+        "vp-1-3-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "brake_drum_finish/coating"
+      ],
+      "category_ids": [
+        "vp-1-4-1-9"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "steering_rack_finish/coating"
+      ],
+      "category_ids": [
+        "vp-1-4-4-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "oil_pan_baffle/windage_features",
+        "oil_pan_finish/coating"
+      ],
+      "category_ids": [
+        "vp-1-4-5-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "piston_crown/dish_style"
+      ],
+      "category_ids": [
+        "vp-1-4-6-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "fuel_cap_gasket/seal_material"
+      ],
+      "category_ids": [
+        "vp-1-4-10-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "fuel_filter_mounting/connection_type"
+      ],
+      "category_ids": [
+        "vp-1-4-10-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "vacuum/boost_reference_port"
+      ],
+      "category_ids": [
+        "vp-1-4-10-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "motor_vehicle_bulb_application/position"
+      ],
+      "category_ids": [
+        "vp-1-4-12-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "pressure_sensor_port_/_thread_standard"
+      ],
+      "category_ids": [
+        "vp-1-4-16-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "coil_spring_finish/coating"
+      ],
+      "category_ids": [
+        "vp-1-4-17-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "sway_bar_fitment_front/rear/kit"
+      ],
+      "category_ids": [
+        "vp-1-4-17-8"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "trailer_hitch_mounting_location/method"
+      ],
+      "category_ids": [
+        "vp-1-4-18-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "u_joint_series/size"
+      ],
+      "category_ids": [
+        "vp-1-4-19-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "surface_finish/prep"
+      ],
+      "category_ids": [
+        "vp-1-4-19-13"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "radiator/expansion_tank_cap_application"
+      ],
+      "category_ids": [
+        "vp-1-4-22-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "wheel_cleaner_acidity_/_ph_category"
+      ],
+      "category_ids": [
+        "vp-1-5-2-2-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "vehicle_wax/polish_product_form"
+      ],
+      "category_ids": [
+        "vp-1-5-2-6",
+        "vp-1-5-2-6-1",
+        "vp-1-5-2-6-2",
+        "vp-1-5-2-6-3",
+        "vp-1-5-2-6-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "season/condition_protection"
+      ],
+      "category_ids": [
+        "vp-1-5-3-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "soft_top_includes_frame/hardware"
+      ],
+      "category_ids": [
+        "vp-1-5-3-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "brake/clutch_fluid_base_chemistry",
+        "brake/clutch_fluid_dot_specification"
+      ],
+      "category_ids": [
+        "vp-1-5-5-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "vehicle_paint_chemistry/base"
+      ],
+      "category_ids": [
+        "vp-1-5-6",
+        "vp-1-5-6-1",
+        "vp-1-5-6-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "tip_finish/coating"
+      ],
+      "category_ids": [
+        "vp-1-5-7-9-1-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "lift/stand_support_point"
+      ],
+      "category_ids": [
+        "vp-1-5-7-11",
+        "vp-1-5-7-11-1",
+        "vp-1-5-7-11-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "helmet_visor/shield_type"
+      ],
+      "category_ids": [
+        "vp-1-6-1-7",
+        "vp-1-6-1-7-1",
+        "vp-1-6-1-7-2",
+        "vp-1-6-1-7-3",
+        "vp-1-6-1-7-5",
+        "vp-1-6-1-7-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "helmet_visor/peak_adjustability",
+        "helmet_visor/shield_type"
+      ],
+      "category_ids": [
+        "vp-1-6-1-7-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "mounting/storage_type"
+      ],
+      "category_ids": [
+        "vp-1-6-6-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "marine_flare_certification/standard"
+      ],
+      "category_ids": [
+        "vp-1-6-6-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "throw_rope_storage/packaging_type"
+      ],
+      "category_ids": [
+        "vp-1-6-6-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "tether/strap_system"
+      ],
+      "category_ids": [
+        "vp-1-6-7-11"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "roof_cargo_net_hook/fastener_style"
+      ],
+      "category_ids": [
+        "vp-1-7-1-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "carrying_capacity_pairs/boards"
+      ],
+      "category_ids": [
+        "vp-1-7-2-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "crossbar_shape/profile"
+      ],
+      "category_ids": [
+        "vp-1-7-3-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "tie_down_points/straps_included"
+      ],
+      "category_ids": [
+        "vp-1-7-3-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "splice/termination_type"
+      ],
+      "category_ids": [
+        "vp-1-8-1-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "watercraft_pump_stage_/_impeller_role"
+      ],
+      "category_ids": [
+        "vp-1-8-4-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "watercraft_lighting_certification_/_compliance"
+      ],
+      "category_ids": [
+        "vp-1-8-8"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "watercraft_steering_wheel_hub/bore_type"
+      ],
+      "category_ids": [
+        "vp-1-8-9-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "truck_bed/body_type"
+      ],
+      "category_ids": [
+        "vp-2-2-1-4-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "atv/utv_intended_use"
+      ],
+      "category_ids": [
+        "vp-2-2-4-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "police_vehicle_light/siren_equipment"
+      ],
+      "category_ids": [
+        "vp-2-2-8-1-3-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "fia_homologation/certification",
+        "formula_car_series/class"
+      ],
+      "category_ids": [
+        "vp-2-2-9-1-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "homologation_/_rule_set"
+      ],
+      "category_ids": [
+        "vp-2-2-9-1-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "shell/hull_status"
+      ],
+      "category_ids": [
+        "fb-2-13"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "battle_top_arena/stadium_compatibility"
+      ],
+      "category_ids": [
+        "tg-2-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "card_sleeve_size_/_format_compatibility"
+      ],
+      "category_ids": [
+        "tg-2-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "poker_chip_tray/rack_configuration"
+      ],
+      "category_ids": [
+        "tg-2-10",
+        "tg-2-10-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "swing_attachment/connection_type"
+      ],
+      "category_ids": [
+        "tg-3-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "yo_yo_accessory/part_type"
+      ],
+      "category_ids": [
+        "tg-5-1-11"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "toy_drawing_tablet_writing/drawing_instrument"
+      ],
+      "category_ids": [
+        "tg-5-2-11"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "rubber_ducky_character/theme"
+      ],
+      "category_ids": [
+        "tg-5-5-8"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "toy/game_features"
+      ],
+      "category_ids": [
+        "tg-5-6",
+        "tg-5-6-1",
+        "tg-5-6-10",
+        "tg-5-6-11",
+        "tg-5-6-2",
+        "tg-5-6-4",
+        "tg-5-6-5",
+        "tg-5-6-6",
+        "tg-5-6-7",
+        "tg-5-6-8",
+        "tg-5-6-9"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "float/raft_use_environment",
+        "inflatable_raft/float_features",
+        "toy/game_features"
+      ],
+      "category_ids": [
+        "tg-5-6-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "dollhouse_installation/placement_type",
+        "dollhouse_style/theme"
+      ],
+      "category_ids": [
+        "tg-5-8-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "dinosaur_playset_scale/figure_size_class"
+      ],
+      "category_ids": [
+        "tg-5-8-12-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "rotation/motion_features"
+      ],
+      "category_ids": [
+        "tg-5-9-2-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "map_coverage_sky/planet_body"
+      ],
+      "category_ids": [
+        "tg-5-9-2-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "remote_control_watercraft_propulsion/drive_type"
+      ],
+      "category_ids": [
+        "tg-5-18-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "rc_plane_takeoff/launch_method"
+      ],
+      "category_ids": [
+        "tg-5-18-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "indoor/outdoor_use"
+      ],
+      "category_ids": [
+        "tg-5-23-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "projectile/ammunition_type"
+      ],
+      "category_ids": [
+        "tg-5-26",
+        "tg-5-26-1",
+        "tg-5-26-2",
+        "tg-5-26-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "weave/finish"
+      ],
+      "category_ids": [
+        "aa-2-23",
+        "aa-2-23-1",
+        "aa-2-23-2",
+        "aa-2-23-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "sticker/decal_features"
+      ],
+      "category_ids": [
+        "aa-6-10-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "baseball/softball_usage_role"
+      ],
+      "category_ids": [
+        "sg-1-2-8-3",
+        "sg-1-2-8-3-2",
+        "sg-1-2-8-3-3",
+        "sg-1-2-8-3-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "punching/training_bag_shape"
+      ],
+      "category_ids": [
+        "sg-1-4-2-4-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "mask/goggle_design"
+      ],
+      "category_ids": [
+        "sg-1-11-1-3",
+        "sg-1-11-1-3-1",
+        "sg-1-11-1-3-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "exercise_bike_accessory/part_type"
+      ],
+      "category_ids": [
+        "sg-2-4-1-2",
+        "sg-2-4-1-2-1",
+        "sg-2-4-1-2-10",
+        "sg-2-4-1-2-2",
+        "sg-2-4-1-2-3",
+        "sg-2-4-1-2-4",
+        "sg-2-4-1-2-5",
+        "sg-2-4-1-2-6",
+        "sg-2-4-1-2-7",
+        "sg-2-4-1-2-8",
+        "sg-2-4-1-2-9"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "case_capacity_butts_x_shafts"
+      ],
+      "category_ids": [
+        "sg-3-2-3-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "visor/brim_type"
+      ],
+      "category_ids": [
+        "sg-4-1-12-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "blade_finish/coating"
+      ],
+      "category_ids": [
+        "sg-4-2-4-7",
+        "sg-4-2-4-7-1",
+        "sg-4-2-4-7-2",
+        "sg-4-2-4-7-3",
+        "sg-4-2-4-7-4",
+        "sg-4-2-4-7-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "ascender/descender_type"
+      ],
+      "category_ids": [
+        "sg-4-3-4",
+        "sg-4-3-4-1",
+        "sg-4-3-4-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "chain_coating/finish"
+      ],
+      "category_ids": [
+        "sg-4-4-2-4-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "hook_coating/finish"
+      ],
+      "category_ids": [
+        "sg-4-6-13-3-1",
+        "sg-4-6-13-3-1-1",
+        "sg-4-6-13-3-1-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "broadhead/field_point_attachment_style"
+      ],
+      "category_ids": [
+        "sg-4-9-1-4-3",
+        "sg-4-9-1-4-3-1",
+        "sg-4-9-1-4-3-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "arrow/bolt_point_type"
+      ],
+      "category_ids": [
+        "sg-4-9-1-5",
+        "sg-4-9-1-5-1",
+        "sg-4-9-1-5-2",
+        "sg-4-9-1-5-2-1",
+        "sg-4-9-1-5-2-2",
+        "sg-4-9-1-5-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "compatible_bow/crossbow_type"
+      ],
+      "category_ids": [
+        "sg-4-9-1-6",
+        "sg-4-9-1-6-1",
+        "sg-4-9-1-6-10",
+        "sg-4-9-1-6-2",
+        "sg-4-9-1-6-3",
+        "sg-4-9-1-6-4",
+        "sg-4-9-1-6-4-1",
+        "sg-4-9-1-6-4-2",
+        "sg-4-9-1-6-4-3",
+        "sg-4-9-1-6-4-4",
+        "sg-4-9-1-6-5",
+        "sg-4-9-1-6-6",
+        "sg-4-9-1-6-6-1",
+        "sg-4-9-1-6-6-2",
+        "sg-4-9-1-6-6-3",
+        "sg-4-9-1-6-6-4",
+        "sg-4-9-1-6-7",
+        "sg-4-9-1-6-8",
+        "sg-4-9-1-6-9"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "lens_color/tint"
+      ],
+      "category_ids": [
+        "sg-4-9-7-4",
+        "sg-4-9-7-4-1",
+        "sg-4-9-7-4-2",
+        "sg-4-9-7-4-2-1",
+        "sg-4-9-7-4-2-3",
+        "sg-4-9-7-4-3",
+        "sg-4-9-7-4-4",
+        "sg-4-9-7-4-4-1",
+        "sg-4-9-7-4-4-2",
+        "sg-4-9-7-4-5",
+        "sg-4-9-7-4-6",
+        "sg-4-9-7-4-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "zipper_pull_strap/cord/tab_material"
+      ],
+      "category_ids": [
+        "ae-2-1-2-2-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "zipper_slider/pull_configuration"
+      ],
+      "category_ids": [
+        "ae-2-1-2-2-6-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "white_glue_finish/appearance_when_dry"
+      ],
+      "category_ids": [
+        "ae-2-1-2-5-1-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "thread_finish_/_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-6-2-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "fiber_animal/source_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-6-3-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "dyeing_/_color_processing",
+        "fiber_preparation_/_processing_stage"
+      ],
+      "category_ids": [
+        "ae-2-1-2-6-3-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "temper_/_hardness",
+        "wire_shape/profile"
+      ],
+      "category_ids": [
+        "ae-2-1-2-7",
+        "ae-2-1-2-7-1",
+        "ae-2-1-2-7-2",
+        "ae-2-1-2-7-3",
+        "ae-2-1-2-7-3-1",
+        "ae-2-1-2-7-3-2",
+        "ae-2-1-2-7-3-4",
+        "ae-2-1-2-7-3-5",
+        "ae-2-1-2-7-3-6",
+        "ae-2-1-2-7-3-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "craft_wire_finish/coating",
+        "temper_/_hardness",
+        "wire_shape/profile"
+      ],
+      "category_ids": [
+        "ae-2-1-2-7-3-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "patch_border/edge_finish"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-1-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "bow/yo_yo_embellishment_style"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "elastic_edge_finish/type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-5-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "feather_attachment/format"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-6-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "ribbon/trim_backing_type",
+        "ribbon/trim_edge_finish"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-10"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "ribbon/trim_backing_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-10-1",
+        "ae-2-1-2-8-10-10",
+        "ae-2-1-2-8-10-11",
+        "ae-2-1-2-8-10-2",
+        "ae-2-1-2-8-10-3",
+        "ae-2-1-2-8-10-4",
+        "ae-2-1-2-8-10-5",
+        "ae-2-1-2-8-10-7",
+        "ae-2-1-2-8-10-8",
+        "ae-2-1-2-8-10-9"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "pom_pom_trim_backing/tape_material",
+        "ribbon/trim_backing_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-10-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "glitter_glue_base/solvent_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-11-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "glitter_opacity/coverage"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-11-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "logo_label_print/production_method"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-12-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "label_finish/edge_style"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-12-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "viscosity/thickness"
+      ],
+      "category_ids": [
+        "ae-2-1-2-12-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "textile_finish_/_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14",
+        "ae-2-1-2-14-1",
+        "ae-2-1-2-14-1-1",
+        "ae-2-1-2-14-1-1-1",
+        "ae-2-1-2-14-1-1-3",
+        "ae-2-1-2-14-1-1-4",
+        "ae-2-1-2-14-1-3",
+        "ae-2-1-2-14-1-3-1",
+        "ae-2-1-2-14-1-3-2",
+        "ae-2-1-2-14-1-3-3",
+        "ae-2-1-2-14-2",
+        "ae-2-1-2-14-2-1",
+        "ae-2-1-2-14-2-10",
+        "ae-2-1-2-14-2-2",
+        "ae-2-1-2-14-2-3",
+        "ae-2-1-2-14-2-4",
+        "ae-2-1-2-14-2-8",
+        "ae-2-1-2-14-2-9",
+        "ae-2-1-2-14-3",
+        "ae-2-1-2-14-3-1",
+        "ae-2-1-2-14-3-2",
+        "ae-2-1-2-14-4",
+        "ae-2-1-2-14-4-1",
+        "ae-2-1-2-14-4-2",
+        "ae-2-1-2-14-4-3",
+        "ae-2-1-2-14-4-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "evenweave_fabric_finish/treatment",
+        "textile_finish_/_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-1-1-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "canvas_mounting/format",
+        "textile_finish_/_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-1-2",
+        "ae-2-1-2-14-1-2-1",
+        "ae-2-1-2-14-1-2-2",
+        "ae-2-1-2-14-1-2-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "fleece_finish_/_surface",
+        "textile_finish_/_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-2-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "linen_finish/treatment",
+        "textile_finish_/_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-2-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "organza_finish_/_sheen",
+        "textile_finish_/_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-2-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "perfumery_ingredient_carrier/solvent"
+      ],
+      "category_ids": [
+        "ae-2-1-2-17-2",
+        "ae-2-1-2-17-2-1",
+        "ae-2-1-2-17-2-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "flyer_kit_finish/coating"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-8"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "mounting/attachment_type"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-13"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "skein_winder_bearing/bushing_type"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-14"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "spinner_control_card_design/type"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-15"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "craft_cutter/embosser_machine_operation"
+      ],
+      "category_ids": [
+        "ae-2-1-4-4-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "art/crafting_tool_tip_style"
+      ],
+      "category_ids": [
+        "ae-2-1-4-4-6",
+        "ae-2-1-4-4-6-1",
+        "ae-2-1-4-4-6-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "thread_cutter_usage/application"
+      ],
+      "category_ids": [
+        "ae-2-1-4-4-8-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "knitting_marker/counter_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-6-8-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "clamping/closure_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-10-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "loom_folding/portability_design_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-16-3",
+        "ae-2-1-4-16-3-1",
+        "ae-2-1-4-16-3-2",
+        "ae-2-1-4-16-3-3",
+        "ae-2-1-4-16-3-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "spinning_wheel_brake/tension_system_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-16-5-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "spinning_wheel_portability/foldability"
+      ],
+      "category_ids": [
+        "ae-2-1-4-16-5-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "thread_yarn_guide_mounting/attachment_style"
+      ],
+      "category_ids": [
+        "ae-2-1-4-18-4",
+        "ae-2-1-4-18-4-1",
+        "ae-2-1-4-18-4-2",
+        "ae-2-1-4-18-4-3",
+        "ae-2-1-4-18-4-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "supported_spool/bobbin_types"
+      ],
+      "category_ids": [
+        "ae-2-1-4-18-6-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "needle_holder_mounting/attachment_method"
+      ],
+      "category_ids": [
+        "ae-2-1-5-1-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "compatible_thread/spool_format"
+      ],
+      "category_ids": [
+        "ae-2-1-5-3-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "beading_pattern_stitch/technique"
+      ],
+      "category_ids": [
+        "ae-2-1-6-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "beading_pattern_stitch/technique",
+        "thread/cord_type_beading_pattern"
+      ],
+      "category_ids": [
+        "ae-2-1-6-1-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "beading_pattern_stitch/technique",
+        "beading_technique_/_stitch"
+      ],
+      "category_ids": [
+        "ae-2-1-6-1-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "license/usage_terms"
+      ],
+      "category_ids": [
+        "ae-2-1-6-4",
+        "ae-2-1-6-4-1",
+        "ae-2-1-6-4-2",
+        "ae-2-1-6-4-3",
+        "ae-2-1-6-4-4",
+        "ae-2-1-6-4-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "banknote_authentication/grading"
+      ],
+      "category_ids": [
+        "ae-2-2-2-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "european_sword_pattern/type"
+      ],
+      "category_ids": [
+        "ae-2-2-4-3-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "decoder_interface_/_socket_type"
+      ],
+      "category_ids": [
+        "ae-2-2-8-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "equipment_contact_material_brew/wine"
+      ],
+      "category_ids": [
+        "ae-2-3",
+        "ae-2-3-1",
+        "ae-2-3-1-1",
+        "ae-2-3-1-2",
+        "ae-2-3-1-3",
+        "ae-2-3-3",
+        "ae-2-3-3-1",
+        "ae-2-3-3-2",
+        "ae-2-3-3-3",
+        "ae-2-3-4",
+        "ae-2-3-4-1",
+        "ae-2-3-4-2",
+        "ae-2-3-4-3",
+        "ae-2-3-4-4",
+        "ae-2-3-5",
+        "ae-2-3-6",
+        "ae-2-3-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "equipment_contact_material_brew/wine",
+        "specialty_malt_name/type"
+      ],
+      "category_ids": [
+        "ae-2-3-1-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "bottle_neck_finish_/_closure_size",
+        "equipment_contact_material_brew/wine"
+      ],
+      "category_ids": [
+        "ae-2-3-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "cleaner/sanitizer_intended_area"
+      ],
+      "category_ids": [
+        "ae-2-7-1-1-2",
+        "ae-2-7-1-1-2-1",
+        "ae-2-7-1-1-2-2",
+        "ae-2-7-1-1-2-3",
+        "ae-2-7-1-1-2-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "brass_instrument_lubricant_additives/features"
+      ],
+      "category_ids": [
+        "ae-2-7-1-1-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "practice_mute_venting/valve_type"
+      ],
+      "category_ids": [
+        "ae-2-7-1-4-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "mute_cork/padding_material"
+      ],
+      "category_ids": [
+        "ae-2-7-1-4-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "lyre/flip_folder_mounting_location"
+      ],
+      "category_ids": [
+        "ae-2-7-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "case_style_cymbal/drum"
+      ],
+      "category_ids": [
+        "ae-2-7-12-1-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "drum_head_hoop/rim_material"
+      ],
+      "category_ids": [
+        "ae-2-7-12-3",
+        "ae-2-7-12-3-1",
+        "ae-2-7-12-3-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "drum_head_application_batter/resonant",
+        "drum_head_hoop/collar_type",
+        "drum_head_hoop/rim_material"
+      ],
+      "category_ids": [
+        "ae-2-7-12-3-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "cymbal_arm_rotation/positioning_features"
+      ],
+      "category_ids": [
+        "ae-2-7-12-5-2-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "mounting/attachment_method"
+      ],
+      "category_ids": [
+        "ae-2-7-12-6-1",
+        "ae-2-7-12-6-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "compatible_neck_profile/width"
+      ],
+      "category_ids": [
+        "ae-2-7-13-1-2-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "compatible_winder_head/bit"
+      ],
+      "category_ids": [
+        "ae-2-7-13-1-11-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "guitar_pedal_i/o_configuration"
+      ],
+      "category_ids": [
+        "ae-2-7-13-1-14"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "orchestral_string_instrument_fitting/part_type"
+      ],
+      "category_ids": [
+        "ae-2-7-13-2-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "rosin_formula_/_additives"
+      ],
+      "category_ids": [
+        "ae-2-7-13-3-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "compatible_instrument_surface/material"
+      ],
+      "category_ids": [
+        "ae-2-7-13-3-3-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "varnish_transparency/tint"
+      ],
+      "category_ids": [
+        "ae-2-7-13-3-3-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "bag/case_carrying_style"
+      ],
+      "category_ids": [
+        "ae-2-7-14-1-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "kit_pouch/case_type"
+      ],
+      "category_ids": [
+        "ae-2-7-14-5-1-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "mouthpiece_shank/receiver_size"
+      ],
+      "category_ids": [
+        "ae-2-8-3-5-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "analog_synthesizer_cv/gate_i/o"
+      ],
+      "category_ids": [
+        "ae-2-8-4-4-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "profile/shape"
+      ],
+      "category_ids": [
+        "ae-2-8-5-2-7"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting/handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7",
+        "ae-2-8-5-7-1",
+        "ae-2-8-5-7-1-1",
+        "ae-2-8-5-7-1-2",
+        "ae-2-8-5-7-1-3",
+        "ae-2-8-5-7-10",
+        "ae-2-8-5-7-10-1",
+        "ae-2-8-5-7-10-2",
+        "ae-2-8-5-7-10-3",
+        "ae-2-8-5-7-11",
+        "ae-2-8-5-7-11-1",
+        "ae-2-8-5-7-11-2",
+        "ae-2-8-5-7-3",
+        "ae-2-8-5-7-3-1",
+        "ae-2-8-5-7-3-2",
+        "ae-2-8-5-7-3-4",
+        "ae-2-8-5-7-4",
+        "ae-2-8-5-7-4-1",
+        "ae-2-8-5-7-4-1-1",
+        "ae-2-8-5-7-4-3",
+        "ae-2-8-5-7-4-3-1",
+        "ae-2-8-5-7-4-3-2",
+        "ae-2-8-5-7-4-3-3",
+        "ae-2-8-5-7-4-4",
+        "ae-2-8-5-7-4-4-2",
+        "ae-2-8-5-7-4-4-3",
+        "ae-2-8-5-7-4-5",
+        "ae-2-8-5-7-4-5-1",
+        "ae-2-8-5-7-4-5-2",
+        "ae-2-8-5-7-4-7",
+        "ae-2-8-5-7-4-7-1",
+        "ae-2-8-5-7-4-7-2",
+        "ae-2-8-5-7-5",
+        "ae-2-8-5-7-6",
+        "ae-2-8-5-7-6-1",
+        "ae-2-8-5-7-6-2",
+        "ae-2-8-5-7-6-3",
+        "ae-2-8-5-7-7",
+        "ae-2-8-5-7-7-3",
+        "ae-2-8-5-7-7-4",
+        "ae-2-8-5-7-7-5",
+        "ae-2-8-5-7-8",
+        "ae-2-8-5-7-8-1",
+        "ae-2-8-5-7-8-2",
+        "ae-2-8-5-7-8-3",
+        "ae-2-8-5-7-8-4",
+        "ae-2-8-5-7-9"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "cymbal_playing_style/genre",
+        "hand_percussion_mounting/handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-2",
+        "ae-2-8-5-7-2-1",
+        "ae-2-8-5-7-2-2",
+        "ae-2-8-5-7-2-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting/handling",
+        "portability/frame_type"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-3-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "cajon_body/shell_material",
+        "cajon_corner/edge_design",
+        "hand_percussion_mounting/handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-2",
+        "ae-2-8-5-7-4-2-1",
+        "ae-2-8-5-7-4-2-2",
+        "ae-2-8-5-7-4-2-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "bodhran_head_material",
+        "bodhran_tuning_system_type",
+        "hand_percussion_mounting/handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-4-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "doumbek_playing_style/technique",
+        "hand_percussion_mounting/handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-5-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting/handling",
+        "tabla_tonal/pitch_range_bayan"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-6",
+        "ae-2-8-5-7-4-6-1",
+        "ae-2-8-5-7-4-6-2",
+        "ae-2-8-5-7-4-6-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting/handling",
+        "tension/pitch_modulation_system"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-7-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "acoustic_piano_plate/frame_material"
+      ],
+      "category_ids": [
+        "ae-2-8-6-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "compatible_contra_bass_clarinet_peg/stand"
+      ],
+      "category_ids": [
+        "ae-2-8-8-2-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "harmonica_system/type"
+      ],
+      "category_ids": [
+        "ae-2-8-8-5-6"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "jews_harp_frame_style",
+        "jews_harp_tongue_profile"
+      ],
+      "category_ids": [
+        "ae-2-8-8-6-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "pipe_instrument_voicing_/_sound_production_method"
+      ],
+      "category_ids": [
+        "ae-2-8-8-8",
+        "ae-2-8-8-8-1",
+        "ae-2-8-8-8-2",
+        "ae-2-8-8-8-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "gift_box/tin_insert_type",
+        "gift_box/tin_sustainability_features",
+        "gift_box/tin_window_type"
+      ],
+      "category_ids": [
+        "ae-3-1-5-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "balloon_closure/valve_type"
+      ],
+      "category_ids": [
+        "ae-3-2-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "disposable/compostable_claim"
+      ],
+      "category_ids": [
+        "ae-3-2-7",
+        "ae-3-2-7-1",
+        "ae-3-2-7-2",
+        "ae-3-2-7-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "cocktail_pick_top/handle_style",
+        "disposable/compostable_claim"
+      ],
+      "category_ids": [
+        "ae-3-2-7-3"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "cocktail_umbrella_handle/pick_material",
+        "disposable/compostable_claim"
+      ],
+      "category_ids": [
+        "ae-3-2-7-5"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "pinata_filler_type_included",
+        "pinata_hanging_method",
+        "pinata_opening_type"
+      ],
+      "category_ids": [
+        "ae-3-2-23"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "card_box/holder_type"
+      ],
+      "category_ids": [
+        "ae-3-2-28"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "spray_string_finish/effect"
+      ],
+      "category_ids": [
+        "ae-3-2-29"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "award_mounting/display_type"
+      ],
+      "category_ids": [
+        "ae-3-4"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "award_ribbon_placement/title"
+      ],
+      "category_ids": [
+        "ae-3-4-4-1"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "ev_connector_adapter_direction"
+      ],
+      "category_ids": [
+        "vp-1-2-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "battery_case_certification_standard"
+      ],
+      "category_ids": [
+        "vp-1-2-8-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "motor_vehicle_a_v_integration_features"
+      ],
+      "category_ids": [
+        "vp-1-3-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "brake_drum_finish_coating"
+      ],
+      "category_ids": [
+        "vp-1-4-1-9"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "steering_rack_finish_coating"
+      ],
+      "category_ids": [
+        "vp-1-4-4-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "oil_pan_baffle_windage_features",
+        "oil_pan_finish_coating"
+      ],
+      "category_ids": [
+        "vp-1-4-5-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "piston_crown_dish_style"
+      ],
+      "category_ids": [
+        "vp-1-4-6-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "fuel_cap_gasket_seal_material"
+      ],
+      "category_ids": [
+        "vp-1-4-10-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "fuel_filter_mounting_connection_type"
+      ],
+      "category_ids": [
+        "vp-1-4-10-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "vacuum_boost_reference_port"
+      ],
+      "category_ids": [
+        "vp-1-4-10-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "motor_vehicle_bulb_application_position"
+      ],
+      "category_ids": [
+        "vp-1-4-12-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "pressure_sensor_port_thread_standard"
+      ],
+      "category_ids": [
+        "vp-1-4-16-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "coil_spring_finish_coating"
+      ],
+      "category_ids": [
+        "vp-1-4-17-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "sway_bar_fitment_front_rear_kit"
+      ],
+      "category_ids": [
+        "vp-1-4-17-8"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "trailer_hitch_mounting_location_method"
+      ],
+      "category_ids": [
+        "vp-1-4-18-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "u_joint_series_size"
+      ],
+      "category_ids": [
+        "vp-1-4-19-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "surface_finish_prep"
+      ],
+      "category_ids": [
+        "vp-1-4-19-13"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "radiator_expansion_tank_cap_application"
+      ],
+      "category_ids": [
+        "vp-1-4-22-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "wheel_cleaner_acidity_ph_category"
+      ],
+      "category_ids": [
+        "vp-1-5-2-2-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "vehicle_wax_polish_product_form"
+      ],
+      "category_ids": [
+        "vp-1-5-2-6",
+        "vp-1-5-2-6-1",
+        "vp-1-5-2-6-2",
+        "vp-1-5-2-6-3",
+        "vp-1-5-2-6-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "season_condition_protection"
+      ],
+      "category_ids": [
+        "vp-1-5-3-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "soft_top_includes_frame_hardware"
+      ],
+      "category_ids": [
+        "vp-1-5-3-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "brake_clutch_fluid_base_chemistry",
+        "brake_clutch_fluid_dot_specification"
+      ],
+      "category_ids": [
+        "vp-1-5-5-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "vehicle_paint_chemistry_base"
+      ],
+      "category_ids": [
+        "vp-1-5-6",
+        "vp-1-5-6-1",
+        "vp-1-5-6-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "tip_finish_coating"
+      ],
+      "category_ids": [
+        "vp-1-5-7-9-1-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "lift_stand_support_point"
+      ],
+      "category_ids": [
+        "vp-1-5-7-11",
+        "vp-1-5-7-11-1",
+        "vp-1-5-7-11-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "helmet_visor_shield_type"
+      ],
+      "category_ids": [
+        "vp-1-6-1-7",
+        "vp-1-6-1-7-1",
+        "vp-1-6-1-7-2",
+        "vp-1-6-1-7-3",
+        "vp-1-6-1-7-5",
+        "vp-1-6-1-7-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "helmet_visor_peak_adjustability",
+        "helmet_visor_shield_type"
+      ],
+      "category_ids": [
+        "vp-1-6-1-7-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "mounting_storage_type"
+      ],
+      "category_ids": [
+        "vp-1-6-6-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "marine_flare_certification_standard"
+      ],
+      "category_ids": [
+        "vp-1-6-6-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "throw_rope_storage_packaging_type"
+      ],
+      "category_ids": [
+        "vp-1-6-6-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "tether_strap_system"
+      ],
+      "category_ids": [
+        "vp-1-6-7-11"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "roof_cargo_net_hook_fastener_style"
+      ],
+      "category_ids": [
+        "vp-1-7-1-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "carrying_capacity_pairs_boards"
+      ],
+      "category_ids": [
+        "vp-1-7-2-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "crossbar_shape_profile"
+      ],
+      "category_ids": [
+        "vp-1-7-3-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "tie_down_points_straps_included"
+      ],
+      "category_ids": [
+        "vp-1-7-3-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "splice_termination_type"
+      ],
+      "category_ids": [
+        "vp-1-8-1-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "watercraft_pump_stage_impeller_role"
+      ],
+      "category_ids": [
+        "vp-1-8-4-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "watercraft_lighting_certification_compliance"
+      ],
+      "category_ids": [
+        "vp-1-8-8"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "watercraft_steering_wheel_hub_bore_type"
+      ],
+      "category_ids": [
+        "vp-1-8-9-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "truck_bed_body_type"
+      ],
+      "category_ids": [
+        "vp-2-2-1-4-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "atv_utv_intended_use"
+      ],
+      "category_ids": [
+        "vp-2-2-4-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "police_vehicle_light_siren_equipment"
+      ],
+      "category_ids": [
+        "vp-2-2-8-1-3-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "fia_homologation_certification",
+        "formula_car_series_class"
+      ],
+      "category_ids": [
+        "vp-2-2-9-1-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "homologation_rule_set"
+      ],
+      "category_ids": [
+        "vp-2-2-9-1-4"
+      ]
     },
     {
       "op": "remove_attributes_from_categories",
@@ -173,6 +5920,15 @@
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
+        "shell_hull_status"
+      ],
+      "category_ids": [
+        "fb-2-13"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
         "assembly_required",
         "care_instructions"
       ],
@@ -305,12 +6061,182 @@
     {
       "op": "remove_attributes_from_categories",
       "attribute_friendly_ids": [
+        "battle_top_arena_stadium_compatibility"
+      ],
+      "category_ids": [
+        "tg-2-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "card_sleeve_size_format_compatibility"
+      ],
+      "category_ids": [
+        "tg-2-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "poker_chip_tray_rack_configuration"
+      ],
+      "category_ids": [
+        "tg-2-10",
+        "tg-2-10-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
         "assembly_required",
         "safety_certifications"
       ],
       "category_ids": [
         "hg-9",
         "tg-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "swing_attachment_connection_type"
+      ],
+      "category_ids": [
+        "tg-3-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "yo_yo_accessory_part_type"
+      ],
+      "category_ids": [
+        "tg-5-1-11"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "toy_drawing_tablet_writing_drawing_instrument"
+      ],
+      "category_ids": [
+        "tg-5-2-11"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "rubber_ducky_character_theme"
+      ],
+      "category_ids": [
+        "tg-5-5-8"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "toy_game_features"
+      ],
+      "category_ids": [
+        "tg-5-6",
+        "tg-5-6-1",
+        "tg-5-6-10",
+        "tg-5-6-11",
+        "tg-5-6-2",
+        "tg-5-6-4",
+        "tg-5-6-5",
+        "tg-5-6-6",
+        "tg-5-6-7",
+        "tg-5-6-8",
+        "tg-5-6-9"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "float_raft_use_environment",
+        "inflatable_raft_float_features",
+        "toy_game_features"
+      ],
+      "category_ids": [
+        "tg-5-6-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "dollhouse_installation_placement_type",
+        "dollhouse_style_theme"
+      ],
+      "category_ids": [
+        "tg-5-8-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "dinosaur_playset_scale_figure_size_class"
+      ],
+      "category_ids": [
+        "tg-5-8-12-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "rotation_motion_features"
+      ],
+      "category_ids": [
+        "tg-5-9-2-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "map_coverage_sky_planet_body"
+      ],
+      "category_ids": [
+        "tg-5-9-2-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "remote_control_watercraft_propulsion_drive_type"
+      ],
+      "category_ids": [
+        "tg-5-18-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "rc_plane_takeoff_launch_method"
+      ],
+      "category_ids": [
+        "tg-5-18-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "indoor_outdoor_use"
+      ],
+      "category_ids": [
+        "tg-5-23-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "projectile_ammunition_type"
+      ],
+      "category_ids": [
+        "tg-5-26",
+        "tg-5-26-1",
+        "tg-5-26-2",
+        "tg-5-26-3"
       ]
     },
     {
@@ -379,6 +6305,27 @@
       "category_ids": [
         "aa-2",
         "aa-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "weave_finish"
+      ],
+      "category_ids": [
+        "aa-2-23",
+        "aa-2-23-1",
+        "aa-2-23-2",
+        "aa-2-23-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "sticker_decal_features"
+      ],
+      "category_ids": [
+        "aa-6-10-2"
       ]
     },
     {
@@ -463,6 +6410,1254 @@
       ],
       "category_ids": [
         "me-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "baseball_softball_usage_role"
+      ],
+      "category_ids": [
+        "sg-1-2-8-3",
+        "sg-1-2-8-3-2",
+        "sg-1-2-8-3-3",
+        "sg-1-2-8-3-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "punching_training_bag_shape"
+      ],
+      "category_ids": [
+        "sg-1-4-2-4-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "mask_goggle_design"
+      ],
+      "category_ids": [
+        "sg-1-11-1-3",
+        "sg-1-11-1-3-1",
+        "sg-1-11-1-3-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "exercise_bike_accessory_part_type"
+      ],
+      "category_ids": [
+        "sg-2-4-1-2",
+        "sg-2-4-1-2-1",
+        "sg-2-4-1-2-10",
+        "sg-2-4-1-2-2",
+        "sg-2-4-1-2-3",
+        "sg-2-4-1-2-4",
+        "sg-2-4-1-2-5",
+        "sg-2-4-1-2-6",
+        "sg-2-4-1-2-7",
+        "sg-2-4-1-2-8",
+        "sg-2-4-1-2-9"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "case_capacity_butts_shafts"
+      ],
+      "category_ids": [
+        "sg-3-2-3-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "visor_brim_type"
+      ],
+      "category_ids": [
+        "sg-4-1-12-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "blade_finish_coating"
+      ],
+      "category_ids": [
+        "sg-4-2-4-7",
+        "sg-4-2-4-7-1",
+        "sg-4-2-4-7-2",
+        "sg-4-2-4-7-3",
+        "sg-4-2-4-7-4",
+        "sg-4-2-4-7-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "ascender_descender_type"
+      ],
+      "category_ids": [
+        "sg-4-3-4",
+        "sg-4-3-4-1",
+        "sg-4-3-4-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "chain_coating_finish"
+      ],
+      "category_ids": [
+        "sg-4-4-2-4-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "hook_coating_finish"
+      ],
+      "category_ids": [
+        "sg-4-6-13-3-1",
+        "sg-4-6-13-3-1-1",
+        "sg-4-6-13-3-1-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "broadhead_field_point_attachment_style"
+      ],
+      "category_ids": [
+        "sg-4-9-1-4-3",
+        "sg-4-9-1-4-3-1",
+        "sg-4-9-1-4-3-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "arrow_bolt_point_type"
+      ],
+      "category_ids": [
+        "sg-4-9-1-5",
+        "sg-4-9-1-5-1",
+        "sg-4-9-1-5-2",
+        "sg-4-9-1-5-2-1",
+        "sg-4-9-1-5-2-2",
+        "sg-4-9-1-5-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "compatible_bow_crossbow_type"
+      ],
+      "category_ids": [
+        "sg-4-9-1-6",
+        "sg-4-9-1-6-1",
+        "sg-4-9-1-6-10",
+        "sg-4-9-1-6-2",
+        "sg-4-9-1-6-3",
+        "sg-4-9-1-6-4",
+        "sg-4-9-1-6-4-1",
+        "sg-4-9-1-6-4-2",
+        "sg-4-9-1-6-4-3",
+        "sg-4-9-1-6-4-4",
+        "sg-4-9-1-6-5",
+        "sg-4-9-1-6-6",
+        "sg-4-9-1-6-6-1",
+        "sg-4-9-1-6-6-2",
+        "sg-4-9-1-6-6-3",
+        "sg-4-9-1-6-6-4",
+        "sg-4-9-1-6-7",
+        "sg-4-9-1-6-8",
+        "sg-4-9-1-6-9"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "lens_color_tint"
+      ],
+      "category_ids": [
+        "sg-4-9-7-4",
+        "sg-4-9-7-4-1",
+        "sg-4-9-7-4-2",
+        "sg-4-9-7-4-2-1",
+        "sg-4-9-7-4-2-3",
+        "sg-4-9-7-4-3",
+        "sg-4-9-7-4-4",
+        "sg-4-9-7-4-4-1",
+        "sg-4-9-7-4-4-2",
+        "sg-4-9-7-4-5",
+        "sg-4-9-7-4-6",
+        "sg-4-9-7-4-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "zipper_pull_strap_cord_tab_material"
+      ],
+      "category_ids": [
+        "ae-2-1-2-2-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "zipper_slider_pull_configuration"
+      ],
+      "category_ids": [
+        "ae-2-1-2-2-6-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "white_glue_finish_appearance_when_dry"
+      ],
+      "category_ids": [
+        "ae-2-1-2-5-1-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "thread_finish_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-6-2-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "fiber_animal_source_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-6-3-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "dyeing_color_processing",
+        "fiber_preparation_processing_stage"
+      ],
+      "category_ids": [
+        "ae-2-1-2-6-3-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "temper_hardness",
+        "wire_shape_profile"
+      ],
+      "category_ids": [
+        "ae-2-1-2-7",
+        "ae-2-1-2-7-1",
+        "ae-2-1-2-7-2",
+        "ae-2-1-2-7-3",
+        "ae-2-1-2-7-3-1",
+        "ae-2-1-2-7-3-2",
+        "ae-2-1-2-7-3-4",
+        "ae-2-1-2-7-3-5",
+        "ae-2-1-2-7-3-6",
+        "ae-2-1-2-7-3-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "craft_wire_finish_coating",
+        "temper_hardness",
+        "wire_shape_profile"
+      ],
+      "category_ids": [
+        "ae-2-1-2-7-3-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "patch_border_edge_finish"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-1-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "bow_yo_yo_embellishment_style"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "elastic_edge_finish_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-5-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "feather_attachment_format"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-6-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "ribbon_trim_backing_type",
+        "ribbon_trim_edge_finish"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-10"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "ribbon_trim_backing_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-10-1",
+        "ae-2-1-2-8-10-10",
+        "ae-2-1-2-8-10-11",
+        "ae-2-1-2-8-10-2",
+        "ae-2-1-2-8-10-3",
+        "ae-2-1-2-8-10-4",
+        "ae-2-1-2-8-10-5",
+        "ae-2-1-2-8-10-7",
+        "ae-2-1-2-8-10-8",
+        "ae-2-1-2-8-10-9"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "pom_pom_trim_backing_tape_material",
+        "ribbon_trim_backing_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-10-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "glitter_glue_base_solvent_type"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-11-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "glitter_opacity_coverage"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-11-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "logo_label_print_production_method"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-12-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "label_finish_edge_style"
+      ],
+      "category_ids": [
+        "ae-2-1-2-8-12-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "viscosity_thickness"
+      ],
+      "category_ids": [
+        "ae-2-1-2-12-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "textile_finish_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14",
+        "ae-2-1-2-14-1",
+        "ae-2-1-2-14-1-1",
+        "ae-2-1-2-14-1-1-1",
+        "ae-2-1-2-14-1-1-3",
+        "ae-2-1-2-14-1-1-4",
+        "ae-2-1-2-14-1-3",
+        "ae-2-1-2-14-1-3-1",
+        "ae-2-1-2-14-1-3-2",
+        "ae-2-1-2-14-1-3-3",
+        "ae-2-1-2-14-2",
+        "ae-2-1-2-14-2-1",
+        "ae-2-1-2-14-2-10",
+        "ae-2-1-2-14-2-2",
+        "ae-2-1-2-14-2-3",
+        "ae-2-1-2-14-2-4",
+        "ae-2-1-2-14-2-8",
+        "ae-2-1-2-14-2-9",
+        "ae-2-1-2-14-3",
+        "ae-2-1-2-14-3-1",
+        "ae-2-1-2-14-3-2",
+        "ae-2-1-2-14-4",
+        "ae-2-1-2-14-4-1",
+        "ae-2-1-2-14-4-2",
+        "ae-2-1-2-14-4-3",
+        "ae-2-1-2-14-4-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "evenweave_fabric_finish_treatment",
+        "textile_finish_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-1-1-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "canvas_mounting_format",
+        "textile_finish_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-1-2",
+        "ae-2-1-2-14-1-2-1",
+        "ae-2-1-2-14-1-2-2",
+        "ae-2-1-2-14-1-2-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "fleece_finish_surface",
+        "textile_finish_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-2-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "linen_finish_treatment",
+        "textile_finish_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-2-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "organza_finish_sheen",
+        "textile_finish_treatment"
+      ],
+      "category_ids": [
+        "ae-2-1-2-14-2-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "perfumery_ingredient_carrier_solvent"
+      ],
+      "category_ids": [
+        "ae-2-1-2-17-2",
+        "ae-2-1-2-17-2-1",
+        "ae-2-1-2-17-2-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "flyer_kit_finish_coating"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-8"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "mounting_attachment_type"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-13"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "skein_winder_bearing_bushing_type"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-14"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "spinner_control_card_design_type"
+      ],
+      "category_ids": [
+        "ae-2-1-3-6-15"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "craft_cutter_embosser_machine_operation"
+      ],
+      "category_ids": [
+        "ae-2-1-4-4-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "art_crafting_tool_tip_style"
+      ],
+      "category_ids": [
+        "ae-2-1-4-4-6",
+        "ae-2-1-4-4-6-1",
+        "ae-2-1-4-4-6-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "thread_cutter_usage_application"
+      ],
+      "category_ids": [
+        "ae-2-1-4-4-8-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "knitting_marker_counter_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-6-8-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "clamping_closure_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-10-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "loom_folding_portability_design_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-16-3",
+        "ae-2-1-4-16-3-1",
+        "ae-2-1-4-16-3-2",
+        "ae-2-1-4-16-3-3",
+        "ae-2-1-4-16-3-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "spinning_wheel_brake_tension_system_type"
+      ],
+      "category_ids": [
+        "ae-2-1-4-16-5-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "spinning_wheel_portability_foldability"
+      ],
+      "category_ids": [
+        "ae-2-1-4-16-5-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "thread_yarn_guide_mounting_attachment_style"
+      ],
+      "category_ids": [
+        "ae-2-1-4-18-4",
+        "ae-2-1-4-18-4-1",
+        "ae-2-1-4-18-4-2",
+        "ae-2-1-4-18-4-3",
+        "ae-2-1-4-18-4-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "supported_spool_bobbin_types"
+      ],
+      "category_ids": [
+        "ae-2-1-4-18-6-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "needle_holder_mounting_attachment_method"
+      ],
+      "category_ids": [
+        "ae-2-1-5-1-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "compatible_thread_spool_format"
+      ],
+      "category_ids": [
+        "ae-2-1-5-3-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "beading_pattern_stitch_technique"
+      ],
+      "category_ids": [
+        "ae-2-1-6-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "beading_pattern_stitch_technique",
+        "thread_cord_type_beading_pattern"
+      ],
+      "category_ids": [
+        "ae-2-1-6-1-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "beading_pattern_stitch_technique",
+        "beading_technique_stitch"
+      ],
+      "category_ids": [
+        "ae-2-1-6-1-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "license_usage_terms"
+      ],
+      "category_ids": [
+        "ae-2-1-6-4",
+        "ae-2-1-6-4-1",
+        "ae-2-1-6-4-2",
+        "ae-2-1-6-4-3",
+        "ae-2-1-6-4-4",
+        "ae-2-1-6-4-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "banknote_authentication_grading"
+      ],
+      "category_ids": [
+        "ae-2-2-2-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "european_sword_pattern_type"
+      ],
+      "category_ids": [
+        "ae-2-2-4-3-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "decoder_interface_socket_type"
+      ],
+      "category_ids": [
+        "ae-2-2-8-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "equipment_contact_material_brew_wine"
+      ],
+      "category_ids": [
+        "ae-2-3",
+        "ae-2-3-1",
+        "ae-2-3-1-1",
+        "ae-2-3-1-2",
+        "ae-2-3-1-3",
+        "ae-2-3-3",
+        "ae-2-3-3-1",
+        "ae-2-3-3-2",
+        "ae-2-3-3-3",
+        "ae-2-3-4",
+        "ae-2-3-4-1",
+        "ae-2-3-4-2",
+        "ae-2-3-4-3",
+        "ae-2-3-4-4",
+        "ae-2-3-5",
+        "ae-2-3-6",
+        "ae-2-3-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "equipment_contact_material_brew_wine",
+        "specialty_malt_name_type"
+      ],
+      "category_ids": [
+        "ae-2-3-1-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "bottle_neck_finish_closure_size",
+        "equipment_contact_material_brew_wine"
+      ],
+      "category_ids": [
+        "ae-2-3-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "cleaner_sanitizer_intended_area"
+      ],
+      "category_ids": [
+        "ae-2-7-1-1-2",
+        "ae-2-7-1-1-2-1",
+        "ae-2-7-1-1-2-2",
+        "ae-2-7-1-1-2-3",
+        "ae-2-7-1-1-2-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "brass_instrument_lubricant_additives_features"
+      ],
+      "category_ids": [
+        "ae-2-7-1-1-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "practice_mute_venting_valve_type"
+      ],
+      "category_ids": [
+        "ae-2-7-1-4-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "mute_cork_padding_material"
+      ],
+      "category_ids": [
+        "ae-2-7-1-4-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "lyre_flip_folder_mounting_location"
+      ],
+      "category_ids": [
+        "ae-2-7-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "case_style_cymbal_drum"
+      ],
+      "category_ids": [
+        "ae-2-7-12-1-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "drum_head_hoop_rim_material"
+      ],
+      "category_ids": [
+        "ae-2-7-12-3",
+        "ae-2-7-12-3-1",
+        "ae-2-7-12-3-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "drum_head_application_batter_resonant",
+        "drum_head_hoop_collar_type",
+        "drum_head_hoop_rim_material"
+      ],
+      "category_ids": [
+        "ae-2-7-12-3-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "cymbal_arm_rotation_positioning_features"
+      ],
+      "category_ids": [
+        "ae-2-7-12-5-2-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "mounting_attachment_method"
+      ],
+      "category_ids": [
+        "ae-2-7-12-6-1",
+        "ae-2-7-12-6-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "compatible_neck_profile_width"
+      ],
+      "category_ids": [
+        "ae-2-7-13-1-2-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "compatible_winder_head_bit"
+      ],
+      "category_ids": [
+        "ae-2-7-13-1-11-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "guitar_pedal_i_o_configuration"
+      ],
+      "category_ids": [
+        "ae-2-7-13-1-14"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "orchestral_string_instrument_fitting_part_type"
+      ],
+      "category_ids": [
+        "ae-2-7-13-2-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "rosin_formula_additives"
+      ],
+      "category_ids": [
+        "ae-2-7-13-3-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "compatible_instrument_surface_material"
+      ],
+      "category_ids": [
+        "ae-2-7-13-3-3-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "varnish_transparency_tint"
+      ],
+      "category_ids": [
+        "ae-2-7-13-3-3-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "bag_case_carrying_style"
+      ],
+      "category_ids": [
+        "ae-2-7-14-1-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "kit_pouch_case_type"
+      ],
+      "category_ids": [
+        "ae-2-7-14-5-1-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "mouthpiece_shank_receiver_size"
+      ],
+      "category_ids": [
+        "ae-2-8-3-5-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "analog_synthesizer_cv_gate_i_o"
+      ],
+      "category_ids": [
+        "ae-2-8-4-4-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "profile_shape"
+      ],
+      "category_ids": [
+        "ae-2-8-5-2-7"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting_handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7",
+        "ae-2-8-5-7-1",
+        "ae-2-8-5-7-1-1",
+        "ae-2-8-5-7-1-2",
+        "ae-2-8-5-7-1-3",
+        "ae-2-8-5-7-10",
+        "ae-2-8-5-7-10-1",
+        "ae-2-8-5-7-10-2",
+        "ae-2-8-5-7-10-3",
+        "ae-2-8-5-7-11",
+        "ae-2-8-5-7-11-1",
+        "ae-2-8-5-7-11-2",
+        "ae-2-8-5-7-3",
+        "ae-2-8-5-7-3-1",
+        "ae-2-8-5-7-3-2",
+        "ae-2-8-5-7-3-4",
+        "ae-2-8-5-7-4",
+        "ae-2-8-5-7-4-1",
+        "ae-2-8-5-7-4-1-1",
+        "ae-2-8-5-7-4-3",
+        "ae-2-8-5-7-4-3-1",
+        "ae-2-8-5-7-4-3-2",
+        "ae-2-8-5-7-4-3-3",
+        "ae-2-8-5-7-4-4",
+        "ae-2-8-5-7-4-4-2",
+        "ae-2-8-5-7-4-4-3",
+        "ae-2-8-5-7-4-5",
+        "ae-2-8-5-7-4-5-1",
+        "ae-2-8-5-7-4-5-2",
+        "ae-2-8-5-7-4-7",
+        "ae-2-8-5-7-4-7-1",
+        "ae-2-8-5-7-4-7-2",
+        "ae-2-8-5-7-5",
+        "ae-2-8-5-7-6",
+        "ae-2-8-5-7-6-1",
+        "ae-2-8-5-7-6-2",
+        "ae-2-8-5-7-6-3",
+        "ae-2-8-5-7-7",
+        "ae-2-8-5-7-7-3",
+        "ae-2-8-5-7-7-4",
+        "ae-2-8-5-7-7-5",
+        "ae-2-8-5-7-8",
+        "ae-2-8-5-7-8-1",
+        "ae-2-8-5-7-8-2",
+        "ae-2-8-5-7-8-3",
+        "ae-2-8-5-7-8-4",
+        "ae-2-8-5-7-9"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "cymbal_playing_style_genre",
+        "hand_percussion_mounting_handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-2",
+        "ae-2-8-5-7-2-1",
+        "ae-2-8-5-7-2-2",
+        "ae-2-8-5-7-2-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting_handling",
+        "portability_frame_type"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-3-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "cajon_body_shell_material",
+        "cajon_corner_edge_design",
+        "hand_percussion_mounting_handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-2",
+        "ae-2-8-5-7-4-2-1",
+        "ae-2-8-5-7-4-2-2",
+        "ae-2-8-5-7-4-2-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "bodhr_n_head_material",
+        "bodhr_n_tuning_system_type",
+        "hand_percussion_mounting_handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-4-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "doumbek_playing_style_technique",
+        "hand_percussion_mounting_handling"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-5-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting_handling",
+        "tabla_tonal_pitch_range_bayan"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-6",
+        "ae-2-8-5-7-4-6-1",
+        "ae-2-8-5-7-4-6-2",
+        "ae-2-8-5-7-4-6-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "hand_percussion_mounting_handling",
+        "tension_pitch_modulation_system"
+      ],
+      "category_ids": [
+        "ae-2-8-5-7-4-7-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "acoustic_piano_plate_frame_material"
+      ],
+      "category_ids": [
+        "ae-2-8-6-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "compatible_contra_bass_clarinet_peg_stand"
+      ],
+      "category_ids": [
+        "ae-2-8-8-2-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "harmonica_system_type"
+      ],
+      "category_ids": [
+        "ae-2-8-8-5-6"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "jew_s_harp_frame_style",
+        "jew_s_harp_tongue_profile"
+      ],
+      "category_ids": [
+        "ae-2-8-8-6-1"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "pipe_instrument_voicing_sound_production_method"
+      ],
+      "category_ids": [
+        "ae-2-8-8-8",
+        "ae-2-8-8-8-1",
+        "ae-2-8-8-8-2",
+        "ae-2-8-8-8-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "gift_box_tin_insert_type",
+        "gift_box_tin_sustainability_features",
+        "gift_box_tin_window_type"
+      ],
+      "category_ids": [
+        "ae-3-1-5-2"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "balloon_closure_valve_type"
+      ],
+      "category_ids": [
+        "ae-3-2-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "disposable_compostable_claim"
+      ],
+      "category_ids": [
+        "ae-3-2-7",
+        "ae-3-2-7-1",
+        "ae-3-2-7-2",
+        "ae-3-2-7-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "cocktail_pick_top_handle_style",
+        "disposable_compostable_claim"
+      ],
+      "category_ids": [
+        "ae-3-2-7-3"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "cocktail_umbrella_handle_pick_material",
+        "disposable_compostable_claim"
+      ],
+      "category_ids": [
+        "ae-3-2-7-5"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "pi_ata_filler_type_included",
+        "pi_ata_hanging_method",
+        "pi_ata_opening_type"
+      ],
+      "category_ids": [
+        "ae-3-2-23"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "card_box_holder_type"
+      ],
+      "category_ids": [
+        "ae-3-2-28"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "spray_string_finish_effect"
+      ],
+      "category_ids": [
+        "ae-3-2-29"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "award_mounting_display_type"
+      ],
+      "category_ids": [
+        "ae-3-4"
+      ]
+    },
+    {
+      "op": "remove_attributes_from_categories",
+      "attribute_friendly_ids": [
+        "award_ribbon_placement_title"
+      ],
+      "category_ids": [
+        "ae-3-4-4-1"
       ]
     }
   ]
