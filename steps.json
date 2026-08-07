@@ -3280,6 +3280,27 @@
       ]
     },
     {
+      "op": "add_attribute",
+      "name": "Compatible phone brand",
+      "friendly_id": "compatible_phone_brand",
+      "description": "Specifies the handset manufacturers that the accessory is designed to work with (e.g., Apple, Samsung, Google).",
+      "values": [
+        "Apple",
+        "Google",
+        "Samsung"
+      ]
+    },
+    {
+      "op": "add_attribute",
+      "name": "Compatible phone model",
+      "friendly_id": "compatible_phone_model",
+      "description": "Indicates the exact phone model(s) the accessory fits or supports (e.g., iPhone 15 Pro Max, Galaxy S24 Ultra).",
+      "values": [
+        "Galaxy S24 Ultra",
+        "iPhone 15 Pro Max"
+      ]
+    },
+    {
       "op": "add_value",
       "name": "Preemie",
       "attribute_friendly_id": "size"
@@ -3973,6 +3994,70 @@
       ],
       "category_ids": [
         "aa-6-10-2"
+      ],
+      "include_descendants": false
+    },
+    {
+      "op": "add_attributes_to_categories",
+      "attribute_friendly_ids": [
+        "compatible_phone_brand",
+        "compatible_phone_model"
+      ],
+      "category_ids": [
+        "el-4-8-4",
+        "el-4-8-4-1",
+        "el-4-8-4-1-1",
+        "el-4-8-4-1-10",
+        "el-4-8-4-1-2",
+        "el-4-8-4-1-3",
+        "el-4-8-4-1-4",
+        "el-4-8-4-1-5",
+        "el-4-8-4-1-6",
+        "el-4-8-4-1-7",
+        "el-4-8-4-1-8",
+        "el-4-8-4-1-9",
+        "el-4-8-4-10",
+        "el-4-8-4-11",
+        "el-4-8-4-11-1",
+        "el-4-8-4-11-2",
+        "el-4-8-4-11-3",
+        "el-4-8-4-12",
+        "el-4-8-4-13",
+        "el-4-8-4-2",
+        "el-4-8-4-2-1",
+        "el-4-8-4-3",
+        "el-4-8-4-3-1",
+        "el-4-8-4-3-2",
+        "el-4-8-4-4",
+        "el-4-8-4-4-1",
+        "el-4-8-4-4-2",
+        "el-4-8-4-4-3",
+        "el-4-8-4-5",
+        "el-4-8-4-5-1",
+        "el-4-8-4-5-10",
+        "el-4-8-4-5-2",
+        "el-4-8-4-5-3",
+        "el-4-8-4-5-4",
+        "el-4-8-4-5-5",
+        "el-4-8-4-5-6",
+        "el-4-8-4-5-7",
+        "el-4-8-4-5-8",
+        "el-4-8-4-5-9",
+        "el-4-8-4-6",
+        "el-4-8-4-7",
+        "el-4-8-4-8",
+        "el-4-8-4-9",
+        "el-4-8-7",
+        "el-4-8-7-1",
+        "el-4-8-7-1-1",
+        "el-4-8-7-1-2",
+        "el-4-8-7-2",
+        "el-4-8-7-3",
+        "el-4-8-7-4",
+        "el-4-8-7-5",
+        "el-4-8-7-6",
+        "el-4-8-7-7",
+        "el-4-8-7-8"
       ],
       "include_descendants": false
     },
