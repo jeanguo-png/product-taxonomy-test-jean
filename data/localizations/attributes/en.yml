@@ -53,6 +53,9 @@ en:
     accordion_tuning:
       name: Accordion tuning
       description: Specifies the type of tuning used in an accordion, such as dry or concert pitch
+    acoustic_piano_plate/frame_material:
+      name: Acoustic piano plate/frame material
+      description: Specifies the main material of the piano plate/frame (harp), commonly cast iron.
     activation_mechanism:
       name: Activation mechanism
       description: Specifies the primary method that triggers the alarm
@@ -215,6 +218,9 @@ en:
     amputation_level:
       name: Amputation level
       description: Denotes the level of amputation the shrinker is designed for
+    analog_synthesizer_cv/gate_i/o:
+      name: Analog synthesizer CV/Gate I/O
+      description: Indicates the types of control-voltage and gate connections supported for integrating with modular/analog gear.
     analyte_measured:
       name: Analyte measured
       description: Identifies the biomarker(s) for which the control solution provides calibration
@@ -347,6 +353,9 @@ en:
     arrow/bolt_material:
       name: Arrow/Bolt material
       description: Identifies the construction material of arrows or bolts, such as aluminum or bamboo
+    arrow/bolt_point_type:
+      name: Arrow/bolt point type
+      description: Defines the style of point or tip installed on an arrow or bolt.
     arrow_fletching_material:
       name: Arrow fletching material
       description: Identifies the material used in arrow fletchings, such as synthetic or plastic
@@ -356,6 +365,9 @@ en:
     art/crafting_tool_material:
       name: Art/Crafting tool material
       description: Identifies the main material of art or crafting tools, such as wood or metal
+    art/crafting_tool_tip_style:
+      name: Art/Crafting tool tip style
+      description: Describes the shape/profile of the working tip (e.g., pointed vs rounded ball) to indicate the kind of embossing marks it produces.
     art_fixative_application_method:
       name: Art fixative application method
       description: Describes how an art fixative is applied, such as aerosol or brush-on
@@ -374,6 +386,9 @@ en:
     artwork_type:
       name: Artwork type
       description: Specifies the style of digital artwork, such as typography or digital painting
+    ascender/descender_type:
+      name: Ascender/descender type
+      description: Classifies the style of climbing ascender or descender for more precise filtering.
     ashtray_type:
       name: Ashtray type
       description: Classifies the ashtray by its primary use or context.
@@ -395,6 +410,9 @@ en:
     atv/off_road_tire_type:
       name: ATV/Off-road tire type
       description: Identifies the specific use of ATV or off-road tires, such as sand or mud
+    atv/utv_intended_use:
+      name: ATV/UTV intended use
+      description: Primary intended use/style of the ATV/UTV.
     audio/scan_converter_features:
       name: Audio/Scan converter features
       description: Describes the capabilities of an audio/scan converter, such as automatic conversion or remote control
@@ -479,9 +497,15 @@ en:
     award_design:
       name: Award design
       description: Describes the style or theme of an award or certificate, such as modern or formal
+    award_mounting/display_type:
+      name: Award mounting/display type
+      description: Specifies how the award is intended to be displayed or mounted (wall vs desktop vs wearable).
     award_occasion:
       name: Award occasion
       description: Specifies the purpose of an award, like employee recognition or academic achievement
+    award_ribbon_placement/title:
+      name: Award ribbon placement/title
+      description: The standard placement or title conveyed by the ribbon (e.g., 1st place, participant).
     awning_construction_type:
       name: Awning construction type
       description: Defines the setup style of an awning, such as retractable or fixed
@@ -578,6 +602,9 @@ en:
     backrest_upholstery_pattern:
       name: Backrest upholstery pattern
       description: Identifies the pattern on the sofa's backrest fabric, e.g. striped, checkered
+    bag/case_carrying_style:
+      name: Bag/case carrying style
+      description: Specifies the primary overall carrying form factor of the case/gigbag (how it is built to be carried).
     bag/case_closure:
       name: Bag/Case closure
       description: Identifies the type of closure used on bags or cases, e.g. key lock, velcro
@@ -647,6 +674,9 @@ en:
     ballast_material:
       name: Ballast material
       description: Lists the materials that can be used to ballast (fill) the roller drum, helping shoppers choose models compatible with their preferred fill media.
+    balloon_closure/valve_type:
+      name: Balloon closure/valve type
+      description: Identifies how the balloon is sealed after inflation (e.g., tie, self-sealing valve).
     balloon_kit_items_included:
       name: Balloon kit items included
       description: Specifies the items provided in a balloon kit, like clips or weights
@@ -668,6 +698,9 @@ en:
     bandage_shape:
       name: Bandage shape
       description: Describes the pre-cut form factor of adhesive bandages or dressings
+    banknote_authentication/grading:
+      name: Banknote authentication/grading
+      description: Third-party service (if any) that authenticated/graded the banknote.
     banner_design:
       name: Banner design
       description: Specifies the design features of party banners, like tassel or garland
@@ -710,6 +743,9 @@ en:
     baseball/softball_ball_type:
       name: Baseball/Softball ball type
       description: Specifies if a ball is designed for softball or baseball
+    baseball/softball_usage_role:
+      name: Baseball/softball usage role
+      description: Specifies the on-field role or participant type the leg guard is intended for (e.g., catcher, batter, umpire, fielder).
     basket_material:
       name: Basket material
       description: Specifies the type of material used in a basket, such as wicker or metal
@@ -755,6 +791,9 @@ en:
     battery_backup_support:
       name: Battery backup support
       description: Indicates whether an emergency battery backup is included, optional, or unsupported.
+    battery_case_certification/standard:
+      name: Battery case certification/standard
+      description: Lists relevant transport/safety certifications or test standards the case complies with for battery transport/storage.
     battery_cell_type:
       name: Battery cell type
       description: Specifies the chemical composition of a battery, such as alkaline or lithium-air
@@ -785,9 +824,18 @@ en:
     battery_type:
       name: Battery type
       description: 'Distinguishes between types of batteries, such as disposable or rechargeable '
+    battle_top_arena/stadium_compatibility:
+      name: Battle top arena/stadium compatibility
+      description: Indicates which arena/stadium system the product is designed to be used with (especially for sets or special arena shapes).
     bead_shape:
       name: Bead shape
       description: Describes the form or design of beads, such as round or square
+    beading_pattern_stitch/technique:
+      name: Beading pattern stitch/technique
+      description: Primary beadweaving stitch or technique used in the pattern.
+    beading_technique_/_stitch:
+      name: Beading technique / stitch
+      description: Identifies the primary beading technique or stitch used in the pattern (e.g., peyote stitch, brick stitch).
     beard_care_benefits:
       name: Beard care benefits
       description: Lists the primary functional benefits offered by the product for beard and underlying skin
@@ -938,6 +986,9 @@ en:
     blade_finish:
       name: Blade finish
       description: Surface treatment or aesthetic finish applied to the blade.
+    blade_finish/coating:
+      name: Blade finish/coating
+      description: Surface treatment applied to the blade for aesthetics or corrosion protection.
     blade_material:
       name: Blade material
       description: Specifies the material used in a blade's construction, such as steel or aluminum
@@ -1013,6 +1064,12 @@ en:
     boat_type:
       name: Boat type
       description: Identifies the specific design or model of a watercraft, such pontoon or deck boat
+    bodhran_head_material:
+      name: Bodhrán head material
+      description: The material of the playing head (membrane), which strongly affects tone and maintenance requirements.
+    bodhran_tuning_system_type:
+      name: Bodhrán tuning system type
+      description: The style of built-in tuning mechanism used to adjust head tension (if tunable).
     body/facial_hair_type:
       name: Body/Facial hair type
       description: Helps match grooming products to hair types like fine or coarse, typically for hair bleach
@@ -1109,6 +1166,9 @@ en:
     bottle_material:
       name: Bottle material
       description: Identifies the substance used in the construction of a bottle, such as glass or plastic
+    bottle_neck_finish_/_closure_size:
+      name: Bottle neck finish / closure size
+      description: The standardized bottle opening/finish size to ensure compatibility with caps, corks, and cappers (e.g., 26 mm crown finish).
     bottle_sterilizer_features:
       name: Bottle sterilizer features
       description: Highlights specific functions of bottle sterilizers, like auto power-off or defrost function
@@ -1130,6 +1190,9 @@ en:
     bow/crossbow_features:
       name: Bow/Crossbow features
       description: Describes special features of bows/crossbows, like an adjustable draw or illuminated scope
+    bow/yo_yo_embellishment_style:
+      name: Bow/yo-yo embellishment style
+      description: Identifies the constructed style of the embellishment (bow or fabric yo-yo construction).
     bow_features:
       name: Bow features
       description: Identifies unique features of archery bows, e.g. adjustable draw, illuminated scope
@@ -1175,9 +1238,21 @@ en:
     bracket_profile:
       name: Bracket profile
       description: Indicates the physical bracket style supplied with the card, determining chassis compatibility
+    brake/clutch_fluid_base_chemistry:
+      name: Brake/clutch fluid base chemistry
+      description: Primary chemical base of the brake/clutch hydraulic fluid, which affects compatibility and miscibility.
+    brake/clutch_fluid_dot_specification:
+      name: Brake/Clutch fluid DOT specification
+      description: DOT performance classification for hydraulic brake/clutch fluids (e.g., DOT 3, DOT 4).
+    brake_drum_finish/coating:
+      name: Brake drum finish/coating
+      description: Surface finish or protective coating applied to the brake drum (e.g., e-coat, painted, zinc-coated).
     brandy_variety:
       name: Brandy variety
       description: Distinguishes between different brandy styles, e.g. cognac, grappa
+    brass_instrument_lubricant_additives/features:
+      name: Brass instrument lubricant additives/features
+      description: Notable functional features of the lubricant formulation.
     bread_storage_ventilation:
       name: Bread storage ventilation
       description: Describes whether and how the container allows airflow to keep bread fresh.
@@ -1229,6 +1304,9 @@ en:
     broadcasting_standard_supported:
       name: Broadcasting standard supported
       description: Specifies the television broadcast or modulation standards (satellite, cable, terrestrial) that the product can decode or handle
+    broadhead/field_point_attachment_style:
+      name: Broadhead/field point attachment style
+      description: Specifies how the broadhead or field point attaches to the arrow shaft.
     broadhead/field_point_material:
       name: Broadhead/Field point material
       description: Identifies the material used in archery broadheads or field points, like stainless steel or carbon steel
@@ -1370,6 +1448,12 @@ en:
     cage_type:
       name: Cage type
       description: Identifies the style of safety cage in vehicles, like full cage or half-cage
+    cajon_body/shell_material:
+      name: Cajon body/shell material
+      description: Identifies the material of the cajon body/shell (excluding the tapa).
+    cajon_corner/edge_design:
+      name: Cajon corner/edge design
+      description: Describes the corner/edge construction that affects comfort and playability.
     calculator_accessory_type:
       name: Calculator accessory type
       description: Specifies the kind of calculator accessory, such as paper roll or printer adapter
@@ -1481,6 +1565,9 @@ en:
     canvas_material:
       name: Canvas material
       description: Identifies the type of fabric used in crafting canvas, like cotton or linen
+    canvas_mounting/format:
+      name: Canvas mounting/format
+      description: Physical format/mounting style of the painting canvas product.
     canvas_texture:
       name: Canvas texture
       description: Describes the surface feel of a canvas, such as smooth or medium grain
@@ -1523,6 +1610,9 @@ en:
     card_attributes:
       name: Card attributes
       description: Describes special features of collectible trading cards, like foil or holographic
+    card_box/holder_type:
+      name: Card box/holder type
+      description: Specifies the functional form factor of the product for collecting or holding cards at an event (e.g., box, mailbox-style box, basket, holder stand).
     card_design:
       name: Card design
       description: Specifies the form of a place or response card, such as folded or flat
@@ -1541,6 +1631,9 @@ en:
     card_size:
       name: Card size
       description: Used to indicate the size of greeting or note cards, e.g. A4, letter
+    card_sleeve_size_/_format_compatibility:
+      name: Card sleeve size / format compatibility
+      description: Specifies the card size(s) the sleeves/pages/deck boxes are designed to fit.
     card_usage_status:
       name: Card usage status
       description: Indicates whether the phone card's credit has been used or remains intact
@@ -1550,6 +1643,9 @@ en:
     carry_options:
       name: Carry options
       description: Specifies the carrying methods available for items, such as a handle or shoulder strap
+    carrying_capacity_pairs/boards:
+      name: Carrying capacity (pairs/boards)
+      description: Indicates how many skis (pairs) or snowboards an accessory enables or is intended to support when used with the rack (e.g., extension kits).
     carrying_positions:
       name: Carrying positions
       description: Specifies the different ways a baby carrier can be worn, like hip carry or back-facing
@@ -1574,12 +1670,18 @@ en:
     cartridge_yield_type:
       name: Cartridge yield type
       description: Indicates the manufacturer-defined capacity class of the cartridge (e.g., standard, high yield)
+    case_capacity_butts_x_shafts:
+      name: Case capacity (butts × shafts)
+      description: Defines how many cue butts and shafts the case can accommodate, expressed in butt-by-shaft format (e.g., 2x4 = 2 butts & 4 shafts).
     case_color:
       name: Case color
       description: Specifies the color of a product's case, such as clear or white
     case_pattern:
       name: Case pattern
       description: Describes the design or motif on a product's case, such as floral or geometric
+    case_style_cymbal/drum:
+      name: Case style (cymbal/drum)
+      description: Specifies whether the product is a soft bag, hard case, or hybrid design for transporting cymbals or drum sets.
     case_transparency_level:
       name: Case transparency level
       description: Indicates how see-through the case is.
@@ -1616,6 +1718,9 @@ en:
     cervix_height_suitability:
       name: Cervix height suitability
       description: Indicates which cervix height (e.g., low, average, high) the cup is optimized for to ensure proper fit
+    chain_coating/finish:
+      name: Chain coating/finish
+      description: Specifies any surface treatment or finish applied to the chain to improve durability, reduce friction, prevent corrosion, or alter appearance (e.g., Ti-nitride, DLC, nickel, rust-proof EPT).
     chain_link_type:
       name: Chain link type
       description: Defines the style of chain link for jewelry, such as rope or flat
@@ -1757,6 +1862,9 @@ en:
     circuit_breaker_type:
       name: Circuit breaker type
       description: Identifies the type of circuit breaker, such as standard or AFCI
+    clamping/closure_type:
+      name: Clamping/closure type
+      description: Specifies the mechanism used to tighten or secure the embroidery hoop around fabric.
     clarinet_key_system:
       name: Clarinet key system
       description: Identifies the key system for a clarinet, such as Albert or Boehm
@@ -1775,6 +1883,9 @@ en:
     clay_texture:
       name: Clay texture
       description: Describes the feel and consistency of clay products, such as medium or smooth
+    cleaner/sanitizer_intended_area:
+      name: Cleaner/sanitizer intended area
+      description: The primary part of the brass instrument the product is meant to clean/sanitize.
     cleaner_concentration:
       name: Cleaner concentration
       description: Indicates whether the cleaner is sold ready to use or as a concentrate that must be diluted before use.
@@ -1892,9 +2003,15 @@ en:
     cocktail_decoration_material:
       name: Cocktail decoration material
       description: Specifies the substance cocktail decorations are made from, like plastic or paper
+    cocktail_pick_top/handle_style:
+      name: Cocktail pick top/handle style
+      description: Describes the decorative top or handle form used for gripping or presentation.
     cocktail_strainer_type:
       name: Cocktail strainer type
       description: Specifies the design of cocktail strainer, which affects compatibility with shakers and style of use.
+    cocktail_umbrella_handle/pick_material:
+      name: Cocktail umbrella handle/pick material
+      description: Material of the stick/pick portion (excluding canopy) of the cocktail umbrella.
     code_technology:
       name: Code technology
       description: Identifies the code or security technology the remote uses to communicate with the garage door opener.
@@ -1931,6 +2048,9 @@ en:
     coil_connection:
       name: Coil connection
       description: Defines the replaceability of the coil in vaping devices, e.g. fixed, changeable
+    coil_spring_finish/coating:
+      name: Coil spring finish/coating
+      description: Surface finish or coating applied for corrosion protection.
     coin_material:
       name: Coin material
       description: Specifies the type of material a collectible coin is made from, e.g. bronze, copper
@@ -2039,6 +2159,9 @@ en:
     compatible_bike_type:
       name: Compatible bike type
       description: Specifies the type of bicycle the product is designed for, like electric or road
+    compatible_bow/crossbow_type:
+      name: Compatible bow/crossbow type
+      description: Denotes the style of bow or crossbow the accessory is designed to fit.
     compatible_brass_instrument:
       name: Compatible brass instrument
       description: Specifies the brass instrument that the product can be used with, such as trumpet or tuba
@@ -2069,6 +2192,9 @@ en:
     compatible_contact_lenses:
       name: Compatible contact lenses
       description: Indicates the types or materials of contact lenses the solution can be safely used with
+    compatible_contra_bass_clarinet_peg/stand:
+      name: Compatible contra-bass clarinet peg/stand
+      description: Indicates the stand/peg interface or support style required.
     compatible_cooking_thermometer_type:
       name: Compatible cooking thermometer type
       description: Specifies the types of cooking thermometers this calibration tool is designed to adjust or verify.
@@ -2153,6 +2279,9 @@ en:
     compatible_instrument:
       name: Compatible instrument
       description: Identifies the musical instrument that the product is designed for, such as a guitar or piano
+    compatible_instrument_surface/material:
+      name: Compatible instrument surface/material
+      description: Indicates which instrument surfaces/materials the polish is intended to be used on.
     compatible_ironing_board_type:
       name: Compatible ironing board type
       description: Indicates the style of ironing board the part fits, assisting shoppers in determining compatibility.
@@ -2192,6 +2321,9 @@ en:
     compatible_napkin_size:
       name: Compatible napkin size
       description: Specifies the napkin dimensions or format that the holder/dispenser is designed for.
+    compatible_neck_profile/width:
+      name: Compatible neck profile/width
+      description: Indicates the guitar neck profile/width class the capo is designed to fit (e.g., narrow electric vs wide classical).
     compatible_oboe_type:
       name: Compatible oboe type
       description: Identifies the type of oboe a product is designed for, such as universal or English horn
@@ -2213,6 +2345,12 @@ en:
     compatible_percussion_instrument:
       name: Compatible percussion instrument
       description: Identifies which percussion instruments a product can be used with, like a drum or bongo
+    compatible_phone_brand:
+      name: Compatible phone brand
+      description: Specifies the handset manufacturers that the accessory is designed to work with (e.g., Apple, Samsung, Google).
+    compatible_phone_model:
+      name: Compatible phone model
+      description: Indicates the exact phone model(s) the accessory fits or supports (e.g., iPhone 15 Pro Max, Galaxy S24 Ultra).
     compatible_pinball_machine_edition:
       name: Compatible pinball machine edition
       description: Specifies which edition or trim level of the pinball machine the accessory fits (e.g., Pro, Premium, LE)
@@ -2282,6 +2420,9 @@ en:
     compatible_stroller_type:
       name: Compatible stroller type
       description: Specifies the type of stroller the product fits with, like umbrella or jogging
+    compatible_thread/spool_format:
+      name: Compatible thread/spool format
+      description: Indicates what thread formats the box is designed to store (spools, bobbins, floss bobbins/cards, cones, etc.).
     compatible_tissue_box_type:
       name: Compatible tissue box type
       description: Identifies the tissue-box style/size the holder is designed to fit.
@@ -2324,6 +2465,9 @@ en:
     compatible_weight_lifting_accessory:
       name: Compatible weight lifting accessory
       description: Specifies the weight lifting equipment the product is compatible with, such as barbell or dumbbell
+    compatible_winder_head/bit:
+      name: Compatible winder head/bit
+      description: Specifies the tuner key/head interface style the winder supports (e.g., slotted head, interchangeable bits, universal head).
     compatible_wrap_material:
       name: Compatible wrap material
       description: Lists the types of food wrap the dispenser is designed to hold.
@@ -2651,6 +2795,9 @@ en:
     craft/sculpting_project_type:
       name: Craft/Sculpting project type
       description: Identifies the type of craft or sculpting project, such as modeling or mask making
+    craft_cutter/embosser_machine_operation:
+      name: Craft cutter/embosser machine operation
+      description: Specifies how the cutter/embosser operates from a user workflow perspective (e.g., manual crank, electric push-button, app-controlled).
     craft_cutter/embosser_type:
       name: Craft cutter/embosser type
       description: Specifies the kind of craft cutter or embosser, e.g. die cutting machine, stencil
@@ -2666,6 +2813,9 @@ en:
     craft_project_type:
       name: Craft project type
       description: Identifies the type of craft project, such as scrapbooking or jewelry making
+    craft_wire_finish/coating:
+      name: Craft wire finish/coating
+      description: Specifies the surface finish or coating applied to the wire for color, tarnish resistance, or protection.
     crafting_frame/stretcher_features:
       name: Crafting frame/stretcher features
       description: Describes the unique characteristics of crafting frames/stretchers, like secure grip or smooth surface
@@ -2699,6 +2849,9 @@ en:
     cricket_equipment_included:
       name: Cricket equipment included
       description: Identifies the specific cricket items included in a set, such as helmet or stumps
+    crossbar_shape/profile:
+      name: Crossbar shape/profile
+      description: Specifies the crossbar aerodynamic/profile shape.
     crushing_method:
       name: Crushing method
       description: Describes the mechanism used to compress the can.
@@ -2813,6 +2966,12 @@ en:
     cylinder_size_designation:
       name: Cylinder size designation
       description: Identifies the standard letter or number code used to identify an oxygen cylinder's dimensions and capacity (e.g., M6, D, E)
+    cymbal_arm_rotation/positioning_features:
+      name: Cymbal arm rotation/positioning features
+      description: Specifies positioning features that affect how the arm can be angled/rotated and locked.
+    cymbal_playing_style/genre:
+      name: Cymbal playing style/genre
+      description: Identifies the typical performance context the cymbals are designed for (e.g., belly dance zills vs marching/orchestral hand cymbals).
     daisy_chain_capability:
       name: Daisy-chain capability
       description: Indicates whether multiple conference units can be linked together (daisy-chained) to expand microphone and speaker coverage, and the connection method used
@@ -2831,6 +2990,9 @@ en:
     decoder/encoder_function:
       name: Decoder/Encoder function
       description: Specifies the logical function implemented by the IC
+    decoder_interface_/_socket_type:
+      name: Decoder interface / socket type
+      description: Digital decoder interface type or onboard decoder configuration for the locomotive model.
     decorating_bag_features:
       name: Decorating bag features
       description: Highlights special design or functional features of the decorating bag.
@@ -3020,6 +3182,9 @@ en:
     dinnerware_pieces_included:
       name: Dinnerware pieces included
       description: Defines the components of a dinnerware collection, such as dinner plates or serving bowl
+    dinosaur_playset_scale/figure_size_class:
+      name: Dinosaur playset scale/figure size class
+      description: Describes the general scale of included dinosaurs/figures to help compatibility with other sets.
     direct_box_type:
       name: Direct box type
       description: Specifies the circuit configuration of the direct box (DI), which affects power requirements, sound character, and intended application
@@ -3086,6 +3251,9 @@ en:
     displayed_character:
       name: Displayed character
       description: Identifies the alphanumeric character represented by the individual piece.
+    disposable/compostable_claim:
+      name: Disposable/Compostable claim
+      description: Indicates whether the product is compostable, biodegradable, recyclable, or none (where applicable).
     disposable/reusable_bag_features:
       name: Disposable/Reusable bag features
       description: Describes the key characteristics of pet waste bags, such as biodegradable or leakproof
@@ -3161,6 +3329,12 @@ en:
     doll_type:
       name: Doll type
       description: Identifies the category of a doll, such as baby or collectible
+    dollhouse_installation/placement_type:
+      name: Dollhouse installation/placement type
+      description: How the dollhouse is intended to be used or placed (e.g., tabletop vs floor-standing vs wall-mounted).
+    dollhouse_style/theme:
+      name: Dollhouse style/theme
+      description: Overall style or theme of the dollhouse for browsing and gifting (e.g., modern vs Victorian).
     door/frame_application:
       name: Door/Frame application
       description: Identifies where the door frame is intended to be used, e.g. internal, external
@@ -3236,6 +3410,9 @@ en:
     double_stroller_configuration:
       name: Double stroller configuration
       description: Defines the seating arrangement in double strollers, such as tandem or side-by-side
+    doumbek_playing_style/technique:
+      name: Doumbek playing style/technique
+      description: Intended playing context/style commonly associated with the doumbek.
     download_format:
       name: Download format
       description: Specifies the file format for digital music downloads, such as MP3 or WAV
@@ -3335,6 +3512,15 @@ en:
     drum_hardware_material:
       name: Drum hardware material
       description: Identifies the material used in drum hardware, like steel or aluminum
+    drum_head_application_batter/resonant:
+      name: Drum head application (batter/resonant)
+      description: Specifies which side/role the head is designed for on a drum (top playing surface vs bottom resonant/snare-side).
+    drum_head_hoop/collar_type:
+      name: Drum head hoop/collar type
+      description: Identifies the drum head’s hoop and collar construction (e.g., collar profile and hoop material), which can affect fit and tuning stability on certain shells and rims.
+    drum_head_hoop/rim_material:
+      name: Drum head hoop/rim material
+      description: Material of the flesh hoop/rim (the embedded hoop inside the head), which can affect durability and tuning stability.
     dry/wet_cleaning:
       name: Dry/Wet cleaning
       description: Specifies if products are suitable for dry or wet cleaning
@@ -3407,6 +3593,9 @@ en:
     dye_form:
       name: Dye form
       description: Describes the physical state of craft dyes, such as gel or powder
+    dyeing_/_color_processing:
+      name: Dyeing / color processing
+      description: Describes whether and how the fiber was colored (e.g., undyed, bleached/white, or specific dyeing techniques).
     dynamic_level:
       name: Dynamic level
       description: Categorizes racquetball and squash balls based on speed and bounce, e.g. green dot, red dot
@@ -3497,6 +3686,9 @@ en:
     egg_turning:
       name: Egg turning
       description: Describes the method of rotating eggs in incubators, like automatic or manual
+    elastic_edge_finish/type:
+      name: Elastic edge finish/type
+      description: Specifies edge construction of the woven elastic that impacts comfort and application.
     electric_kettle_features:
       name: Electric kettle features
       description: Lists notable convenience or safety features included with the kettle.
@@ -3587,6 +3779,9 @@ en:
     equalizer_type:
       name: Equalizer type
       description: Classifies the equalization topology or processing style provided by the unit
+    equipment_contact_material_brew/wine:
+      name: Equipment contact material (brew/wine)
+      description: Primary material of the item that contacts the liquid (e.g., glass, stainless steel, plastic).
     equipment_operation:
       name: Equipment operation
       description: Describes how a piece of medical equipment operates, such as manual or powered
@@ -3608,12 +3803,21 @@ en:
     ethernet_lan_interface_type:
       name: Ethernet LAN interface type
       description: Specifies the type of Ethernet connection a product supports, such as LAN or fast
+    eu_childrens_clothing_size:
+      name: EU children's clothing size
+      description: Specifies the EU children's clothing size by height, such as 104 or 140
+    european_sword_pattern/type:
+      name: European sword pattern/type
+      description: Specific European sword pattern/type (typology) represented by the collectible sword.
     ev_battery_features:
       name: EV battery features
       description: Highlights features of EV batteries, such as long cycle life or smart battery management system
     ev_battery_type:
       name: EV battery type
       description: Identifies the type of battery used in electric vehicles, such as lithium-ion or lead-acid
+    ev_connector/adapter_direction:
+      name: EV connector/adapter direction
+      description: Specifies what the adapter converts FROM and TO (vehicle inlet side vs charger/cable side), enabling accurate compatibility filtering.
     ev_connector/adapter_type:
       name: EV connector/adapter type
       description: Identifies the type of connector or adapter for electric vehicles, like CCS or Tesla
@@ -3626,6 +3830,12 @@ en:
     event_type:
       name: Event type
       description: Classifies the nature of an event, such as a concert, seminar, or festival
+    evenweave_fabric_finish/treatment:
+      name: Evenweave fabric finish/treatment
+      description: Indicates any pre-finish or treatment applied to the fabric that affects handling or appearance.
+    exercise_bike_accessory/part_type:
+      name: Exercise bike accessory/part type
+      description: Describes the primary function or component type of the item (e.g., Pedal, Drive belt, Bottle holder, Screen cover, Crank arm).
     exercise_equipment_included:
       name: Exercise equipment included
       description: Identifies the specific exercise items included in a set, like a yoga mat or dumbbells
@@ -3836,6 +4046,9 @@ en:
     faucet_thread:
       name: Faucet thread
       description: Specifies the type of faucet thread connection, such as dual or female
+    feather_attachment/format:
+      name: Feather attachment/format
+      description: How the synthetic feathers are prepared/sold for use (loose, on string, on tape, etc.).
     features:
       name: Features
       description: Describes additional qualities or characteristics of a product, such as lightweight or foldable
@@ -3863,12 +4076,21 @@ en:
     fertility_metrics_measured:
       name: Fertility metrics measured
       description: Lists the biological metrics or parameters the product provides to the user
+    fia_homologation/certification:
+      name: FIA homologation/certification
+      description: Indicates whether the car (or safety cell) is certified/homologated and to what standard.
+    fiber_animal/source_type:
+      name: Fiber animal/source type
+      description: The animal or primary source the roving comes from (or synthetic), such as merino wool, alpaca, or plant fibers.
     fiber_art_project_type:
       name: Fiber art project type
       description: Categorizes the fiber art craft, such as embroidery or macrame
     fiber_optic_mode:
       name: Fiber optic mode
       description: Specifies whether a fiber accessory is designed for single-mode or multi-mode optical fiber.
+    fiber_preparation_/_processing_stage:
+      name: Fiber preparation / processing stage
+      description: Indicates how the sliver has been prepared/processed for use (e.g., carded vs combed, blended, superwash).
     field_flatness:
       name: Field flatness
       description: Indicates the flatness of the field in microscope lenses, e.g. super plan, semi-plan
@@ -4082,9 +4304,15 @@ en:
     flavor_profile:
       name: Flavor profile
       description: Identifies the specific taste notes of items, typically for brewing; e.g. caramel, nutty
+    fleece_finish_/_surface:
+      name: Fleece finish / surface
+      description: Describes the surface/finish of fleece (e.g., anti-pill, brushed) which impacts pilling performance, softness, and appearance.
     flexibility_rating:
       name: Flexibility rating
       description: Indicates the flexibility level of snowboard or snowshoe bindings, e.g. 4
+    float/raft_use_environment:
+      name: Float/raft use environment
+      description: Primary intended water setting for the inflatable (pool vs calm open water vs surf), reflecting durability and design expectations.
     floor_configuration:
       name: Floor configuration
       description: Indicates whether the tent includes a floor and, if so, the type of floor provided
@@ -4148,6 +4376,9 @@ en:
     fly_swatter_type:
       name: Fly swatter type
       description: Indicates the operational style or mechanism of the fly swatter.
+    flyer_kit_finish/coating:
+      name: Flyer kit finish/coating
+      description: Surface finish applied to the flyer kit components.
     fm_transmitter_playback_source:
       name: FM Transmitter playback source
       description: Identifies the media input options the device can play from, beyond Bluetooth (e.g., USB stick, microSD card)
@@ -4259,6 +4490,9 @@ en:
     format_supported:
       name: Format supported
       description: Specifies the compatible dimensions, typically for photo albums; e.g. 12 x 16 in, 13 x 18 cm
+    formula_car_series/class:
+      name: Formula car series/class
+      description: Specifies the racing series or class the formula car is built to compete in.
     formula_level:
       name: Formula level
       description: Specifies the age suitability of baby formula, e.g. Level 1 (0-6 months)
@@ -4337,12 +4571,18 @@ en:
     fuel_additives:
       name: Fuel additives
       description: Identifies the type of additive in fuel products, such as anti-gel or corrosion inhibitor
+    fuel_cap_gasket/seal_material:
+      name: Fuel cap gasket/seal material
+      description: Specifies the material used for the sealing gasket/O-ring on the fuel cap.
     fuel_compatibility:
       name: Fuel compatibility
       description: Specifies the types of fuel the grate is designed to hold safely.
     fuel_container_features:
       name: Fuel container features
       description: Describes specific features of fuel tanks, such as spill-proof spout or fuel gauge
+    fuel_filter_mounting/connection_type:
+      name: Fuel filter mounting/connection type
+      description: Specifies how the fuel filter connects/installs (threaded/spin-on, quick-connect, hose barb, banjo, etc.).
     fuel_grade:
       name: Fuel grade
       description: Specifies the grade of fuel products, for example, Bioheat or 2-K
@@ -4472,6 +4712,15 @@ en:
     gift_bag_handle_design:
       name: Gift bag handle design
       description: Describes the style of handles on gift bags, such as rope or ribbon
+    gift_box/tin_insert_type:
+      name: Gift box/tin insert type
+      description: Interior insert configuration for organizing/protecting items inside the box/tin.
+    gift_box/tin_sustainability_features:
+      name: Gift box/tin sustainability features
+      description: Sustainability-related characteristics of the gift box/tin packaging.
+    gift_box/tin_window_type:
+      name: Gift box/tin window type
+      description: Whether the gift box has a display window and what style it is.
     gift_set_format:
       name: Gift set format
       description: Specifies the presentation style of gift sets, such as gift box or gift bag
@@ -4499,6 +4748,12 @@ en:
     glide_style:
       name: Glide style
       description: Indicates the intended glide characteristic of the skates (e.g., speed, control)
+    glitter_glue_base/solvent_type:
+      name: Glitter glue base/solvent type
+      description: Describes the primary base of the glitter glue (common shopper concern for cleanup and material compatibility).
+    glitter_opacity/coverage:
+      name: Glitter opacity/coverage
+      description: Indicates how opaque the glitter effect appears when applied.
     glitter_particle_size:
       name: Glitter particle size
       description: Categorizes the particle size of the glitter, impacting sparkle intensity, texture, and ease of application
@@ -4637,6 +4892,9 @@ en:
     guitar_fitting/part_type:
       name: Guitar fitting/part type
       description: Specifies the type of guitar part or fitting, like a pickguard or tuning peg
+    guitar_pedal_i/o_configuration:
+      name: Guitar pedal I/O configuration
+      description: Indicates whether the pedal supports mono or stereo input/output routing.
     guitar_size:
       name: Guitar size
       description: Specifies the size of the guitar, such as full size or 3/4 size
@@ -4709,6 +4967,9 @@ en:
     hand_dryer_accessory_type:
       name: Hand dryer accessory type
       description: Identifies the specific kind of hand dryer accessory so shoppers can quickly understand what the product is.
+    hand_percussion_mounting/handling:
+      name: Hand percussion mounting/handling
+      description: Whether the instrument is handheld, worn, mounted, or table/floor placed during typical use.
     hand_side:
       name: Hand side
       description: Specifies the type of handedness that a product is designed for, e.g. left, both sides
@@ -4814,6 +5075,9 @@ en:
     hardwood_lumber_grade:
       name: Hardwood lumber grade
       description: Classifies hardwood lumber quality, e.g. No. 2A common
+    harmonica_system/type:
+      name: Harmonica system/type
+      description: Identifies the orchestral harmonica system or form factor (e.g., chord, bass, baritone, polyphonia).
     harness_closure_type:
       name: Harness closure type
       description: Specifies the type of closure used in harnesses, such as side release buckle or zipper
@@ -4922,6 +5186,12 @@ en:
     helmet_shade_design:
       name: Helmet shade design
       description: Describes the type of shade mechanism in welding helmets, like fixed or auto-darkening
+    helmet_visor/peak_adjustability:
+      name: Helmet visor/peak adjustability
+      description: Whether the helmet’s off-road peak/visor is adjustable and/or removable.
+    helmet_visor/shield_type:
+      name: Helmet visor/shield type
+      description: Primary face shield/visor configuration included with the helmet.
     herbal_supplement_health_goal:
       name: Herbal supplement health goal
       description: Indicates the primary wellness objective, body system, or physiological area the herbal supplement is intended to support (e.g., immune support, stress relief, liver and detox support)
@@ -4946,6 +5216,12 @@ en:
     home_alarm_features:
       name: Home alarm features
       description: Identifies special functions of a home alarm system, such as battery backup or professional monitoring.
+    homologation_/_rule_set:
+      name: Homologation / rule set
+      description: Specifies the sanctioning body or rule set the car is compliant with (where applicable).
+    hook_coating/finish:
+      name: Hook coating/finish
+      description: Surface treatment or plating applied to the hook for corrosion resistance, stealth, or color (e.g., black nickel, bright tin).
     hook_design:
       name: Hook design
       description: Identifies the design of hooks, buckles, and fasteners, e.g. spring, double-ended
@@ -5078,6 +5354,9 @@ en:
     incontinence_pad_type:
       name: Incontinence pad type
       description: Defines the specific style or form of the pad (e.g., liner, guard, booster pad)
+    indoor/outdoor_use:
+      name: Indoor/outdoor use
+      description: Indicates whether the bowling toy is intended for indoor use, outdoor use, or both.
     inductance_tolerance:
       name: Inductance tolerance
       description: Defines the allowable percentage deviation from the nominal inductance value
@@ -5087,6 +5366,9 @@ en:
     infant_age_group:
       name: Infant age group
       description: Classifies products suitable for specific infant age ranges, e.g. newborn, 0-6 months
+    inflatable_raft/float_features:
+      name: Inflatable raft/float features
+      description: Functional features present on the inflatable raft/float.
     inflation_method:
       name: Inflation method
       description: Identifies how a product is inflated, such as automatic or hydrostatic
@@ -5321,6 +5603,12 @@ en:
     jewelry_type:
       name: Jewelry type
       description: Distinguishes between types of jewelry, such as fine or imitation jewelry
+    jews_harp_frame_style:
+      name: Jew's harp frame style
+      description: Describes the construction style of the jew's harp frame/body, which influences feel, durability, and playing ergonomics.
+    jews_harp_tongue_profile:
+      name: Jew's harp tongue profile
+      description: Describes the jew's harp tongue (reed) profile/geometry, which affects responsiveness and timbre.
     joint_connection:
       name: Joint connection
       description: Specifies the joint connection in billiard cues, e.g. composite, no joint
@@ -5426,6 +5714,9 @@ en:
     kit_construction_type:
       name: Kit construction type
       description: Specifies the fabric of a trampoline's jumping area, e.g. synthetic, polypropylene
+    kit_pouch/case_type:
+      name: Kit pouch/case type
+      description: Specifies the type of included storage solution for the care kit (if any).
     kitchen/dining_furniture_items_included:
       name: Kitchen/Dining furniture items included
       description: Identifies the specific furniture pieces included in a set, like dining chairs or kitchen island
@@ -5453,6 +5744,9 @@ en:
     knitting/padding_project_type:
       name: Knitting/Padding project type
       description: Identifies the intended use of knitting or padding materials, such as quilting or pillow making
+    knitting_marker/counter_type:
+      name: Knitting marker/counter type
+      description: Specifies the functional product type within knitting markers & counters.
     knitting_project_type:
       name: Knitting project type
       description: Specifies the type of knitting project, such as pillow making or stuffed toy making
@@ -5471,6 +5765,9 @@ en:
     label_content_type:
       name: Label content type
       description: Describes whether the label surface is blank, pre-printed with templates, or otherwise formatted.
+    label_finish/edge_style:
+      name: Label finish/edge style
+      description: How the edges are finished, which affects comfort and durability (e.g., woven edge vs laser-cut).
     labeling_project_type:
       name: Labeling project type
       description: Specifies the crafting purpose for sew-in labels, like home textile crafting or personalized gift making
@@ -5624,6 +5921,9 @@ en:
     lens_color:
       name: Lens color
       description: Specifies the color of eyewear lenses, such as yellow or black
+    lens_color/tint:
+      name: Lens color/tint
+      description: Color or tint of protective eyewear lenses supplied with the product.
     lens_color_combination:
       name: Lens color combination
       description: Specifies the lens color pairing used for anaglyph 3D glasses
@@ -5669,6 +5969,9 @@ en:
     lens_type:
       name: Lens type
       description: Specifies the type of lens in eyewear products, like polarized or progressive
+    license/usage_terms:
+      name: License/usage terms
+      description: Usage rights for the pattern (e.g., personal use only vs limited commercial).
     license_type:
       name: License type
       description: Specifies the type of software license, such as open-source or one-time purchase
@@ -5687,6 +5990,9 @@ en:
     life_jacket_features:
       name: Life jacket features
       description: Highlights the unique characteristics of life jackets, like reflective or buoyant
+    lift/stand_support_point:
+      name: Lift/stand support point
+      description: Where the lift/stand contacts/supports the vehicle.
     lift_mechanism:
       name: Lift mechanism
       description: Indicates the operating mechanism used to raise, lower, or tilt the blind or shade.
@@ -5750,6 +6056,9 @@ en:
     line_spacing_options:
       name: Line spacing options
       description: Identifies line spacing options, typically for typewriters; e.g. double, adjustable
+    linen_finish/treatment:
+      name: Linen finish/treatment
+      description: Any finishing process applied to the linen fabric that changes hand-feel, appearance, or performance.
     liner_features:
       name: Liner features
       description: Describes specific characteristics of liners, such as leakproof or biodegradable
@@ -5825,6 +6134,12 @@ en:
     logic_family:
       name: Logic family
       description: Identifies the semiconductor logic family or technology of the IC
+    logo_label_print/production_method:
+      name: Logo label print/production method
+      description: How the logo is applied/formed on the label surface.
+    loom_folding/portability_design_type:
+      name: Loom folding/portability design type
+      description: Whether and how the loom folds/collapses for transport or compact storage.
     lovibond:
       name: Lovibond
       description: Indicates the color intensity of brewing grains and malts, such as light or dark
@@ -5858,6 +6173,9 @@ en:
     lyre/flip_folder_attachment_type:
       name: Lyre/Flip folder attachment type
       description: Specifies the type of attachment for music lyres and flip folders, like strap or lyre clamp
+    lyre/flip_folder_mounting_location:
+      name: Lyre/flip folder mounting location
+      description: Where the lyre or flip folder is intended to mount on the instrument or accessory (e.g., bell, leadpipe, stand).
     m_2_drive_length_supported:
       name: M.2 drive length supported
       description: Specifies which M.2 card lengths the enclosure or adapter can accept
@@ -5897,12 +6215,18 @@ en:
     manufacturer_type:
       name: Manufacturer type
       description: Specifies the source of vehicle parts or accessories, such as genuine or third-party
+    map_coverage_sky/planet_body:
+      name: Map coverage (sky/planet body)
+      description: 'Indicates what the map depicts: the night sky (constellations) or a specific planetary body.'
     map_style:
       name: Map style
       description: Defines the cartographic style or thematic focus displayed on the globe.
     map_update_policy:
       name: Map update policy
       description: States how map updates are provided or priced for the device
+    marine_flare_certification/standard:
+      name: Marine flare certification/standard
+      description: Indicates which marine safety certification(s) or standards the flare claims to meet.
     marine_navigator_features:
       name: Marine navigator features
       description: Specifies the capabilities of marine navigation tools, such as touchscreen or waterproof
@@ -5930,6 +6254,9 @@ en:
     masher_head_design:
       name: Masher head design
       description: Classifies the design of the mashing surface, which affects texture and effort required.
+    mask/goggle_design:
+      name: Mask/goggle design
+      description: Defines the overall structural design or coverage style of the protective gear.
     mask_cushion_material:
       name: Mask cushion material
       description: Details the specific material used for the mask's cushion or seal
@@ -6335,6 +6662,12 @@ en:
     motor_type:
       name: Motor type
       description: Specifies whether the drill uses a brushed or brushless motor, impacting noise, longevity, and price
+    motor_vehicle_a/v_integration_features:
+      name: Motor vehicle A/V integration features
+      description: Smartphone and in-vehicle integration features supported by the head unit (e.g., Apple CarPlay, Android Auto, MirrorLink).
+    motor_vehicle_bulb_application/position:
+      name: Motor vehicle bulb application/position
+      description: Specifies the intended vehicle lighting position or function the bulb is designed for (e.g., low beam, brake light).
     motor_vehicle_placement:
       name: Motor vehicle placement
       description: Identifies where on a vehicle a part is designed to fit, like front or rear
@@ -6365,6 +6698,15 @@ en:
     mount_material:
       name: Mount material
       description: Specifies the composition of a product's mount, such as stainless steel or plastic
+    mounting/attachment_method:
+      name: Mounting/attachment method
+      description: How the holder/bag is designed to attach to a drum, stand, belt, or other surface.
+    mounting/attachment_type:
+      name: Mounting/attachment type
+      description: How the ratio accessory attaches or interfaces with the spinning wheel.
+    mounting/storage_type:
+      name: Mounting/Storage type
+      description: How the device is intended to be mounted or stowed on the vessel/person.
     mounting_bolt_pattern:
       name: Mounting bolt pattern
       description: Specifies the number and layout of mounting bolt holes on the spindle housing (e.g., 3-bolt triangular, 4-bolt square).
@@ -6410,6 +6752,9 @@ en:
     mouthpiece:
       name: Mouthpiece
       description: Identifies the type of mouthpiece for musical instruments, such as A or Bass
+    mouthpiece_shank/receiver_size:
+      name: Mouthpiece shank/receiver size
+      description: Specifies the mouthpiece receiver/shank standard compatible with the flugelhorn.
     mouthpiece_shape:
       name: Mouthpiece shape
       description: Specifies the shape of the mouthpiece end of the cigarette holder.
@@ -6446,6 +6791,9 @@ en:
     musical_key:
       name: Musical key
       description: Specifies the musical key of an instrument, e.g. C major, F#
+    mute_cork/padding_material:
+      name: Mute cork/padding material
+      description: Specifies the material of the mute’s contact padding (e.g., cork strip/pads) used for grip/fit and bell protection.
     nail_art_items_included:
       name: Nail art items included
       description: Identifies the specific nail art accessories in a kit, such as decals or dotting tool
@@ -6506,6 +6854,9 @@ en:
     needle_gauge:
       name: Needle gauge
       description: Indicates the thickness of needles used in medical or tattooing practices, like 18 or 22
+    needle_holder_mounting/attachment_method:
+      name: Needle holder mounting/attachment method
+      description: How the needle holder is meant to be attached or used during storage (e.g., magnetic, clip, strap).
     needle_housing_material:
       name: Needle housing material
       description: Identifies the material of the needle housing, such as plastic or stainless steel
@@ -6662,6 +7013,12 @@ en:
     oil_extraction_method:
       name: Oil extraction method
       description: Specifies how the main oil was processed or extracted (e.g., cold-pressed, refined)
+    oil_pan_baffle/windage_features:
+      name: Oil pan baffle/windage features
+      description: Indicates internal oil control features included in the pan.
+    oil_pan_finish/coating:
+      name: Oil pan finish/coating
+      description: Describes the surface finish or coating of the oil pan (painted, powder-coated, plated, raw, etc.).
     oil_type:
       name: Oil type
       description: Specifies the type of oil used in a product, e.g. paraffin, kerosene
@@ -6719,12 +7076,18 @@ en:
     oral_care_items_included:
       name: Oral care items included
       description: Lists the types of oral care products contained in the set
+    orchestral_string_instrument_fitting/part_type:
+      name: Orchestral string instrument fitting/part type
+      description: Specifies what kind of fitting/part the product is (e.g., bridge, tailpiece, chinrest).
     organizer_application:
       name: Organizer application
       description: Specifies the primary type of items the insert is designed to store.
     organizer_type:
       name: Organizer type
       description: Specifies the category of vehicle storage, such as cup holder or glove box
+    organza_finish_/_sheen:
+      name: Organza finish / sheen
+      description: Describes the surface look of the organza (matte vs shiny/iridescent effects).
     orientation:
       name: Orientation
       description: Specifies the product's intended positioning, e.g. horizontal, vertical
@@ -6959,6 +7322,9 @@ en:
     pasta_type:
       name: Pasta type
       description: Classifies pasta products by their specific shape or form, e.g. macaroni, penne
+    patch_border/edge_finish:
+      name: Patch border/edge finish
+      description: The edge finishing method of the patch (e.g., merrowed/overlocked edge, laser-cut edge) affecting durability and appearance.
     patch_shape:
       name: Patch shape
       description: Describes the form or design of a patch, such as animal or geometric
@@ -7046,6 +7412,9 @@ en:
     performance_metrics:
       name: Performance metrics
       description: Highlights key efficiency and effectiveness areas of AI and machine learning software, such as training time and inference speed
+    perfumery_ingredient_carrier/solvent:
+      name: Perfumery ingredient carrier/solvent
+      description: Identifies the carrier/solvent the ingredient is supplied in, if diluted (e.g., ethanol, DPG, jojoba oil).
     perfumery_instruments_included:
       name: Perfumery instruments included
       description: Specifies the instruments provided in a perfume making kit, such as scent strips or pipettes
@@ -7220,6 +7589,15 @@ en:
     pinata_design:
       name: Piñata design
       description: Describes the visual theme of a piñata, such as traditional or animal
+    pinata_filler_type_included:
+      name: Piñata filler type included
+      description: If filler is included, the type of contents provided.
+    pinata_hanging_method:
+      name: Piñata hanging method
+      description: How the piñata is designed to be hung or supported (loop, hook, string included, etc.).
+    pinata_opening_type:
+      name: Piñata opening type
+      description: How the fill opening is accessed/closed (flap, Velcro, zipper, pre-sealed, etc.).
     pinball_machine_edition:
       name: Pinball machine edition
       description: Identifies the specific production or collector edition tier of the pinball machine
@@ -7238,12 +7616,18 @@ en:
     pipe_connection_method:
       name: Pipe connection method
       description: Specifies the style of connections on the pipe bend’s ends (e.g., male, female, push fit, threaded) to ensure installation compatibility.
+    pipe_instrument_voicing_/_sound_production_method:
+      name: Pipe instrument voicing / sound production method
+      description: Specifies how the instrument produces sound (airflow mechanism), helping distinguish pan flutes, reed pipes, and organ pipe families in filters.
     pipe_shape:
       name: Pipe shape
       description: Defines the form of smoking pipes, e.g. gourd, billiard
     piping_tip_shape:
       name: Piping tip shape
       description: Defines the shape or design of a piping/decorating tip.
+    piston_crown/dish_style:
+      name: Piston crown/dish style
+      description: Shape of the piston crown that influences combustion chamber volume and compression (e.g., flat top, dome, dish).
     pitcher_spout_style:
       name: Pitcher spout style
       description: Defines the spout design, which affects latte art precision and pouring control.
@@ -7370,6 +7754,9 @@ en:
     pointing_device:
       name: Pointing device
       description: Defines the device used for navigating on a computer screen, e.g. mouse buttons, touchpad
+    poker_chip_tray/rack_configuration:
+      name: Poker chip tray/rack configuration
+      description: Describes the internal organization style of a chip tray/rack (rows and per-row capacity).
     polar_pattern:
       name: Polar pattern
       description: Indicates the sound pick-up orientation of a microphone, such as omnidirectional or cardioid
@@ -7394,6 +7781,9 @@ en:
     pole_pattern:
       name: Pole pattern
       description: Describes the design or motif on the pole of an umbrella, such as floral or geometric
+    police_vehicle_light/siren_equipment:
+      name: Police vehicle light/siren equipment
+      description: Specifies which emergency warning devices are installed on the police car.
     policy_sign_design:
       name: Policy sign design
       description: Describes the specific message displayed on a policy sign, e.g. no smoking, no cell phones
@@ -7412,6 +7802,9 @@ en:
     polyphony:
       name: Polyphony
       description: Specifies the simultaneous note capacity of a synthesizer, e.g. polyphonic, multi-timbral
+    pom_pom_trim_backing/tape_material:
+      name: Pom-pom trim backing/tape material
+      description: Identifies the material of the sewn tape or braid that the pom-poms are attached to (the trim base).
     pool_chemical_type:
       name: Pool chemical type
       description: Categorizes the primary function or chemistry of the pool treatment product.
@@ -7451,6 +7844,9 @@ en:
     portability:
       name: Portability
       description: Specifies the ease of moving or carrying a product, typically for breast pumps; e.g. portable, compact size
+    portability/frame_type:
+      name: Portability/Frame type
+      description: Whether the orchestra chimes are portable/field-frame style or fixed/concert-frame style.
     portafilter_type:
       name: Portafilter type
       description: Identifies the structural style of the portafilter, affecting extraction method and workflow.
@@ -7505,6 +7901,9 @@ en:
     power_supply_modularity:
       name: Power supply modularity
       description: Indicates whether the PSU's cables are non-removable, partially removable, or fully removable
+    practice_mute_venting/valve_type:
+      name: Practice mute venting/valve type
+      description: Specifies whether and how the practice mute is vented or includes an adjustable valve to change resistance/volume.
     predator_guard_style:
       name: Predator guard style
       description: Categorizes the structural design of the guard, helping shoppers quickly find cone, disc, cage, or hole-plate solutions.
@@ -7535,6 +7934,9 @@ en:
     pressure_cooker_safety_features:
       name: Pressure cooker safety features
       description: Lists built-in safety mechanisms that prevent accidents, such as locking lids or pressure release valves.
+    pressure_sensor_port_/_thread_standard:
+      name: Pressure sensor port / thread standard
+      description: Specifies the mechanical port/thread standard used to install the sensor into the vehicle system.
     pressure_settings:
       name: Pressure settings
       description: Specifies how many distinct pressure levels the pressure cooker offers to the user.
@@ -7643,9 +8045,15 @@ en:
     product_use:
       name: Product use
       description: Identifies the primary intended use or purpose of precious materials or collectibles (e.g., currency/legal tender, collectible, jewelry, gift card)
+    profile/shape:
+      name: Profile/shape
+      description: Overall curvature/profile of the cymbal (how steeply it rises from edge to bell).
     program_format:
       name: Program format
       description: Describes the layout of event programs, such as booklet or single sheet
+    projectile/ammunition_type:
+      name: Projectile/ammunition type
+      description: Specifies the type of projectiles or consumables used by the toy weapon, if applicable.
     projection_design:
       name: Projection design
       description: Describes the pattern or image projected by a lighting filter or gobo, such as text or logo
@@ -7724,6 +8132,9 @@ en:
     punching/training_bag_material:
       name: Punching/Training bag material
       description: Identifies the main material used in a punching/training bag, such as leather or canvas
+    punching/training_bag_shape:
+      name: Punching/training bag shape
+      description: Specifies the geometric style of the heavy bag, helping shoppers choose models suited to particular striking drills (e.g., uppercuts, body shots).
     puppet_theme:
       name: Puppet theme
       description: Categorizes puppets based on their design theme, like human or fantastic
@@ -7784,6 +8195,9 @@ en:
     radar_technology:
       name: Radar technology
       description: Specifies the radar technology used in a product, e.g. pulse, solid-state
+    radiator/expansion_tank_cap_application:
+      name: Radiator/expansion tank cap application
+      description: Identifies whether the cap is intended for a radiator filler neck or for a coolant expansion/overflow tank.
     radiator_design_type:
       name: Radiator design type
       description: Identifies the structural style of the radiator.
@@ -7835,6 +8249,9 @@ en:
     razor_type:
       name: Razor type
       description: 'Specifies the design of the razor, e.g. straight or synthetic '
+    rc_plane_takeoff/launch_method:
+      name: RC plane takeoff/launch method
+      description: How the plane is typically launched/takes off, impacting where and how it can be used.
     read/write_speed:
       name: Read/Write speed
       description: Indicates data transfer rate or speed, typically for disk duplicators; e.g. 4x, 52x
@@ -7925,6 +8342,9 @@ en:
     remote_control_functions:
       name: Remote control functions
       description: Lists the specific actions the remote shutter can trigger beyond taking photos.
+    remote_control_watercraft_propulsion/drive_type:
+      name: Remote control watercraft propulsion/drive type
+      description: Specifies how the remote control watercraft is driven in the water.
     remote_shutter_form_factor:
       name: Remote shutter form factor
       description: Identifies the physical style or housing of the remote shutter, such as keyfob/button, ring controller, or selfie stick with integrated shutter.
@@ -7994,6 +8414,12 @@ en:
     rib_material:
       name: Rib material
       description: Specifies the material used for umbrella ribs or spokes, such as fiberglass or aluminum.
+    ribbon/trim_backing_type:
+      name: Ribbon/trim backing type
+      description: Indicates whether the ribbon/trim has a backing and what kind (for easy application).
+    ribbon/trim_edge_finish:
+      name: Ribbon/trim edge finish
+      description: Describes the edge construction/finish of ribbon/trim (useful for fraying behavior and intended use).
     rice_cooker_functions:
       name: Rice cooker functions
       description: Lists the preset cooking programs or modes available on the rice cooker, allowing shoppers to compare versatility.
@@ -8075,6 +8501,9 @@ en:
     roller_type:
       name: Roller type
       description: Identifies the type of roller, typically for skincare tools; e.g. ice, microneedle
+    roof_cargo_net_hook/fastener_style:
+      name: Roof cargo net hook/fastener style
+      description: Specifies the style of end hardware used to connect the net to anchor points (e.g., S-hook, carabiner, J-hook).
     roof_decor_shape:
       name: Roof decor shape
       description: Defines the design or form of roof decorations, such as horse or sailboat
@@ -8090,12 +8519,18 @@ en:
     rosin_form:
       name: Rosin form
       description: Describes the shape or form of bow rosin for string instruments, like block or cake
+    rosin_formula_/_additives:
+      name: Rosin formula / additives
+      description: Identifies notable formulation features such as hypoallergenic, low-dust, or metal-infused blends.
     rosin_grade:
       name: Rosin grade
       description: Specifies the type of rosin used for string instruments, e.g. dark, medium
     rotating_direction:
       name: Rotating direction
       description: Specifies the turning direction of drill and screwdriver bits, like left-hand or right-hand
+    rotation/motion_features:
+      name: Rotation/motion features
+      description: Indicates whether planets/orbits rotate or move and how.
     rotation_direction:
       name: Rotation direction
       description: Indicates whether the nail drill supports forward rotation, reverse rotation, or both
@@ -8105,6 +8540,9 @@ en:
     route_of_administration:
       name: Route of administration
       description: Identifies how the product is applied or consumed, influencing efficacy and safety (e.g., oral, topical, transdermal patch, sublingual, intramuscular injection)
+    rubber_ducky_character/theme:
+      name: Rubber ducky character/theme
+      description: Theme or character styling of the rubber ducky (useful for novelty/collectible duckies).
     rug/mat_features:
       name: Rug/Mat features
       description: Describes special characteristics of rugs/mats, like anti-slip base or quick drying
@@ -8357,6 +8795,9 @@ en:
     season:
       name: Season
       description: Indicates the season the product is best suited for, such as summer or fall
+    season/condition_protection:
+      name: Season/condition protection
+      description: Indicates the primary weather/condition the windshield cover is intended to protect against.
     seat_color:
       name: Seat color
       description: Specifies the color of a product's seating area, like black or green
@@ -8528,6 +8969,9 @@ en:
     shell/frame_pattern:
       name: Shell/Frame pattern
       description: Describes the design or print on the shell or frame of a product, typically inline skates
+    shell/hull_status:
+      name: Shell/hull status
+      description: Specifies whether the nuts or seeds are sold with shells or hulls intact or removed.
     shingle/tile_material:
       name: Shingle/Tile material
       description: Identifies the composition of roofing shingles or tiles, such as cement or rubber
@@ -8669,6 +9113,9 @@ en:
     skateboarding_style:
       name: Skateboarding style
       description: Defines the type of skateboarding the product is designed for, such as freestyle or off-road
+    skein_winder_bearing/bushing_type:
+      name: Skein winder bearing/bushing type
+      description: Specifies the type of bearing or bushing used in the skein winder’s rotating assembly.
     skewer_tip_type:
       name: Skewer tip type
       description: Defines the type of tip on a skewer, affecting ease of piercing food and overall presentation.
@@ -8810,6 +9257,9 @@ en:
     sofa_features:
       name: Sofa features
       description: Describes special characteristics of a sofa, such as adjustable armrests or pet friendly
+    soft_top_includes_frame/hardware:
+      name: Soft top includes frame/hardware
+      description: Indicates whether the product includes the soft top frame/bows and/or mounting hardware.
     softball_discipline:
       name: Softball discipline
       description: 'Defines the specific type of softball, such as fastpitch or slowpitch '
@@ -8903,6 +9353,9 @@ en:
     speakerphone_type:
       name: Speakerphone type
       description: Specifies the functionality of speakerphones in vehicles, like wireless or hands-free
+    specialty_malt_name/type:
+      name: Specialty malt name/type
+      description: Identifies the specific named specialty malt type (often used as the commercial style name).
     speed_settings:
       name: Speed settings
       description: Defines the range of speed options for a product, e.g. single, variable
@@ -8915,12 +9368,24 @@ en:
     spike_design:
       name: Spike design
       description: Identifies the style of spikes, such as tent or landscape fabric
+    spinner_control_card_design/type:
+      name: Spinner control card design/type
+      description: Describes the kind of spinner control card in terms of how it presents control information (e.g., ratio reference, tension reference, conversion chart).
     spinner_type:
       name: Spinner type
       description: Describes the number of wheels on luggage or suitcases, such as 2-wheel or 4-wheel
+    spinning_wheel_brake/tension_system_type:
+      name: Spinning wheel brake/tension system type
+      description: Specifies the braking/take-up tension system used to control yarn uptake.
+    spinning_wheel_portability/foldability:
+      name: Spinning wheel portability/foldability
+      description: Indicates whether the wheel is designed to fold/collapse for transport.
     spirit_dilution:
       name: Spirit dilution
       description: Indicates the concentration level of alcoholic spirits, e.g. diluted, undiluted
+    splice/termination_type:
+      name: Splice/termination type
+      description: Specifies the end termination provided on the anchor line (e.g., spliced eye, thimble, chain hook).
     splint/stay_configuration:
       name: Splint/Stay configuration
       description: Describes the presence and type of rigid or semi-rigid stays or splints used in the brace
@@ -8960,6 +9425,9 @@ en:
     spray_purpose:
       name: Spray purpose
       description: Identifies the primary intended use of the facial mist (e.g., setting, priming, hydrating)
+    spray_string_finish/effect:
+      name: Spray string finish/effect
+      description: Visual effect of the sprayed string once applied (sheen/reflectivity and special effects).
     sprayer_operation_mechanism:
       name: Sprayer operation mechanism
       description: Specifies how pressure is generated to dispense oil from the sprayer.
@@ -9077,6 +9545,9 @@ en:
     steam_table_pan_type:
       name: Steam table pan type
       description: Specifies the construction style of the pan, affecting drainage and heating performance.
+    steering_rack_finish/coating:
+      name: Steering rack finish/coating
+      description: Specifies the exterior finish/coating for corrosion protection.
     stem_length:
       name: Stem length
       description: Indicates the length of a flower's stem, such as short, medium, or long
@@ -9110,6 +9581,9 @@ en:
     stick_tip_style:
       name: Stick tip style
       description: Defines the design of the stick’s end, affecting how it pierces or supports food items.
+    sticker/decal_features:
+      name: Sticker/decal features
+      description: Captures application and performance characteristics specific to stickers/decals (e.g., bubble-free, repositionable).
     stiffness:
       name: Stiffness
       description: Indicates the rigidity of a product, typically for snowboard boots; i.e. soft, stiff
@@ -9467,9 +9941,15 @@ en:
     supported_sdi_standards:
       name: Supported SDI standards
       description: Indicates the SDI data rates/standards (SD-SDI, HD-SDI, 3G-SDI, etc.) the device supports for signal transmission
+    supported_spool/bobbin_types:
+      name: Supported spool/bobbin types
+      description: Specifies which spool/bobbin formats the electric winder is designed to accept.
     supported_usb_device_types:
       name: Supported USB device types
       description: Specifies the kinds of USB storage devices the duplicator can handle
+    surface_finish/prep:
+      name: Surface finish/prep
+      description: Indicates the friction surface condition (e.g., resurfaced, machined, as-cast) at sale.
     surface_reflectivity:
       name: Surface reflectivity
       description: Indicates whether the sign surface is engineered to reflect light for enhanced night-time visibility.
@@ -9503,12 +9983,18 @@ en:
     swab_material:
       name: Swab material
       description: Specifies the fabric of a musical instrument cleaning swab, e.g. silk, felt
+    sway_bar_fitment_front/rear/kit:
+      name: Sway bar fitment (front/rear/kit)
+      description: Indicates whether the sway bar is intended for the front axle, rear axle, or sold as a front-and-rear kit.
     sweetener_type:
       name: Sweetener type
       description: Identifies the primary sweetening agent used in the syrup.
     swimwear_features:
       name: Swimwear features
       description: Identifies special characteristics of swimwear, like quick drying or UPF sun protection
+    swing_attachment/connection_type:
+      name: Swing attachment/connection type
+      description: The type of connection used to hang the swing from its support (e.g., rope, chain, straps).
     swing_style:
       name: Swing style
       description: Classifies based on swing technique, typically for tennis rackets; e.g. long strokes
@@ -9557,6 +10043,9 @@ en:
     tab_style:
       name: Tab style
       description: Specifies the style of tabs on binder accessories, e.g. pre-printed, numbered
+    tabla_tonal/pitch_range_bayan:
+      name: Tabla tonal/pitch range (bayan)
+      description: Describes the typical pitch/tonal range category for bayan drums (bass) based on size and construction.
     table_skirt_pleat_style:
       name: Table skirt pleat style
       description: Defines the decorative pleating or gathering style of the skirt, assisting shoppers in matching aesthetic themes.
@@ -9689,6 +10178,9 @@ en:
     television_specialized_features:
       name: Television specialized features
       description: Identifies unique capabilities of a TV, like voice control or built-in soundbar
+    temper_/_hardness:
+      name: Temper / hardness
+      description: Indicates how soft or hard the wire is (how well it holds shape).
     temperature:
       name: Temperature
       description: Specifies the heat settings for devices like glue guns, e.g. dual, high
@@ -9713,6 +10205,9 @@ en:
     tension:
       name: Tension
       description: Describes the tension level of strings for musical instruments, e.g. extra-heavy
+    tension/pitch_modulation_system:
+      name: Tension/pitch modulation system
+      description: How the talking drum changes pitch/tension during play (for example, by squeezing tension cords).
     tensioning_system:
       name: Tensioning system
       description: Details the mechanism used to keep the screen surface flat and wrinkle-free
@@ -9740,6 +10235,9 @@ en:
     test_sample:
       name: Test sample
       description: Specifies the type of sample required for health and medical tests, e.g. swab, saliva
+    tether/strap_system:
+      name: Tether/strap system
+      description: Type of tether or strap system used to connect the neck support to the helmet/harness (if applicable).
     tetherball_equipment_included:
       name: Tetherball equipment included
       description: Indicates the inclusion of essential items in a tetherball set, such as rope or tetherball
@@ -9755,6 +10253,9 @@ en:
     textile_craft_project_type:
       name: Textile craft project type
       description: Identifies the type of textile craft project, like knitting or quilting
+    textile_finish_/_treatment:
+      name: Textile finish / treatment
+      description: Specifies notable surface treatments applied to the textile material.
     texture:
       name: Texture
       description: Defines the feel or consistency of a product, such as creamy, matte, or absorbent
@@ -9800,18 +10301,33 @@ en:
     thinner_application:
       name: Thinner application
       description: Describes the type of substance a thinner is used for, like paint or epoxy
+    thread/cord_type_beading_pattern:
+      name: Thread/cord type (beading pattern)
+      description: Recommended thread or cord type used to complete the pattern.
+    thread_cutter_usage/application:
+      name: Thread cutter usage/application
+      description: Indicates the primary intended craft usage for the thread cutter.
     thread_direction:
       name: Thread direction
       description: Identifies the direction of thread on hardware items, like left-hand or right-hand
+    thread_finish_/_treatment:
+      name: Thread finish / treatment
+      description: Surface finish or treatment applied to the thread affecting handling and performance (e.g., waxed, bonded, mercerized).
     thread_standard:
       name: Thread standard
       description: Identifies the thread specification used on the accessory's connections to ensure cross-compatibility with plumbing components.
+    thread_yarn_guide_mounting/attachment_style:
+      name: Thread & yarn guide mounting/attachment style
+      description: Describes how the guide is worn or mounted during use.
     threaded_rod_size:
       name: Threaded rod size
       description: Specifies the diameter of a threaded rod, e.g. M10, M20
     throw_pillow_shape:
       name: Throw pillow shape
       description: Identifies the shape of decorative pillows, such as bolster or rectangular
+    throw_rope_storage/packaging_type:
+      name: Throw rope storage/packaging type
+      description: How the throw rope is stored or deployed (e.g., bag or reel).
     thumb_grip_profile:
       name: Thumb grip profile
       description: Describes the surface or shape style of the thumb grip's top (e.g., concave, domed), which affects grip and control feel
@@ -9824,6 +10340,9 @@ en:
     ticket_type:
       name: Ticket type
       description: Identifies the category of event tickets, like general admission or reserved seating
+    tie_down_points/straps_included:
+      name: Tie-down points/straps included
+      description: Specifies whether the rack includes integrated tie-down points and/or included straps for securing the motorcycle/scooter.
     tile_design:
       name: Tile design
       description: Describes the pattern or style of a tile, such as geometric or herringbone
@@ -9881,6 +10400,9 @@ en:
     tip_design:
       name: Tip design
       description: Specifies the type of tip on medical needles and syringes, such as luer lock or slip tip
+    tip_finish/coating:
+      name: Tip finish/coating
+      description: Specifies the surface treatment on the working end (e.g., chrome-plated, powder-coated) that affects corrosion resistance and rim marring.
     tip_material:
       name: Tip material
       description: Specifies the material used in the product's tip, e.g. cotton, silicone
@@ -10025,9 +10547,15 @@ en:
     towel_weave:
       name: Towel weave
       description: Describes the construction or weave style of the towel fabric, which affects texture, absorbency, and drying time.
+    toy/game_features:
+      name: Toy/Game features
+      description: Highlights notable play or construction features relevant to beach and sand toys.
     toy/game_material:
       name: Toy/Game material
       description: Identifies the main material used in a toy or game, such as plastic or wood
+    toy_drawing_tablet_writing/drawing_instrument:
+      name: Toy drawing tablet writing/drawing instrument
+      description: Primary tool used to draw on the tablet (stylus type).
     toy_figure_features:
       name: Toy figure features
       description: Highlights special characteristics of toy figures, like articulated joints or realistic details
@@ -10082,6 +10610,9 @@ en:
     trail_camera_design:
       name: Trail camera design
       description: Describes the type of trail camera, such as standard or cellular
+    trailer_hitch_mounting_location/method:
+      name: Trailer hitch mounting location/method
+      description: Specifies where and how the trailer hitch is mounted on the vehicle (e.g., rear receiver, front receiver, frame-mounted, bumper-mounted, bed-mounted).
     trailer_type:
       name: Trailer type
       description: Identifies the design or style of a motor vehicle trailer, such as open or enclosed
@@ -10190,6 +10721,9 @@ en:
     trophy_design:
       name: Trophy design
       description: Describes the specific style or shape of a trophy, such as a cup or star
+    truck_bed/body_type:
+      name: Truck bed/body type
+      description: Configuration of the cargo bed or body behind the cab.
     truck_type:
       name: Truck type
       description: Classifies the type of truck, such as dump truck or flatbed truck
@@ -10226,6 +10760,9 @@ en:
     tv_broadcast_standards_supported:
       name: TV broadcast standards supported
       description: Lists the specific television broadcast or cable/satellite standards the card or adapter can decode or receive
+    u_joint_series/size:
+      name: U-joint series/size
+      description: Specifies the U-joint series or size standard used (e.g., 1310 series).
     uc_platform_certification:
       name: UC platform certification
       description: Identifies unified-communications or meeting platforms for which the device is officially certified.
@@ -10319,6 +10856,9 @@ en:
     uva_protection_grade:
       name: UVA protection grade
       description: Indicates the UVA protection rating of the product, commonly expressed as PA grades
+    vacuum/boost_reference_port:
+      name: Vacuum/boost reference port
+      description: Indicates whether the regulator includes a manifold reference port for vacuum/boost and what style it is.
     vacuum_air_filtering_technology:
       name: Vacuum air filtering technology
       description: Specifies the type of air filtration used in vacuum cleaners, such as HEPA or pet
@@ -10349,6 +10889,9 @@ en:
     varnish/finish_application:
       name: Varnish/Finish application
       description: Specifies the suitable application areas for a varnish or finish, such as walls or doors
+    varnish_transparency/tint:
+      name: Varnish transparency/tint
+      description: Describes whether the varnish is clear or tinted and, if tinted, the general tint family.
     vase_filler_type:
       name: Vase filler type
       description: Categorizes the product by the specific kind of filler material or form.
@@ -10424,6 +10967,9 @@ en:
     vehicle_oil_features:
       name: Vehicle oil features
       description: Describes unique properties of motor oil, like wear protection or high filtration efficiency
+    vehicle_paint_chemistry/base:
+      name: Vehicle paint chemistry/base
+      description: Indicates the paint formulation/chemistry used in vehicle paint.
     vehicle_paint_type:
       name: Vehicle paint type
       description: Specifies the category of vehicle paint, such as paint kit or motor vehicle body paint
@@ -10442,6 +10988,9 @@ en:
     vehicle_type:
       name: Vehicle type
       description: Classifies the type of vehicle, for example, SUV or sailboat
+    vehicle_wax/polish_product_form:
+      name: Vehicle wax/polish product form
+      description: The physical form/dispensing format of the wax, polish, protectant, or sealant.
     vent_pipe_type:
       name: Vent pipe type
       description: Classifies the construction style of the stack or vent pipe.
@@ -10508,9 +11057,15 @@ en:
     viscosity:
       name: Viscosity
       description: Specifies the flow resistance of motor oils, such as 10W-40 or 15W-50
+    viscosity/thickness:
+      name: Viscosity/thickness
+      description: Describes how thick or fluid the slip is as sold or at recommended working consistency.
     vision_correction_type:
       name: Vision correction type
       description: Indicates the optical design intended to correct specific vision conditions
+    visor/brim_type:
+      name: Visor/brim type
+      description: Indicates the presence and style of a visor or brim on the helmet.
     visual_effect:
       name: Visual effect
       description: Defines the visual characteristics of a product, typically for art glazes; e.g. speckled, textured
@@ -10649,12 +11204,21 @@ en:
     watercraft_features:
       name: Watercraft features
       description: Describes amenities or systems on a watercraft, such as a kitchen or brake system
+    watercraft_lighting_certification_/_compliance:
+      name: Watercraft lighting certification / compliance
+      description: Indicates the regulatory/standards compliance the light is certified to for marine use (e.g., USCG/ABYC/COLREGs compliant).
     watercraft_motor_mounting_type:
       name: Watercraft motor mounting type
       description: Identifies where on the watercraft the motor is mounted, such as bow or stern
     watercraft_propulsion_type:
       name: Watercraft propulsion type
       description: Specifies how a watercraft is propelled, such as manual or motorized
+    watercraft_pump_stage_/_impeller_role:
+      name: Watercraft pump stage / impeller role
+      description: Identifies whether the impeller is intended for a specific pump role (e.g., raw water/sea pump, coolant circulation, jet pump).
+    watercraft_steering_wheel_hub/bore_type:
+      name: Watercraft steering wheel hub/bore type
+      description: Specifies the center mounting/bore interface style (e.g., tapered, splined) where the wheel mates to a hub or adapter.
     watercraft_steering_wheel_type:
       name: Watercraft steering wheel type
       description: Specifies the type of watercraft steering wheel, such as power or standard
@@ -10694,6 +11258,9 @@ en:
     weatherization_application:
       name: Weatherization application
       description: Identifies where a weatherization product is applied, such as windows or doors
+    weave/finish:
+      name: Weave/finish
+      description: Describes the primary fabric weave or surface finish that affects the tie’s texture and sheen.
     webcam_design:
       name: Webcam design
       description: Identifies the type of webcam, such as conference, laptop, or plug-and-play
@@ -10721,6 +11288,9 @@ en:
     wheel_bearing_type:
       name: Wheel bearing type
       description: Identifies the internal bearing or bushing construction of the wheel, affecting rolling smoothness and maintenance requirements.
+    wheel_cleaner_acidity_/_ph_category:
+      name: Wheel cleaner acidity / pH category
+      description: Indicates whether the wheel cleaner is acidic, neutral, or alkaline (and optionally whether it is marketed as pH-balanced).
     wheel_hardness:
       name: Wheel hardness
       description: Specifies the hardness level of skateboard wheels, e.g. 75A
@@ -10751,6 +11321,9 @@ en:
     whistling:
       name: Whistling
       description: Specifies whether the kettle produces a whistle sound when water reaches boiling point.
+    white_glue_finish/appearance_when_dry:
+      name: White glue finish/appearance when dry
+      description: Specifies how the glue looks after drying for craft/office use (e.g., clear vs opaque).
     wi_fi_band:
       name: Wi-Fi band
       description: Specifies the wireless frequency range of a device, such as 2.4 GHz
@@ -10829,6 +11402,9 @@ en:
     wire/rope_material:
       name: Wire/Rope material
       description: Specifies the material used in wire or rope products, like copper or polyester
+    wire_shape/profile:
+      name: Wire shape/profile
+      description: Describes the cross-sectional shape of the wire.
     wire_thickness:
       name: Wire thickness
       description: Specifies the thickness of wires, like thick or fine
@@ -10880,9 +11456,18 @@ en:
     yarn_weight_category:
       name: Yarn weight category
       description: Identifies the thickness of yarn, like super bulky or craft
+    yo_yo_accessory/part_type:
+      name: Yo-yo accessory/part type
+      description: Identifies what kind of yo-yo replacement part or accessory the product is (e.g., string, bearing, response pads).
+    zipper_pull_strap/cord/tab_material:
+      name: Zipper pull strap/cord/tab material
+      description: Material of the strap/cord/tab/tassel component attached to the zipper pull (if present), excluding the main zipper pull hardware/body.
     zipper_pull_style:
       name: Zipper pull style
       description: Describes the design or finish on a zipper pull, such as textured or embossed
+    zipper_slider/pull_configuration:
+      name: Zipper slider/pull configuration
+      description: Indicates whether the zipper has one slider/pull or two, and whether pulls are on one or both sides of the slider.
     zoom_type:
       name: Zoom type
       description: Specifies the type of zoom function in document cameras, such as digital or optical
