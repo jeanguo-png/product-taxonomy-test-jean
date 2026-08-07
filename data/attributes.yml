@@ -23451,6 +23451,8 @@ base_attributes:
   - size__5_6_years
   - size__one_size
   - size__other
+  - size__preemie
+  - size__newborn
 - id: 2779
   name: Clothing accessory material
   description: Identifies the main material used in clothing accessories, like leather or linen
@@ -52082,6 +52084,2915 @@ base_attributes:
   - valve_configuration__single_shut_off
   - valve_configuration__y_splitter_2_way
   - valve_configuration__other
+- id: 6320
+  name: EU children's clothing size
+  description: Specifies the EU children's clothing size by height, such as 104 or 140
+  friendly_id: eu_childrens_clothing_size
+  handle: eu-childrens-clothing-size
+  values:
+  - eu_childrens_clothing_size__50
+  - eu_childrens_clothing_size__56
+  - eu_childrens_clothing_size__62
+  - eu_childrens_clothing_size__68
+  - eu_childrens_clothing_size__74
+  - eu_childrens_clothing_size__80
+  - eu_childrens_clothing_size__86
+  - eu_childrens_clothing_size__92
+  - eu_childrens_clothing_size__98
+  - eu_childrens_clothing_size__104
+  - eu_childrens_clothing_size__110
+  - eu_childrens_clothing_size__116
+  - eu_childrens_clothing_size__122
+  - eu_childrens_clothing_size__128
+  - eu_childrens_clothing_size__134
+  - eu_childrens_clothing_size__140
+  - eu_childrens_clothing_size__146
+  - eu_childrens_clothing_size__152
+  - eu_childrens_clothing_size__158
+  - eu_childrens_clothing_size__164
+  - eu_childrens_clothing_size__170
+  - eu_childrens_clothing_size__176
+  - eu_childrens_clothing_size__other
+- id: 6321
+  name: Battle top arena/stadium compatibility
+  description: Indicates which arena/stadium system the product is designed to be used with (especially for sets or special arena shapes).
+  friendly_id: battle_top_arena/stadium_compatibility
+  handle: battle-top-arena-stadium-compatibility
+  values:
+  - battle_top_arena/stadium_compatibility__beystadium_generic
+  - battle_top_arena/stadium_compatibility__burst_stadium
+  - battle_top_arena/stadium_compatibility__mini/portable_stadium
+  - battle_top_arena/stadium_compatibility__standard_stadium
+  - battle_top_arena/stadium_compatibility__xtreme_stadium_beyblade_x
+  - battle_top_arena/stadium_compatibility__other
+- id: 6322
+  name: Card sleeve size / format compatibility
+  description: Specifies the card size(s) the sleeves/pages/deck boxes are designed to fit.
+  friendly_id: card_sleeve_size_/_format_compatibility
+  handle: card-sleeve-size-format-compatibility
+  values:
+  - card_sleeve_size_/_format_compatibility__board_game_large
+  - card_sleeve_size_/_format_compatibility__board_game_small
+  - card_sleeve_size_/_format_compatibility__board_game_standard
+  - card_sleeve_size_/_format_compatibility__bridge_2_25_x_3_5
+  - card_sleeve_size_/_format_compatibility__custom_/_non_standard
+  - card_sleeve_size_/_format_compatibility__japanese_/_small_e_g_
+  - card_sleeve_size_/_format_compatibility__mini_/_euro_mini
+  - card_sleeve_size_/_format_compatibility__multi_size_/_adjustable
+  - card_sleeve_size_/_format_compatibility__oversized
+  - card_sleeve_size_/_format_compatibility__square
+  - card_sleeve_size_/_format_compatibility__standard_/_poker_2_5_x_3_5
+  - card_sleeve_size_/_format_compatibility__tarot
+  - card_sleeve_size_/_format_compatibility__yu_gi_oh
+  - card_sleeve_size_/_format_compatibility__other
+- id: 6323
+  name: Dinosaur playset scale/figure size class
+  description: Describes the general scale of included dinosaurs/figures to help compatibility with other sets.
+  friendly_id: dinosaur_playset_scale/figure_size_class
+  handle: dinosaur-playset-scale-figure-size-class
+  values:
+  - dinosaur_playset_scale/figure_size_class__extra_large
+  - dinosaur_playset_scale/figure_size_class__large
+  - dinosaur_playset_scale/figure_size_class__medium
+  - dinosaur_playset_scale/figure_size_class__micro/mini
+  - dinosaur_playset_scale/figure_size_class__mixed_sizes
+  - dinosaur_playset_scale/figure_size_class__small
+  - dinosaur_playset_scale/figure_size_class__other
+- id: 6324
+  name: Dollhouse installation/placement type
+  description: How the dollhouse is intended to be used or placed (e.g., tabletop vs floor-standing vs wall-mounted).
+  friendly_id: dollhouse_installation/placement_type
+  handle: dollhouse-installation-placement-type
+  values:
+  - dollhouse_installation/placement_type__floor_standing
+  - dollhouse_installation/placement_type__portable/foldable
+  - dollhouse_installation/placement_type__tabletop
+  - dollhouse_installation/placement_type__wall_mounted
+  - dollhouse_installation/placement_type__other
+- id: 6325
+  name: Dollhouse style/theme
+  description: Overall style or theme of the dollhouse for browsing and gifting (e.g., modern vs Victorian).
+  friendly_id: dollhouse_style/theme
+  handle: dollhouse-style-theme
+  values:
+  - dollhouse_style/theme__castle
+  - dollhouse_style/theme__cottage
+  - dollhouse_style/theme__fantasy/fairytale
+  - dollhouse_style/theme__farmhouse
+  - dollhouse_style/theme__holiday/seasonal
+  - dollhouse_style/theme__mansion
+  - dollhouse_style/theme__modern
+  - dollhouse_style/theme__princess/royal
+  - dollhouse_style/theme__townhouse
+  - dollhouse_style/theme__traditional/classical
+  - dollhouse_style/theme__victorian
+  - dollhouse_style/theme__other
+- id: 6326
+  name: Float/raft use environment
+  description: Primary intended water setting for the inflatable (pool vs calm open water vs surf), reflecting durability and design expectations.
+  friendly_id: float/raft_use_environment
+  handle: float-raft-use-environment
+  values:
+  - float/raft_use_environment__beach/shore_calm_sea
+  - float/raft_use_environment__calm_water_lake/river
+  - float/raft_use_environment__ocean/surf_waves
+  - float/raft_use_environment__pool
+  - float/raft_use_environment__universal_pool_open_water
+  - float/raft_use_environment__other
+- id: 6327
+  name: Indoor/outdoor use
+  description: Indicates whether the bowling toy is intended for indoor use, outdoor use, or both.
+  friendly_id: indoor/outdoor_use
+  handle: indoor-outdoor-use
+  values:
+  - indoor/outdoor_use__indoor
+  - indoor/outdoor_use__indoor/outdoor
+  - indoor/outdoor_use__outdoor
+  - indoor/outdoor_use__other
+- id: 6328
+  name: Inflatable raft/float features
+  description: Functional features present on the inflatable raft/float.
+  friendly_id: inflatable_raft/float_features
+  handle: inflatable-raft-float-features
+  values:
+  - inflatable_raft/float_features__anchor_bag/weight_bag
+  - inflatable_raft/float_features__backrest
+  - inflatable_raft/float_features__boarding_platform/ladder
+  - inflatable_raft/float_features__built_in_footwell
+  - inflatable_raft/float_features__cooler_compartment
+  - inflatable_raft/float_features__cup_holders
+  - inflatable_raft/float_features__handles/grab_grips
+  - inflatable_raft/float_features__headrest
+  - inflatable_raft/float_features__inflatable_pillow
+  - inflatable_raft/float_features__led_lights
+  - inflatable_raft/float_features__mesh_bottom/seat
+  - inflatable_raft/float_features__non_slip_surface
+  - inflatable_raft/float_features__perimeter_rope/grab_line
+  - inflatable_raft/float_features__split_design_connectable
+  - inflatable_raft/float_features__sprayer/mister
+  - inflatable_raft/float_features__storage_pocket
+  - inflatable_raft/float_features__sun_canopy/shade
+  - inflatable_raft/float_features__tow_point/tow_rope_attachment
+  - inflatable_raft/float_features__other
+- id: 6329
+  name: Map coverage (sky/planet body)
+  description: 'Indicates what the map depicts: the night sky (constellations) or a specific planetary body.'
+  friendly_id: map_coverage_sky/planet_body
+  handle: map-coverage-sky-planet-body
+  values:
+  - map_coverage_sky/planet_body__earth_space_view
+  - map_coverage_sky/planet_body__jupiter
+  - map_coverage_sky/planet_body__mars
+  - map_coverage_sky/planet_body__moon
+  - map_coverage_sky/planet_body__night_sky_/_constellations
+  - map_coverage_sky/planet_body__saturn
+  - map_coverage_sky/planet_body__solar_system_overview
+  - map_coverage_sky/planet_body__other
+- id: 6330
+  name: Poker chip tray/rack configuration
+  description: Describes the internal organization style of a chip tray/rack (rows and per-row capacity).
+  friendly_id: poker_chip_tray/rack_configuration
+  handle: poker-chip-tray-rack-configuration
+  values:
+  - poker_chip_tray/rack_configuration__10_x_25_250_chips
+  - poker_chip_tray/rack_configuration__2_x_20_40_chips
+  - poker_chip_tray/rack_configuration__3_x_20_60_chips
+  - poker_chip_tray/rack_configuration__4_x_20_80_chips
+  - poker_chip_tray/rack_configuration__5_x_20_100_chips
+  - poker_chip_tray/rack_configuration__6_x_20_120_chips
+  - poker_chip_tray/rack_configuration__8_x_25_200_chips
+  - poker_chip_tray/rack_configuration__custom/variable
+  - poker_chip_tray/rack_configuration__other
+- id: 6331
+  name: Projectile/ammunition type
+  description: Specifies the type of projectiles or consumables used by the toy weapon, if applicable.
+  friendly_id: projectile/ammunition_type
+  handle: projectile-ammunition-type
+  values:
+  - projectile/ammunition_type__arrows_toy/safe_tip
+  - projectile/ammunition_type__bubbles
+  - projectile/ammunition_type__caps_paper_cap_rings
+  - projectile/ammunition_type__confetti_toy
+  - projectile/ammunition_type__discs
+  - projectile/ammunition_type__foam_balls
+  - projectile/ammunition_type__foam_darts
+  - projectile/ammunition_type__gel_beads
+  - projectile/ammunition_type__none_no_projectile
+  - projectile/ammunition_type__rockets/missiles_toy
+  - projectile/ammunition_type__rubber_bands
+  - projectile/ammunition_type__suction_cup_darts
+  - projectile/ammunition_type__water
+  - projectile/ammunition_type__other
+- id: 6332
+  name: RC plane takeoff/launch method
+  description: How the plane is typically launched/takes off, impacting where and how it can be used.
+  friendly_id: rc_plane_takeoff/launch_method
+  handle: rc-plane-takeoff-launch-method
+  values:
+  - rc_plane_takeoff/launch_method__catapult/bungee_launch
+  - rc_plane_takeoff/launch_method__hand_launch
+  - rc_plane_takeoff/launch_method__runway/ground_takeoff
+  - rc_plane_takeoff/launch_method__vtol/assisted_takeoff
+  - rc_plane_takeoff/launch_method__water_takeoff_float_plane
+  - rc_plane_takeoff/launch_method__other
+- id: 6333
+  name: Remote control watercraft propulsion/drive type
+  description: Specifies how the remote control watercraft is driven in the water.
+  friendly_id: remote_control_watercraft_propulsion/drive_type
+  handle: remote-control-watercraft-propulsion-drive-type
+  values:
+  - remote_control_watercraft_propulsion/drive_type__ducted_propeller
+  - remote_control_watercraft_propulsion/drive_type__jet_drive_waterjet
+  - remote_control_watercraft_propulsion/drive_type__paddle_wheel
+  - remote_control_watercraft_propulsion/drive_type__propeller_drive
+  - remote_control_watercraft_propulsion/drive_type__twin_propeller
+  - remote_control_watercraft_propulsion/drive_type__other
+- id: 6334
+  name: Rotation/motion features
+  description: Indicates whether planets/orbits rotate or move and how.
+  friendly_id: rotation/motion_features
+  handle: rotation-motion-features
+  values:
+  - rotation/motion_features__app_controlled_motion
+  - rotation/motion_features__gear_driven_mechanical_motion
+  - rotation/motion_features__hand_crank_rotation
+  - rotation/motion_features__motorized_rotation
+  - rotation/motion_features__static_no_motion
+  - rotation/motion_features__other
+- id: 6335
+  name: Rubber ducky character/theme
+  description: Theme or character styling of the rubber ducky (useful for novelty/collectible duckies).
+  friendly_id: rubber_ducky_character/theme
+  handle: rubber-ducky-character-theme
+  values:
+  - rubber_ducky_character/theme__animals_non_duck_styling
+  - rubber_ducky_character/theme__classic
+  - rubber_ducky_character/theme__custom/personalized
+  - rubber_ducky_character/theme__doctor
+  - rubber_ducky_character/theme__fantasy/space
+  - rubber_ducky_character/theme__firefighter
+  - rubber_ducky_character/theme__food
+  - rubber_ducky_character/theme__glow/blacklight_theme
+  - rubber_ducky_character/theme__holiday/seasonal
+  - rubber_ducky_character/theme__military
+  - rubber_ducky_character/theme__music
+  - rubber_ducky_character/theme__occupation_e_g_
+  - rubber_ducky_character/theme__pirate
+  - rubber_ducky_character/theme__pop_culture/licensed
+  - rubber_ducky_character/theme__pride/lgbtq+
+  - rubber_ducky_character/theme__princess/fairytale
+  - rubber_ducky_character/theme__sports
+  - rubber_ducky_character/theme__superhero/comic
+  - rubber_ducky_character/theme__travel
+  - rubber_ducky_character/theme__vehicles
+  - rubber_ducky_character/theme__wedding/romance
+  - rubber_ducky_character/theme__other
+- id: 6336
+  name: Swing attachment/connection type
+  description: The type of connection used to hang the swing from its support (e.g., rope, chain, straps).
+  friendly_id: swing_attachment/connection_type
+  handle: swing-attachment-connection-type
+  values:
+  - swing_attachment/connection_type__chain
+  - swing_attachment/connection_type__coated_chain
+  - swing_attachment/connection_type__hybrid_rope_+_chain
+  - swing_attachment/connection_type__rope
+  - swing_attachment/connection_type__webbing_straps
+  - swing_attachment/connection_type__other
+- id: 6337
+  name: Toy drawing tablet writing/drawing instrument
+  description: Primary tool used to draw on the tablet (stylus type).
+  friendly_id: toy_drawing_tablet_writing/drawing_instrument
+  handle: toy-drawing-tablet-writing-drawing-instrument
+  values:
+  - toy_drawing_tablet_writing/drawing_instrument__chalk/marker
+  - toy_drawing_tablet_writing/drawing_instrument__finger/touch
+  - toy_drawing_tablet_writing/drawing_instrument__magnetic_stylus
+  - toy_drawing_tablet_writing/drawing_instrument__pen_style_stylus
+  - toy_drawing_tablet_writing/drawing_instrument__tethered_stylus
+  - toy_drawing_tablet_writing/drawing_instrument__untethered_stylus
+  - toy_drawing_tablet_writing/drawing_instrument__water_pen/brush
+  - toy_drawing_tablet_writing/drawing_instrument__other
+- id: 6338
+  name: Toy/Game features
+  description: Highlights notable play or construction features relevant to beach and sand toys.
+  friendly_id: toy/game_features
+  handle: toy-game-features
+  values:
+  - toy/game_features__adjustable_spray_pattern
+  - toy/game_features__bpa_free
+  - toy/game_features__collapsible
+  - toy/game_features__easy_to_inflate
+  - toy/game_features__ergonomic_handle
+  - toy/game_features__extra_large_grip
+  - toy/game_features__floatable
+  - toy/game_features__leak_resistant_valve
+  - toy/game_features__long_range_stream
+  - toy/game_features__mesh_sifter
+  - toy/game_features__non_toxic
+  - toy/game_features__phthalate_free
+  - toy/game_features__puncture_resistant
+  - toy/game_features__quick_fill
+  - toy/game_features__sand/water_compatible
+  - toy/game_features__soft_edges
+  - toy/game_features__stackable/nesting
+  - toy/game_features__uv_resistant
+  - toy/game_features__other
+- id: 6339
+  name: Yo-yo accessory/part type
+  description: Identifies what kind of yo-yo replacement part or accessory the product is (e.g., string, bearing, response pads).
+  friendly_id: yo_yo_accessory/part_type
+  handle: yo-yo-accessory-part-type
+  values:
+  - yo_yo_accessory/part_type__axle
+  - yo_yo_accessory/part_type__bearing
+  - yo_yo_accessory/part_type__counterweight
+  - yo_yo_accessory/part_type__display_stand
+  - yo_yo_accessory/part_type__holster/carrying_case
+  - yo_yo_accessory/part_type__hubstack/side_effects_caps
+  - yo_yo_accessory/part_type__lubricant
+  - yo_yo_accessory/part_type__parts_bundle/kit
+  - yo_yo_accessory/part_type__response_pads
+  - yo_yo_accessory/part_type__spacer_kit
+  - yo_yo_accessory/part_type__string
+  - yo_yo_accessory/part_type__tool_multi_tool/hex
+  - yo_yo_accessory/part_type__other
+- id: 6340
+  name: Sticker/decal features
+  description: Captures application and performance characteristics specific to stickers/decals (e.g., bubble-free, repositionable).
+  friendly_id: sticker/decal_features
+  handle: sticker-decal-features
+  values:
+  - sticker/decal_features__anti_fingerprint
+  - sticker/decal_features__bubble_free
+  - sticker/decal_features__easy_to_apply
+  - sticker/decal_features__heat_resistant
+  - sticker/decal_features__non_fading
+  - sticker/decal_features__repositionable
+  - sticker/decal_features__scratch_resistant
+  - sticker/decal_features__self_healing
+  - sticker/decal_features__uv_resistant
+  - sticker/decal_features__waterproof
+  - sticker/decal_features__other
+- id: 6341
+  name: Weave/finish
+  description: Describes the primary fabric weave or surface finish that affects the tie’s texture and sheen.
+  friendly_id: weave/finish
+  handle: weave-finish
+  values:
+  - weave/finish__grenadine
+  - weave/finish__grosgrain
+  - weave/finish__jacquard
+  - weave/finish__knitted
+  - weave/finish__repp
+  - weave/finish__satin
+  - weave/finish__twill
+  - weave/finish__velvet
+  - weave/finish__other
+- id: 6342
+  name: Arrow/bolt point type
+  description: Defines the style of point or tip installed on an arrow or bolt.
+  friendly_id: arrow/bolt_point_type
+  handle: arrow-bolt-point-type
+  values:
+  - arrow/bolt_point_type__blunt_point
+  - arrow/bolt_point_type__broadhead
+  - arrow/bolt_point_type__broadhead_fixed_blade
+  - arrow/bolt_point_type__broadhead_mechanical
+  - arrow/bolt_point_type__bullet_point
+  - arrow/bolt_point_type__field_point
+  - arrow/bolt_point_type__fish_point
+  - arrow/bolt_point_type__judo_point
+  - arrow/bolt_point_type__safety_point
+  - arrow/bolt_point_type__target_point
+  - arrow/bolt_point_type__other
+- id: 6343
+  name: Ascender/descender type
+  description: Classifies the style of climbing ascender or descender for more precise filtering.
+  friendly_id: ascender/descender_type
+  handle: ascender-descender-type
+  values:
+  - ascender/descender_type__auto_locking_descender
+  - ascender/descender_type__cam_rope_clamp
+  - ascender/descender_type__chest_ascender
+  - ascender/descender_type__combo_ascender
+  - ascender/descender_type__figure_8_descender
+  - ascender/descender_type__foot_ascender
+  - ascender/descender_type__handled_ascender
+  - ascender/descender_type__knee_ascender
+  - ascender/descender_type__progress_capture_pulley
+  - ascender/descender_type__tube_descender
+  - ascender/descender_type__other
+- id: 6344
+  name: Baseball/softball usage role
+  description: Specifies the on-field role or participant type the leg guard is intended for (e.g., catcher, batter, umpire, fielder).
+  friendly_id: baseball/softball_usage_role
+  handle: baseball-softball-usage-role
+  values:
+  - baseball/softball_usage_role__batter
+  - baseball/softball_usage_role__catcher
+  - baseball/softball_usage_role__coach
+  - baseball/softball_usage_role__fielder
+  - baseball/softball_usage_role__training/practice
+  - baseball/softball_usage_role__umpire
+  - baseball/softball_usage_role__other
+- id: 6345
+  name: Blade finish/coating
+  description: Surface treatment applied to the blade for aesthetics or corrosion protection.
+  friendly_id: blade_finish/coating
+  handle: blade-finish-coating
+  values:
+  - blade_finish/coating__acid_stonewash
+  - blade_finish/coating__bead_blasted
+  - blade_finish/coating__black_oxide
+  - blade_finish/coating__cerakote
+  - blade_finish/coating__dlc
+  - blade_finish/coating__polished
+  - blade_finish/coating__pvd
+  - blade_finish/coating__satin
+  - blade_finish/coating__stonewash
+  - blade_finish/coating__tumbled
+  - blade_finish/coating__other
+- id: 6346
+  name: Broadhead/field point attachment style
+  description: Specifies how the broadhead or field point attaches to the arrow shaft.
+  friendly_id: broadhead/field_point_attachment_style
+  handle: broadhead-field-point-attachment-style
+  values:
+  - broadhead/field_point_attachment_style__glue_on
+  - broadhead/field_point_attachment_style__screw_in
+  - broadhead/field_point_attachment_style__slip_on
+  - broadhead/field_point_attachment_style__socket
+  - broadhead/field_point_attachment_style__tang
+  - broadhead/field_point_attachment_style__other
+- id: 6347
+  name: Case capacity (butts × shafts)
+  description: Defines how many cue butts and shafts the case can accommodate, expressed in butt-by-shaft format (e.g., 2x4 = 2 butts & 4 shafts).
+  friendly_id: case_capacity_butts_x_shafts
+  handle: case-capacity-butts-x-shafts
+  values:
+  - case_capacity_butts_x_shafts__1x1
+  - case_capacity_butts_x_shafts__1x2
+  - case_capacity_butts_x_shafts__1x3
+  - case_capacity_butts_x_shafts__1x4
+  - case_capacity_butts_x_shafts__2x2
+  - case_capacity_butts_x_shafts__2x3
+  - case_capacity_butts_x_shafts__2x4
+  - case_capacity_butts_x_shafts__3x5
+  - case_capacity_butts_x_shafts__3x6
+  - case_capacity_butts_x_shafts__4x8
+  - case_capacity_butts_x_shafts__other
+- id: 6348
+  name: Chain coating/finish
+  description: Specifies any surface treatment or finish applied to the chain to improve durability, reduce friction, prevent corrosion, or alter appearance (e.g., Ti-nitride, DLC, nickel, rust-proof EPT).
+  friendly_id: chain_coating/finish
+  handle: chain-coating-finish
+  values:
+  - chain_coating/finish__chromium
+  - chain_coating/finish__diamond_like_carbon_dlc
+  - chain_coating/finish__hard_chrome
+  - chain_coating/finish__nickel
+  - chain_coating/finish__none
+  - chain_coating/finish__rainbow
+  - chain_coating/finish__rust_proof_ept
+  - chain_coating/finish__teflon/ptfe
+  - chain_coating/finish__titanium_nitride
+  - chain_coating/finish__zinc
+  - chain_coating/finish__other
+- id: 6349
+  name: Compatible bow/crossbow type
+  description: Denotes the style of bow or crossbow the accessory is designed to fit.
+  friendly_id: compatible_bow/crossbow_type
+  handle: compatible-bow-crossbow-type
+  values:
+  - compatible_bow/crossbow_type__compound_bow
+  - compatible_bow/crossbow_type__crossbow
+  - compatible_bow/crossbow_type__longbow
+  - compatible_bow/crossbow_type__recurve_bow
+  - compatible_bow/crossbow_type__universal
+  - compatible_bow/crossbow_type__other
+- id: 6350
+  name: Exercise bike accessory/part type
+  description: Describes the primary function or component type of the item (e.g., Pedal, Drive belt, Bottle holder, Screen cover, Crank arm).
+  friendly_id: exercise_bike_accessory/part_type
+  handle: exercise-bike-accessory-part-type
+  values:
+  - exercise_bike_accessory/part_type__bolt/screw
+  - exercise_bike_accessory/part_type__bottle_holder
+  - exercise_bike_accessory/part_type__cable/wire
+  - exercise_bike_accessory/part_type__chain
+  - exercise_bike_accessory/part_type__cover
+  - exercise_bike_accessory/part_type__crank_arm
+  - exercise_bike_accessory/part_type__drive_belt
+  - exercise_bike_accessory/part_type__fan
+  - exercise_bike_accessory/part_type__idler_cog
+  - exercise_bike_accessory/part_type__monitor/computer
+  - exercise_bike_accessory/part_type__pedal
+  - exercise_bike_accessory/part_type__pedal_strap
+  - exercise_bike_accessory/part_type__pop_pin/knob
+  - exercise_bike_accessory/part_type__screen_cover
+  - exercise_bike_accessory/part_type__seat_cushion
+  - exercise_bike_accessory/part_type__sensor
+  - exercise_bike_accessory/part_type__stand/riser
+  - exercise_bike_accessory/part_type__towel
+  - exercise_bike_accessory/part_type__trainer_table
+  - exercise_bike_accessory/part_type__other
+- id: 6351
+  name: Hook coating/finish
+  description: Surface treatment or plating applied to the hook for corrosion resistance, stealth, or color (e.g., black nickel, bright tin).
+  friendly_id: hook_coating/finish
+  handle: hook-coating-finish
+  values:
+  - hook_coating/finish__black_nickel
+  - hook_coating/finish__bright_tin
+  - hook_coating/finish__bronze
+  - hook_coating/finish__duratin
+  - hook_coating/finish__gold
+  - hook_coating/finish__nickel_plated
+  - hook_coating/finish__permasteel
+  - hook_coating/finish__ptfe
+  - hook_coating/finish__tin
+  - hook_coating/finish__uncoated
+  - hook_coating/finish__other
+- id: 6352
+  name: Shell/hull status
+  description: Specifies whether the nuts or seeds are sold with shells or hulls intact or removed.
+  friendly_id: shell/hull_status
+  handle: shell-hull-status
+  values:
+  - shell/hull_status__hulled
+  - shell/hull_status__in_shell
+  - shell/hull_status__partially_shelled
+  - shell/hull_status__shelled
+  - shell/hull_status__other
+- id: 6353
+  name: ATV/UTV intended use
+  description: Primary intended use/style of the ATV/UTV.
+  friendly_id: atv/utv_intended_use
+  handle: atv-utv-intended-use
+  values:
+  - atv/utv_intended_use__dune/sand
+  - atv/utv_intended_use__farm/ranch
+  - atv/utv_intended_use__hunting
+  - atv/utv_intended_use__racing/competition
+  - atv/utv_intended_use__recreation/trail
+  - atv/utv_intended_use__rock_crawling
+  - atv/utv_intended_use__snow/track_ready
+  - atv/utv_intended_use__sport
+  - atv/utv_intended_use__utility
+  - atv/utv_intended_use__youth
+  - atv/utv_intended_use__other
+- id: 6354
+  name: Battery case certification/standard
+  description: Lists relevant transport/safety certifications or test standards the case complies with for battery transport/storage.
+  friendly_id: battery_case_certification/standard
+  handle: battery-case-certification-standard
+  values:
+  - battery_case_certification/standard__ata_spec_300_air_transport_case
+  - battery_case_certification/standard__iata/icao_lithium_battery_packaging_guidance
+  - battery_case_certification/standard__iec_62133
+  - battery_case_certification/standard__not_certified/not_stated
+  - battery_case_certification/standard__sae_j2464
+  - battery_case_certification/standard__ul_94_flammability_rated
+  - battery_case_certification/standard__ul_2054
+  - battery_case_certification/standard__ul_2580
+  - battery_case_certification/standard__un_38_3_compliant
+  - battery_case_certification/standard__other
+- id: 6355
+  name: Brake/clutch fluid base chemistry
+  description: Primary chemical base of the brake/clutch hydraulic fluid, which affects compatibility and miscibility.
+  friendly_id: brake/clutch_fluid_base_chemistry
+  handle: brake-clutch-fluid-base-chemistry
+  values:
+  - brake/clutch_fluid_base_chemistry__glycol_based
+  - brake/clutch_fluid_base_chemistry__mineral_oil_based
+  - brake/clutch_fluid_base_chemistry__silicone_based
+  - brake/clutch_fluid_base_chemistry__other
+- id: 6356
+  name: Brake/Clutch fluid DOT specification
+  description: DOT performance classification for hydraulic brake/clutch fluids (e.g., DOT 3, DOT 4).
+  friendly_id: brake/clutch_fluid_dot_specification
+  handle: brake-clutch-fluid-dot-specification
+  values:
+  - brake/clutch_fluid_dot_specification__dot_3
+  - brake/clutch_fluid_dot_specification__dot_4
+  - brake/clutch_fluid_dot_specification__dot_5
+  - brake/clutch_fluid_dot_specification__dot_5_1
+  - brake/clutch_fluid_dot_specification__non_dot_/_manufacturer_spec
+  - brake/clutch_fluid_dot_specification__other
+- id: 6357
+  name: Brake drum finish/coating
+  description: Surface finish or protective coating applied to the brake drum (e.g., e-coat, painted, zinc-coated).
+  friendly_id: brake_drum_finish/coating
+  handle: brake-drum-finish-coating
+  values:
+  - brake_drum_finish/coating__bare/uncoated
+  - brake_drum_finish/coating__black_oxide
+  - brake_drum_finish/coating__e_coated
+  - brake_drum_finish/coating__geomet_coated
+  - brake_drum_finish/coating__painted
+  - brake_drum_finish/coating__zinc_plated
+  - brake_drum_finish/coating__other
+- id: 6358
+  name: Carrying capacity (pairs/boards)
+  description: Indicates how many skis (pairs) or snowboards an accessory enables or is intended to support when used with the rack (e.g., extension kits).
+  friendly_id: carrying_capacity_pairs/boards
+  handle: carrying-capacity-pairs-boards
+  values:
+  - carrying_capacity_pairs/boards__1_pair_skis
+  - carrying_capacity_pairs/boards__2_pairs_skis
+  - carrying_capacity_pairs/boards__3_pairs_skis
+  - carrying_capacity_pairs/boards__4_pairs_skis
+  - carrying_capacity_pairs/boards__5_pairs_skis
+  - carrying_capacity_pairs/boards__6_pairs_skis
+  - carrying_capacity_pairs/boards__1_snowboard
+  - carrying_capacity_pairs/boards__2_snowboards
+  - carrying_capacity_pairs/boards__3_snowboards
+  - carrying_capacity_pairs/boards__4_snowboards
+  - carrying_capacity_pairs/boards__mixed_skis_and_snowboards
+  - carrying_capacity_pairs/boards__not_applicable
+  - carrying_capacity_pairs/boards__other
+- id: 6359
+  name: Coil spring finish/coating
+  description: Surface finish or coating applied for corrosion protection.
+  friendly_id: coil_spring_finish/coating
+  handle: coil-spring-finish-coating
+  values:
+  - coil_spring_finish/coating__bare/unfinished
+  - coil_spring_finish/coating__black_oxide
+  - coil_spring_finish/coating__e_coated_electrocoat
+  - coil_spring_finish/coating__galvanized
+  - coil_spring_finish/coating__painted
+  - coil_spring_finish/coating__phosphate_coated
+  - coil_spring_finish/coating__powder_coated
+  - coil_spring_finish/coating__zinc_plated
+  - coil_spring_finish/coating__other
+- id: 6360
+  name: Crossbar shape/profile
+  description: Specifies the crossbar aerodynamic/profile shape.
+  friendly_id: crossbar_shape/profile
+  handle: crossbar-shape-profile
+  values:
+  - crossbar_shape/profile__aero/wing
+  - crossbar_shape/profile__blade
+  - crossbar_shape/profile__elliptical
+  - crossbar_shape/profile__oval
+  - crossbar_shape/profile__round
+  - crossbar_shape/profile__square
+  - crossbar_shape/profile__other
+- id: 6361
+  name: EV connector/adapter direction
+  description: Specifies what the adapter converts FROM and TO (vehicle inlet side vs charger/cable side), enabling accurate compatibility filtering.
+  friendly_id: ev_connector/adapter_direction
+  handle: ev-connector-adapter-direction
+  values:
+  - ev_connector/adapter_direction__ccs1_vehicle_inlet_to_chademo_plug
+  - ev_connector/adapter_direction__ccs1_vehicle_inlet_to_j1772_plug
+  - ev_connector/adapter_direction__ccs1_vehicle_inlet_to_tesla_nacs_plug
+  - ev_connector/adapter_direction__chademo_vehicle_inlet_to_ccs1_plug
+  - ev_connector/adapter_direction__chademo_vehicle_inlet_to_tesla_nacs_plug
+  - ev_connector/adapter_direction__j1772_vehicle_inlet_to_ccs1_plug
+  - ev_connector/adapter_direction__j1772_vehicle_inlet_to_tesla_nacs_plug
+  - ev_connector/adapter_direction__tesla_nacs_vehicle_inlet_to_ccs1_plug
+  - ev_connector/adapter_direction__tesla_nacs_vehicle_inlet_to_chademo_plug
+  - ev_connector/adapter_direction__tesla_nacs_vehicle_inlet_to_j1772_plug
+  - ev_connector/adapter_direction__type_1_j1772_vehicle_inl_
+  - ev_connector/adapter_direction__type_2_mennekes_vehicle_inlet_to_type_1_j1772_plug
+  - ev_connector/adapter_direction__other
+- id: 6362
+  name: FIA homologation/certification
+  description: Indicates whether the car (or safety cell) is certified/homologated and to what standard.
+  friendly_id: fia_homologation/certification
+  handle: fia-homologation-certification
+  values:
+  - fia_homologation/certification__fia_certified_components_only
+  - fia_homologation/certification__fia_homologated
+  - fia_homologation/certification__historic_eligible_period_correct
+  - fia_homologation/certification__sro/series_homologated
+  - fia_homologation/certification__track_day_only_non_homologated
+  - fia_homologation/certification__unknown
+  - fia_homologation/certification__other
+- id: 6363
+  name: Formula car series/class
+  description: Specifies the racing series or class the formula car is built to compete in.
+  friendly_id: formula_car_series/class
+  handle: formula-car-series-class
+  values:
+  - formula_car_series/class__formula_1_f1
+  - formula_car_series/class__formula_2_f2
+  - formula_car_series/class__formula_3_f3
+  - formula_car_series/class__formula_4_f4
+  - formula_car_series/class__formula_2000
+  - formula_car_series/class__formula_atlantic
+  - formula_car_series/class__formula_e
+  - formula_car_series/class__formula_ford
+  - formula_car_series/class__formula_regional
+  - formula_car_series/class__formula_renault
+  - formula_car_series/class__formula_sae
+  - formula_car_series/class__formula_vee
+  - formula_car_series/class__indy_nxt
+  - formula_car_series/class__indycar
+  - formula_car_series/class__super_formula
+  - formula_car_series/class__other
+- id: 6364
+  name: Fuel cap gasket/seal material
+  description: Specifies the material used for the sealing gasket/O-ring on the fuel cap.
+  friendly_id: fuel_cap_gasket/seal_material
+  handle: fuel-cap-gasket-seal-material
+  values:
+  - fuel_cap_gasket/seal_material__cork
+  - fuel_cap_gasket/seal_material__epdm
+  - fuel_cap_gasket/seal_material__neoprene
+  - fuel_cap_gasket/seal_material__nitrile_nbr
+  - fuel_cap_gasket/seal_material__rubber_unspecified
+  - fuel_cap_gasket/seal_material__silicone
+  - fuel_cap_gasket/seal_material__viton_fkm
+  - fuel_cap_gasket/seal_material__other
+- id: 6365
+  name: Fuel filter mounting/connection type
+  description: Specifies how the fuel filter connects/installs (threaded/spin-on, quick-connect, hose barb, banjo, etc.).
+  friendly_id: fuel_filter_mounting/connection_type
+  handle: fuel-filter-mounting-connection-type
+  values:
+  - fuel_filter_mounting/connection_type__banjo_bolt_fitting
+  - fuel_filter_mounting/connection_type__cartridge_in_housing
+  - fuel_filter_mounting/connection_type__compression_fitting
+  - fuel_filter_mounting/connection_type__flare_fitting
+  - fuel_filter_mounting/connection_type__in_tank_strainer/sock
+  - fuel_filter_mounting/connection_type__inline_hose_barb
+  - fuel_filter_mounting/connection_type__inline_quick_connect
+  - fuel_filter_mounting/connection_type__push_to_connect
+  - fuel_filter_mounting/connection_type__spin_on_threaded
+  - fuel_filter_mounting/connection_type__other
+- id: 6366
+  name: Helmet visor/peak adjustability
+  description: Whether the helmet’s off-road peak/visor is adjustable and/or removable.
+  friendly_id: helmet_visor/peak_adjustability
+  handle: helmet-visor-peak-adjustability
+  values:
+  - helmet_visor/peak_adjustability__adjustable
+  - helmet_visor/peak_adjustability__adjustable_removable
+  - helmet_visor/peak_adjustability__fixed_non_adjustable
+  - helmet_visor/peak_adjustability__no_peak/visor
+  - helmet_visor/peak_adjustability__removable
+  - helmet_visor/peak_adjustability__other
+- id: 6367
+  name: Helmet visor/shield type
+  description: Primary face shield/visor configuration included with the helmet.
+  friendly_id: helmet_visor/shield_type
+  handle: helmet-visor-shield-type
+  values:
+  - helmet_visor/shield_type__clear_face_shield
+  - helmet_visor/shield_type__dual_shield_external_+_internal_sun_visor
+  - helmet_visor/shield_type__flip_up/convertible_shield
+  - helmet_visor/shield_type__iridium/mirrored_face_shield
+  - helmet_visor/shield_type__no_visor_requires_goggles
+  - helmet_visor/shield_type__peak/visor_off_road_style
+  - helmet_visor/shield_type__photochromic_face_shield
+  - helmet_visor/shield_type__tinted_face_shield
+  - helmet_visor/shield_type__other
+- id: 6368
+  name: Homologation / rule set
+  description: Specifies the sanctioning body or rule set the car is compliant with (where applicable).
+  friendly_id: homologation_/_rule_set
+  handle: homologation-rule-set
+  values:
+  - homologation_/_rule_set__aco
+  - homologation_/_rule_set__fia
+  - homologation_/_rule_set__imsa
+  - homologation_/_rule_set__national_/_club_racing
+  - homologation_/_rule_set__sro_gt_world_challenge
+  - homologation_/_rule_set__super_gt
+  - homologation_/_rule_set__track_day_non_homologated
+  - homologation_/_rule_set__other
+- id: 6369
+  name: Lift/stand support point
+  description: Where the lift/stand contacts/supports the vehicle.
+  friendly_id: lift/stand_support_point
+  handle: lift-stand-support-point
+  values:
+  - lift/stand_support_point__axle
+  - lift/stand_support_point__chassis_rails
+  - lift/stand_support_point__control_arm
+  - lift/stand_support_point__differential
+  - lift/stand_support_point__engine_cradle/k_member
+  - lift/stand_support_point__frame
+  - lift/stand_support_point__pinch_weld
+  - lift/stand_support_point__universal_multi_point
+  - lift/stand_support_point__wheels/tires
+  - lift/stand_support_point__other
+- id: 6370
+  name: Marine flare certification/standard
+  description: Indicates which marine safety certification(s) or standards the flare claims to meet.
+  friendly_id: marine_flare_certification/standard
+  handle: marine-flare-certification-standard
+  values:
+  - marine_flare_certification/standard__iso_9093
+  - marine_flare_certification/standard__med_/_wheelmark
+  - marine_flare_certification/standard__none_stated
+  - marine_flare_certification/standard__solas
+  - marine_flare_certification/standard__transport_canada_approved
+  - marine_flare_certification/standard__uscg_approved_33_cfr_175
+  - marine_flare_certification/standard__other
+- id: 6371
+  name: Motor vehicle A/V integration features
+  description: Smartphone and in-vehicle integration features supported by the head unit (e.g., Apple CarPlay, Android Auto, MirrorLink).
+  friendly_id: motor_vehicle_a/v_integration_features
+  handle: motor-vehicle-a-v-integration-features
+  values:
+  - motor_vehicle_a/v_integration_features__android_auto_wired
+  - motor_vehicle_a/v_integration_features__android_auto_wireless
+  - motor_vehicle_a/v_integration_features__apple_carplay_wired
+  - motor_vehicle_a/v_integration_features__apple_carplay_wireless
+  - motor_vehicle_a/v_integration_features__backup_camera_input
+  - motor_vehicle_a/v_integration_features__built_in_navigation
+  - motor_vehicle_a/v_integration_features__mirrorlink
+  - motor_vehicle_a/v_integration_features__multiple_camera_inputs
+  - motor_vehicle_a/v_integration_features__obd2_integration
+  - motor_vehicle_a/v_integration_features__steering_wheel_control_ready
+  - motor_vehicle_a/v_integration_features__voice_assistant_support
+  - motor_vehicle_a/v_integration_features__other
+- id: 6372
+  name: Motor vehicle bulb application/position
+  description: Specifies the intended vehicle lighting position or function the bulb is designed for (e.g., low beam, brake light).
+  friendly_id: motor_vehicle_bulb_application/position
+  handle: motor-vehicle-bulb-application-position
+  values:
+  - motor_vehicle_bulb_application/position__auxiliary/off_road_light
+  - motor_vehicle_bulb_application/position__brake_light
+  - motor_vehicle_bulb_application/position__courtesy/door_light
+  - motor_vehicle_bulb_application/position__daytime_running_light_drl
+  - motor_vehicle_bulb_application/position__fog_light
+  - motor_vehicle_bulb_application/position__front_turn_signal
+  - motor_vehicle_bulb_application/position__headlight_high_beam
+  - motor_vehicle_bulb_application/position__headlight_low_beam
+  - motor_vehicle_bulb_application/position__instrument/cluster_light
+  - motor_vehicle_bulb_application/position__interior_dome/map_light
+  - motor_vehicle_bulb_application/position__license_plate_light
+  - motor_vehicle_bulb_application/position__motorcycle_headlight
+  - motor_vehicle_bulb_application/position__parking/position_light
+  - motor_vehicle_bulb_application/position__rear_turn_signal
+  - motor_vehicle_bulb_application/position__reverse_light
+  - motor_vehicle_bulb_application/position__side_marker_light
+  - motor_vehicle_bulb_application/position__tail/running_light
+  - motor_vehicle_bulb_application/position__third_brake_light_chmsl
+  - motor_vehicle_bulb_application/position__trunk/cargo_light
+  - motor_vehicle_bulb_application/position__other
+- id: 6373
+  name: Mounting/Storage type
+  description: How the device is intended to be mounted or stowed on the vessel/person.
+  friendly_id: mounting/storage_type
+  handle: mounting-storage-type
+  values:
+  - mounting/storage_type__category_i_float_free_bracket
+  - mounting/storage_type__category_ii_manual_release_bracket
+  - mounting/storage_type__handheld_/_carry
+  - mounting/storage_type__included_pouch/case
+  - mounting/storage_type__mounting_bracket
+  - mounting/storage_type__other
+- id: 6374
+  name: Oil pan baffle/windage features
+  description: Indicates internal oil control features included in the pan.
+  friendly_id: oil_pan_baffle/windage_features
+  handle: oil-pan-baffle-windage-features
+  values:
+  - oil_pan_baffle/windage_features__baffled
+  - oil_pan_baffle/windage_features__crank_scraper_integrated
+  - oil_pan_baffle/windage_features__magnetic_drain_plug
+  - oil_pan_baffle/windage_features__not_applicable/none
+  - oil_pan_baffle/windage_features__oil_return_passages
+  - oil_pan_baffle/windage_features__provision_for_oil_level_sensor
+  - oil_pan_baffle/windage_features__provision_for_turbo_oil_return
+  - oil_pan_baffle/windage_features__sump_baffle_plate
+  - oil_pan_baffle/windage_features__trap_doors
+  - oil_pan_baffle/windage_features__windage_tray_integrated
+  - oil_pan_baffle/windage_features__other
+- id: 6375
+  name: Oil pan finish/coating
+  description: Describes the surface finish or coating of the oil pan (painted, powder-coated, plated, raw, etc.).
+  friendly_id: oil_pan_finish/coating
+  handle: oil-pan-finish-coating
+  values:
+  - oil_pan_finish/coating__anodized
+  - oil_pan_finish/coating__bare/raw
+  - oil_pan_finish/coating__black_oxide
+  - oil_pan_finish/coating__chrome_plated
+  - oil_pan_finish/coating__e_coated_electrocoated
+  - oil_pan_finish/coating__painted
+  - oil_pan_finish/coating__polished
+  - oil_pan_finish/coating__powder_coated
+  - oil_pan_finish/coating__zinc_plated
+  - oil_pan_finish/coating__other
+- id: 6376
+  name: Piston crown/dish style
+  description: Shape of the piston crown that influences combustion chamber volume and compression (e.g., flat top, dome, dish).
+  friendly_id: piston_crown/dish_style
+  handle: piston-crown-dish-style
+  values:
+  - piston_crown/dish_style__custom/other
+  - piston_crown/dish_style__dished
+  - piston_crown/dish_style__dome
+  - piston_crown/dish_style__flat_top
+  - piston_crown/dish_style__reverse_dome
+  - piston_crown/dish_style__valve_reliefs
+  - piston_crown/dish_style__other
+- id: 6377
+  name: Police vehicle light/siren equipment
+  description: Specifies which emergency warning devices are installed on the police car.
+  friendly_id: police_vehicle_light/siren_equipment
+  handle: police-vehicle-light-siren-equipment
+  values:
+  - police_vehicle_light/siren_equipment__dash_light
+  - police_vehicle_light/siren_equipment__grille_lights
+  - police_vehicle_light/siren_equipment__intersection_lights
+  - police_vehicle_light/siren_equipment__lightbar
+  - police_vehicle_light/siren_equipment__none
+  - police_vehicle_light/siren_equipment__pa/speaker
+  - police_vehicle_light/siren_equipment__rear_deck_lights
+  - police_vehicle_light/siren_equipment__siren
+  - police_vehicle_light/siren_equipment__slicktop_visor_light
+  - police_vehicle_light/siren_equipment__spotlights
+  - police_vehicle_light/siren_equipment__other
+- id: 6378
+  name: Pressure sensor port / thread standard
+  description: Specifies the mechanical port/thread standard used to install the sensor into the vehicle system.
+  friendly_id: pressure_sensor_port_/_thread_standard
+  handle: pressure-sensor-port-thread-standard
+  values:
+  - pressure_sensor_port_/_thread_standard__1/8_bspt
+  - pressure_sensor_port_/_thread_standard__1/4_bspt
+  - pressure_sensor_port_/_thread_standard__1/8_npt
+  - pressure_sensor_port_/_thread_standard__1/4_npt
+  - pressure_sensor_port_/_thread_standard__3/8_npt
+  - pressure_sensor_port_/_thread_standard__m10x1_0
+  - pressure_sensor_port_/_thread_standard__m10x1_25
+  - pressure_sensor_port_/_thread_standard__m12x1_5
+  - pressure_sensor_port_/_thread_standard__m14x1_5
+  - pressure_sensor_port_/_thread_standard__m16x1_5
+  - pressure_sensor_port_/_thread_standard__m18x1_5
+  - pressure_sensor_port_/_thread_standard__other
+- id: 6379
+  name: Radiator/expansion tank cap application
+  description: Identifies whether the cap is intended for a radiator filler neck or for a coolant expansion/overflow tank.
+  friendly_id: radiator/expansion_tank_cap_application
+  handle: radiator-expansion-tank-cap-application
+  values:
+  - radiator/expansion_tank_cap_application__expansion_tank
+  - radiator/expansion_tank_cap_application__multi_application
+  - radiator/expansion_tank_cap_application__overflow/recovery_tank
+  - radiator/expansion_tank_cap_application__radiator_filler_neck
+  - radiator/expansion_tank_cap_application__other
+- id: 6380
+  name: Roof cargo net hook/fastener style
+  description: Specifies the style of end hardware used to connect the net to anchor points (e.g., S-hook, carabiner, J-hook).
+  friendly_id: roof_cargo_net_hook/fastener_style
+  handle: roof-cargo-net-hook-fastener-style
+  values:
+  - roof_cargo_net_hook/fastener_style__carabiner
+  - roof_cargo_net_hook/fastener_style__gated_carabiner
+  - roof_cargo_net_hook/fastener_style__j_hook
+  - roof_cargo_net_hook/fastener_style__s_hook
+  - roof_cargo_net_hook/fastener_style__snap_hook
+  - roof_cargo_net_hook/fastener_style__other
+- id: 6381
+  name: Season/condition protection
+  description: Indicates the primary weather/condition the windshield cover is intended to protect against.
+  friendly_id: season/condition_protection
+  handle: season-condition-protection
+  values:
+  - season/condition_protection__all_weather
+  - season/condition_protection__dust/pollen
+  - season/condition_protection__frost
+  - season/condition_protection__hail_protection
+  - season/condition_protection__rain
+  - season/condition_protection__snow_ice
+  - season/condition_protection__sun/heat_uv
+  - season/condition_protection__other
+- id: 6382
+  name: Soft top includes frame/hardware
+  description: Indicates whether the product includes the soft top frame/bows and/or mounting hardware.
+  friendly_id: soft_top_includes_frame/hardware
+  handle: soft-top-includes-frame-hardware
+  values:
+  - soft_top_includes_frame/hardware__complete_kit_top_+_frame_+_hardware
+  - soft_top_includes_frame/hardware__fabric_only_no_frame/hardware
+  - soft_top_includes_frame/hardware__includes_bows/frame
+  - soft_top_includes_frame/hardware__includes_mounting_hardware_only
+  - soft_top_includes_frame/hardware__other
+- id: 6383
+  name: Splice/termination type
+  description: Specifies the end termination provided on the anchor line (e.g., spliced eye, thimble, chain hook).
+  friendly_id: splice/termination_type
+  handle: splice-termination-type
+  values:
+  - splice/termination_type__carabiner/snap_hook
+  - splice/termination_type__chain_hook
+  - splice/termination_type__cut_end_no_splice
+  - splice/termination_type__eye_splice
+  - splice/termination_type__heat_sealed_end
+  - splice/termination_type__shackle
+  - splice/termination_type__soft_shackle
+  - splice/termination_type__spliced_eye_with_thimble
+  - splice/termination_type__stainless_thimble
+  - splice/termination_type__whipped_end
+  - splice/termination_type__other
+- id: 6384
+  name: Steering rack finish/coating
+  description: Specifies the exterior finish/coating for corrosion protection.
+  friendly_id: steering_rack_finish/coating
+  handle: steering-rack-finish-coating
+  values:
+  - steering_rack_finish/coating__anodized
+  - steering_rack_finish/coating__bare_metal
+  - steering_rack_finish/coating__black_oxide
+  - steering_rack_finish/coating__e_coated_electrocoat
+  - steering_rack_finish/coating__painted
+  - steering_rack_finish/coating__powder_coated
+  - steering_rack_finish/coating__zinc_plated
+  - steering_rack_finish/coating__other
+- id: 6385
+  name: Surface finish/prep
+  description: Indicates the friction surface condition (e.g., resurfaced, machined, as-cast) at sale.
+  friendly_id: surface_finish/prep
+  handle: surface-finish-prep
+  values:
+  - surface_finish/prep__as_cast
+  - surface_finish/prep__coated
+  - surface_finish/prep__new_machined
+  - surface_finish/prep__not_applicable
+  - surface_finish/prep__resurfaced
+  - surface_finish/prep__other
+- id: 6386
+  name: Sway bar fitment (front/rear/kit)
+  description: Indicates whether the sway bar is intended for the front axle, rear axle, or sold as a front-and-rear kit.
+  friendly_id: sway_bar_fitment_front/rear/kit
+  handle: sway-bar-fitment-front-rear-kit
+  values:
+  - sway_bar_fitment_front/rear/kit__front
+  - sway_bar_fitment_front/rear/kit__front_and_rear_kit
+  - sway_bar_fitment_front/rear/kit__not_specified
+  - sway_bar_fitment_front/rear/kit__rear
+  - sway_bar_fitment_front/rear/kit__other
+- id: 6387
+  name: Tether/strap system
+  description: Type of tether or strap system used to connect the neck support to the helmet/harness (if applicable).
+  friendly_id: tether/strap_system
+  handle: tether-strap-system
+  values:
+  - tether/strap_system__dual_tether
+  - tether/strap_system__no_tether_standalone_brace
+  - tether/strap_system__quick_release_tether
+  - tether/strap_system__single_tether
+  - tether/strap_system__sliding_tether
+  - tether/strap_system__other
+- id: 6388
+  name: Throw rope storage/packaging type
+  description: How the throw rope is stored or deployed (e.g., bag or reel).
+  friendly_id: throw_rope_storage/packaging_type
+  handle: throw-rope-storage-packaging-type
+  values:
+  - throw_rope_storage/packaging_type__canister/case
+  - throw_rope_storage/packaging_type__coiled_no_bag
+  - throw_rope_storage/packaging_type__reel/spool
+  - throw_rope_storage/packaging_type__rescue_ring/bag_combo
+  - throw_rope_storage/packaging_type__throw_bag
+  - throw_rope_storage/packaging_type__other
+- id: 6389
+  name: Tie-down points/straps included
+  description: Specifies whether the rack includes integrated tie-down points and/or included straps for securing the motorcycle/scooter.
+  friendly_id: tie_down_points/straps_included
+  handle: tie-down-points-straps-included
+  values:
+  - tie_down_points/straps_included__both_integrated_tie_down_points_and_straps_included
+  - tie_down_points/straps_included__integrated_tie_down_points_only_no_straps
+  - tie_down_points/straps_included__neither_/_not_included
+  - tie_down_points/straps_included__straps_included
+  - tie_down_points/straps_included__other
+- id: 6390
+  name: Tip finish/coating
+  description: Specifies the surface treatment on the working end (e.g., chrome-plated, powder-coated) that affects corrosion resistance and rim marring.
+  friendly_id: tip_finish/coating
+  handle: tip-finish-coating
+  values:
+  - tip_finish/coating__anodized
+  - tip_finish/coating__bare/uncoated
+  - tip_finish/coating__black_oxide
+  - tip_finish/coating__chrome_plated
+  - tip_finish/coating__nickel_plated
+  - tip_finish/coating__painted
+  - tip_finish/coating__plastic_coated_dipped
+  - tip_finish/coating__polished
+  - tip_finish/coating__powder_coated
+  - tip_finish/coating__rubber_coated
+  - tip_finish/coating__zinc_plated
+  - tip_finish/coating__other
+- id: 6391
+  name: Trailer hitch mounting location/method
+  description: Specifies where and how the trailer hitch is mounted on the vehicle (e.g., rear receiver, front receiver, frame-mounted, bumper-mounted, bed-mounted).
+  friendly_id: trailer_hitch_mounting_location/method
+  handle: trailer-hitch-mounting-location-method
+  values:
+  - trailer_hitch_mounting_location/method__bumper_mounted
+  - trailer_hitch_mounting_location/method__fifth_wheel_bed_mounted
+  - trailer_hitch_mounting_location/method__frame_mounted
+  - trailer_hitch_mounting_location/method__front_receiver
+  - trailer_hitch_mounting_location/method__gooseneck_bed_mounted
+  - trailer_hitch_mounting_location/method__multi_fit_adjustable
+  - trailer_hitch_mounting_location/method__rear_receiver
+  - trailer_hitch_mounting_location/method__other
+- id: 6392
+  name: Truck bed/body type
+  description: Configuration of the cargo bed or body behind the cab.
+  friendly_id: truck_bed/body_type
+  handle: truck-bed-body-type
+  values:
+  - truck_bed/body_type__box/van_body
+  - truck_bed/body_type__dump_bed
+  - truck_bed/body_type__flatbed
+  - truck_bed/body_type__fleetside
+  - truck_bed/body_type__stake_bed
+  - truck_bed/body_type__stepside
+  - truck_bed/body_type__utility/service_body
+  - truck_bed/body_type__other
+- id: 6393
+  name: U-joint series/size
+  description: Specifies the U-joint series or size standard used (e.g., 1310 series).
+  friendly_id: u_joint_series/size
+  handle: u-joint-series-size
+  values:
+  - u_joint_series/size__3r_series
+  - u_joint_series/size__1310_series
+  - u_joint_series/size__1330_series
+  - u_joint_series/size__1350_series
+  - u_joint_series/size__1410_series
+  - u_joint_series/size__1480_series
+  - u_joint_series/size__1550_series
+  - u_joint_series/size__other
+- id: 6394
+  name: Vacuum/boost reference port
+  description: Indicates whether the regulator includes a manifold reference port for vacuum/boost and what style it is.
+  friendly_id: vacuum/boost_reference_port
+  handle: vacuum-boost-reference-port
+  values:
+  - vacuum/boost_reference_port__boost_reference
+  - vacuum/boost_reference_port__none
+  - vacuum/boost_reference_port__vacuum_reference
+  - vacuum/boost_reference_port__vacuum/boost_reference
+  - vacuum/boost_reference_port__other
+- id: 6395
+  name: Vehicle paint chemistry/base
+  description: Indicates the paint formulation/chemistry used in vehicle paint.
+  friendly_id: vehicle_paint_chemistry/base
+  handle: vehicle-paint-chemistry-base
+  values:
+  - vehicle_paint_chemistry/base__acrylic_lacquer
+  - vehicle_paint_chemistry/base__ceramic_coating
+  - vehicle_paint_chemistry/base__enamel
+  - vehicle_paint_chemistry/base__epoxy
+  - vehicle_paint_chemistry/base__rubberized_coating
+  - vehicle_paint_chemistry/base__solvent_based
+  - vehicle_paint_chemistry/base__urethane_2k
+  - vehicle_paint_chemistry/base__vinyl_dye
+  - vehicle_paint_chemistry/base__water_based
+  - vehicle_paint_chemistry/base__other
+- id: 6396
+  name: Vehicle wax/polish product form
+  description: The physical form/dispensing format of the wax, polish, protectant, or sealant.
+  friendly_id: vehicle_wax/polish_product_form
+  handle: vehicle-wax-polish-product-form
+  values:
+  - vehicle_wax/polish_product_form__aerosol_spray
+  - vehicle_wax/polish_product_form__cream
+  - vehicle_wax/polish_product_form__foam
+  - vehicle_wax/polish_product_form__gel
+  - vehicle_wax/polish_product_form__liquid
+  - vehicle_wax/polish_product_form__paste
+  - vehicle_wax/polish_product_form__spray
+  - vehicle_wax/polish_product_form__stick
+  - vehicle_wax/polish_product_form__wipes
+  - vehicle_wax/polish_product_form__other
+- id: 6397
+  name: Watercraft lighting certification / compliance
+  description: Indicates the regulatory/standards compliance the light is certified to for marine use (e.g., USCG/ABYC/COLREGs compliant).
+  friendly_id: watercraft_lighting_certification_/_compliance
+  handle: watercraft-lighting-certification-compliance
+  values:
+  - watercraft_lighting_certification_/_compliance__abyc_compliant
+  - watercraft_lighting_certification_/_compliance__ce_certified
+  - watercraft_lighting_certification_/_compliance__colregs_compliant
+  - watercraft_lighting_certification_/_compliance__not_certified/not_specified
+  - watercraft_lighting_certification_/_compliance__rohs_compliant
+  - watercraft_lighting_certification_/_compliance__uscg_compliant
+  - watercraft_lighting_certification_/_compliance__other
+- id: 6398
+  name: Watercraft pump stage / impeller role
+  description: Identifies whether the impeller is intended for a specific pump role (e.g., raw water/sea pump, coolant circulation, jet pump).
+  friendly_id: watercraft_pump_stage_/_impeller_role
+  handle: watercraft-pump-stage-impeller-role
+  values:
+  - watercraft_pump_stage_/_impeller_role__ballast_pump_impeller
+  - watercraft_pump_stage_/_impeller_role__bilge_pump_impeller
+  - watercraft_pump_stage_/_impeller_role__cooling_water_pump_circulation
+  - watercraft_pump_stage_/_impeller_role__jet_pump_impeller
+  - watercraft_pump_stage_/_impeller_role__livewell/aerator_pump_impeller
+  - watercraft_pump_stage_/_impeller_role__raw_water_pump_sea_water
+  - watercraft_pump_stage_/_impeller_role__washdown_pump_impeller
+  - watercraft_pump_stage_/_impeller_role__other
+- id: 6399
+  name: Watercraft steering wheel hub/bore type
+  description: Specifies the center mounting/bore interface style (e.g., tapered, splined) where the wheel mates to a hub or adapter.
+  friendly_id: watercraft_steering_wheel_hub/bore_type
+  handle: watercraft-steering-wheel-hub-bore-type
+  values:
+  - watercraft_steering_wheel_hub/bore_type__hub_included
+  - watercraft_steering_wheel_hub/bore_type__keyed_bore
+  - watercraft_steering_wheel_hub/bore_type__splined_bore
+  - watercraft_steering_wheel_hub/bore_type__tapered_bore
+  - watercraft_steering_wheel_hub/bore_type__universal_hub_required
+  - watercraft_steering_wheel_hub/bore_type__other
+- id: 6400
+  name: Wheel cleaner acidity / pH category
+  description: Indicates whether the wheel cleaner is acidic, neutral, or alkaline (and optionally whether it is marketed as pH-balanced).
+  friendly_id: wheel_cleaner_acidity_/_ph_category
+  handle: wheel-cleaner-acidity-ph-category
+  values:
+  - wheel_cleaner_acidity_/_ph_category__acidic
+  - wheel_cleaner_acidity_/_ph_category__alkaline
+  - wheel_cleaner_acidity_/_ph_category__ph_neutral
+  - wheel_cleaner_acidity_/_ph_category__ph_balanced_near_neutral
+  - wheel_cleaner_acidity_/_ph_category__other
+- id: 6401
+  name: Acoustic piano plate/frame material
+  description: Specifies the main material of the piano plate/frame (harp), commonly cast iron.
+  friendly_id: acoustic_piano_plate/frame_material
+  handle: acoustic-piano-plate-frame-material
+  values:
+  - acoustic_piano_plate/frame_material__aluminum_alloy
+  - acoustic_piano_plate/frame_material__cast_iron
+  - acoustic_piano_plate/frame_material__composite
+  - acoustic_piano_plate/frame_material__steel
+  - acoustic_piano_plate/frame_material__other
+- id: 6402
+  name: Analog synthesizer CV/Gate I/O
+  description: Indicates the types of control-voltage and gate connections supported for integrating with modular/analog gear.
+  friendly_id: analog_synthesizer_cv/gate_i/o
+  handle: analog-synthesizer-cv-gate-i-o
+  values:
+  - analog_synthesizer_cv/gate_i/o__aftertouch_cv_out
+  - analog_synthesizer_cv/gate_i/o__cv_in
+  - analog_synthesizer_cv/gate_i/o__cv_out
+  - analog_synthesizer_cv/gate_i/o__gate_in
+  - analog_synthesizer_cv/gate_i/o__gate_out
+  - analog_synthesizer_cv/gate_i/o__hz/v
+  - analog_synthesizer_cv/gate_i/o__mod_wheel_cv_out
+  - analog_synthesizer_cv/gate_i/o__no_cv/gate
+  - analog_synthesizer_cv/gate_i/o__pitch_cv_1v/oct
+  - analog_synthesizer_cv/gate_i/o__sync/clock_in
+  - analog_synthesizer_cv/gate_i/o__sync/clock_out
+  - analog_synthesizer_cv/gate_i/o__other
+- id: 6403
+  name: Art/Crafting tool tip style
+  description: Describes the shape/profile of the working tip (e.g., pointed vs rounded ball) to indicate the kind of embossing marks it produces.
+  friendly_id: art/crafting_tool_tip_style
+  handle: art-crafting-tool-tip-style
+  values:
+  - art/crafting_tool_tip_style__ball
+  - art/crafting_tool_tip_style__chisel_tip
+  - art/crafting_tool_tip_style__needle_point
+  - art/crafting_tool_tip_style__rounded_tip
+  - art/crafting_tool_tip_style__tapered_tip
+  - art/crafting_tool_tip_style__other
+- id: 6404
+  name: Award mounting/display type
+  description: Specifies how the award is intended to be displayed or mounted (wall vs desktop vs wearable).
+  friendly_id: award_mounting/display_type
+  handle: award-mounting-display-type
+  values:
+  - award_mounting/display_type__desktop/tabletop
+  - award_mounting/display_type__easel_backed
+  - award_mounting/display_type__free_standing
+  - award_mounting/display_type__hanging
+  - award_mounting/display_type__wall_mounted
+  - award_mounting/display_type__wearable_neck_ribbon
+  - award_mounting/display_type__wearable_pin
+  - award_mounting/display_type__other
+- id: 6405
+  name: Award ribbon placement/title
+  description: The standard placement or title conveyed by the ribbon (e.g., 1st place, participant).
+  friendly_id: award_ribbon_placement/title
+  handle: award-ribbon-placement-title
+  values:
+  - award_ribbon_placement/title__2nd_place
+  - award_ribbon_placement/title__3rd_place
+  - award_ribbon_placement/title__1st_place
+  - award_ribbon_placement/title__best_in_show
+  - award_ribbon_placement/title__champion
+  - award_ribbon_placement/title__finalist
+  - award_ribbon_placement/title__grand_champion
+  - award_ribbon_placement/title__guest
+  - award_ribbon_placement/title__honorable_mention
+  - award_ribbon_placement/title__judges_choice
+  - award_ribbon_placement/title__participant
+  - award_ribbon_placement/title__reserve_champion
+  - award_ribbon_placement/title__staff
+  - award_ribbon_placement/title__volunteer
+  - award_ribbon_placement/title__winner
+  - award_ribbon_placement/title__other
+- id: 6406
+  name: Bag/case carrying style
+  description: Specifies the primary overall carrying form factor of the case/gigbag (how it is built to be carried).
+  friendly_id: bag/case_carrying_style
+  handle: bag-case-carrying-style
+  values:
+  - bag/case_carrying_style__backpack_style
+  - bag/case_carrying_style__case_with_backpack_harness
+  - bag/case_carrying_style__dual_carry_hand_+_backpack
+  - bag/case_carrying_style__hand_carry_briefcase_style
+  - bag/case_carrying_style__shoulder_bag_style
+  - bag/case_carrying_style__wheeled/rolling
+  - bag/case_carrying_style__other
+- id: 6407
+  name: Balloon closure/valve type
+  description: Identifies how the balloon is sealed after inflation (e.g., tie, self-sealing valve).
+  friendly_id: balloon_closure/valve_type
+  handle: balloon-closure-valve-type
+  values:
+  - balloon_closure/valve_type__requires_heat_sealing
+  - balloon_closure/valve_type__self_sealing_valve
+  - balloon_closure/valve_type__tie_neck_no_valve
+  - balloon_closure/valve_type__uses_clip/plug
+  - balloon_closure/valve_type__other
+- id: 6408
+  name: Banknote authentication/grading
+  description: Third-party service (if any) that authenticated/graded the banknote.
+  friendly_id: banknote_authentication/grading
+  handle: banknote-authentication-grading
+  values:
+  - banknote_authentication/grading__anacs
+  - banknote_authentication/grading__cgs_currency_grading_and_authentication
+  - banknote_authentication/grading__icg_independent_coin_graders
+  - banknote_authentication/grading__legacy_currency_grading_lcg
+  - banknote_authentication/grading__not_graded
+  - banknote_authentication/grading__pcgs_banknote
+  - banknote_authentication/grading__pmg_paper_money_guaranty
+  - banknote_authentication/grading__other
+- id: 6409
+  name: Beading pattern stitch/technique
+  description: Primary beadweaving stitch or technique used in the pattern.
+  friendly_id: beading_pattern_stitch/technique
+  handle: beading-pattern-stitch-technique
+  values:
+  - beading_pattern_stitch/technique__bead_crochet
+  - beading_pattern_stitch/technique__bead_embroidery
+  - beading_pattern_stitch/technique__bead_weaving_multi_stitch/assorted
+  - beading_pattern_stitch/technique__brick_stitch
+  - beading_pattern_stitch/technique__chevron_stitch
+  - beading_pattern_stitch/technique__circular_peyote
+  - beading_pattern_stitch/technique__even_count_peyote
+  - beading_pattern_stitch/technique__herringbone_ndebele
+  - beading_pattern_stitch/technique__kumihimo_beading
+  - beading_pattern_stitch/technique__ladder_stitch
+  - beading_pattern_stitch/technique__loom_beading
+  - beading_pattern_stitch/technique__netting
+  - beading_pattern_stitch/technique__odd_count_peyote
+  - beading_pattern_stitch/technique__peyote_stitch
+  - beading_pattern_stitch/technique__right_angle_weave_raw
+  - beading_pattern_stitch/technique__spiral_stitch
+  - beading_pattern_stitch/technique__square_stitch
+  - beading_pattern_stitch/technique__wire_wrapping_with_beads
+  - beading_pattern_stitch/technique__other
+- id: 6410
+  name: Beading technique / stitch
+  description: Identifies the primary beading technique or stitch used in the pattern (e.g., peyote stitch, brick stitch).
+  friendly_id: beading_technique_/_stitch
+  handle: beading-technique-stitch
+  values:
+  - beading_technique_/_stitch__bead_crochet
+  - beading_technique_/_stitch__bead_embroidery
+  - beading_technique_/_stitch__brick_stitch
+  - beading_technique_/_stitch__chevron_stitch
+  - beading_technique_/_stitch__daisy_chain
+  - beading_technique_/_stitch__fringe_beading
+  - beading_technique_/_stitch__herringbone_ndebele
+  - beading_technique_/_stitch__kumihimo_beading
+  - beading_technique_/_stitch__loom_beading
+  - beading_technique_/_stitch__netting
+  - beading_technique_/_stitch__off_loom_weaving_other
+  - beading_technique_/_stitch__peyote_stitch
+  - beading_technique_/_stitch__right_angle_weave_raw
+  - beading_technique_/_stitch__spiral_stitch
+  - beading_technique_/_stitch__square_stitch
+  - beading_technique_/_stitch__stringing
+  - beading_technique_/_stitch__wire_wrapping_with_beads
+  - beading_technique_/_stitch__other
+- id: 6411
+  name: Bodhrán head material
+  description: The material of the playing head (membrane), which strongly affects tone and maintenance requirements.
+  friendly_id: bodhran_head_material
+  handle: bodhran-head-material
+  values:
+  - bodhran_head_material__calfskin
+  - bodhran_head_material__deerskin
+  - bodhran_head_material__goatskin
+  - bodhran_head_material__sheepskin
+  - bodhran_head_material__synthetic_mylar
+  - bodhran_head_material__other
+- id: 6412
+  name: Bodhrán tuning system type
+  description: The style of built-in tuning mechanism used to adjust head tension (if tunable).
+  friendly_id: bodhran_tuning_system_type
+  handle: bodhran-tuning-system-type
+  values:
+  - bodhran_tuning_system_type__bolt/allen_key_system
+  - bodhran_tuning_system_type__crossbar_internal
+  - bodhran_tuning_system_type__ring_internal
+  - bodhran_tuning_system_type__other
+- id: 6413
+  name: Bottle neck finish / closure size
+  description: The standardized bottle opening/finish size to ensure compatibility with caps, corks, and cappers (e.g., 26 mm crown finish).
+  friendly_id: bottle_neck_finish_/_closure_size
+  handle: bottle-neck-finish-closure-size
+  values:
+  - bottle_neck_finish_/_closure_size__26_mm_crown_finish
+  - bottle_neck_finish_/_closure_size__29_mm_crown_finish
+  - bottle_neck_finish_/_closure_size__28_mm_pco_pet_soda
+  - bottle_neck_finish_/_closure_size__38_mm_thread
+  - bottle_neck_finish_/_closure_size__cork_finish_champagne/belgian
+  - bottle_neck_finish_/_closure_size__cork_finish_standard_wine
+  - bottle_neck_finish_/_closure_size__growler_thread_finish
+  - bottle_neck_finish_/_closure_size__swing_top_finish
+  - bottle_neck_finish_/_closure_size__other
+- id: 6414
+  name: Bow/yo-yo embellishment style
+  description: Identifies the constructed style of the embellishment (bow or fabric yo-yo construction).
+  friendly_id: bow/yo_yo_embellishment_style
+  handle: bow-yo-yo-embellishment-style
+  values:
+  - bow/yo_yo_embellishment_style__bunny_ear_bow
+  - bow/yo_yo_embellishment_style__butterfly_bow
+  - bow/yo_yo_embellishment_style__classic_bow
+  - bow/yo_yo_embellishment_style__flat_yo_yo
+  - bow/yo_yo_embellishment_style__gathered_yo_yo
+  - bow/yo_yo_embellishment_style__layered_yo_yo
+  - bow/yo_yo_embellishment_style__loop_bow
+  - bow/yo_yo_embellishment_style__pinwheel_bow
+  - bow/yo_yo_embellishment_style__pom_pom_bow
+  - bow/yo_yo_embellishment_style__rosette
+  - bow/yo_yo_embellishment_style__tied_bow
+  - bow/yo_yo_embellishment_style__yo_yo_rosette
+  - bow/yo_yo_embellishment_style__other
+- id: 6415
+  name: Brass instrument lubricant additives/features
+  description: Notable functional features of the lubricant formulation.
+  friendly_id: brass_instrument_lubricant_additives/features
+  handle: brass-instrument-lubricant-additives-features
+  values:
+  - brass_instrument_lubricant_additives/features__anti_wear
+  - brass_instrument_lubricant_additives/features__biodegradable
+  - brass_instrument_lubricant_additives/features__corrosion_protection
+  - brass_instrument_lubricant_additives/features__fast_acting
+  - brass_instrument_lubricant_additives/features__food_safe/non_toxic
+  - brass_instrument_lubricant_additives/features__long_lasting
+  - brass_instrument_lubricant_additives/features__low_odor/odorless
+  - brass_instrument_lubricant_additives/features__low_residue
+  - brass_instrument_lubricant_additives/features__non_gumming
+  - brass_instrument_lubricant_additives/features__non_staining
+  - brass_instrument_lubricant_additives/features__other
+- id: 6416
+  name: Cajon body/shell material
+  description: Identifies the material of the cajon body/shell (excluding the tapa).
+  friendly_id: cajon_body/shell_material
+  handle: cajon-body-shell-material
+  values:
+  - cajon_body/shell_material__baltic_birch
+  - cajon_body/shell_material__beech
+  - cajon_body/shell_material__birch
+  - cajon_body/shell_material__composite
+  - cajon_body/shell_material__mahogany
+  - cajon_body/shell_material__maple
+  - cajon_body/shell_material__mdf/hdf_engineered_wood
+  - cajon_body/shell_material__oak
+  - cajon_body/shell_material__okoume
+  - cajon_body/shell_material__plywood_unspecified
+  - cajon_body/shell_material__poplar
+  - cajon_body/shell_material__walnut
+  - cajon_body/shell_material__other
+- id: 6417
+  name: Cajon corner/edge design
+  description: Describes the corner/edge construction that affects comfort and playability.
+  friendly_id: cajon_corner/edge_design
+  handle: cajon-corner-edge-design
+  values:
+  - cajon_corner/edge_design__beveled_edges
+  - cajon_corner/edge_design__rounded_edges
+  - cajon_corner/edge_design__sharp/square_edges
+  - cajon_corner/edge_design__other
+- id: 6418
+  name: Canvas mounting/format
+  description: Physical format/mounting style of the painting canvas product.
+  friendly_id: canvas_mounting/format
+  handle: canvas-mounting-format
+  values:
+  - canvas_mounting/format__canvas_pad_paper_bound_sheets
+  - canvas_mounting/format__canvas_panel/board
+  - canvas_mounting/format__canvas_roll_by_the_yard/meter
+  - canvas_mounting/format__canvas_sheet_loose
+  - canvas_mounting/format__stretched_canvas
+  - canvas_mounting/format__other
+- id: 6419
+  name: Card box/holder type
+  description: Specifies the functional form factor of the product for collecting or holding cards at an event (e.g., box, mailbox-style box, basket, holder stand).
+  friendly_id: card_box/holder_type
+  handle: card-box-holder-type
+  values:
+  - card_box/holder_type__card_basket
+  - card_box/holder_type__card_box
+  - card_box/holder_type__card_cage_wire/frame_box
+  - card_box/holder_type__card_holder_rack
+  - card_box/holder_type__card_holder_sign/frame
+  - card_box/holder_type__card_holder_stand
+  - card_box/holder_type__card_holder_tray
+  - card_box/holder_type__card_suitcase_with_slot
+  - card_box/holder_type__card_suitcase/briefcase
+  - card_box/holder_type__card_trunk/chest
+  - card_box/holder_type__mailbox_style_card_box
+  - card_box/holder_type__other
+- id: 6420
+  name: Case style (cymbal/drum)
+  description: Specifies whether the product is a soft bag, hard case, or hybrid design for transporting cymbals or drum sets.
+  friendly_id: case_style_cymbal/drum
+  handle: case-style-cymbal-drum
+  values:
+  - case_style_cymbal/drum__case_set_multiple_pieces
+  - case_style_cymbal/drum__hard_shell_case
+  - case_style_cymbal/drum__hybrid_semi_rigid
+  - case_style_cymbal/drum__rolling_case
+  - case_style_cymbal/drum__soft_gig_bag
+  - case_style_cymbal/drum__other
+- id: 6421
+  name: Clamping/closure type
+  description: Specifies the mechanism used to tighten or secure the embroidery hoop around fabric.
+  friendly_id: clamping/closure_type
+  handle: clamping-closure-type
+  values:
+  - clamping/closure_type__bolt_and_nut
+  - clamping/closure_type__cam_lever_clamp
+  - clamping/closure_type__no_hardware_spring_tension
+  - clamping/closure_type__quick_release
+  - clamping/closure_type__snap_lock
+  - clamping/closure_type__thumb_screw
+  - clamping/closure_type__wing_nut
+  - clamping/closure_type__other
+- id: 6422
+  name: Cleaner/sanitizer intended area
+  description: The primary part of the brass instrument the product is meant to clean/sanitize.
+  friendly_id: cleaner/sanitizer_intended_area
+  handle: cleaner-sanitizer-intended-area
+  values:
+  - cleaner/sanitizer_intended_area__bell
+  - cleaner/sanitizer_intended_area__bore
+  - cleaner/sanitizer_intended_area__exterior_body
+  - cleaner/sanitizer_intended_area__leadpipe
+  - cleaner/sanitizer_intended_area__mouthpiece
+  - cleaner/sanitizer_intended_area__multi_area_/_whole_instrument
+  - cleaner/sanitizer_intended_area__pistons/valves
+  - cleaner/sanitizer_intended_area__rotary_valves
+  - cleaner/sanitizer_intended_area__slides_tuning/hand_slide
+  - cleaner/sanitizer_intended_area__valve_casing
+  - cleaner/sanitizer_intended_area__water_keys/spit_valves
+  - cleaner/sanitizer_intended_area__other
+- id: 6423
+  name: Cocktail pick top/handle style
+  description: Describes the decorative top or handle form used for gripping or presentation.
+  friendly_id: cocktail_pick_top/handle_style
+  handle: cocktail-pick-top-handle-style
+  values:
+  - cocktail_pick_top/handle_style__ball/bead
+  - cocktail_pick_top/handle_style__flag
+  - cocktail_pick_top/handle_style__fringe/tassel
+  - cocktail_pick_top/handle_style__novelty_figure
+  - cocktail_pick_top/handle_style__palm/tropical
+  - cocktail_pick_top/handle_style__ring/loop_handle
+  - cocktail_pick_top/handle_style__skull/seasonal
+  - cocktail_pick_top/handle_style__sword
+  - cocktail_pick_top/handle_style__topper_charm
+  - cocktail_pick_top/handle_style__other
+- id: 6424
+  name: Cocktail umbrella handle/pick material
+  description: Material of the stick/pick portion (excluding canopy) of the cocktail umbrella.
+  friendly_id: cocktail_umbrella_handle/pick_material
+  handle: cocktail-umbrella-handle-pick-material
+  values:
+  - cocktail_umbrella_handle/pick_material__bamboo
+  - cocktail_umbrella_handle/pick_material__biodegradable_materials
+  - cocktail_umbrella_handle/pick_material__metal
+  - cocktail_umbrella_handle/pick_material__paper
+  - cocktail_umbrella_handle/pick_material__plastic
+  - cocktail_umbrella_handle/pick_material__wood
+  - cocktail_umbrella_handle/pick_material__other
+- id: 6425
+  name: Compatible contra-bass clarinet peg/stand
+  description: Indicates the stand/peg interface or support style required.
+  friendly_id: compatible_contra_bass_clarinet_peg/stand
+  handle: compatible-contra-bass-clarinet-peg-stand
+  values:
+  - compatible_contra_bass_clarinet_peg/stand__endpin_support
+  - compatible_contra_bass_clarinet_peg/stand__floor_stand_required
+  - compatible_contra_bass_clarinet_peg/stand__integrated_stand
+  - compatible_contra_bass_clarinet_peg/stand__peg_support
+  - compatible_contra_bass_clarinet_peg/stand__other
+- id: 6426
+  name: Compatible instrument surface/material
+  description: Indicates which instrument surfaces/materials the polish is intended to be used on.
+  friendly_id: compatible_instrument_surface/material
+  handle: compatible-instrument-surface-material
+  values:
+  - compatible_instrument_surface/material__carbon_fiber/composite
+  - compatible_instrument_surface/material__finished_wood_body/neck
+  - compatible_instrument_surface/material__finished/sealed_fingerboard_wood_e_g_
+  - compatible_instrument_surface/material__lacquered/varnished_surfaces
+  - compatible_instrument_surface/material__maple
+  - compatible_instrument_surface/material__metal_hardware
+  - compatible_instrument_surface/material__painted_surfaces
+  - compatible_instrument_surface/material__plastic
+  - compatible_instrument_surface/material__unfinished_fingerboard_wood
+  - compatible_instrument_surface/material__unfinished_wood
+  - compatible_instrument_surface/material__universal/multi_surface
+  - compatible_instrument_surface/material__other
+- id: 6427
+  name: Compatible neck profile/width
+  description: Indicates the guitar neck profile/width class the capo is designed to fit (e.g., narrow electric vs wide classical).
+  friendly_id: compatible_neck_profile/width
+  handle: compatible-neck-profile-width
+  values:
+  - compatible_neck_profile/width__narrow_electric
+  - compatible_neck_profile/width__standard_steel_string_acoustic
+  - compatible_neck_profile/width__universal
+  - compatible_neck_profile/width__wide_classical
+  - compatible_neck_profile/width__other
+- id: 6428
+  name: Compatible thread/spool format
+  description: Indicates what thread formats the box is designed to store (spools, bobbins, floss bobbins/cards, cones, etc.).
+  friendly_id: compatible_thread/spool_format
+  handle: compatible-thread-spool-format
+  values:
+  - compatible_thread/spool_format__embroidery_floss_bobbins/cards
+  - compatible_thread/spool_format__embroidery_thread_spools
+  - compatible_thread/spool_format__large_cones
+  - compatible_thread/spool_format__machine_bobbins
+  - compatible_thread/spool_format__mini_spools
+  - compatible_thread/spool_format__mixed/assorted
+  - compatible_thread/spool_format__pre_wound_bobbins
+  - compatible_thread/spool_format__quilting_spools
+  - compatible_thread/spool_format__serger_cones
+  - compatible_thread/spool_format__standard_sewing_spools
+  - compatible_thread/spool_format__other
+- id: 6429
+  name: Compatible winder head/bit
+  description: Specifies the tuner key/head interface style the winder supports (e.g., slotted head, interchangeable bits, universal head).
+  friendly_id: compatible_winder_head/bit
+  handle: compatible-winder-head-bit
+  values:
+  - compatible_winder_head/bit__hex_bit_interface
+  - compatible_winder_head/bit__includes_multiple_heads/bits
+  - compatible_winder_head/bit__interchangeable_bits
+  - compatible_winder_head/bit__slotted_head
+  - compatible_winder_head/bit__square_bit_interface
+  - compatible_winder_head/bit__universal_head
+  - compatible_winder_head/bit__other
+- id: 6430
+  name: Craft cutter/embosser machine operation
+  description: Specifies how the cutter/embosser operates from a user workflow perspective (e.g., manual crank, electric push-button, app-controlled).
+  friendly_id: craft_cutter/embosser_machine_operation
+  handle: craft-cutter-embosser-machine-operation
+  values:
+  - craft_cutter/embosser_machine_operation__electric_battery_powered
+  - craft_cutter/embosser_machine_operation__electric_corded
+  - craft_cutter/embosser_machine_operation__electronic_usb_connected
+  - craft_cutter/embosser_machine_operation__lever_press
+  - craft_cutter/embosser_machine_operation__manual_hand_tool
+  - craft_cutter/embosser_machine_operation__manual_crank_machine
+  - craft_cutter/embosser_machine_operation__smart/app_controlled_bluetooth/wifi
+  - craft_cutter/embosser_machine_operation__other
+- id: 6431
+  name: Craft wire finish/coating
+  description: Specifies the surface finish or coating applied to the wire for color, tarnish resistance, or protection.
+  friendly_id: craft_wire_finish/coating
+  handle: craft-wire-finish-coating
+  values:
+  - craft_wire_finish/coating__anodized
+  - craft_wire_finish/coating__bare/raw
+  - craft_wire_finish/coating__colored/painted
+  - craft_wire_finish/coating__enamel_coated
+  - craft_wire_finish/coating__galvanized
+  - craft_wire_finish/coating__plated
+  - craft_wire_finish/coating__polymer_coated
+  - craft_wire_finish/coating__tarnish_resistant_coated
+  - craft_wire_finish/coating__other
+- id: 6432
+  name: Cymbal arm rotation/positioning features
+  description: Specifies positioning features that affect how the arm can be angled/rotated and locked.
+  friendly_id: cymbal_arm_rotation/positioning_features
+  handle: cymbal-arm-rotation-positioning-features
+  values:
+  - cymbal_arm_rotation/positioning_features__arm_rotation_adjustment
+  - cymbal_arm_rotation/positioning_features__ball_joint
+  - cymbal_arm_rotation/positioning_features__boom_angle_adjustment
+  - cymbal_arm_rotation/positioning_features__hideaway_boom
+  - cymbal_arm_rotation/positioning_features__memory_lock_compatible
+  - cymbal_arm_rotation/positioning_features__memory_lock_included
+  - cymbal_arm_rotation/positioning_features__multi_angle/omni_angle_joint
+  - cymbal_arm_rotation/positioning_features__quick_release_tilter
+  - cymbal_arm_rotation/positioning_features__wingnutless_cymbal_mount
+  - cymbal_arm_rotation/positioning_features__other
+- id: 6433
+  name: Cymbal playing style/genre
+  description: Identifies the typical performance context the cymbals are designed for (e.g., belly dance zills vs marching/orchestral hand cymbals).
+  friendly_id: cymbal_playing_style/genre
+  handle: cymbal-playing-style-genre
+  values:
+  - cymbal_playing_style/genre__belly_dance
+  - cymbal_playing_style/genre__educational/classroom
+  - cymbal_playing_style/genre__folk/traditional
+  - cymbal_playing_style/genre__marching_band
+  - cymbal_playing_style/genre__meditation/sound_therapy
+  - cymbal_playing_style/genre__orchestral/concert
+  - cymbal_playing_style/genre__other
+- id: 6434
+  name: Decoder interface / socket type
+  description: Digital decoder interface type or onboard decoder configuration for the locomotive model.
+  friendly_id: decoder_interface_/_socket_type
+  handle: decoder-interface-socket-type
+  values:
+  - decoder_interface_/_socket_type__21_pin_mtc
+  - decoder_interface_/_socket_type__dcc_sound_fitted
+  - decoder_interface_/_socket_type__dcc_fitted_decoder_installed
+  - decoder_interface_/_socket_type__dcc_ready_socket
+  - decoder_interface_/_socket_type__hardwired
+  - decoder_interface_/_socket_type__nem_6_pin
+  - decoder_interface_/_socket_type__nem_8_pin
+  - decoder_interface_/_socket_type__next18
+  - decoder_interface_/_socket_type__nmra_9_pin_jst
+  - decoder_interface_/_socket_type__none_dc_only
+  - decoder_interface_/_socket_type__plux16
+  - decoder_interface_/_socket_type__plux22
+  - decoder_interface_/_socket_type__other
+- id: 6435
+  name: Disposable/Compostable claim
+  description: Indicates whether the product is compostable, biodegradable, recyclable, or none (where applicable).
+  friendly_id: disposable/compostable_claim
+  handle: disposable-compostable-claim
+  values:
+  - disposable/compostable_claim__biodegradable
+  - disposable/compostable_claim__compostable
+  - disposable/compostable_claim__none/not_specified
+  - disposable/compostable_claim__plastic_free
+  - disposable/compostable_claim__recyclable
+  - disposable/compostable_claim__recycled_content
+  - disposable/compostable_claim__other
+- id: 6436
+  name: Doumbek playing style/technique
+  description: Intended playing context/style commonly associated with the doumbek.
+  friendly_id: doumbek_playing_style/technique
+  handle: doumbek-playing-style-technique
+  values:
+  - doumbek_playing_style/technique__arabic/middle_eastern_general
+  - doumbek_playing_style/technique__egyptian_style
+  - doumbek_playing_style/technique__fusion/modern
+  - doumbek_playing_style/technique__turkish_style
+  - doumbek_playing_style/technique__other
+- id: 6437
+  name: Drum head application (batter/resonant)
+  description: Specifies which side/role the head is designed for on a drum (top playing surface vs bottom resonant/snare-side).
+  friendly_id: drum_head_application_batter/resonant
+  handle: drum-head-application-batter-resonant
+  values:
+  - drum_head_application_batter/resonant__batter_top
+  - drum_head_application_batter/resonant__dual_purpose
+  - drum_head_application_batter/resonant__resonant_/_snare_side_bottom
+  - drum_head_application_batter/resonant__other
+- id: 6438
+  name: Drum head hoop/collar type
+  description: Identifies the drum head’s hoop and collar construction (e.g., collar profile and hoop material), which can affect fit and tuning stability on certain shells and rims.
+  friendly_id: drum_head_hoop/collar_type
+  handle: drum-head-hoop-collar-type
+  values:
+  - drum_head_hoop/collar_type__aluminum_hoop
+  - drum_head_hoop/collar_type__low_collar
+  - drum_head_hoop/collar_type__standard_flesh_hoop
+  - drum_head_hoop/collar_type__steel_hoop
+  - drum_head_hoop/collar_type__wide_collar
+  - drum_head_hoop/collar_type__other
+- id: 6439
+  name: Drum head hoop/rim material
+  description: Material of the flesh hoop/rim (the embedded hoop inside the head), which can affect durability and tuning stability.
+  friendly_id: drum_head_hoop/rim_material
+  handle: drum-head-hoop-rim-material
+  values:
+  - drum_head_hoop/rim_material__aluminum
+  - drum_head_hoop/rim_material__composite
+  - drum_head_hoop/rim_material__steel
+  - drum_head_hoop/rim_material__wood
+  - drum_head_hoop/rim_material__other
+- id: 6440
+  name: Dyeing / color processing
+  description: Describes whether and how the fiber was colored (e.g., undyed, bleached/white, or specific dyeing techniques).
+  friendly_id: dyeing_/_color_processing
+  handle: dyeing-color-processing
+  values:
+  - dyeing_/_color_processing__gradient_/_ombre
+  - dyeing_/_color_processing__hand_dyed
+  - dyeing_/_color_processing__heathered
+  - dyeing_/_color_processing__kettle_dyed
+  - dyeing_/_color_processing__natural_colored_breed_color
+  - dyeing_/_color_processing__solid_dyed
+  - dyeing_/_color_processing__space_dyed
+  - dyeing_/_color_processing__speckled
+  - dyeing_/_color_processing__undyed_bleached_/_white
+  - dyeing_/_color_processing__undyed_natural
+  - dyeing_/_color_processing__other
+- id: 6441
+  name: Elastic edge finish/type
+  description: Specifies edge construction of the woven elastic that impacts comfort and application.
+  friendly_id: elastic_edge_finish/type
+  handle: elastic-edge-finish-type
+  values:
+  - elastic_edge_finish/type__center_fold
+  - elastic_edge_finish/type__fold_over
+  - elastic_edge_finish/type__picot_edge
+  - elastic_edge_finish/type__scalloped_edge
+  - elastic_edge_finish/type__straight_edge
+  - elastic_edge_finish/type__other
+- id: 6442
+  name: Equipment contact material (brew/wine)
+  description: Primary material of the item that contacts the liquid (e.g., glass, stainless steel, plastic).
+  friendly_id: equipment_contact_material_brew/wine
+  handle: equipment-contact-material-brew-wine
+  values:
+  - equipment_contact_material_brew/wine__aluminum
+  - equipment_contact_material_brew/wine__ceramic
+  - equipment_contact_material_brew/wine__copper
+  - equipment_contact_material_brew/wine__food_grade_hdpe
+  - equipment_contact_material_brew/wine__food_grade_pet
+  - equipment_contact_material_brew/wine__glass
+  - equipment_contact_material_brew/wine__plastic
+  - equipment_contact_material_brew/wine__rubber
+  - equipment_contact_material_brew/wine__silicone
+  - equipment_contact_material_brew/wine__stainless_steel
+  - equipment_contact_material_brew/wine__wood
+  - equipment_contact_material_brew/wine__other
+- id: 6443
+  name: European sword pattern/type
+  description: Specific European sword pattern/type (typology) represented by the collectible sword.
+  friendly_id: european_sword_pattern/type
+  handle: european-sword-pattern-type
+  values:
+  - european_sword_pattern/type__arming_sword
+  - european_sword_pattern/type__bastard_sword_hand_and_a_half
+  - european_sword_pattern/type__broadsword
+  - european_sword_pattern/type__claymore_scottish_greatsword
+  - european_sword_pattern/type__cutlass
+  - european_sword_pattern/type__estoc
+  - european_sword_pattern/type__falchion
+  - european_sword_pattern/type__gladius_roman
+  - european_sword_pattern/type__longsword
+  - european_sword_pattern/type__rapier
+  - european_sword_pattern/type__sabre/saber
+  - european_sword_pattern/type__scimitar
+  - european_sword_pattern/type__shamshir
+  - european_sword_pattern/type__smallsword
+  - european_sword_pattern/type__spatha
+  - european_sword_pattern/type__viking_sword
+  - european_sword_pattern/type__zweihander_greatsword
+  - european_sword_pattern/type__other
+- id: 6444
+  name: Evenweave fabric finish/treatment
+  description: Indicates any pre-finish or treatment applied to the fabric that affects handling or appearance.
+  friendly_id: evenweave_fabric_finish/treatment
+  handle: evenweave-fabric-finish-treatment
+  values:
+  - evenweave_fabric_finish/treatment__hand_dyed
+  - evenweave_fabric_finish/treatment__overdyed
+  - evenweave_fabric_finish/treatment__pre_shrunk
+  - evenweave_fabric_finish/treatment__pre_washed
+  - evenweave_fabric_finish/treatment__softened
+  - evenweave_fabric_finish/treatment__starched
+  - evenweave_fabric_finish/treatment__untreated
+  - evenweave_fabric_finish/treatment__other
+- id: 6445
+  name: Feather attachment/format
+  description: How the synthetic feathers are prepared/sold for use (loose, on string, on tape, etc.).
+  friendly_id: feather_attachment/format
+  handle: feather-attachment-format
+  values:
+  - feather_attachment/format__assorted_pack
+  - feather_attachment/format__boa
+  - feather_attachment/format__loose_feathers
+  - feather_attachment/format__on_tape/ribbon
+  - feather_attachment/format__stem/wire_mounted
+  - feather_attachment/format__strung/garland
+  - feather_attachment/format__trim_fringe_sew_on
+  - feather_attachment/format__other
+- id: 6446
+  name: Fiber animal/source type
+  description: The animal or primary source the roving comes from (or synthetic), such as merino wool, alpaca, or plant fibers.
+  friendly_id: fiber_animal/source_type
+  handle: fiber-animal-source-type
+  values:
+  - fiber_animal/source_type__alpaca
+  - fiber_animal/source_type__angora_rabbit
+  - fiber_animal/source_type__bluefaced_leicester_bfl_wool
+  - fiber_animal/source_type__cashmere_goat
+  - fiber_animal/source_type__corriedale_wool
+  - fiber_animal/source_type__gotland_wool
+  - fiber_animal/source_type__icelandic_wool
+  - fiber_animal/source_type__jacob_wool
+  - fiber_animal/source_type__llama
+  - fiber_animal/source_type__merino_wool
+  - fiber_animal/source_type__mohair_goat
+  - fiber_animal/source_type__plant_fiber
+  - fiber_animal/source_type__polwarth_wool
+  - fiber_animal/source_type__rambouillet_wool
+  - fiber_animal/source_type__romney_wool
+  - fiber_animal/source_type__sheep_wool
+  - fiber_animal/source_type__shetland_wool
+  - fiber_animal/source_type__silk
+  - fiber_animal/source_type__synthetic
+  - fiber_animal/source_type__yak
+  - fiber_animal/source_type__other
+- id: 6447
+  name: Fiber preparation / processing stage
+  description: Indicates how the sliver has been prepared/processed for use (e.g., carded vs combed, blended, superwash).
+  friendly_id: fiber_preparation_/_processing_stage
+  handle: fiber-preparation-processing-stage
+  values:
+  - fiber_preparation_/_processing_stage__bleached/white_base
+  - fiber_preparation_/_processing_stage__blended_sliver
+  - fiber_preparation_/_processing_stage__carbonized
+  - fiber_preparation_/_processing_stage__carded_sliver
+  - fiber_preparation_/_processing_stage__combed_sliver
+  - fiber_preparation_/_processing_stage__recycled_fiber_sliver
+  - fiber_preparation_/_processing_stage__rolags_pulled_from_sliver
+  - fiber_preparation_/_processing_stage__superwash_treated
+  - fiber_preparation_/_processing_stage__other
+- id: 6448
+  name: Fleece finish / surface
+  description: Describes the surface/finish of fleece (e.g., anti-pill, brushed) which impacts pilling performance, softness, and appearance.
+  friendly_id: fleece_finish_/_surface
+  handle: fleece-finish-surface
+  values:
+  - fleece_finish_/_surface__anti_pill
+  - fleece_finish_/_surface__brushed
+  - fleece_finish_/_surface__double_sided
+  - fleece_finish_/_surface__microfleece
+  - fleece_finish_/_surface__minky_style
+  - fleece_finish_/_surface__sherpa_style
+  - fleece_finish_/_surface__standard
+  - fleece_finish_/_surface__wind_resistant_laminate
+  - fleece_finish_/_surface__other
+- id: 6449
+  name: Flyer kit finish/coating
+  description: Surface finish applied to the flyer kit components.
+  friendly_id: flyer_kit_finish/coating
+  handle: flyer-kit-finish-coating
+  values:
+  - flyer_kit_finish/coating__anodized
+  - flyer_kit_finish/coating__lacquered/varnished
+  - flyer_kit_finish/coating__oiled/waxed
+  - flyer_kit_finish/coating__painted
+  - flyer_kit_finish/coating__plated_chrome/nickel
+  - flyer_kit_finish/coating__powder_coated
+  - flyer_kit_finish/coating__unfinished/natural
+  - flyer_kit_finish/coating__other
+- id: 6450
+  name: Gift box/tin insert type
+  description: Interior insert configuration for organizing/protecting items inside the box/tin.
+  friendly_id: gift_box/tin_insert_type
+  handle: gift-box-tin-insert-type
+  values:
+  - gift_box/tin_insert_type__bottle_neck_insert
+  - gift_box/tin_insert_type__divider_cardboard
+  - gift_box/tin_insert_type__divider_plastic
+  - gift_box/tin_insert_type__fabric_lining
+  - gift_box/tin_insert_type__foam_insert
+  - gift_box/tin_insert_type__molded_pulp_insert
+  - gift_box/tin_insert_type__no_insert
+  - gift_box/tin_insert_type__paper_shred/filler_included
+  - gift_box/tin_insert_type__tray_insert
+  - gift_box/tin_insert_type__other
+- id: 6451
+  name: Gift box/tin sustainability features
+  description: Sustainability-related characteristics of the gift box/tin packaging.
+  friendly_id: gift_box/tin_sustainability_features
+  handle: gift-box-tin-sustainability-features
+  values:
+  - gift_box/tin_sustainability_features__biodegradable
+  - gift_box/tin_sustainability_features__compostable
+  - gift_box/tin_sustainability_features__fsc_certified_paper
+  - gift_box/tin_sustainability_features__plastic_free
+  - gift_box/tin_sustainability_features__recyclable
+  - gift_box/tin_sustainability_features__recycled_content
+  - gift_box/tin_sustainability_features__refillable
+  - gift_box/tin_sustainability_features__reusable/keepsake
+  - gift_box/tin_sustainability_features__other
+- id: 6452
+  name: Gift box/tin window type
+  description: Whether the gift box has a display window and what style it is.
+  friendly_id: gift_box/tin_window_type
+  handle: gift-box-tin-window-type
+  values:
+  - gift_box/tin_window_type__full_clear_lid
+  - gift_box/tin_window_type__multiple_windows
+  - gift_box/tin_window_type__no_window
+  - gift_box/tin_window_type__side_window
+  - gift_box/tin_window_type__top_window
+  - gift_box/tin_window_type__other
+- id: 6453
+  name: Glitter glue base/solvent type
+  description: Describes the primary base of the glitter glue (common shopper concern for cleanup and material compatibility).
+  friendly_id: glitter_glue_base/solvent_type
+  handle: glitter-glue-base-solvent-type
+  values:
+  - glitter_glue_base/solvent_type__alcohol_based
+  - glitter_glue_base/solvent_type__solvent_based
+  - glitter_glue_base/solvent_type__water_based
+  - glitter_glue_base/solvent_type__other
+- id: 6454
+  name: Glitter opacity/coverage
+  description: Indicates how opaque the glitter effect appears when applied.
+  friendly_id: glitter_opacity/coverage
+  handle: glitter-opacity-coverage
+  values:
+  - glitter_opacity/coverage__opaque
+  - glitter_opacity/coverage__semi_opaque
+  - glitter_opacity/coverage__translucent
+  - glitter_opacity/coverage__transparent
+  - glitter_opacity/coverage__other
+- id: 6455
+  name: Guitar pedal I/O configuration
+  description: Indicates whether the pedal supports mono or stereo input/output routing.
+  friendly_id: guitar_pedal_i/o_configuration
+  handle: guitar-pedal-i-o-configuration
+  values:
+  - guitar_pedal_i/o_configuration__mono_in_/_mono_out
+  - guitar_pedal_i/o_configuration__mono_in_/_stereo_out
+  - guitar_pedal_i/o_configuration__stereo_in_/_stereo_out
+  - guitar_pedal_i/o_configuration__other
+- id: 6456
+  name: Hand percussion mounting/handling
+  description: Whether the instrument is handheld, worn, mounted, or table/floor placed during typical use.
+  friendly_id: hand_percussion_mounting/handling
+  handle: hand-percussion-mounting-handling
+  values:
+  - hand_percussion_mounting/handling__floor_standing
+  - hand_percussion_mounting/handling__handheld
+  - hand_percussion_mounting/handling__mounted_stand/mount
+  - hand_percussion_mounting/handling__neck_strap_compatible
+  - hand_percussion_mounting/handling__tabletop
+  - hand_percussion_mounting/handling__wearable_finger/hand
+  - hand_percussion_mounting/handling__other
+- id: 6457
+  name: Harmonica system/type
+  description: Identifies the orchestral harmonica system or form factor (e.g., chord, bass, baritone, polyphonia).
+  friendly_id: harmonica_system/type
+  handle: harmonica-system-type
+  values:
+  - harmonica_system/type__accord
+  - harmonica_system/type__alto
+  - harmonica_system/type__baritone
+  - harmonica_system/type__bass
+  - harmonica_system/type__chord
+  - harmonica_system/type__double_bass
+  - harmonica_system/type__ensemble/section_set
+  - harmonica_system/type__melody/lead
+  - harmonica_system/type__polyphonia
+  - harmonica_system/type__soprano
+  - harmonica_system/type__tenor
+  - harmonica_system/type__other
+- id: 6458
+  name: Jew's harp frame style
+  description: Describes the construction style of the jew's harp frame/body, which influences feel, durability, and playing ergonomics.
+  friendly_id: jews_harp_frame_style
+  handle: jews-harp-frame-style
+  values:
+  - jews_harp_frame_style__cast
+  - jews_harp_frame_style__cnc_machined
+  - jews_harp_frame_style__forged
+  - jews_harp_frame_style__hand_forged_handmade
+  - jews_harp_frame_style__laminated_layered_construction
+  - jews_harp_frame_style__stamped
+  - jews_harp_frame_style__other
+- id: 6459
+  name: Jew's harp tongue profile
+  description: Describes the jew's harp tongue (reed) profile/geometry, which affects responsiveness and timbre.
+  friendly_id: jews_harp_tongue_profile
+  handle: jews-harp-tongue-profile
+  values:
+  - jews_harp_tongue_profile__long
+  - jews_harp_tongue_profile__narrow
+  - jews_harp_tongue_profile__short
+  - jews_harp_tongue_profile__standard
+  - jews_harp_tongue_profile__thick
+  - jews_harp_tongue_profile__thin
+  - jews_harp_tongue_profile__wide
+  - jews_harp_tongue_profile__other
+- id: 6460
+  name: Kit pouch/case type
+  description: Specifies the type of included storage solution for the care kit (if any).
+  friendly_id: kit_pouch/case_type
+  handle: kit-pouch-case-type
+  values:
+  - kit_pouch/case_type__hard_case
+  - kit_pouch/case_type__no_case_included
+  - kit_pouch/case_type__roll_up_wrap
+  - kit_pouch/case_type__soft_pouch
+  - kit_pouch/case_type__tube/canister
+  - kit_pouch/case_type__other
+- id: 6461
+  name: Knitting marker/counter type
+  description: Specifies the functional product type within knitting markers & counters.
+  friendly_id: knitting_marker/counter_type
+  handle: knitting-marker-counter-type
+  values:
+  - knitting_marker/counter_type__row_counter
+  - knitting_marker/counter_type__stitch_holder/keeper
+  - knitting_marker/counter_type__stitch_marker
+  - knitting_marker/counter_type__stitch_marker_row_counter_set
+  - knitting_marker/counter_type__other
+- id: 6462
+  name: Label finish/edge style
+  description: How the edges are finished, which affects comfort and durability (e.g., woven edge vs laser-cut).
+  friendly_id: label_finish/edge_style
+  handle: label-finish-edge-style
+  values:
+  - label_finish/edge_style__folded_edge
+  - label_finish/edge_style__heat_cut
+  - label_finish/edge_style__laser_cut
+  - label_finish/edge_style__merrowed/overlocked_edge
+  - label_finish/edge_style__satin_edge
+  - label_finish/edge_style__ultrasonic_cut
+  - label_finish/edge_style__woven_edge_damask
+  - label_finish/edge_style__other
+- id: 6463
+  name: License/usage terms
+  description: Usage rights for the pattern (e.g., personal use only vs limited commercial).
+  friendly_id: license/usage_terms
+  handle: license-usage-terms
+  values:
+  - license/usage_terms__commercial_use_allowed
+  - license/usage_terms__limited_commercial_sell_finished_items
+  - license/usage_terms__other/see_description
+  - license/usage_terms__personal_+_gift_use
+  - license/usage_terms__personal_use_only
+  - license/usage_terms__teaching/class_use_allowed
+  - license/usage_terms__other
+- id: 6464
+  name: Linen finish/treatment
+  description: Any finishing process applied to the linen fabric that changes hand-feel, appearance, or performance.
+  friendly_id: linen_finish/treatment
+  handle: linen-finish-treatment
+  values:
+  - linen_finish/treatment__coated
+  - linen_finish/treatment__enzyme_washed
+  - linen_finish/treatment__flame_retardant
+  - linen_finish/treatment__mercerized
+  - linen_finish/treatment__sanforized_pre_shrunk
+  - linen_finish/treatment__softened
+  - linen_finish/treatment__stain_resistant
+  - linen_finish/treatment__stonewashed
+  - linen_finish/treatment__unfinished
+  - linen_finish/treatment__uv_resistant
+  - linen_finish/treatment__washed
+  - linen_finish/treatment__water_repellent
+  - linen_finish/treatment__wrinkle_resistant
+  - linen_finish/treatment__other
+- id: 6465
+  name: Logo label print/production method
+  description: How the logo is applied/formed on the label surface.
+  friendly_id: logo_label_print/production_method
+  handle: logo-label-print-production-method
+  values:
+  - logo_label_print/production_method__digital_printed
+  - logo_label_print/production_method__embroidered
+  - logo_label_print/production_method__foil_printed
+  - logo_label_print/production_method__heat_transfer
+  - logo_label_print/production_method__jacquard_woven
+  - logo_label_print/production_method__leather_debossed/embossed
+  - logo_label_print/production_method__screen_printed
+  - logo_label_print/production_method__sublimated
+  - logo_label_print/production_method__woven
+  - logo_label_print/production_method__other
+- id: 6466
+  name: Loom folding/portability design type
+  description: Whether and how the loom folds/collapses for transport or compact storage.
+  friendly_id: loom_folding/portability_design_type
+  handle: loom-folding-portability-design-type
+  values:
+  - loom_folding/portability_design_type__collapsible_breaks_down_into_parts
+  - loom_folding/portability_design_type__folding_castle
+  - loom_folding/portability_design_type__folding_frame
+  - loom_folding/portability_design_type__folding_stand
+  - loom_folding/portability_design_type__non_foldable
+  - loom_folding/portability_design_type__removable_warp_beam_for_transport
+  - loom_folding/portability_design_type__other
+- id: 6467
+  name: Lyre/flip folder mounting location
+  description: Where the lyre or flip folder is intended to mount on the instrument or accessory (e.g., bell, leadpipe, stand).
+  friendly_id: lyre/flip_folder_mounting_location
+  handle: lyre-flip-folder-mounting-location
+  values:
+  - lyre/flip_folder_mounting_location__drum_hardware_rack/clamp
+  - lyre/flip_folder_mounting_location__instrument_bell
+  - lyre/flip_folder_mounting_location__leadpipe
+  - lyre/flip_folder_mounting_location__mic_stand
+  - lyre/flip_folder_mounting_location__mouthpiece_receiver_area
+  - lyre/flip_folder_mounting_location__music_stand
+  - lyre/flip_folder_mounting_location__tuning_slide
+  - lyre/flip_folder_mounting_location__universal/multi_position
+  - lyre/flip_folder_mounting_location__valve_casing
+  - lyre/flip_folder_mounting_location__other
+- id: 6468
+  name: Mounting/attachment method
+  description: How the holder/bag is designed to attach to a drum, stand, belt, or other surface.
+  friendly_id: mounting/attachment_method
+  handle: mounting-attachment-method
+  values:
+  - mounting/attachment_method__adhesive_mount
+  - mounting/attachment_method__belt_loop
+  - mounting/attachment_method__carabiner/loop
+  - mounting/attachment_method__clamp_mount
+  - mounting/attachment_method__clip_on
+  - mounting/attachment_method__drum_rim_mount
+  - mounting/attachment_method__floor/stand_placement
+  - mounting/attachment_method__hardware_bracket_mount
+  - mounting/attachment_method__hook_and_loop_velcro_mount
+  - mounting/attachment_method__none_not_mountable
+  - mounting/attachment_method__tension_rod/lug_mount
+  - mounting/attachment_method__tie_on/strap_on
+  - mounting/attachment_method__other
+- id: 6469
+  name: Mounting/attachment type
+  description: How the ratio accessory attaches or interfaces with the spinning wheel.
+  friendly_id: mounting/attachment_type
+  handle: mounting-attachment-type
+  values:
+  - mounting/attachment_type__add_on_reducer/increaser
+  - mounting/attachment_type__bobbin_whorl
+  - mounting/attachment_type__drive_wheel_pulley
+  - mounting/attachment_type__gear/gearbox
+  - mounting/attachment_type__mother_of_all_pulley
+  - mounting/attachment_type__whorl_flyer_whorl
+  - mounting/attachment_type__other
+- id: 6470
+  name: Mouthpiece shank/receiver size
+  description: Specifies the mouthpiece receiver/shank standard compatible with the flugelhorn.
+  friendly_id: mouthpiece_shank/receiver_size
+  handle: mouthpiece-shank-receiver-size
+  values:
+  - mouthpiece_shank/receiver_size__american_standard
+  - mouthpiece_shank/receiver_size__french_shank
+  - mouthpiece_shank/receiver_size__large_shank
+  - mouthpiece_shank/receiver_size__small_shank
+  - mouthpiece_shank/receiver_size__other
+- id: 6471
+  name: Mute cork/padding material
+  description: Specifies the material of the mute’s contact padding (e.g., cork strip/pads) used for grip/fit and bell protection.
+  friendly_id: mute_cork/padding_material
+  handle: mute-cork-padding-material
+  values:
+  - mute_cork/padding_material__felt
+  - mute_cork/padding_material__foam
+  - mute_cork/padding_material__leather
+  - mute_cork/padding_material__natural_cork
+  - mute_cork/padding_material__none
+  - mute_cork/padding_material__rubber
+  - mute_cork/padding_material__silicone
+  - mute_cork/padding_material__synthetic_cork
+  - mute_cork/padding_material__other
+- id: 6472
+  name: Needle holder mounting/attachment method
+  description: How the needle holder is meant to be attached or used during storage (e.g., magnetic, clip, strap).
+  friendly_id: needle_holder_mounting/attachment_method
+  handle: needle-holder-mounting-attachment-method
+  values:
+  - needle_holder_mounting/attachment_method__adhesive_backed
+  - needle_holder_mounting/attachment_method__clip_on
+  - needle_holder_mounting/attachment_method__keychain/loop
+  - needle_holder_mounting/attachment_method__lanyard
+  - needle_holder_mounting/attachment_method__magnetic
+  - needle_holder_mounting/attachment_method__pin_on
+  - needle_holder_mounting/attachment_method__stand/desktop
+  - needle_holder_mounting/attachment_method__strap/wrap
+  - needle_holder_mounting/attachment_method__suction_cup
+  - needle_holder_mounting/attachment_method__other
+- id: 6473
+  name: Orchestral string instrument fitting/part type
+  description: Specifies what kind of fitting/part the product is (e.g., bridge, tailpiece, chinrest).
+  friendly_id: orchestral_string_instrument_fitting/part_type
+  handle: orchestral-string-instrument-fitting-part-type
+  values:
+  - orchestral_string_instrument_fitting/part_type__bridge
+  - orchestral_string_instrument_fitting/part_type__bridge_adjusters
+  - orchestral_string_instrument_fitting/part_type__c_peg_cello_peg_extension
+  - orchestral_string_instrument_fitting/part_type__chinrest
+  - orchestral_string_instrument_fitting/part_type__corner/end_block
+  - orchestral_string_instrument_fitting/part_type__endpin
+  - orchestral_string_instrument_fitting/part_type__fine_tuner
+  - orchestral_string_instrument_fitting/part_type__fingerboard
+  - orchestral_string_instrument_fitting/part_type__nut
+  - orchestral_string_instrument_fitting/part_type__peg_shaver/reamer_replacement_blades/parts
+  - orchestral_string_instrument_fitting/part_type__rib/plate_fitting_repair_cleats/patches
+  - orchestral_string_instrument_fitting/part_type__saddle
+  - orchestral_string_instrument_fitting/part_type__soundpost
+  - orchestral_string_instrument_fitting/part_type__tailgut
+  - orchestral_string_instrument_fitting/part_type__tailpiece
+  - orchestral_string_instrument_fitting/part_type__tailpiece_fret
+  - orchestral_string_instrument_fitting/part_type__tuning_pegs
+  - orchestral_string_instrument_fitting/part_type__wolf_eliminator
+  - orchestral_string_instrument_fitting/part_type__other
+- id: 6474
+  name: Organza finish / sheen
+  description: Describes the surface look of the organza (matte vs shiny/iridescent effects).
+  friendly_id: organza_finish_/_sheen
+  handle: organza-finish-sheen
+  values:
+  - organza_finish_/_sheen__burnout
+  - organza_finish_/_sheen__embossed/jacquard
+  - organza_finish_/_sheen__foil
+  - organza_finish_/_sheen__glitter/sequin
+  - organza_finish_/_sheen__high_sheen
+  - organza_finish_/_sheen__iridescent/shot
+  - organza_finish_/_sheen__matte
+  - organza_finish_/_sheen__soft_sheen
+  - organza_finish_/_sheen__other
+- id: 6475
+  name: Patch border/edge finish
+  description: The edge finishing method of the patch (e.g., merrowed/overlocked edge, laser-cut edge) affecting durability and appearance.
+  friendly_id: patch_border/edge_finish
+  handle: patch-border-edge-finish
+  values:
+  - patch_border/edge_finish__embroidered_border
+  - patch_border/edge_finish__folded_edge
+  - patch_border/edge_finish__frayed_edge_intentional
+  - patch_border/edge_finish__heat_cut_edge
+  - patch_border/edge_finish__laser_cut_edge
+  - patch_border/edge_finish__merrowed/overlocked_edge
+  - patch_border/edge_finish__raw_edge
+  - patch_border/edge_finish__satin_stitch_border
+  - patch_border/edge_finish__other
+- id: 6476
+  name: Perfumery ingredient carrier/solvent
+  description: Identifies the carrier/solvent the ingredient is supplied in, if diluted (e.g., ethanol, DPG, jojoba oil).
+  friendly_id: perfumery_ingredient_carrier/solvent
+  handle: perfumery-ingredient-carrier-solvent
+  values:
+  - perfumery_ingredient_carrier/solvent__dpg_dipropylene_glycol
+  - perfumery_ingredient_carrier/solvent__ethanol_alcohol
+  - perfumery_ingredient_carrier/solvent__fractionated_coconut_oil_mct
+  - perfumery_ingredient_carrier/solvent__glycerin
+  - perfumery_ingredient_carrier/solvent__ipm_isopropyl_myristate
+  - perfumery_ingredient_carrier/solvent__jojoba_oil
+  - perfumery_ingredient_carrier/solvent__neat_undiluted
+  - perfumery_ingredient_carrier/solvent__propylene_glycol_pg
+  - perfumery_ingredient_carrier/solvent__tec_triethyl_citrate
+  - perfumery_ingredient_carrier/solvent__other
+- id: 6477
+  name: Piñata filler type included
+  description: If filler is included, the type of contents provided.
+  friendly_id: pinata_filler_type_included
+  handle: pinata-filler-type-included
+  values:
+  - pinata_filler_type_included__candy
+  - pinata_filler_type_included__chocolate
+  - pinata_filler_type_included__confetti
+  - pinata_filler_type_included__gum
+  - pinata_filler_type_included__mixed_assortment
+  - pinata_filler_type_included__stickers
+  - pinata_filler_type_included__toys/novelties
+  - pinata_filler_type_included__other
+- id: 6478
+  name: Piñata hanging method
+  description: How the piñata is designed to be hung or supported (loop, hook, string included, etc.).
+  friendly_id: pinata_hanging_method
+  handle: pinata-hanging-method
+  values:
+  - pinata_hanging_method__hanging_hook
+  - pinata_hanging_method__hanging_loop
+  - pinata_hanging_method__hanging_string_included
+  - pinata_hanging_method__not_hangable/handheld
+  - pinata_hanging_method__reinforced_hanger
+  - pinata_hanging_method__stand_compatible
+  - pinata_hanging_method__other
+- id: 6479
+  name: Piñata opening type
+  description: How the fill opening is accessed/closed (flap, Velcro, zipper, pre-sealed, etc.).
+  friendly_id: pinata_opening_type
+  handle: pinata-opening-type
+  values:
+  - pinata_opening_type__drawstring
+  - pinata_opening_type__flap
+  - pinata_opening_type__pre_sealed_no_fill_opening
+  - pinata_opening_type__velcro_closure
+  - pinata_opening_type__zipper
+  - pinata_opening_type__other
+- id: 6480
+  name: Pipe instrument voicing / sound production method
+  description: Specifies how the instrument produces sound (airflow mechanism), helping distinguish pan flutes, reed pipes, and organ pipe families in filters.
+  friendly_id: pipe_instrument_voicing_/_sound_production_method
+  handle: pipe-instrument-voicing-sound-production-method
+  values:
+  - pipe_instrument_voicing_/_sound_production_method__beating_reed_double
+  - pipe_instrument_voicing_/_sound_production_method__beating_reed_single
+  - pipe_instrument_voicing_/_sound_production_method__edge_blown
+  - pipe_instrument_voicing_/_sound_production_method__flue_fipple
+  - pipe_instrument_voicing_/_sound_production_method__free_reed
+  - pipe_instrument_voicing_/_sound_production_method__labium_/_duct_flute
+  - pipe_instrument_voicing_/_sound_production_method__other
+- id: 6481
+  name: Pom-pom trim backing/tape material
+  description: Identifies the material of the sewn tape or braid that the pom-poms are attached to (the trim base).
+  friendly_id: pom_pom_trim_backing/tape_material
+  handle: pom-pom-trim-backing-tape-material
+  values:
+  - pom_pom_trim_backing/tape_material__cotton
+  - pom_pom_trim_backing/tape_material__elastic
+  - pom_pom_trim_backing/tape_material__jute
+  - pom_pom_trim_backing/tape_material__linen
+  - pom_pom_trim_backing/tape_material__metallic_thread_braid
+  - pom_pom_trim_backing/tape_material__nylon
+  - pom_pom_trim_backing/tape_material__polyester
+  - pom_pom_trim_backing/tape_material__polypropylene_pp
+  - pom_pom_trim_backing/tape_material__rayon/viscose
+  - pom_pom_trim_backing/tape_material__other
+- id: 6482
+  name: Portability/Frame type
+  description: Whether the orchestra chimes are portable/field-frame style or fixed/concert-frame style.
+  friendly_id: portability/frame_type
+  handle: portability-frame-type
+  values:
+  - portability/frame_type__concert_frame
+  - portability/frame_type__field_frame
+  - portability/frame_type__folding_frame
+  - portability/frame_type__portable_frame
+  - portability/frame_type__rolling_frame
+  - portability/frame_type__wall_mount_frame
+  - portability/frame_type__other
+- id: 6483
+  name: Practice mute venting/valve type
+  description: Specifies whether and how the practice mute is vented or includes an adjustable valve to change resistance/volume.
+  friendly_id: practice_mute_venting/valve_type
+  handle: practice-mute-venting-valve-type
+  values:
+  - practice_mute_venting/valve_type__adjustable_valve/vent
+  - practice_mute_venting/valve_type__dual_mode_open/closed
+  - practice_mute_venting/valve_type__fixed_vented
+  - practice_mute_venting/valve_type__non_vented
+  - practice_mute_venting/valve_type__other
+- id: 6484
+  name: Profile/shape
+  description: Overall curvature/profile of the cymbal (how steeply it rises from edge to bell).
+  friendly_id: profile/shape
+  handle: profile-shape
+  values:
+  - profile/shape__high_profile
+  - profile/shape__low_profile
+  - profile/shape__medium_profile
+  - profile/shape__other
+- id: 6485
+  name: Ribbon/trim backing type
+  description: Indicates whether the ribbon/trim has a backing and what kind (for easy application).
+  friendly_id: ribbon/trim_backing_type
+  handle: ribbon-trim-backing-type
+  values:
+  - ribbon/trim_backing_type__adhesive_backed_peel_stick
+  - ribbon/trim_backing_type__double_sided_tape_backing
+  - ribbon/trim_backing_type__fusible/iron_on
+  - ribbon/trim_backing_type__heat_activated_adhesive
+  - ribbon/trim_backing_type__hook_and_loop_backed
+  - ribbon/trim_backing_type__no_backing
+  - ribbon/trim_backing_type__paper_backed
+  - ribbon/trim_backing_type__other
+- id: 6486
+  name: Ribbon/trim edge finish
+  description: Describes the edge construction/finish of ribbon/trim (useful for fraying behavior and intended use).
+  friendly_id: ribbon/trim_edge_finish
+  handle: ribbon-trim-edge-finish
+  values:
+  - ribbon/trim_edge_finish__beaded_edge
+  - ribbon/trim_edge_finish__frayed_edge
+  - ribbon/trim_edge_finish__fringe_edge
+  - ribbon/trim_edge_finish__heat_sealed
+  - ribbon/trim_edge_finish__lace_edge
+  - ribbon/trim_edge_finish__laser_cut
+  - ribbon/trim_edge_finish__picot
+  - ribbon/trim_edge_finish__piped_edge
+  - ribbon/trim_edge_finish__ric_rac/zigzag_edge
+  - ribbon/trim_edge_finish__scalloped
+  - ribbon/trim_edge_finish__sequin_edge
+  - ribbon/trim_edge_finish__serged/overlocked
+  - ribbon/trim_edge_finish__wired_edge
+  - ribbon/trim_edge_finish__woven_selvedge
+  - ribbon/trim_edge_finish__other
+- id: 6487
+  name: Rosin formula / additives
+  description: Identifies notable formulation features such as hypoallergenic, low-dust, or metal-infused blends.
+  friendly_id: rosin_formula_/_additives
+  handle: rosin-formula-additives
+  values:
+  - rosin_formula_/_additives__grip_enhancing_blend
+  - rosin_formula_/_additives__hypoallergenic
+  - rosin_formula_/_additives__low_dust
+  - rosin_formula_/_additives__metal_infused
+  - rosin_formula_/_additives__standard
+  - rosin_formula_/_additives__synthetic/vegan
+  - rosin_formula_/_additives__wax_free
+  - rosin_formula_/_additives__other
+- id: 6488
+  name: Skein winder bearing/bushing type
+  description: Specifies the type of bearing or bushing used in the skein winder’s rotating assembly.
+  friendly_id: skein_winder_bearing/bushing_type
+  handle: skein-winder-bearing-bushing-type
+  values:
+  - skein_winder_bearing/bushing_type__ball_bearing
+  - skein_winder_bearing/bushing_type__plain_bushing_sleeve
+  - skein_winder_bearing/bushing_type__roller_bearing
+  - skein_winder_bearing/bushing_type__wood_on_wood_no_bearing
+  - skein_winder_bearing/bushing_type__other
+- id: 6489
+  name: Specialty malt name/type
+  description: Identifies the specific named specialty malt type (often used as the commercial style name).
+  friendly_id: specialty_malt_name/type
+  handle: specialty-malt-name-type
+  values:
+  - specialty_malt_name/type__acidulated_malt
+  - specialty_malt_name/type__amber_malt
+  - specialty_malt_name/type__aromatic
+  - specialty_malt_name/type__biscuit
+  - specialty_malt_name/type__brown_malt
+  - specialty_malt_name/type__carafa_dehusked
+  - specialty_malt_name/type__crystal/caramel
+  - specialty_malt_name/type__dextrin/carapils
+  - specialty_malt_name/type__honey_malt
+  - specialty_malt_name/type__melanoidin
+  - specialty_malt_name/type__munich
+  - specialty_malt_name/type__oat_malt
+  - specialty_malt_name/type__peated_malt
+  - specialty_malt_name/type__rye_malt
+  - specialty_malt_name/type__smoked_malt
+  - specialty_malt_name/type__special_b
+  - specialty_malt_name/type__victory
+  - specialty_malt_name/type__vienna
+  - specialty_malt_name/type__wheat_malt
+  - specialty_malt_name/type__other
+- id: 6490
+  name: Spinner control card design/type
+  description: Describes the kind of spinner control card in terms of how it presents control information (e.g., ratio reference, tension reference, conversion chart).
+  friendly_id: spinner_control_card_design/type
+  handle: spinner-control-card-design-type
+  values:
+  - spinner_control_card_design/type__bobbin_capacity_reference
+  - spinner_control_card_design/type__conversion_chart_metric/imperial
+  - spinner_control_card_design/type__drafting_control_card
+  - spinner_control_card_design/type__fiber_preparation_checklist_card
+  - spinner_control_card_design/type__leader_length_reference
+  - spinner_control_card_design/type__maintenance/quick_start_reference
+  - spinner_control_card_design/type__orifice/hook_compatibility_chart
+  - spinner_control_card_design/type__ratio_reference_card
+  - spinner_control_card_design/type__tension_settings_reference_card
+  - spinner_control_card_design/type__twist_per_inch_tpi_reference
+  - spinner_control_card_design/type__yarn_grist_reference_wpi/yardage
+  - spinner_control_card_design/type__other
+- id: 6491
+  name: Spinning wheel brake/tension system type
+  description: Specifies the braking/take-up tension system used to control yarn uptake.
+  friendly_id: spinning_wheel_brake/tension_system_type
+  handle: spinning-wheel-brake-tension-system-type
+  values:
+  - spinning_wheel_brake/tension_system_type__double_drive
+  - spinning_wheel_brake/tension_system_type__electronic_brake/tension
+  - spinning_wheel_brake/tension_system_type__irish_tension_bobbin_led
+  - spinning_wheel_brake/tension_system_type__magnetic_tension
+  - spinning_wheel_brake/tension_system_type__scotch_tension_flyer_led
+  - spinning_wheel_brake/tension_system_type__other
+- id: 6492
+  name: Spinning wheel portability/foldability
+  description: Indicates whether the wheel is designed to fold/collapse for transport.
+  friendly_id: spinning_wheel_portability/foldability
+  handle: spinning-wheel-portability-foldability
+  values:
+  - spinning_wheel_portability/foldability__collapsible/breakdown
+  - spinning_wheel_portability/foldability__detachable_components_for_transport
+  - spinning_wheel_portability/foldability__folding_frame
+  - spinning_wheel_portability/foldability__non_folding
+  - spinning_wheel_portability/foldability__other/not_specified
+  - spinning_wheel_portability/foldability__other
+- id: 6493
+  name: Spray string finish/effect
+  description: Visual effect of the sprayed string once applied (sheen/reflectivity and special effects).
+  friendly_id: spray_string_finish/effect
+  handle: spray-string-finish-effect
+  values:
+  - spray_string_finish/effect__glitter
+  - spray_string_finish/effect__gloss
+  - spray_string_finish/effect__glow_in_the_dark
+  - spray_string_finish/effect__holographic
+  - spray_string_finish/effect__matte
+  - spray_string_finish/effect__metallic
+  - spray_string_finish/effect__multicolor/mixed_effect
+  - spray_string_finish/effect__neon
+  - spray_string_finish/effect__pearlescent
+  - spray_string_finish/effect__uv_reactive_blacklight
+  - spray_string_finish/effect__other
+- id: 6494
+  name: Supported spool/bobbin types
+  description: Specifies which spool/bobbin formats the electric winder is designed to accept.
+  friendly_id: supported_spool/bobbin_types
+  handle: supported-spool-bobbin-types
+  values:
+  - supported_spool/bobbin_types__embroidery_bobbin
+  - supported_spool/bobbin_types__sewing_machine_bobbin
+  - supported_spool/bobbin_types__skein_with_swift
+  - supported_spool/bobbin_types__thread_spool
+  - supported_spool/bobbin_types__yarn_ball
+  - supported_spool/bobbin_types__yarn_cake
+  - supported_spool/bobbin_types__yarn_cone
+  - supported_spool/bobbin_types__other
+- id: 6495
+  name: Tabla tonal/pitch range (bayan)
+  description: Describes the typical pitch/tonal range category for bayan drums (bass) based on size and construction.
+  friendly_id: tabla_tonal/pitch_range_bayan
+  handle: tabla-tonal-pitch-range-bayan
+  values:
+  - tabla_tonal/pitch_range_bayan__balanced
+  - tabla_tonal/pitch_range_bayan__bright/fast_response
+  - tabla_tonal/pitch_range_bayan__deep_bass
+  - tabla_tonal/pitch_range_bayan__other
+- id: 6496
+  name: Temper / hardness
+  description: Indicates how soft or hard the wire is (how well it holds shape).
+  friendly_id: temper_/_hardness
+  handle: temper-hardness
+  values:
+  - temper_/_hardness__dead_soft
+  - temper_/_hardness__half_hard
+  - temper_/_hardness__hard
+  - temper_/_hardness__soft
+  - temper_/_hardness__spring
+  - temper_/_hardness__other
+- id: 6497
+  name: Tension/pitch modulation system
+  description: How the talking drum changes pitch/tension during play (for example, by squeezing tension cords).
+  friendly_id: tension/pitch_modulation_system
+  handle: tension-pitch-modulation-system
+  values:
+  - tension/pitch_modulation_system__lever_tuning
+  - tension/pitch_modulation_system__lug_tuning
+  - tension/pitch_modulation_system__peg_tuning
+  - tension/pitch_modulation_system__rope_tuning_manual_retensioning
+  - tension/pitch_modulation_system__squeeze_cords_pressure_tensioning
+  - tension/pitch_modulation_system__other
+- id: 6498
+  name: Textile finish / treatment
+  description: Specifies notable surface treatments applied to the textile material.
+  friendly_id: textile_finish_/_treatment
+  handle: textile-finish-treatment
+  values:
+  - textile_finish_/_treatment__brushed
+  - textile_finish_/_treatment__coated_pu
+  - textile_finish_/_treatment__coated_pvc
+  - textile_finish_/_treatment__laminated
+  - textile_finish_/_treatment__oilcloth
+  - textile_finish_/_treatment__pre_washed
+  - textile_finish_/_treatment__sanforized_pre_shrunk
+  - textile_finish_/_treatment__unfinished
+  - textile_finish_/_treatment__waxed
+  - textile_finish_/_treatment__other
+- id: 6499
+  name: Thread/cord type (beading pattern)
+  description: Recommended thread or cord type used to complete the pattern.
+  friendly_id: thread/cord_type_beading_pattern
+  handle: thread-cord-type-beading-pattern
+  values:
+  - thread/cord_type_beading_pattern__beading_wire
+  - thread/cord_type_beading_pattern__c_lon_beading_thread
+  - thread/cord_type_beading_pattern__elastic_cord
+  - thread/cord_type_beading_pattern__fireline_braided_fishing_line
+  - thread/cord_type_beading_pattern__ko_thread
+  - thread/cord_type_beading_pattern__leather_cord
+  - thread/cord_type_beading_pattern__monofilament
+  - thread/cord_type_beading_pattern__nymo
+  - thread/cord_type_beading_pattern__one_g
+  - thread/cord_type_beading_pattern__s_lon_/_super_lon_cord
+  - thread/cord_type_beading_pattern__silamide
+  - thread/cord_type_beading_pattern__waxed_polyester_cord
+  - thread/cord_type_beading_pattern__wildfire
+  - thread/cord_type_beading_pattern__other
+- id: 6500
+  name: Thread cutter usage/application
+  description: Indicates the primary intended craft usage for the thread cutter.
+  friendly_id: thread_cutter_usage/application
+  handle: thread-cutter-usage-application
+  values:
+  - thread_cutter_usage/application__crochet
+  - thread_cutter_usage/application__cross_stitch
+  - thread_cutter_usage/application__embroidery
+  - thread_cutter_usage/application__general_crafting
+  - thread_cutter_usage/application__knitting
+  - thread_cutter_usage/application__quilting
+  - thread_cutter_usage/application__serger/overlock_trimming
+  - thread_cutter_usage/application__sewing
+  - thread_cutter_usage/application__other
+- id: 6501
+  name: Thread finish / treatment
+  description: Surface finish or treatment applied to the thread affecting handling and performance (e.g., waxed, bonded, mercerized).
+  friendly_id: thread_finish_/_treatment
+  handle: thread-finish-treatment
+  values:
+  - thread_finish_/_treatment__anti_wick
+  - thread_finish_/_treatment__bonded
+  - thread_finish_/_treatment__flame_retardant_treatment
+  - thread_finish_/_treatment__glazed
+  - thread_finish_/_treatment__low_lint
+  - thread_finish_/_treatment__lubricated
+  - thread_finish_/_treatment__mercerized
+  - thread_finish_/_treatment__silicone_finish
+  - thread_finish_/_treatment__unfinished/standard
+  - thread_finish_/_treatment__uv_resistant_treatment
+  - thread_finish_/_treatment__water_repellent_treatment
+  - thread_finish_/_treatment__waxed
+  - thread_finish_/_treatment__other
+- id: 6502
+  name: Thread & yarn guide mounting/attachment style
+  description: Describes how the guide is worn or mounted during use.
+  friendly_id: thread_yarn_guide_mounting/attachment_style
+  handle: thread-yarn-guide-mounting-attachment-style
+  values:
+  - thread_yarn_guide_mounting/attachment_style__adhesive/stick_on
+  - thread_yarn_guide_mounting/attachment_style__adjustable_finger_loop
+  - thread_yarn_guide_mounting/attachment_style__clip_on
+  - thread_yarn_guide_mounting/attachment_style__elastic_band
+  - thread_yarn_guide_mounting/attachment_style__finger_ring
+  - thread_yarn_guide_mounting/attachment_style__handheld
+  - thread_yarn_guide_mounting/attachment_style__machine_mounted
+  - thread_yarn_guide_mounting/attachment_style__magnetic
+  - thread_yarn_guide_mounting/attachment_style__screw_on
+  - thread_yarn_guide_mounting/attachment_style__strap_on
+  - thread_yarn_guide_mounting/attachment_style__suction_cup
+  - thread_yarn_guide_mounting/attachment_style__table_clamp
+  - thread_yarn_guide_mounting/attachment_style__thimble
+  - thread_yarn_guide_mounting/attachment_style__other
+- id: 6503
+  name: Varnish transparency/tint
+  description: Describes whether the varnish is clear or tinted and, if tinted, the general tint family.
+  friendly_id: varnish_transparency/tint
+  handle: varnish-transparency-tint
+  values:
+  - varnish_transparency/tint__amber
+  - varnish_transparency/tint__brown
+  - varnish_transparency/tint__clear
+  - varnish_transparency/tint__golden/yellow
+  - varnish_transparency/tint__reddish_brown
+  - varnish_transparency/tint__other
+- id: 6504
+  name: Viscosity/thickness
+  description: Describes how thick or fluid the slip is as sold or at recommended working consistency.
+  friendly_id: viscosity/thickness
+  handle: viscosity-thickness
+  values:
+  - viscosity/thickness__adjustable/requires_dilution
+  - viscosity/thickness__medium
+  - viscosity/thickness__thick
+  - viscosity/thickness__thin
+  - viscosity/thickness__other
+- id: 6505
+  name: White glue finish/appearance when dry
+  description: Specifies how the glue looks after drying for craft/office use (e.g., clear vs opaque).
+  friendly_id: white_glue_finish/appearance_when_dry
+  handle: white-glue-finish-appearance-when-dry
+  values:
+  - white_glue_finish/appearance_when_dry__dries_clear
+  - white_glue_finish/appearance_when_dry__dries_translucent
+  - white_glue_finish/appearance_when_dry__dries_white/opaque
+  - white_glue_finish/appearance_when_dry__glossy
+  - white_glue_finish/appearance_when_dry__matte
+  - white_glue_finish/appearance_when_dry__other
+- id: 6506
+  name: Wire shape/profile
+  description: Describes the cross-sectional shape of the wire.
+  friendly_id: wire_shape/profile
+  handle: wire-shape-profile
+  values:
+  - wire_shape/profile__braided
+  - wire_shape/profile__half_round
+  - wire_shape/profile__rectangle/flat
+  - wire_shape/profile__round
+  - wire_shape/profile__square
+  - wire_shape/profile__twisted
+  - wire_shape/profile__other
+- id: 6507
+  name: Zipper pull strap/cord/tab material
+  description: Material of the strap/cord/tab/tassel component attached to the zipper pull (if present), excluding the main zipper pull hardware/body.
+  friendly_id: zipper_pull_strap/cord/tab_material
+  handle: zipper-pull-strap-cord-tab-material
+  values:
+  - zipper_pull_strap/cord/tab_material__cotton
+  - zipper_pull_strap/cord/tab_material__faux_leather
+  - zipper_pull_strap/cord/tab_material__leather
+  - zipper_pull_strap/cord/tab_material__metal
+  - zipper_pull_strap/cord/tab_material__nylon
+  - zipper_pull_strap/cord/tab_material__paracord_nylon
+  - zipper_pull_strap/cord/tab_material__plastic
+  - zipper_pull_strap/cord/tab_material__polyester
+  - zipper_pull_strap/cord/tab_material__rubber
+  - zipper_pull_strap/cord/tab_material__silicone
+  - zipper_pull_strap/cord/tab_material__other
+- id: 6508
+  name: Zipper slider/pull configuration
+  description: Indicates whether the zipper has one slider/pull or two, and whether pulls are on one or both sides of the slider.
+  friendly_id: zipper_slider/pull_configuration
+  handle: zipper-slider-pull-configuration
+  values:
+  - zipper_slider/pull_configuration__single_slider_double_pull/reversible_pull
+  - zipper_slider/pull_configuration__single_slider_single_pull
+  - zipper_slider/pull_configuration__two_sliders_double_pull
+  - zipper_slider/pull_configuration__two_sliders_each_single_pull
+  - zipper_slider/pull_configuration__other
+- id: 6509
+  name: Lens color/tint
+  description: Color or tint of protective eyewear lenses supplied with the product.
+  friendly_id: lens_color/tint
+  handle: lens-color-tint
+  values:
+  - lens_color/tint__amber
+  - lens_color/tint__black
+  - lens_color/tint__blue
+  - lens_color/tint__clear
+  - lens_color/tint__green
+  - lens_color/tint__mirrored
+  - lens_color/tint__multicolor/rainbow
+  - lens_color/tint__photochromic
+  - lens_color/tint__smoke/grey
+  - lens_color/tint__yellow
+  - lens_color/tint__other
+- id: 6510
+  name: Mask/goggle design
+  description: Defines the overall structural design or coverage style of the protective gear.
+  friendly_id: mask/goggle_design
+  handle: mask-goggle-design
+  values:
+  - mask/goggle_design__face_shield
+  - mask/goggle_design__full_cage
+  - mask/goggle_design__goggle_frame
+  - mask/goggle_design__half_cage
+  - mask/goggle_design__over_glasses_compatible
+  - mask/goggle_design__ventilated_design
+  - mask/goggle_design__wire_cage
+  - mask/goggle_design__other
+- id: 6511
+  name: Punching/training bag shape
+  description: Specifies the geometric style of the heavy bag, helping shoppers choose models suited to particular striking drills (e.g., uppercuts, body shots).
+  friendly_id: punching/training_bag_shape
+  handle: punching-training-bag-shape
+  values:
+  - punching/training_bag_shape__angled
+  - punching/training_bag_shape__banana
+  - punching/training_bag_shape__cylindrical
+  - punching/training_bag_shape__freestanding_cylinder
+  - punching/training_bag_shape__maize
+  - punching/training_bag_shape__t_shaped
+  - punching/training_bag_shape__teardrop
+  - punching/training_bag_shape__torso/body
+  - punching/training_bag_shape__uppercut
+  - punching/training_bag_shape__wrecking_ball
+  - punching/training_bag_shape__other
+- id: 6512
+  name: Visor/brim type
+  description: Indicates the presence and style of a visor or brim on the helmet.
+  friendly_id: visor/brim_type
+  handle: visor-brim-type
+  values:
+  - visor/brim_type__adjustable_visor
+  - visor/brim_type__integrated_brim
+  - visor/brim_type__no_visor
+  - visor/brim_type__removable/detachable_visor
+  - visor/brim_type__other
+- id: 6513
+  name: Compatible phone brand
+  description: Specifies the handset manufacturers that the accessory is designed to work with (e.g., Apple, Samsung, Google).
+  friendly_id: compatible_phone_brand
+  handle: compatible-phone-brand
+  values:
+  - compatible_phone_brand__apple
+  - compatible_phone_brand__google
+  - compatible_phone_brand__samsung
+- id: 6514
+  name: Compatible phone model
+  description: Indicates the exact phone model(s) the accessory fits or supports (e.g., iPhone 15 Pro Max, Galaxy S24 Ultra).
+  friendly_id: compatible_phone_model
+  handle: compatible-phone-model
+  values:
+  - compatible_phone_model__galaxy_s24_ultra
+  - compatible_phone_model__iphone_15_pro_max
 extended_attributes:
 - name: Shampoo/Conditioner effect
   handle: shampoo-conditioner-effect
